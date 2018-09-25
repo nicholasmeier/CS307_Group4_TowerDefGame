@@ -12,9 +12,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-25T15:28:24.062-04:00
+  lastUpdatedAtString: 2018-09-25T15:45:20.376-04:00
   initializedAtString: 2018-09-25T11:32:58.506-04:00
   log:
+  - commitID: b1ad35deea0b72bf7664dde5f77ac5b6cd2d37b0
+    mergeA: 
+    mergeB: 
+    authorName: zvzv1919
+    authorEmail: zvzv1919@gmail.com
+    commitEmail: zvzv1919@gmail.com
+    commitName: zvzv1919
+    summary: updated tower and projectile motion
+    description: updated tower and projectile motion
+    timeString: 2018-09-25T15:44:24.000-04:00
+    commitTimeString: 2018-09-25T15:44:24.000-04:00
+    changes:
+    - path: Assets/Assets_Maingame/Prefabs/Projectile.prefab
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Prefabs/Projectile.prefab
+      projectPath: Assets/Assets_Maingame/Prefabs/Projectile.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/EditorSettings.asset
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/ProjectSettings/EditorSettings.asset
+      projectPath: ProjectSettings/EditorSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9791412bec664f1a25daa482be7430d435f5a3ee
     mergeA: 
     mergeB: 

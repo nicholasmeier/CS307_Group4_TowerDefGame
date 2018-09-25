@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{CFB3C952-4577-5E07-5FDB-D36701423584}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets_Maingame/_Script/Monster_script.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets_Maingame/_Script/MapController_script.cs">
     <Files>
       <File FileName="Assets/MainMenu.cs" Line="10" Column="6" />
-      <File FileName="Assets/Assets_Maingame/_Script/MonsterHitter.cs" Line="54" Column="1" />
-      <File FileName="Assets/Assets_Maingame/_Script/projectile_script.cs" Line="21" Column="31" />
-      <File FileName="Assets/Assets_Maingame/_Script/Monster_script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Assets_Maingame/_Script/MonsterHitter.cs" Line="51" Column="74" />
+      <File FileName="Assets/Assets_Maingame/_Script/projectile_script.cs" Line="23" Column="15" />
+      <File FileName="Assets/Assets_Maingame/_Script/Monster_script.cs" Line="26" Column="14" />
+      <File FileName="Assets/Assets_Maingame/_Script/MapController_script.cs" Line="5" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
