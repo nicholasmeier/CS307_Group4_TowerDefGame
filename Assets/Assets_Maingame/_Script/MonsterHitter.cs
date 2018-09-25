@@ -32,7 +32,7 @@ public class MonsterHitter : MonoBehaviour {
         else
         {
             target = null;
-        }
+        }   
         shoot(target);
     }
 
@@ -43,9 +43,13 @@ public class MonsterHitter : MonoBehaviour {
     private void shoot(GameObject t){
         if(Time.time > lastShot + coolDown && t != null){
             Vector3 position = getRelativePosition(t, this.gameObject);
-            Debug.Log("Bang");
+            //Rotate the tower
+            this.gameObject.transform.LookAt(t.transform.position);
+
+            //Debug.Log("Bang");
             Rigidbody bulletInstance;
             bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as Rigidbody;
+            bulletInstance.transform.LookAt(t.transform.position);
             bulletInstance.velocity = projectileSpeed * position.normalized;
             lastShot = Time.time;
         }

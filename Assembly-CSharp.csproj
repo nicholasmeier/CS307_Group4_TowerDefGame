@@ -61,8 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets_Maingame\_Script\Monster_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MonsterHitter.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\Mover.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\projectile_script.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

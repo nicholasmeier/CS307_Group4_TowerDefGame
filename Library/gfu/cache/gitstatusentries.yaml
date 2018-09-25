@@ -12,44 +12,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-09-25T11:29:49.599-04:00
+  lastUpdatedAtString: 2018-09-25T15:25:56.674-04:00
   initializedAtString: 2018-09-25T11:29:28.160-04:00
   entries:
   - path: .DS_Store
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.DS_Store
     projectPath: .DS_Store
     originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/db.lock
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/sqlite3/db.lock
-    projectPath: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/db.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide
-    projectPath: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-shm
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-shm
-    projectPath: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-shm
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-wal
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-wal
     projectPath: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-wal
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: .vs/CS307_Group4_TowerDefGame/xs/UserPrefs.xml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/UserPrefs.xml
     projectPath: .vs/CS307_Group4_TowerDefGame/xs/UserPrefs.xml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assembly-CSharp.csproj
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assembly-CSharp.csproj
@@ -61,17 +43,23 @@ MonoBehaviour:
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/.DS_Store
     projectPath: Assets/.DS_Store
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets/Assets_Maingame.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame.meta
-    projectPath: Assets/Assets_Maingame.meta
+  - path: Assets/Assets_Maingame/.DS_Store
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/.DS_Store
+    projectPath: Assets/Assets_Maingame/.DS_Store
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Assets_Maingame/_Script.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script.meta
-    projectPath: Assets/Assets_Maingame/_Script.meta
+  - path: Assets/Assets_Maingame/_Script/Monster_script.cs
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/Monster_script.cs
+    projectPath: Assets/Assets_Maingame/_Script/Monster_script.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Assets_Maingame/_Script/Monster_script.cs.meta
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/Monster_script.cs.meta
+    projectPath: Assets/Assets_Maingame/_Script/Monster_script.cs.meta
     originalPath: 
     status: 1
     staged: 0
@@ -79,59 +67,29 @@ MonoBehaviour:
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/MonsterHitter.cs
     projectPath: Assets/Assets_Maingame/_Script/MonsterHitter.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/_Script/MonsterHitter.cs.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/MonsterHitter.cs.meta
-    projectPath: Assets/Assets_Maingame/_Script/MonsterHitter.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets/Assets_Maingame/_Script/Mover.cs
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/Mover.cs
     projectPath: Assets/Assets_Maingame/_Script/Mover.cs
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Assets/Assets_Maingame/_Script/Mover.cs.meta
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/Mover.cs.meta
     projectPath: Assets/Assets_Maingame/_Script/Mover.cs.meta
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
-  - path: Assets/Assets_Maingame/Material.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Material.meta
-    projectPath: Assets/Assets_Maingame/Material.meta
+  - path: Assets/Assets_Maingame/_Script/projectile_script.cs
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/projectile_script.cs
+    projectPath: Assets/Assets_Maingame/_Script/projectile_script.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Assets_Maingame/Material/Background.mat
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Material/Background.mat
-    projectPath: Assets/Assets_Maingame/Material/Background.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Material/Background.mat.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Material/Background.mat.meta
-    projectPath: Assets/Assets_Maingame/Material/Background.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Material/Tower_sample.mat
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Material/Tower_sample.mat
-    projectPath: Assets/Assets_Maingame/Material/Tower_sample.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Material/Tower_sample.mat.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Material/Tower_sample.mat.meta
-    projectPath: Assets/Assets_Maingame/Material/Tower_sample.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Prefabs.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Prefabs.meta
-    projectPath: Assets/Assets_Maingame/Prefabs.meta
+  - path: Assets/Assets_Maingame/_Script/projectile_script.cs.meta
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/_Script/projectile_script.cs.meta
+    projectPath: Assets/Assets_Maingame/_Script/projectile_script.cs.meta
     originalPath: 
     status: 1
     staged: 0
@@ -139,449 +97,11 @@ MonoBehaviour:
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Prefabs/Projectile.prefab
     projectPath: Assets/Assets_Maingame/Prefabs/Projectile.prefab
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets/Assets_Maingame/Prefabs/Projectile.prefab.meta
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Prefabs/Projectile.prefab.meta
     projectPath: Assets/Assets_Maingame/Prefabs/Projectile.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Scenes.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes.meta
-    projectPath: Assets/Assets_Maingame/Scenes.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Scenes/GameScene.unity
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity
-    projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Scenes/GameScene.unity.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity.meta
-    projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins.meta
-    projectPath: Assets/Plugins.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub.meta
-    projectPath: Assets/Plugins/GitHub.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor.meta
-    projectPath: Assets/Plugins/GitHub/Editor.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/big-logo@2x.png
-    projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-    projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/credits.txt
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/credits.txt
-    projectPath: Assets/Plugins/GitHub/Editor/credits.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/credits.txt.meta
-    projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/eula.txt
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/eula.txt
-    projectPath: Assets/Plugins/GitHub/Editor/eula.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/eula.txt.meta
-    projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
-    projectPath: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/libsfw.bundle
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/libsfw.so
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/libsfw.so
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/libsfw.so.meta
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-    projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-    projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/sfw.net.dll
-    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/System.Threading.dll
-    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x64.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x64.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x64.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x86.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x86.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x86.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets_Maingame/_Script.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/_Script.meta
-    projectPath: Assets_Maingame/_Script.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/_Script/MonsterHitter.cs
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/_Script/MonsterHitter.cs
-    projectPath: Assets_Maingame/_Script/MonsterHitter.cs
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/_Script/MonsterHitter.cs.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/_Script/MonsterHitter.cs.meta
-    projectPath: Assets_Maingame/_Script/MonsterHitter.cs.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/_Script/Mover.cs
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/_Script/Mover.cs
-    projectPath: Assets_Maingame/_Script/Mover.cs
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/_Script/Mover.cs.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/_Script/Mover.cs.meta
-    projectPath: Assets_Maingame/_Script/Mover.cs.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Material.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Material.meta
-    projectPath: Assets_Maingame/Material.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Material/Background.mat
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Material/Background.mat
-    projectPath: Assets_Maingame/Material/Background.mat
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Material/Background.mat.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Material/Background.mat.meta
-    projectPath: Assets_Maingame/Material/Background.mat.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Material/Tower_sample.mat
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Material/Tower_sample.mat
-    projectPath: Assets_Maingame/Material/Tower_sample.mat
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Material/Tower_sample.mat.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Material/Tower_sample.mat.meta
-    projectPath: Assets_Maingame/Material/Tower_sample.mat.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Prefabs.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Prefabs.meta
-    projectPath: Assets_Maingame/Prefabs.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Prefabs/Projectile.prefab
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Prefabs/Projectile.prefab
-    projectPath: Assets_Maingame/Prefabs/Projectile.prefab
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Prefabs/Projectile.prefab.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Prefabs/Projectile.prefab.meta
-    projectPath: Assets_Maingame/Prefabs/Projectile.prefab.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Scenes.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Scenes.meta
-    projectPath: Assets_Maingame/Scenes.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Scenes/GameScene.unity
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Scenes/GameScene.unity
-    projectPath: Assets_Maingame/Scenes/GameScene.unity
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_Maingame/Scenes/GameScene.unity.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_Maingame/Scenes/GameScene.unity.meta
-    projectPath: Assets_Maingame/Scenes/GameScene.unity.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets_xihao/.DS_Store
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_xihao/.DS_Store
-    projectPath: Assets_xihao/.DS_Store
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets_xihao/MainMenu.cs.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_xihao/MainMenu.cs.meta
-    projectPath: Assets_xihao/MainMenu.cs.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets_xihao/Scenes.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_xihao/Scenes.meta
-    projectPath: Assets_xihao/Scenes.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets_xihao/Scenes/SampleScene.unity.meta
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets_xihao/Scenes/SampleScene.unity.meta
-    projectPath: Assets_xihao/Scenes/SampleScene.unity.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: CS307_Group4_TowerDefGame.sln
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/CS307_Group4_TowerDefGame.sln
-    projectPath: CS307_Group4_TowerDefGame.sln
     originalPath: 
     status: 3
     staged: 0
@@ -591,975 +111,75 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/AssetImportState
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/AssetImportState
-    projectPath: Library/AssetImportState
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/EditorUserBuildSettings.asset
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/EditorUserBuildSettings.asset
-    projectPath: Library/EditorUserBuildSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/expandedItems
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/expandedItems
-    projectPath: Library/expandedItems
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/gitlog.yaml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlog.yaml
     projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/LastSceneManagerSetup.txt
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/LastSceneManagerSetup.txt
-    projectPath: Library/LastSceneManagerSetup.txt
-    originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+  - path: Library/gfu/cache/gituser.yaml
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
-    projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/07/072450ffed31fe545a60f71f33f53916
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/07/072450ffed31fe545a60f71f33f53916
-    projectPath: Library/metadata/07/072450ffed31fe545a60f71f33f53916
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
-    projectPath: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
-    projectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/13/136dc24f151211d438acee17aff4e934
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/136dc24f151211d438acee17aff4e934
-    projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/136dc24f151211d438acee17aff4e934.info
-    projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/15/151a1d946b98deb4b98445400983ba92
-    projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
-    projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
-    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
-    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
-    projectPath: Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/18/18e096a98c2704c40a818dd1214cd179
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/18/18e096a98c2704c40a818dd1214cd179
-    projectPath: Library/metadata/18/18e096a98c2704c40a818dd1214cd179
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
-    projectPath: Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
-    projectPath: Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
-    projectPath: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
-    projectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/20/204a570cd0814334ba2fd79718030cc0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/20/204a570cd0814334ba2fd79718030cc0
-    projectPath: Library/metadata/20/204a570cd0814334ba2fd79718030cc0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
-    projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
-    projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
-    projectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/23/23c8bee69b591054094d32918f98facd
-    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/23/23c8bee69b591054094d32918f98facd.info
-    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
-    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
-    projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
-    projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
-    projectPath: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/26/26b6ad30522c84c8ab78599d1be30185
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/26b6ad30522c84c8ab78599d1be30185
-    projectPath: Library/metadata/26/26b6ad30522c84c8ab78599d1be30185
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/26/26b6ad30522c84c8ab78599d1be30185.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/26b6ad30522c84c8ab78599d1be30185.info
-    projectPath: Library/metadata/26/26b6ad30522c84c8ab78599d1be30185.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/2a/2a93696e466b14826a1f429c3b75be89
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2a/2a93696e466b14826a1f429c3b75be89
-    projectPath: Library/metadata/2a/2a93696e466b14826a1f429c3b75be89
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/2a/2a93696e466b14826a1f429c3b75be89.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2a/2a93696e466b14826a1f429c3b75be89.info
-    projectPath: Library/metadata/2a/2a93696e466b14826a1f429c3b75be89.info
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library/metadata/2e/2e8b4546a71954b23af75ba398241d10
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2e/2e8b4546a71954b23af75ba398241d10
     projectPath: Library/metadata/2e/2e8b4546a71954b23af75ba398241d10
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Library/metadata/2e/2e8b4546a71954b23af75ba398241d10.info
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2e/2e8b4546a71954b23af75ba398241d10.info
     projectPath: Library/metadata/2e/2e8b4546a71954b23af75ba398241d10.info
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
-    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
-    originalPath: 
     status: 5
-    staged: 0
-  - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
-    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/2f/2fff7ed1a5aac0645b0c2a1f55d609cf
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2f/2fff7ed1a5aac0645b0c2a1f55d609cf
-    projectPath: Library/metadata/2f/2fff7ed1a5aac0645b0c2a1f55d609cf
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
-    projectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
-    projectPath: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
-    projectPath: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
-    projectPath: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
-    projectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
-    projectPath: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
-    projectPath: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
-    projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/40/405b9b51bb344a128608d968297df79c
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/40/405b9b51bb344a128608d968297df79c
-    projectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
-    projectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
-    projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
-    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
-    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
-    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
-    projectPath: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4a/4a813084baf34314aa7b09881c317646
-    projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
-    projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
-    projectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
-    projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/4d/4d64205430999a04981dab6f259b6e44
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4d/4d64205430999a04981dab6f259b6e44
-    projectPath: Library/metadata/4d/4d64205430999a04981dab6f259b6e44
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/4f/4f704ae4b4f98ae41a0bce26658850c1
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4f/4f704ae4b4f98ae41a0bce26658850c1
-    projectPath: Library/metadata/4f/4f704ae4b4f98ae41a0bce26658850c1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/4f/4f704ae4b4f98ae41a0bce26658850c1.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4f/4f704ae4b4f98ae41a0bce26658850c1.info
-    projectPath: Library/metadata/4f/4f704ae4b4f98ae41a0bce26658850c1.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
-    projectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    projectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
-    projectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
-    projectPath: Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
-    projectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/63/636d33ae594884e7d80b569f429d245d
-    projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
-    projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
-    projectPath: Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
-    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
-    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/69/6981461fe431401459211818212a29cf
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/69/6981461fe431401459211818212a29cf
-    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/69/6981461fe431401459211818212a29cf.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/69/6981461fe431401459211818212a29cf.info
-    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
-    projectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
-    projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/6f/6f3159ec2926248bd974f432d51628d7
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6f/6f3159ec2926248bd974f432d51628d7
-    projectPath: Library/metadata/6f/6f3159ec2926248bd974f432d51628d7
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6f/6f3159ec2926248bd974f432d51628d7.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6f/6f3159ec2926248bd974f432d51628d7.info
-    projectPath: Library/metadata/6f/6f3159ec2926248bd974f432d51628d7.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
-    projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5
-    projectPath: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5.info
-    projectPath: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/74/74101c7619674b24d82777e7458e0977
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/74/74101c7619674b24d82777e7458e0977
-    projectPath: Library/metadata/74/74101c7619674b24d82777e7458e0977
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
-    projectPath: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
-    projectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
-    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
-    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
-    projectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
-    projectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9
-    projectPath: Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9.info
-    projectPath: Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
-    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
-    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
-    projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
-    projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
-    projectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
-    projectPath: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
-    projectPath: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
-    originalPath: 
-    status: 3
     staged: 0
   - path: Library/metadata/97/97bf006b4838946868c418181f53fa0c
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/97/97bf006b4838946868c418181f53fa0c
     projectPath: Library/metadata/97/97bf006b4838946868c418181f53fa0c
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/97/97bf006b4838946868c418181f53fa0c.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/97/97bf006b4838946868c418181f53fa0c.info
-    projectPath: Library/metadata/97/97bf006b4838946868c418181f53fa0c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
-    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
-    projectPath: Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
-    originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+  - path: Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a
+    projectPath: Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
-    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2
-    projectPath: Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2.info
-    projectPath: Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
-    projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
-    projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
-    projectPath: Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
-    projectPath: Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
-    projectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
-    projectPath: Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
-    projectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
-    projectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/b5/b5da970776034f77a070d99423d68791
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b5/b5da970776034f77a070d99423d68791
-    projectPath: Library/metadata/b5/b5da970776034f77a070d99423d68791
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
-    projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
-    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
-    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
-    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ca/ca3f5c1934f194a7f9528b2de65a57b2
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ca/ca3f5c1934f194a7f9528b2de65a57b2
-    projectPath: Library/metadata/ca/ca3f5c1934f194a7f9528b2de65a57b2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ca/ca3f5c1934f194a7f9528b2de65a57b2.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ca/ca3f5c1934f194a7f9528b2de65a57b2.info
-    projectPath: Library/metadata/ca/ca3f5c1934f194a7f9528b2de65a57b2.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
-    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d0/d05b96cee66e14240838de167097537a
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d0/d05b96cee66e14240838de167097537a
-    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d0/d05b96cee66e14240838de167097537a.info
-    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
-    projectPath: Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
-    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
-    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
-    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
-    projectPath: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
-    projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
-    projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
-    projectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
-    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
-    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
-    projectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
-    projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
-    projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
-    projectPath: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
-    projectPath: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
-    projectPath: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395.info
-    projectPath: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
-    projectPath: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
-    projectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
-    projectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
-    projectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
-    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
-    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
-    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+  - path: Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a.info
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a.info
+    projectPath: Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a.info
     originalPath: 
     status: 1
     staged: 0
@@ -1567,23 +187,23 @@ MonoBehaviour:
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/faebc1ebe16934f92b834eb7d6bd86fe
     projectPath: Library/metadata/fa/faebc1ebe16934f92b834eb7d6bd86fe
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/metadata/fa/faebc1ebe16934f92b834eb7d6bd86fe.info
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/faebc1ebe16934f92b834eb7d6bd86fe.info
     projectPath: Library/metadata/fa/faebc1ebe16934f92b834eb7d6bd86fe.info
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
-    projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+  - path: Library/metadata/fd/fd21b346379bd4e2884c17c4e6c4bf58
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fd/fd21b346379bd4e2884c17c4e6c4bf58
+    projectPath: Library/metadata/fd/fd21b346379bd4e2884c17c4e6c4bf58
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
-    projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+  - path: Library/metadata/fd/fd21b346379bd4e2884c17c4e6c4bf58.info
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fd/fd21b346379bd4e2884c17c4e6c4bf58.info
+    projectPath: Library/metadata/fd/fd21b346379bd4e2884c17c4e6c4bf58.info
     originalPath: 
     status: 1
     staged: 0
@@ -1599,195 +219,51 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
-    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
-    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
-    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
-    projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
-    projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ShaderCache/1/140e51ada17f701d45ee2479b7bc77f7.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/1/140e51ada17f701d45ee2479b7bc77f7.bin
-    projectPath: Library/ShaderCache/1/140e51ada17f701d45ee2479b7bc77f7.bin
+  - path: Library/ShaderCache/2/2db400f2f93411c07516f8120dd99b6e.bin
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/2/2db400f2f93411c07516f8120dd99b6e.bin
+    projectPath: Library/ShaderCache/2/2db400f2f93411c07516f8120dd99b6e.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/ShaderCache/1/14845570dc68216826b22a52d42b5648.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/1/14845570dc68216826b22a52d42b5648.bin
-    projectPath: Library/ShaderCache/1/14845570dc68216826b22a52d42b5648.bin
+  - path: Library/ShaderCache/5/5a7d8c7a445190e5de4086bfc380fa9a.bin
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/5/5a7d8c7a445190e5de4086bfc380fa9a.bin
+    projectPath: Library/ShaderCache/5/5a7d8c7a445190e5de4086bfc380fa9a.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/ShaderCache/2/21840b396b8a8caea92571cf0c264e9d.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/2/21840b396b8a8caea92571cf0c264e9d.bin
-    projectPath: Library/ShaderCache/2/21840b396b8a8caea92571cf0c264e9d.bin
+  - path: Library/ShaderCache/b/b3ca9e93b8c2c04ef170ba0249c9d5ec.bin
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/b/b3ca9e93b8c2c04ef170ba0249c9d5ec.bin
+    projectPath: Library/ShaderCache/b/b3ca9e93b8c2c04ef170ba0249c9d5ec.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/ShaderCache/2/28cc52064e8a7dc57f4c5ca40b83840a.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/2/28cc52064e8a7dc57f4c5ca40b83840a.bin
-    projectPath: Library/ShaderCache/2/28cc52064e8a7dc57f4c5ca40b83840a.bin
+  - path: Library/ShaderCache/f/f65b3dce2258a347c2b192e2759e7fb0.bin
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/f/f65b3dce2258a347c2b192e2759e7fb0.bin
+    projectPath: Library/ShaderCache/f/f65b3dce2258a347c2b192e2759e7fb0.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/ShaderCache/2/2fc2562b81190eee53f8f6163346167a.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/2/2fc2562b81190eee53f8f6163346167a.bin
-    projectPath: Library/ShaderCache/2/2fc2562b81190eee53f8f6163346167a.bin
+  - path: Library/ShaderCache/f/fa7d7944cf118398884f099e6ec3042c.bin
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/f/fa7d7944cf118398884f099e6ec3042c.bin
+    projectPath: Library/ShaderCache/f/fa7d7944cf118398884f099e6ec3042c.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: Library/ShaderCache/3/32ed6500e6ce6c502170b28d4a89fa47.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/3/32ed6500e6ce6c502170b28d4a89fa47.bin
-    projectPath: Library/ShaderCache/3/32ed6500e6ce6c502170b28d4a89fa47.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/3/39798795359bfc1d0e91c9a93ad51cc2.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/3/39798795359bfc1d0e91c9a93ad51cc2.bin
-    projectPath: Library/ShaderCache/3/39798795359bfc1d0e91c9a93ad51cc2.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/462d2c5a8d4ecc7880c5e0c9521b9b42.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/4/462d2c5a8d4ecc7880c5e0c9521b9b42.bin
-    projectPath: Library/ShaderCache/4/462d2c5a8d4ecc7880c5e0c9521b9b42.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/4a93727b0a848cc6901447f15c97f840.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/4/4a93727b0a848cc6901447f15c97f840.bin
-    projectPath: Library/ShaderCache/4/4a93727b0a848cc6901447f15c97f840.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/4a9449fff45b1cdff165435ee1209c34.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/4/4a9449fff45b1cdff165435ee1209c34.bin
-    projectPath: Library/ShaderCache/4/4a9449fff45b1cdff165435ee1209c34.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/4/4e1473485819f060d4f4a63cd7c92241.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/4/4e1473485819f060d4f4a63cd7c92241.bin
-    projectPath: Library/ShaderCache/4/4e1473485819f060d4f4a63cd7c92241.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/5/5676fd481038452fa5cf6d078c9a3ab7.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/5/5676fd481038452fa5cf6d078c9a3ab7.bin
-    projectPath: Library/ShaderCache/5/5676fd481038452fa5cf6d078c9a3ab7.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/6807aedf48d914cd8bf047447a794593.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/6/6807aedf48d914cd8bf047447a794593.bin
-    projectPath: Library/ShaderCache/6/6807aedf48d914cd8bf047447a794593.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/699c5eee8390a10388a8e130305f96d5.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/6/699c5eee8390a10388a8e130305f96d5.bin
-    projectPath: Library/ShaderCache/6/699c5eee8390a10388a8e130305f96d5.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/6/6daa82a2adc7152a512bf10007e96518.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/6/6daa82a2adc7152a512bf10007e96518.bin
-    projectPath: Library/ShaderCache/6/6daa82a2adc7152a512bf10007e96518.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/7/768594d9c2e9568e871411d686d987aa.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/7/768594d9c2e9568e871411d686d987aa.bin
-    projectPath: Library/ShaderCache/7/768594d9c2e9568e871411d686d987aa.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/7/76bf0989dbe9ebee53e7c42da670d0d1.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/7/76bf0989dbe9ebee53e7c42da670d0d1.bin
-    projectPath: Library/ShaderCache/7/76bf0989dbe9ebee53e7c42da670d0d1.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/7/7aa52510e1a608657f5d9b93447b170d.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/7/7aa52510e1a608657f5d9b93447b170d.bin
-    projectPath: Library/ShaderCache/7/7aa52510e1a608657f5d9b93447b170d.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/8/8018fdf7ef7463df979d22a67aa7c318.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/8/8018fdf7ef7463df979d22a67aa7c318.bin
-    projectPath: Library/ShaderCache/8/8018fdf7ef7463df979d22a67aa7c318.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/b/b89f47349b1f6945ac1b83c486c8bd71.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/b/b89f47349b1f6945ac1b83c486c8bd71.bin
-    projectPath: Library/ShaderCache/b/b89f47349b1f6945ac1b83c486c8bd71.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/f/f5234bc74ba1f99c73a0bdd7fcf7171b.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/f/f5234bc74ba1f99c73a0bdd7fcf7171b.bin
-    projectPath: Library/ShaderCache/f/f5234bc74ba1f99c73a0bdd7fcf7171b.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library/ShaderCache/f/fb10518efefe8e6056e5a9a132cead51.bin
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/f/fb10518efefe8e6056e5a9a132cead51.bin
-    projectPath: Library/ShaderCache/f/fb10518efefe8e6056e5a9a132cead51.bin
+  - path: Library/ShaderCache/f/fe0e7077c1ce1e4250539f0485eb3a7c.bin
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/f/fe0e7077c1ce1e4250539f0485eb3a7c.bin
+    projectPath: Library/ShaderCache/f/fe0e7077c1ce1e4250539f0485eb3a7c.bin
     originalPath: 
     status: 1
     staged: 0
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    projectPath: Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
     originalPath: 
     status: 1
     staged: 0
@@ -1797,51 +273,117 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: ProjectSettings/EditorSettings.asset
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/ProjectSettings/EditorSettings.asset
-    projectPath: ProjectSettings/EditorSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityLockfile
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityLockfile
-    projectPath: Temp/UnityLockfile
+  - path: Temp/UnityTempFile-0875bc2f25dd14a1aafc604a2c3b8cc9
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-0875bc2f25dd14a1aafc604a2c3b8cc9
+    projectPath: Temp/UnityTempFile-0875bc2f25dd14a1aafc604a2c3b8cc9
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-05644df23c5014acd8ca8e47c223bef1
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-05644df23c5014acd8ca8e47c223bef1
-    projectPath: Temp/UnityTempFile-05644df23c5014acd8ca8e47c223bef1
+  - path: Temp/UnityTempFile-0a59b6d5ad5924cda8f00dafd4d4cb4d
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-0a59b6d5ad5924cda8f00dafd4d4cb4d
+    projectPath: Temp/UnityTempFile-0a59b6d5ad5924cda8f00dafd4d4cb4d
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-1294ed07b2fa340d289df6d088baec79
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-1294ed07b2fa340d289df6d088baec79
-    projectPath: Temp/UnityTempFile-1294ed07b2fa340d289df6d088baec79
+  - path: Temp/UnityTempFile-142c5eae3a635404f84cce193b2ca021
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-142c5eae3a635404f84cce193b2ca021
+    projectPath: Temp/UnityTempFile-142c5eae3a635404f84cce193b2ca021
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-19388bf26ec2145f8866a220c7be7f1f
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-19388bf26ec2145f8866a220c7be7f1f
-    projectPath: Temp/UnityTempFile-19388bf26ec2145f8866a220c7be7f1f
+  - path: Temp/UnityTempFile-1900059fd89b7430aa7137abce9ccae5
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-1900059fd89b7430aa7137abce9ccae5
+    projectPath: Temp/UnityTempFile-1900059fd89b7430aa7137abce9ccae5
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-93b144a7a28df4af7a16c5c88c55c2ec
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-93b144a7a28df4af7a16c5c88c55c2ec
-    projectPath: Temp/UnityTempFile-93b144a7a28df4af7a16c5c88c55c2ec
+  - path: Temp/UnityTempFile-27c126af5463a476d9dd543211899f4a
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-27c126af5463a476d9dd543211899f4a
+    projectPath: Temp/UnityTempFile-27c126af5463a476d9dd543211899f4a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-d694b1a18a15f4263b5d966de847a4bb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-d694b1a18a15f4263b5d966de847a4bb
-    projectPath: Temp/UnityTempFile-d694b1a18a15f4263b5d966de847a4bb
+  - path: Temp/UnityTempFile-2fe566d05d85d411285dac08bf4bb2f5
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-2fe566d05d85d411285dac08bf4bb2f5
+    projectPath: Temp/UnityTempFile-2fe566d05d85d411285dac08bf4bb2f5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-40c65d22d160b4c6aa9bfe45fe54655f
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-40c65d22d160b4c6aa9bfe45fe54655f
+    projectPath: Temp/UnityTempFile-40c65d22d160b4c6aa9bfe45fe54655f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-5b7d5e0b6c8c84133885ee7cb7dfba69
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-5b7d5e0b6c8c84133885ee7cb7dfba69
+    projectPath: Temp/UnityTempFile-5b7d5e0b6c8c84133885ee7cb7dfba69
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-6fe5fce10bbb94228a08eda6ac434867
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-6fe5fce10bbb94228a08eda6ac434867
+    projectPath: Temp/UnityTempFile-6fe5fce10bbb94228a08eda6ac434867
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-9131fcbd8f85745a58f3a360b3906ca0
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-9131fcbd8f85745a58f3a360b3906ca0
+    projectPath: Temp/UnityTempFile-9131fcbd8f85745a58f3a360b3906ca0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-98f9e3522162d41da9e9736d53ffa890
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-98f9e3522162d41da9e9736d53ffa890
+    projectPath: Temp/UnityTempFile-98f9e3522162d41da9e9736d53ffa890
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-9d66d84d30a404d19a618e5f50a0119d
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-9d66d84d30a404d19a618e5f50a0119d
+    projectPath: Temp/UnityTempFile-9d66d84d30a404d19a618e5f50a0119d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-c4d887811cbf744c7ba5ff3986460130
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-c4d887811cbf744c7ba5ff3986460130
+    projectPath: Temp/UnityTempFile-c4d887811cbf744c7ba5ff3986460130
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-dd0c8faa5cc4c4ff0bc8f15c56458cdc
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-dd0c8faa5cc4c4ff0bc8f15c56458cdc
+    projectPath: Temp/UnityTempFile-dd0c8faa5cc4c4ff0bc8f15c56458cdc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e1a482893528b4ec18f8596e37761c7c
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-e1a482893528b4ec18f8596e37761c7c
+    projectPath: Temp/UnityTempFile-e1a482893528b4ec18f8596e37761c7c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e1f449d1c1a2a4e70ba094178f466cbf
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-e1f449d1c1a2a4e70ba094178f466cbf
+    projectPath: Temp/UnityTempFile-e1f449d1c1a2a4e70ba094178f466cbf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-eb13a93c803f846ae9812544c9db8238
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-eb13a93c803f846ae9812544c9db8238
+    projectPath: Temp/UnityTempFile-eb13a93c803f846ae9812544c9db8238
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-fd4a477fdcee84083b794ee558793ea4
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-fd4a477fdcee84083b794ee558793ea4
+    projectPath: Temp/UnityTempFile-fd4a477fdcee84083b794ee558793ea4
     originalPath: 
     status: 1
     staged: 0
