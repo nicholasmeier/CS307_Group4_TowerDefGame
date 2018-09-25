@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Assets_Maingame\_Script\MapController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Monster_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\MonsterAdder.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MonsterHitter.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\projectile_script.cs" />
     <Compile Include="Assets\MainMenu.cs" />

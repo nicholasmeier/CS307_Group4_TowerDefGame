@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterHitter : MonoBehaviour {
-    public float range;
+    //public float range;
     public float coolDown; 
-    public Rigidbody projectilePrefab;
+    public GameObject projectilePrefab;
     //for prototyping
     public GameObject monster;
     public float projectileSpeed;
-
+    public List<GameObject> monsters;
 
     //public MapController 
+
     private GameObject target;
     private float lastShot; 
 	// Use this for initialization
     void Start () {
+        monsters.Clear();
         target = null;
         lastShot = -coolDown;
 	}
@@ -23,16 +25,18 @@ public class MonsterHitter : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Vector3 position = getRelativePosition(monster, this.gameObject);
-        
-        if (position.magnitude <= range)
+        //determine the target
+        if (target != null && target.GetComponent<Monster_script>().hp.Equals(0))
         {
-            target = monster;
-        }
-        else
-        {
+            monsters.Remove(target);
             target = null;
-        }   
+        }
+
+        Debug.Log("Monster count= " + monsters.Count);
+        if(target == null && monsters.Count > 0){
+            target = monsters[0];
+        }
+
         shoot(target);
     }
 
@@ -47,10 +51,10 @@ public class MonsterHitter : MonoBehaviour {
             this.gameObject.transform.LookAt(t.transform.position);
 
             //Debug.Log("Bang");
-            Rigidbody bulletInstance;
-            bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as Rigidbody;
+            GameObject bulletInstance;
+            bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as GameObject;
             bulletInstance.transform.LookAt(t.transform.position);
-            bulletInstance.velocity = projectileSpeed * position.normalized;
+            bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
             lastShot = Time.time;
         }
     }

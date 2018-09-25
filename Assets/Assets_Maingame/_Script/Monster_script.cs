@@ -17,6 +17,7 @@ public class Monster_script : MonoBehaviour {
     void FixedUpdate () {
         if(hp.Equals(0)){
             Destroy(this.gameObject);
+
         }
     }
 
@@ -25,6 +26,6 @@ public class Monster_script : MonoBehaviour {
         if(hp < 0){
             hp = 0;
         }
-        Debug.Log("Current hp: " + hp);
+        //Debug.Log("Current hp: " + hp);
     }
 }

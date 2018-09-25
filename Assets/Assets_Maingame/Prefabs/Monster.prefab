@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  hp: 1000
+  hp: 60
 --- !u!135 &135082426474467292
 SphereCollider:
   m_ObjectHideFlags: 1
