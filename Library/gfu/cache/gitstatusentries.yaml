@@ -12,26 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-09-26T14:57:41.660-04:00
+  lastUpdatedAtString: 2018-09-26T15:15:59.142-04:00
   initializedAtString: 2018-09-26T14:52:54.210-04:00
   entries:
-  - path: Assets/Assets_Maingame/Scenes/.DS_Store
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/.DS_Store
-    projectPath: Assets/Assets_Maingame/Scenes/.DS_Store
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Assets_Maingame/Scenes/GameScene.unity
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity
-    projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity
-    originalPath: 
-    status: 5
-    staged: 0
   - path: Assets/Assets_Maingame/Scenes/GameScene.unity.meta
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity.meta
     projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity.meta
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/assetDatabase3
@@ -39,33 +27,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/CrashedAssetImports.txt
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CrashedAssetImports.txt
-    projectPath: Library/CrashedAssetImports.txt
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -87,99 +51,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
     projectPath: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
     fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
     projectPath: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
     originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp/__Backupscenes/0.backup
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/__Backupscenes/0.backup
-    projectPath: Temp/__Backupscenes/0.backup
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-100f56947bedb4844a7fbcf302edc487
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-100f56947bedb4844a7fbcf302edc487
-    projectPath: Temp/UnityTempFile-100f56947bedb4844a7fbcf302edc487
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-1d045b9db757b40d9afd13003dac43ad
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-1d045b9db757b40d9afd13003dac43ad
-    projectPath: Temp/UnityTempFile-1d045b9db757b40d9afd13003dac43ad
-    originalPath: 
     status: 1
-    staged: 0
-  - path: Temp/UnityTempFile-3d67ffb821bb54032a8961679523850e
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-3d67ffb821bb54032a8961679523850e
-    projectPath: Temp/UnityTempFile-3d67ffb821bb54032a8961679523850e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp/UnityTempFile-5a1de8eaa819e4c6291eaea20a1ab854
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-5a1de8eaa819e4c6291eaea20a1ab854
-    projectPath: Temp/UnityTempFile-5a1de8eaa819e4c6291eaea20a1ab854
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
-    projectPath: Temp/UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp/UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
-    projectPath: Temp/UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp/UnityTempFile-91f3839ab6864440d8a01881109dbcc0
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-91f3839ab6864440d8a01881109dbcc0
-    projectPath: Temp/UnityTempFile-91f3839ab6864440d8a01881109dbcc0
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
-    projectPath: Temp/UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp/UnityTempFile-b3a07ac971a1a4d23a8385a2f776cec8
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-b3a07ac971a1a4d23a8385a2f776cec8
-    projectPath: Temp/UnityTempFile-b3a07ac971a1a4d23a8385a2f776cec8
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-f44529169907c418f953f3ff89a8bf15
-    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-f44529169907c418f953f3ff89a8bf15
-    projectPath: Temp/UnityTempFile-f44529169907c418f953f3ff89a8bf15
-    originalPath: 
-    status: 5
     staged: 0

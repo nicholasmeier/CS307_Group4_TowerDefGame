@@ -12,9 +12,189 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-26T14:52:20.695-04:00
-  initializedAtString: 2018-09-26T14:52:20.695-04:00
+  lastUpdatedAtString: 2018-09-26T15:15:58.232-04:00
+  initializedAtString: 2018-09-26T15:15:58.232-04:00
   log:
+  - commitID: 103229f31a6413198078e805aabf2ead4ca92b37
+    mergeA: 
+    mergeB: 
+    authorName: zvzv1919
+    authorEmail: zvzv1919@gmail.com
+    commitEmail: zvzv1919@gmail.com
+    commitName: zvzv1919
+    summary: test
+    description: test
+    timeString: 2018-09-26T15:13:02.000-04:00
+    commitTimeString: 2018-09-26T15:13:02.000-04:00
+    changes:
+    - path: Assets/.DS_Store
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/.DS_Store
+      projectPath: Assets/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Assets_Maingame/Scenes/GameScene.unity
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity
+      projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 76da9497465ac243538c65ad029f719159cbae08
+    mergeA: 
+    mergeB: 
+    authorName: zvzv1919
+    authorEmail: zvzv1919@gmail.com
+    commitEmail: zvzv1919@gmail.com
+    commitName: zvzv1919
+    summary: test
+    description: test
+    timeString: 2018-09-26T15:07:53.000-04:00
+    commitTimeString: 2018-09-26T15:07:53.000-04:00
+    changes:
+    - path: .DS_Store
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/.DS_Store
+      projectPath: .DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Assets_Maingame/Scenes/.DS_Store
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/.DS_Store
+      projectPath: Assets/Assets_Maingame/Scenes/.DS_Store
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Assets_Maingame/Scenes/GameScene.unity.meta
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity.meta
+      projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: GameScene.unity
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/GameScene.unity
+      projectPath: GameScene.unity
+      originalPath: Assets/Assets_Maingame/Scenes/GameScene.unity
+      status: 6
+      staged: 0
+    - path: Library/CrashedAssetImports.txt
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
+      projectPath: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
+      projectPath: Library/metadata/32/32b125fea81bf49af9c7cd29ef2a0427.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityTempFile-1d045b9db757b40d9afd13003dac43ad
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-1d045b9db757b40d9afd13003dac43ad
+      projectPath: Temp/UnityTempFile-1d045b9db757b40d9afd13003dac43ad
+      originalPath: Temp/UnityTempFile-5a1de8eaa819e4c6291eaea20a1ab854
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-3d67ffb821bb54032a8961679523850e
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-3d67ffb821bb54032a8961679523850e
+      projectPath: Temp/UnityTempFile-3d67ffb821bb54032a8961679523850e
+      originalPath: Temp/UnityTempFile-91f3839ab6864440d8a01881109dbcc0
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
+      projectPath: Temp/UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
+      originalPath: Temp/UnityTempFile-f44529169907c418f953f3ff89a8bf15
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
+      projectPath: Temp/UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
+      originalPath: Temp/UnityTempFile-100f56947bedb4844a7fbcf302edc487
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
+      projectPath: Temp/UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
+      originalPath: Temp/UnityTempFile-b3a07ac971a1a4d23a8385a2f776cec8
+      status: 6
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: ea69c4a90d31303f5678ef8c3d3d508ff6c05c9f
     mergeA: 
     mergeB: 
