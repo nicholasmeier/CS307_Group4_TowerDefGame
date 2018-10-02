@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  hp: 60
-  fullHp: 0
+  hp: 0
+  fullHp: 60
 --- !u!114 &114500294285332130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 0, z: 1}
-  scale: 0
+  scale: {x: 1, y: 0.3, z: 1}
 --- !u!135 &135229707088439544
 SphereCollider:
   m_ObjectHideFlags: 1
