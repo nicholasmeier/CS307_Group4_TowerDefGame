@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-10-02T17:41:56.069-04:00
-  initializedAtString: 2018-10-02T17:41:56.069-04:00
-=======
-  lastUpdatedAtString: 2018-10-02T16:05:50.479-04:00
-  initializedAtString: 2018-10-02T16:05:50.479-04:00
->>>>>>> 953a344565ef7483daeeeb925ba8fca436e83677
+  lastUpdatedAtString: 2018-10-02T18:03:40.312-04:00
+  initializedAtString: 2018-10-02T18:03:40.312-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
@@ -39,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
-  currentHead: a202bd2
+  currentHead: 4004e27
