@@ -143,11 +143,11 @@ MonoBehaviour:
   monsterHolder: []
   waves:
   - monsters:
-    - {fileID: 1852025081846108, guid: 49226e80590944ea0bea86dde58bfca7, type: 2}
-    - {fileID: 1852025081846108, guid: 49226e80590944ea0bea86dde58bfca7, type: 2}
-    - {fileID: 1852025081846108, guid: 49226e80590944ea0bea86dde58bfca7, type: 2}
-    - {fileID: 1852025081846108, guid: 49226e80590944ea0bea86dde58bfca7, type: 2}
-    - {fileID: 1852025081846108, guid: 49226e80590944ea0bea86dde58bfca7, type: 2}
+    - {fileID: 1626838087234276, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1626838087234276, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1626838087234276, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1626838087234276, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1626838087234276, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
   speed: 0
 --- !u!4 &251866436
 Transform:

@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-09-28T22:47:35.359-04:00
-  initializedAtString: 2018-09-28T22:47:35.347-04:00
+  lastUpdatedAtString: 2018-10-02T17:37:48.868-04:00
+  initializedAtString: 2018-10-02T17:37:48.845-04:00
   localBranches:
   - name: master
     tracking: origin/master
+  - name: test
+    tracking: origin/test
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -31,21 +35,33 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - test
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
       trackingBranch: master
+    - name: test
+      remote:
+        name: origin
+        url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
+      trackingBranch: test
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git

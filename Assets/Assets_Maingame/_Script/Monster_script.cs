@@ -5,12 +5,14 @@ using UnityEngine;
 public class Monster_script : MonoBehaviour {
     public float speed;
     public float hp;
+    public float fullHp;
 
     private Rigidbody rb;
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody>();
         rb.velocity = speed * new Vector3(-1, 0, 0);
+        hp = fullHp;
     }
     
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class Monster_script : MonoBehaviour {
         }
     }
 
-    public void  damage(float val){
+    public void damage(float val){
         hp = hp - val;
         if(hp < 0){
             hp = 0;

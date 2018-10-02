@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-10-02T17:47:41.101-04:00
   initializedAtString: 2018-10-02T17:41:56.695-04:00
   entries:
@@ -2600,15 +2601,61 @@ MonoBehaviour:
   - path: Library/ShaderCache/9/93b2a42de5ff5787de93dbeb4f6a1e73.bin
     fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/9/93b2a42de5ff5787de93dbeb4f6a1e73.bin
     projectPath: Library/ShaderCache/9/93b2a42de5ff5787de93dbeb4f6a1e73.bin
+=======
+  lastUpdatedAtString: 2018-10-02T17:42:04.032-04:00
+  initializedAtString: 2018-10-02T16:05:51.474-04:00
+  entries:
+  - path: Assets/Assets_Maingame/Prefabs/Monster 1.prefab
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Prefabs/Monster
+      1.prefab
+    projectPath: Assets/Assets_Maingame/Prefabs/Monster 1.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Assets_Maingame/Scenes/GameScene.unity
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Assets_Maingame/Scenes/GameScene.unity
+    projectPath: Assets/Assets_Maingame/Scenes/GameScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CrashedAssetImports.txt
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
     originalPath: 
     status: 1
     staged: 0
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+>>>>>>> 953a344565ef7483daeeeb925ba8fca436e83677
+    originalPath: 
+    status: 1
+    staged: 0
+<<<<<<< HEAD
   - path: Library/ShaderCache/9/9ac73910a24463fdc6235664aa002497.bin
     fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/9/9ac73910a24463fdc6235664aa002497.bin
     projectPath: Library/ShaderCache/9/9ac73910a24463fdc6235664aa002497.bin
+=======
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+>>>>>>> 953a344565ef7483daeeeb925ba8fca436e83677
     originalPath: 
     status: 1
     staged: 0
+<<<<<<< HEAD
   - path: Library/ShaderCache/a/a2fcdd5feda459360ab1e9878ffe3a69.bin
     fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/a/a2fcdd5feda459360ab1e9878ffe3a69.bin
     projectPath: Library/ShaderCache/a/a2fcdd5feda459360ab1e9878ffe3a69.bin
@@ -2729,3 +2776,11 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+=======
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+>>>>>>> 953a344565ef7483daeeeb925ba8fca436e83677
