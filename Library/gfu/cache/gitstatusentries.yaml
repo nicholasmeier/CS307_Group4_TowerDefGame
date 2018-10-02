@@ -12,1238 +12,2720 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-01T23:16:24.486-04:00
-  initializedAtString: 2018-10-01T23:16:23.360-04:00
+  lastUpdatedAtString: 2018-10-02T17:47:41.101-04:00
+  initializedAtString: 2018-10-02T17:41:56.695-04:00
   entries:
-  - path: .vs\CS307_Group4_TowerDefGame\v15\.suo
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\.vs\CS307_Group4_TowerDefGame\v15\.suo
-    projectPath: .vs\CS307_Group4_TowerDefGame\v15\.suo
+  - path: .DS_Store
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/.DS_Store
+    projectPath: .DS_Store
     originalPath: 
     status: 3
     staged: 0
-  - path: .vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\.vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide-shm
+  - path: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-shm
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-shm
+    projectPath: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-shm
     originalPath: 
     status: 3
     staged: 0
-  - path: .vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\.vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide-wal
+  - path: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/CS307_Group4_TowerDefGame/xs/sqlite3/storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs/CS307_Group4_TowerDefGame/xs/UserPrefs.xml
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/.vs/CS307_Group4_TowerDefGame/xs/UserPrefs.xml
+    projectPath: .vs/CS307_Group4_TowerDefGame/xs/UserPrefs.xml
     originalPath: 
     status: 3
     staged: 0
   - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assembly-CSharp.csproj
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Assets_GUI.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI.meta
-    projectPath: Assets\Assets_GUI.meta
+  - path: Assets/.DS_Store
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/.DS_Store
+    projectPath: Assets/.DS_Store
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scenes.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Scenes.meta
+    projectPath: Assets/Scenes.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/StarMainMenu.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu.meta
+    projectPath: Assets/StarMainMenu.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\112.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\112.png
-    projectPath: Assets\Assets_GUI\112.png
+  - path: Assets/StarMainMenu/.DS_Store
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/.DS_Store
+    projectPath: Assets/StarMainMenu/.DS_Store
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\112.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\112.png.meta
-    projectPath: Assets\Assets_GUI\112.png.meta
+  - path: Assets/StarMainMenu/Animation.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation.meta
+    projectPath: Assets/StarMainMenu/Animation.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\113.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\113.png
-    projectPath: Assets\Assets_GUI\113.png
+  - path: Assets/StarMainMenu/Animation/MainMenu.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu.meta
+    projectPath: Assets/StarMainMenu/Animation/MainMenu.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\113.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\113.png.meta
-    projectPath: Assets\Assets_GUI\113.png.meta
+  - path: Assets/StarMainMenu/Animation/MainMenu/Closed.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu/Closed.anim
+    projectPath: Assets/StarMainMenu/Animation/MainMenu/Closed.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\back3.jpg
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\back3.jpg
-    projectPath: Assets\Assets_GUI\back3.jpg
+  - path: Assets/StarMainMenu/Animation/MainMenu/Closed.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu/Closed.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/MainMenu/Closed.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\back3.jpg.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\back3.jpg.meta
-    projectPath: Assets\Assets_GUI\back3.jpg.meta
+  - path: Assets/StarMainMenu/Animation/MainMenu/MainMenu.controller
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu/MainMenu.controller
+    projectPath: Assets/StarMainMenu/Animation/MainMenu/MainMenu.controller
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\background2.jpg
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\background2.jpg
-    projectPath: Assets\Assets_GUI\background2.jpg
+  - path: Assets/StarMainMenu/Animation/MainMenu/MainMenu.controller.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu/MainMenu.controller.meta
+    projectPath: Assets/StarMainMenu/Animation/MainMenu/MainMenu.controller.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\background2.jpg.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\background2.jpg.meta
-    projectPath: Assets\Assets_GUI\background2.jpg.meta
+  - path: Assets/StarMainMenu/Animation/MainMenu/Open.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu/Open.anim
+    projectPath: Assets/StarMainMenu/Animation/MainMenu/Open.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\backgrounf.jpg
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\backgrounf.jpg
-    projectPath: Assets\Assets_GUI\backgrounf.jpg
+  - path: Assets/StarMainMenu/Animation/MainMenu/Open.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/MainMenu/Open.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/MainMenu/Open.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\backgrounf.jpg.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\backgrounf.jpg.meta
-    projectPath: Assets\Assets_GUI\backgrounf.jpg.meta
+  - path: Assets/StarMainMenu/Animation/Panel.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel.meta
+    projectPath: Assets/StarMainMenu/Animation/Panel.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\betterresocprt.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\betterresocprt.png
-    projectPath: Assets\Assets_GUI\betterresocprt.png
+  - path: Assets/StarMainMenu/Animation/Panel/Closed.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Closed.anim
+    projectPath: Assets/StarMainMenu/Animation/Panel/Closed.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\betterresocprt.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\betterresocprt.png.meta
-    projectPath: Assets\Assets_GUI\betterresocprt.png.meta
+  - path: Assets/StarMainMenu/Animation/Panel/Closed.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Closed.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/Panel/Closed.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\cmplogos.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\cmplogos.png
-    projectPath: Assets\Assets_GUI\cmplogos.png
+  - path: Assets/StarMainMenu/Animation/Panel/Closing.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Closing.anim
+    projectPath: Assets/StarMainMenu/Animation/Panel/Closing.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\cmplogos.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\cmplogos.png.meta
-    projectPath: Assets\Assets_GUI\cmplogos.png.meta
+  - path: Assets/StarMainMenu/Animation/Panel/Closing.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Closing.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/Panel/Closing.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\cprt.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\cprt.png
-    projectPath: Assets\Assets_GUI\cprt.png
+  - path: Assets/StarMainMenu/Animation/Panel/Open.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Open.anim
+    projectPath: Assets/StarMainMenu/Animation/Panel/Open.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\cprt.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\cprt.png.meta
-    projectPath: Assets\Assets_GUI\cprt.png.meta
+  - path: Assets/StarMainMenu/Animation/Panel/Open.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Open.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/Panel/Open.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\cprtnew.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\cprtnew.png
-    projectPath: Assets\Assets_GUI\cprtnew.png
+  - path: Assets/StarMainMenu/Animation/Panel/Panel.controller
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Panel.controller
+    projectPath: Assets/StarMainMenu/Animation/Panel/Panel.controller
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\cprtnew.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\cprtnew.png.meta
-    projectPath: Assets\Assets_GUI\cprtnew.png.meta
+  - path: Assets/StarMainMenu/Animation/Panel/Panel.controller.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Panel/Panel.controller.meta
+    projectPath: Assets/StarMainMenu/Animation/Panel/Panel.controller.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\fb.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\fb.png
-    projectPath: Assets\Assets_GUI\fb.png
+  - path: Assets/StarMainMenu/Animation/Rotation.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Rotation.anim
+    projectPath: Assets/StarMainMenu/Animation/Rotation.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\fb.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\fb.png.meta
-    projectPath: Assets\Assets_GUI\fb.png.meta
+  - path: Assets/StarMainMenu/Animation/Rotation.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Rotation.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/Rotation.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\hollowlogo.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\hollowlogo.png
-    projectPath: Assets\Assets_GUI\hollowlogo.png
+  - path: Assets/StarMainMenu/Animation/Settings.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings.meta
+    projectPath: Assets/StarMainMenu/Animation/Settings.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\hollowlogo.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\hollowlogo.png.meta
-    projectPath: Assets\Assets_GUI\hollowlogo.png.meta
+  - path: Assets/StarMainMenu/Animation/Settings/Closed.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings/Closed.anim
+    projectPath: Assets/StarMainMenu/Animation/Settings/Closed.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\Image 1.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\Image
-      1.png
-    projectPath: Assets\Assets_GUI\Image 1.png
+  - path: Assets/StarMainMenu/Animation/Settings/Closed.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings/Closed.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/Settings/Closed.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\Image 1.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\Image
-      1.png.meta
-    projectPath: Assets\Assets_GUI\Image 1.png.meta
+  - path: Assets/StarMainMenu/Animation/Settings/Open.anim
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings/Open.anim
+    projectPath: Assets/StarMainMenu/Animation/Settings/Open.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\qqlogo.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\qqlogo.png
-    projectPath: Assets\Assets_GUI\qqlogo.png
+  - path: Assets/StarMainMenu/Animation/Settings/Open.anim.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings/Open.anim.meta
+    projectPath: Assets/StarMainMenu/Animation/Settings/Open.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\qqlogo.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\qqlogo.png.meta
-    projectPath: Assets\Assets_GUI\qqlogo.png.meta
+  - path: Assets/StarMainMenu/Animation/Settings/SettingsMenu.controller
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings/SettingsMenu.controller
+    projectPath: Assets/StarMainMenu/Animation/Settings/SettingsMenu.controller
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png
-    projectPath: Assets\Assets_GUI\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png
+  - path: Assets/StarMainMenu/Animation/Settings/SettingsMenu.controller.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/Settings/SettingsMenu.controller.meta
+    projectPath: Assets/StarMainMenu/Animation/Settings/SettingsMenu.controller.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png.meta
-    projectPath: Assets\Assets_GUI\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png.meta
+  - path: Assets/StarMainMenu/Animation/SF Button.controller
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/SF
+      Button.controller
+    projectPath: Assets/StarMainMenu/Animation/SF Button.controller
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\wechat-logo-preview.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\wechat-logo-preview.png
-    projectPath: Assets\Assets_GUI\wechat-logo-preview.png
+  - path: Assets/StarMainMenu/Animation/SF Button.controller.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Animation/SF
+      Button.controller.meta
+    projectPath: Assets/StarMainMenu/Animation/SF Button.controller.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Assets_GUI\wechat-logo-preview.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Assets_GUI\wechat-logo-preview.png.meta
-    projectPath: Assets\Assets_GUI\wechat-logo-preview.png.meta
+  - path: Assets/StarMainMenu/Fonts.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Fonts.meta
+    projectPath: Assets/StarMainMenu/Fonts.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Image 1.png
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Image
-      1.png
-    projectPath: Assets\Image 1.png
+  - path: Assets/StarMainMenu/Fonts/Jupiter.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Fonts/Jupiter.meta
+    projectPath: Assets/StarMainMenu/Fonts/Jupiter.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Image 1.png.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Image
-      1.png.meta
-    projectPath: Assets\Image 1.png.meta
+  - path: Assets/StarMainMenu/Fonts/Jupiter/Jupiter.ttf
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Fonts/Jupiter/Jupiter.ttf
+    projectPath: Assets/StarMainMenu/Fonts/Jupiter/Jupiter.ttf
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scenes\Login UI.unity
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Scenes\Login
-      UI.unity
-    projectPath: Assets\Scenes\Login UI.unity
+  - path: Assets/StarMainMenu/Fonts/Jupiter/Jupiter.ttf.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Fonts/Jupiter/Jupiter.ttf.meta
+    projectPath: Assets/StarMainMenu/Fonts/Jupiter/Jupiter.ttf.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scenes\Login UI.unity.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Scenes\Login
-      UI.unity.meta
-    projectPath: Assets\Scenes\Login UI.unity.meta
+  - path: Assets/StarMainMenu/Fonts/Jupiter/LICENSE.txt
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Fonts/Jupiter/LICENSE.txt
+    projectPath: Assets/StarMainMenu/Fonts/Jupiter/LICENSE.txt
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scenes\Signin UI.unity
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Scenes\Signin
-      UI.unity
-    projectPath: Assets\Scenes\Signin UI.unity
+  - path: Assets/StarMainMenu/Fonts/Jupiter/LICENSE.txt.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Fonts/Jupiter/LICENSE.txt.meta
+    projectPath: Assets/StarMainMenu/Fonts/Jupiter/LICENSE.txt.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scenes\Signin UI.unity.meta
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Assets\Scenes\Signin
-      UI.unity.meta
-    projectPath: Assets\Scenes\Signin UI.unity.meta
+  - path: Assets/StarMainMenu/Materials.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials.meta
+    projectPath: Assets/StarMainMenu/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Slider Background.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Slider
+      Background.mat
+    projectPath: Assets/StarMainMenu/Materials/Slider Background.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Slider Background.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Slider
+      Background.mat.meta
+    projectPath: Assets/StarMainMenu/Materials/Slider Background.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Slider Fill.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Slider
+      Fill.mat
+    projectPath: Assets/StarMainMenu/Materials/Slider Fill.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Slider Fill.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Slider
+      Fill.mat.meta
+    projectPath: Assets/StarMainMenu/Materials/Slider Fill.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Slider Knob.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Slider
+      Knob.mat
+    projectPath: Assets/StarMainMenu/Materials/Slider Knob.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Slider Knob.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Slider
+      Knob.mat.meta
+    projectPath: Assets/StarMainMenu/Materials/Slider Knob.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/UI Opaque.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/UI
+      Opaque.mat
+    projectPath: Assets/StarMainMenu/Materials/UI Opaque.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/UI Opaque.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/UI
+      Opaque.mat.meta
+    projectPath: Assets/StarMainMenu/Materials/UI Opaque.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/UI-Default-No-Alpha.shader
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/UI-Default-No-Alpha.shader
+    projectPath: Assets/StarMainMenu/Materials/UI-Default-No-Alpha.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/UI-Default-No-Alpha.shader.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/UI-Default-No-Alpha.shader.meta
+    projectPath: Assets/StarMainMenu/Materials/UI-Default-No-Alpha.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Window.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Window.mat
+    projectPath: Assets/StarMainMenu/Materials/Window.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Materials/Window.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Materials/Window.mat.meta
+    projectPath: Assets/StarMainMenu/Materials/Window.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models.meta
+    projectPath: Assets/StarMainMenu/Models.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials.meta
+    projectPath: Assets/StarMainMenu/Models/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_dome_mat.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_dome_mat.mat
+    projectPath: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_dome_mat.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_dome_mat.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_dome_mat.mat.meta
+    projectPath: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_dome_mat.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_metal_mat.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_metal_mat.mat
+    projectPath: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_metal_mat.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_metal_mat.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_metal_mat.mat.meta
+    projectPath: Assets/StarMainMenu/Models/Materials/vehicle_rcFlyer_metal_mat.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials/vehicle_rcLand_clean_dome_mat.mat
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials/vehicle_rcLand_clean_dome_mat.mat
+    projectPath: Assets/StarMainMenu/Models/Materials/vehicle_rcLand_clean_dome_mat.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Materials/vehicle_rcLand_clean_dome_mat.mat.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Materials/vehicle_rcLand_clean_dome_mat.mat.meta
+    projectPath: Assets/StarMainMenu/Models/Materials/vehicle_rcLand_clean_dome_mat.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Textures.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Textures.meta
+    projectPath: Assets/StarMainMenu/Models/Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_dff.tif
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_dff.tif
+    projectPath: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_dff.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_dff.tif.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_dff.tif.meta
+    projectPath: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_dff.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_nrm.tif
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_nrm.tif
+    projectPath: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_nrm.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_nrm.tif.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_nrm.tif.meta
+    projectPath: Assets/StarMainMenu/Models/Textures/vehicle_rcFlyer_nrm.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/vehicle_rcFlyer_clean.fbx
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/vehicle_rcFlyer_clean.fbx
+    projectPath: Assets/StarMainMenu/Models/vehicle_rcFlyer_clean.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Models/vehicle_rcFlyer_clean.fbx.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Models/vehicle_rcFlyer_clean.fbx.meta
+    projectPath: Assets/StarMainMenu/Models/vehicle_rcFlyer_clean.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs.meta
+    projectPath: Assets/StarMainMenu/Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Button.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Button.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/SF Button.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Button.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Button.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/SF Button.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Grid Button.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Grid Button.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/SF Grid Button.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Grid Button.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Grid Button.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/SF Grid Button.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Scene Elements.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Scene Elements.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/SF Scene Elements.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Scene Elements.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Scene Elements.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/SF Scene Elements.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Slider.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Slider.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/SF Slider.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Slider.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Slider.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/SF Slider.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Title.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Title.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/SF Title.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Title.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Title.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/SF Title.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Toggle.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Toggle.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/SF Toggle.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/SF Toggle.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/SF
+      Toggle.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/SF Toggle.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/Slider Lit.prefab
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/Slider
+      Lit.prefab
+    projectPath: Assets/StarMainMenu/Prefabs/Slider Lit.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Prefabs/Slider Lit.prefab.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Prefabs/Slider
+      Lit.prefab.meta
+    projectPath: Assets/StarMainMenu/Prefabs/Slider Lit.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes.meta
+    projectPath: Assets/StarMainMenu/Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/.DS_Store
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/.DS_Store
+    projectPath: Assets/StarMainMenu/Scenes/.DS_Store
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Controls.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Controls.unity
+    projectPath: Assets/StarMainMenu/Scenes/Controls.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Controls.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Controls.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/Controls.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Drag And Drop.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Drag
+      And Drop.unity
+    projectPath: Assets/StarMainMenu/Scenes/Drag And Drop.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Drag And Drop.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Drag
+      And Drop.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/Drag And Drop.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Draggable Panel.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Draggable
+      Panel.unity
+    projectPath: Assets/StarMainMenu/Scenes/Draggable Panel.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Draggable Panel.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Draggable
+      Panel.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/Draggable Panel.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Layout Groups.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Layout
+      Groups.unity
+    projectPath: Assets/StarMainMenu/Scenes/Layout Groups.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Layout Groups.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Layout
+      Groups.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/Layout Groups.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Lighting.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Lighting.unity
+    projectPath: Assets/StarMainMenu/Scenes/Lighting.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Lighting.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Lighting.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/Lighting.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Menu 3D.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Menu
+      3D.unity
+    projectPath: Assets/StarMainMenu/Scenes/Menu 3D.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/Menu 3D.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/Menu
+      3D.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/Menu 3D.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/New Scene.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/New
+      Scene.unity
+    projectPath: Assets/StarMainMenu/Scenes/New Scene.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/New Scene.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/New
+      Scene.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/New Scene.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/RenderTexture.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/RenderTexture.unity
+    projectPath: Assets/StarMainMenu/Scenes/RenderTexture.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/RenderTexture.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/RenderTexture.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/RenderTexture.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/TMP.unity
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/TMP.unity
+    projectPath: Assets/StarMainMenu/Scenes/TMP.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scenes/TMP.unity.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scenes/TMP.unity.meta
+    projectPath: Assets/StarMainMenu/Scenes/TMP.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts.meta
+    projectPath: Assets/StarMainMenu/Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ActiveStateToggler.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ActiveStateToggler.cs
+    projectPath: Assets/StarMainMenu/Scripts/ActiveStateToggler.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ActiveStateToggler.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ActiveStateToggler.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/ActiveStateToggler.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ApplicationManager.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ApplicationManager.cs
+    projectPath: Assets/StarMainMenu/Scripts/ApplicationManager.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ApplicationManager.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ApplicationManager.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/ApplicationManager.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ChangeColor.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ChangeColor.cs
+    projectPath: Assets/StarMainMenu/Scripts/ChangeColor.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ChangeColor.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ChangeColor.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/ChangeColor.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/DragMe.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/DragMe.cs
+    projectPath: Assets/StarMainMenu/Scripts/DragMe.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/DragMe.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/DragMe.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/DragMe.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/DragPanel.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/DragPanel.cs
+    projectPath: Assets/StarMainMenu/Scripts/DragPanel.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/DragPanel.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/DragPanel.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/DragPanel.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/DropMe.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/DropMe.cs
+    projectPath: Assets/StarMainMenu/Scripts/DropMe.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/DropMe.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/DropMe.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/DropMe.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/LoadSceneOnClick.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/LoadSceneOnClick.cs
+    projectPath: Assets/StarMainMenu/Scripts/LoadSceneOnClick.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/LoadSceneOnClick.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/LoadSceneOnClick.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/LoadSceneOnClick.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/PanelManager.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/PanelManager.cs
+    projectPath: Assets/StarMainMenu/Scripts/PanelManager.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/PanelManager.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/PanelManager.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/PanelManager.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/QuitScript.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/QuitScript.cs
+    projectPath: Assets/StarMainMenu/Scripts/QuitScript.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/QuitScript.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/QuitScript.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/QuitScript.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ResizePanel.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ResizePanel.cs
+    projectPath: Assets/StarMainMenu/Scripts/ResizePanel.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ResizePanel.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ResizePanel.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/ResizePanel.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ScrollDetailTexture.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ScrollDetailTexture.cs
+    projectPath: Assets/StarMainMenu/Scripts/ScrollDetailTexture.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ScrollDetailTexture.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ScrollDetailTexture.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/ScrollDetailTexture.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/SelectOnInput.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/SelectOnInput.cs
+    projectPath: Assets/StarMainMenu/Scripts/SelectOnInput.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/SelectOnInput.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/SelectOnInput.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/SelectOnInput.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ShowSliderValue.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ShowSliderValue.cs
+    projectPath: Assets/StarMainMenu/Scripts/ShowSliderValue.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/ShowSliderValue.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/ShowSliderValue.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/ShowSliderValue.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/TiltWindow.cs
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/TiltWindow.cs
+    projectPath: Assets/StarMainMenu/Scripts/TiltWindow.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Scripts/TiltWindow.cs.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Scripts/TiltWindow.cs.meta
+    projectPath: Assets/StarMainMenu/Scripts/TiltWindow.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites.meta
+    projectPath: Assets/StarMainMenu/Sprites.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites/BackgroundNormal.psd
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites/BackgroundNormal.psd
+    projectPath: Assets/StarMainMenu/Sprites/BackgroundNormal.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites/BackgroundNormal.psd.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites/BackgroundNormal.psd.meta
+    projectPath: Assets/StarMainMenu/Sprites/BackgroundNormal.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites/SF Generic.psd
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites/SF
+      Generic.psd
+    projectPath: Assets/StarMainMenu/Sprites/SF Generic.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites/SF Generic.psd.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites/SF
+      Generic.psd.meta
+    projectPath: Assets/StarMainMenu/Sprites/SF Generic.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites/SF Window.psd
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites/SF
+      Window.psd
+    projectPath: Assets/StarMainMenu/Sprites/SF Window.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/StarMainMenu/Sprites/SF Window.psd.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/StarMainMenu/Sprites/SF
+      Window.psd.meta
+    projectPath: Assets/StarMainMenu/Sprites/SF Window.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Textures and Sprites.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Textures
+      and Sprites.meta
+    projectPath: Assets/Textures and Sprites.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Textures and Sprites/Decoration.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Textures
+      and Sprites/Decoration.meta
+    projectPath: Assets/Textures and Sprites/Decoration.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Textures and Sprites/Lit UI.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Textures
+      and Sprites/Lit UI.meta
+    projectPath: Assets/Textures and Sprites/Lit UI.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Textures and Sprites/Rounded UI.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Textures
+      and Sprites/Rounded UI.meta
+    projectPath: Assets/Textures and Sprites/Rounded UI.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Textures and Sprites/SF UI.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Textures
+      and Sprites/SF UI.meta
+    projectPath: Assets/Textures and Sprites/SF UI.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Textures and Sprites/SF UI/Background.meta
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assets/Textures
+      and Sprites/SF UI/Background.meta
+    projectPath: Assets/Textures and Sprites/SF UI/Background.meta
     originalPath: 
     status: 1
     staged: 0
   - path: CS307_Group4_TowerDefGame.sln
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\CS307_Group4_TowerDefGame.sln
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/CS307_Group4_TowerDefGame.sln
     projectPath: CS307_Group4_TowerDefGame.sln
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\assetDatabase3
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
+  - path: Library/assetDatabase3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\AssetImportState
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\AssetImportState
-    projectPath: Library\AssetImportState
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\expandedItems
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\07\072450ffed31fe545a60f71f33f53916
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\07\072450ffed31fe545a60f71f33f53916
-    projectPath: Library\metadata\07\072450ffed31fe545a60f71f33f53916
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
-    projectPath: Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0e\0e803098a03b61043a7408c7f0a2beff
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\0e\0e803098a03b61043a7408c7f0a2beff
-    projectPath: Library\metadata\0e\0e803098a03b61043a7408c7f0a2beff
+  - path: Library/EditorInstance.json
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\0e\0e803098a03b61043a7408c7f0a2beff.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\0e\0e803098a03b61043a7408c7f0a2beff.info
-    projectPath: Library\metadata\0e\0e803098a03b61043a7408c7f0a2beff.info
+  - path: Library/expandedItems
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/expandedItems
+    projectPath: Library/expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/01/017120279e2244a70b07c667291aca40
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/01/017120279e2244a70b07c667291aca40
+    projectPath: Library/metadata/01/017120279e2244a70b07c667291aca40
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
-    projectPath: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\14\1427d2ef35312514eaa6e36d08c739ec
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\14\1427d2ef35312514eaa6e36d08c739ec
-    projectPath: Library\metadata\14\1427d2ef35312514eaa6e36d08c739ec
+  - path: Library/metadata/01/017120279e2244a70b07c667291aca40.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/01/017120279e2244a70b07c667291aca40.info
+    projectPath: Library/metadata/01/017120279e2244a70b07c667291aca40.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\14\1427d2ef35312514eaa6e36d08c739ec.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\14\1427d2ef35312514eaa6e36d08c739ec.info
-    projectPath: Library\metadata\14\1427d2ef35312514eaa6e36d08c739ec.info
+  - path: Library/metadata/05/05a81c3d5091440058129444d28322f3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/05/05a81c3d5091440058129444d28322f3
+    projectPath: Library/metadata/05/05a81c3d5091440058129444d28322f3
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
-    projectPath: Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
-    projectPath: Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    projectPath: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
-    projectPath: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\20\204a570cd0814334ba2fd79718030cc0
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\20\204a570cd0814334ba2fd79718030cc0
-    projectPath: Library\metadata\20\204a570cd0814334ba2fd79718030cc0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
-    projectPath: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
-    projectPath: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
+  - path: Library/metadata/05/05a81c3d5091440058129444d28322f3.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/05/05a81c3d5091440058129444d28322f3.info
+    projectPath: Library/metadata/05/05a81c3d5091440058129444d28322f3.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485.info
-    projectPath: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485.info
+  - path: Library/metadata/06/06aa53a922b07499da9a5a1308f2ca4b
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/06/06aa53a922b07499da9a5a1308f2ca4b
+    projectPath: Library/metadata/06/06aa53a922b07499da9a5a1308f2ca4b
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\26\2682a692a2be7e14e901a738c7806da0
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\26\2682a692a2be7e14e901a738c7806da0
-    projectPath: Library\metadata\26\2682a692a2be7e14e901a738c7806da0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\29\298fff671b9e99149b9be3d7ef04255e
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\29\298fff671b9e99149b9be3d7ef04255e
-    projectPath: Library\metadata\29\298fff671b9e99149b9be3d7ef04255e
+  - path: Library/metadata/06/06aa53a922b07499da9a5a1308f2ca4b.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/06/06aa53a922b07499da9a5a1308f2ca4b.info
+    projectPath: Library/metadata/06/06aa53a922b07499da9a5a1308f2ca4b.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\29\298fff671b9e99149b9be3d7ef04255e.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\29\298fff671b9e99149b9be3d7ef04255e.info
-    projectPath: Library\metadata\29\298fff671b9e99149b9be3d7ef04255e.info
+  - path: Library/metadata/07/072450ffed31fe545a60f71f33f53916
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/07/072450ffed31fe545a60f71f33f53916
+    projectPath: Library/metadata/07/072450ffed31fe545a60f71f33f53916
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/0a/0ad7c77e77679ab46bf11303c59b229a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/0a/0ad7c77e77679ab46bf11303c59b229a
+    projectPath: Library/metadata/0a/0ad7c77e77679ab46bf11303c59b229a
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
-    projectPath: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
+  - path: Library/metadata/0a/0ad7c77e77679ab46bf11303c59b229a.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/0a/0ad7c77e77679ab46bf11303c59b229a.info
+    projectPath: Library/metadata/0a/0ad7c77e77679ab46bf11303c59b229a.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5.info
-    projectPath: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5.info
+  - path: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+    projectPath: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+    projectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/13/1307b9592c50d40c79c0486f1c0021a7
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/1307b9592c50d40c79c0486f1c0021a7
+    projectPath: Library/metadata/13/1307b9592c50d40c79c0486f1c0021a7
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\2f\2fff7ed1a5aac0645b0c2a1f55d609cf
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\2f\2fff7ed1a5aac0645b0c2a1f55d609cf
-    projectPath: Library\metadata\2f\2fff7ed1a5aac0645b0c2a1f55d609cf
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
-    projectPath: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
-    projectPath: Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    projectPath: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    projectPath: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    projectPath: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\40\405b9b51bb344a128608d968297df79c
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\40\405b9b51bb344a128608d968297df79c
-    projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    projectPath: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\49\49226e80590944ea0bea86dde58bfca7.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\49\49226e80590944ea0bea86dde58bfca7.info
-    projectPath: Library\metadata\49\49226e80590944ea0bea86dde58bfca7.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
-    projectPath: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
+  - path: Library/metadata/13/1307b9592c50d40c79c0486f1c0021a7.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/1307b9592c50d40c79c0486f1c0021a7.info
+    projectPath: Library/metadata/13/1307b9592c50d40c79c0486f1c0021a7.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677.info
-    projectPath: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677.info
+  - path: Library/metadata/13/131a6b21c8605f84396be9f6751fb6e3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/131a6b21c8605f84396be9f6751fb6e3
+    projectPath: Library/metadata/13/131a6b21c8605f84396be9f6751fb6e3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/13/131a6b21c8605f84396be9f6751fb6e3.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/131a6b21c8605f84396be9f6751fb6e3.info
+    projectPath: Library/metadata/13/131a6b21c8605f84396be9f6751fb6e3.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/13/13b46e70f240943ccb1f2665a779f3a6
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/13b46e70f240943ccb1f2665a779f3a6
+    projectPath: Library/metadata/13/13b46e70f240943ccb1f2665a779f3a6
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4a\4a813084baf34314aa7b09881c317646
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4a\4a813084baf34314aa7b09881c317646
-    projectPath: Library\metadata\4a\4a813084baf34314aa7b09881c317646
+  - path: Library/metadata/13/13b46e70f240943ccb1f2665a779f3a6.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/13b46e70f240943ccb1f2665a779f3a6.info
+    projectPath: Library/metadata/13/13b46e70f240943ccb1f2665a779f3a6.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\4a\4a813084baf34314aa7b09881c317646.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4a\4a813084baf34314aa7b09881c317646.info
-    projectPath: Library\metadata\4a\4a813084baf34314aa7b09881c317646.info
+  - path: Library/metadata/13/13d48294147f7454e9ca4e4d075bcd04
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/13d48294147f7454e9ca4e4d075bcd04
+    projectPath: Library/metadata/13/13d48294147f7454e9ca4e4d075bcd04
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4b\4bef8e25905c11547b9b58bc1e5ca93d
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4b\4bef8e25905c11547b9b58bc1e5ca93d
-    projectPath: Library\metadata\4b\4bef8e25905c11547b9b58bc1e5ca93d
+  - path: Library/metadata/13/13d48294147f7454e9ca4e4d075bcd04.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/13/13d48294147f7454e9ca4e4d075bcd04.info
+    projectPath: Library/metadata/13/13d48294147f7454e9ca4e4d075bcd04.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\4b\4bef8e25905c11547b9b58bc1e5ca93d.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4b\4bef8e25905c11547b9b58bc1e5ca93d.info
-    projectPath: Library\metadata\4b\4bef8e25905c11547b9b58bc1e5ca93d.info
+  - path: Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
+    projectPath: Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/16/16adfeb90f2004348b7dfad7eb9ae316
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/16/16adfeb90f2004348b7dfad7eb9ae316
+    projectPath: Library/metadata/16/16adfeb90f2004348b7dfad7eb9ae316
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\4d\4d64205430999a04981dab6f259b6e44
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\4d\4d64205430999a04981dab6f259b6e44
-    projectPath: Library\metadata\4d\4d64205430999a04981dab6f259b6e44
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\51\517af1b5b81b93b43b9745d58f017562
-    projectPath: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
-    projectPath: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
-    projectPath: Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
-    projectPath: Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\66\6694d001d1af1cd4785f41d81673860d
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\66\6694d001d1af1cd4785f41d81673860d
-    projectPath: Library\metadata\66\6694d001d1af1cd4785f41d81673860d
+  - path: Library/metadata/16/16adfeb90f2004348b7dfad7eb9ae316.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/16/16adfeb90f2004348b7dfad7eb9ae316.info
+    projectPath: Library/metadata/16/16adfeb90f2004348b7dfad7eb9ae316.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\66\6694d001d1af1cd4785f41d81673860d.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\66\6694d001d1af1cd4785f41d81673860d.info
-    projectPath: Library\metadata\66\6694d001d1af1cd4785f41d81673860d.info
+  - path: Library/metadata/19/192d548898c01fb43bf53b8e95b9fff3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/19/192d548898c01fb43bf53b8e95b9fff3
+    projectPath: Library/metadata/19/192d548898c01fb43bf53b8e95b9fff3
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\69\6981461fe431401459211818212a29cf
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\69\6981461fe431401459211818212a29cf
-    projectPath: Library\metadata\69\6981461fe431401459211818212a29cf
+  - path: Library/metadata/19/192d548898c01fb43bf53b8e95b9fff3.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/19/192d548898c01fb43bf53b8e95b9fff3.info
+    projectPath: Library/metadata/19/192d548898c01fb43bf53b8e95b9fff3.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\69\6981461fe431401459211818212a29cf.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\69\6981461fe431401459211818212a29cf.info
-    projectPath: Library\metadata\69\6981461fe431401459211818212a29cf.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+  - path: Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
+    projectPath: Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    projectPath: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+  - path: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+    projectPath: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    projectPath: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+  - path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+    projectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\74\74101c7619674b24d82777e7458e0977
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\74\74101c7619674b24d82777e7458e0977
-    projectPath: Library\metadata\74\74101c7619674b24d82777e7458e0977
+  - path: Library/metadata/1d/1d49f63596dbd412fa2c32ef87fdf2f0
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1d/1d49f63596dbd412fa2c32ef87fdf2f0
+    projectPath: Library/metadata/1d/1d49f63596dbd412fa2c32ef87fdf2f0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1d/1d49f63596dbd412fa2c32ef87fdf2f0.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1d/1d49f63596dbd412fa2c32ef87fdf2f0.info
+    projectPath: Library/metadata/1d/1d49f63596dbd412fa2c32ef87fdf2f0.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1d/1deade8f089e24a388af5aa9058b0c52
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1d/1deade8f089e24a388af5aa9058b0c52
+    projectPath: Library/metadata/1d/1deade8f089e24a388af5aa9058b0c52
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1d/1deade8f089e24a388af5aa9058b0c52.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1d/1deade8f089e24a388af5aa9058b0c52.info
+    projectPath: Library/metadata/1d/1deade8f089e24a388af5aa9058b0c52.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1f/1f1d5baae1d26404a8a639a07e5c7766
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1f/1f1d5baae1d26404a8a639a07e5c7766
+    projectPath: Library/metadata/1f/1f1d5baae1d26404a8a639a07e5c7766
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1f/1f1d5baae1d26404a8a639a07e5c7766.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1f/1f1d5baae1d26404a8a639a07e5c7766.info
+    projectPath: Library/metadata/1f/1f1d5baae1d26404a8a639a07e5c7766.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1f/1f55b68dc282796488e1181ab0602967
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1f/1f55b68dc282796488e1181ab0602967
+    projectPath: Library/metadata/1f/1f55b68dc282796488e1181ab0602967
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/1f/1f55b68dc282796488e1181ab0602967.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/1f/1f55b68dc282796488e1181ab0602967.info
+    projectPath: Library/metadata/1f/1f55b68dc282796488e1181ab0602967.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/20/204a570cd0814334ba2fd79718030cc0
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/20/204a570cd0814334ba2fd79718030cc0
+    projectPath: Library/metadata/20/204a570cd0814334ba2fd79718030cc0
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
-    projectPath: Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
+  - path: Library/metadata/21/212619aea848509449704f41e4a1d3f2
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/21/212619aea848509449704f41e4a1d3f2
+    projectPath: Library/metadata/21/212619aea848509449704f41e4a1d3f2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/21/212619aea848509449704f41e4a1d3f2.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/21/212619aea848509449704f41e4a1d3f2.info
+    projectPath: Library/metadata/21/212619aea848509449704f41e4a1d3f2.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+    projectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\77\776237d72c9df364da2ffc58eb18943f
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\77\776237d72c9df364da2ffc58eb18943f
-    projectPath: Library\metadata\77\776237d72c9df364da2ffc58eb18943f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\77\776237d72c9df364da2ffc58eb18943f.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\77\776237d72c9df364da2ffc58eb18943f.info
-    projectPath: Library\metadata\77\776237d72c9df364da2ffc58eb18943f.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\77\77df9fc9c19a54f41924dc38a5284fca
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\77\77df9fc9c19a54f41924dc38a5284fca
-    projectPath: Library\metadata\77\77df9fc9c19a54f41924dc38a5284fca
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\77\77df9fc9c19a54f41924dc38a5284fca.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\77\77df9fc9c19a54f41924dc38a5284fca.info
-    projectPath: Library\metadata\77\77df9fc9c19a54f41924dc38a5284fca.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\7e\7eaa0eddb99784c47a96f34d7c9961aa
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\7e\7eaa0eddb99784c47a96f34d7c9961aa
-    projectPath: Library\metadata\7e\7eaa0eddb99784c47a96f34d7c9961aa
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\7e\7eaa0eddb99784c47a96f34d7c9961aa.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\7e\7eaa0eddb99784c47a96f34d7c9961aa.info
-    projectPath: Library\metadata\7e\7eaa0eddb99784c47a96f34d7c9961aa.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\84\84c97ff29328d4a14b849213ca19f4a9.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\84\84c97ff29328d4a14b849213ca19f4a9.info
-    projectPath: Library\metadata\84\84c97ff29328d4a14b849213ca19f4a9.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
-    projectPath: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390.info
-    projectPath: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\8c\8c577e2c9df07c44e99f23d7c53698f0
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\8c\8c577e2c9df07c44e99f23d7c53698f0
-    projectPath: Library\metadata\8c\8c577e2c9df07c44e99f23d7c53698f0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\8c\8c577e2c9df07c44e99f23d7c53698f0.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\8c\8c577e2c9df07c44e99f23d7c53698f0.info
-    projectPath: Library\metadata\8c\8c577e2c9df07c44e99f23d7c53698f0.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
-    projectPath: Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\8e\8ef28ab991459ce49a535d43dc3729db
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\8e\8ef28ab991459ce49a535d43dc3729db
-    projectPath: Library\metadata\8e\8ef28ab991459ce49a535d43dc3729db
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\8e\8ef28ab991459ce49a535d43dc3729db.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\8e\8ef28ab991459ce49a535d43dc3729db.info
-    projectPath: Library\metadata\8e\8ef28ab991459ce49a535d43dc3729db.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
-    projectPath: Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\97\9758e1102b5001243bb864edba48883c
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\97\9758e1102b5001243bb864edba48883c
-    projectPath: Library\metadata\97\9758e1102b5001243bb864edba48883c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\97\9758e1102b5001243bb864edba48883c.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\97\9758e1102b5001243bb864edba48883c.info
-    projectPath: Library\metadata\97\9758e1102b5001243bb864edba48883c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
-    projectPath: Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a2\a27512ba1340543b885b2db4f2701bb2.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\a2\a27512ba1340543b885b2db4f2701bb2.info
-    projectPath: Library\metadata\a2\a27512ba1340543b885b2db4f2701bb2.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a9\a9058bcdbab2b2a4f82fa3b85e95ca8b
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\a9\a9058bcdbab2b2a4f82fa3b85e95ca8b
-    projectPath: Library\metadata\a9\a9058bcdbab2b2a4f82fa3b85e95ca8b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\a9\a9058bcdbab2b2a4f82fa3b85e95ca8b.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\a9\a9058bcdbab2b2a4f82fa3b85e95ca8b.info
-    projectPath: Library\metadata\a9\a9058bcdbab2b2a4f82fa3b85e95ca8b.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
-    projectPath: Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
-    projectPath: Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
-    projectPath: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
-    projectPath: Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    projectPath: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
-    projectPath: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b5da970776034f77a070d99423d68791
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b5\b5da970776034f77a070d99423d68791
-    projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b5e4eee67e722b540ac1f1c6d368b215
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b5\b5e4eee67e722b540ac1f1c6d368b215
-    projectPath: Library\metadata\b5\b5e4eee67e722b540ac1f1c6d368b215
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\b5\b5e4eee67e722b540ac1f1c6d368b215.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b5\b5e4eee67e722b540ac1f1c6d368b215.info
-    projectPath: Library\metadata\b5\b5e4eee67e722b540ac1f1c6d368b215.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    projectPath: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c1\c10e4dd037e71174e917e95cd6069f4f
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\c1\c10e4dd037e71174e917e95cd6069f4f
-    projectPath: Library\metadata\c1\c10e4dd037e71174e917e95cd6069f4f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c1\c10e4dd037e71174e917e95cd6069f4f.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\c1\c10e4dd037e71174e917e95cd6069f4f.info
-    projectPath: Library\metadata\c1\c10e4dd037e71174e917e95cd6069f4f.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c7\c76fa82112a7e0742825e61a6f4fe897
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\c7\c76fa82112a7e0742825e61a6f4fe897
-    projectPath: Library\metadata\c7\c76fa82112a7e0742825e61a6f4fe897
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c7\c76fa82112a7e0742825e61a6f4fe897.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\c7\c76fa82112a7e0742825e61a6f4fe897.info
-    projectPath: Library\metadata\c7\c76fa82112a7e0742825e61a6f4fe897.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d0\d05b96cee66e14240838de167097537a
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d0\d05b96cee66e14240838de167097537a
-    projectPath: Library\metadata\d0\d05b96cee66e14240838de167097537a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d0\d05b96cee66e14240838de167097537a.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d0\d05b96cee66e14240838de167097537a.info
-    projectPath: Library\metadata\d0\d05b96cee66e14240838de167097537a.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
-    projectPath: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d4\d4fd5ab296912ab4a998f1528f35ad74
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d4\d4fd5ab296912ab4a998f1528f35ad74
-    projectPath: Library\metadata\d4\d4fd5ab296912ab4a998f1528f35ad74
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d4\d4fd5ab296912ab4a998f1528f35ad74.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d4\d4fd5ab296912ab4a998f1528f35ad74.info
-    projectPath: Library\metadata\d4\d4fd5ab296912ab4a998f1528f35ad74.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
-    projectPath: Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
-    projectPath: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c.info
-    projectPath: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    projectPath: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e2\e2462ba5bfd411c47a8a8b80ab56c917
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e2\e2462ba5bfd411c47a8a8b80ab56c917
-    projectPath: Library\metadata\e2\e2462ba5bfd411c47a8a8b80ab56c917
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e2\e2462ba5bfd411c47a8a8b80ab56c917.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e2\e2462ba5bfd411c47a8a8b80ab56c917.info
-    projectPath: Library\metadata\e2\e2462ba5bfd411c47a8a8b80ab56c917.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
-    projectPath: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743.info
-    projectPath: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e9\e9177b72871af0a4ab6740167597c5de
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e9\e9177b72871af0a4ab6740167597c5de
-    projectPath: Library\metadata\e9\e9177b72871af0a4ab6740167597c5de
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e9\e9177b72871af0a4ab6740167597c5de.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\e9\e9177b72871af0a4ab6740167597c5de.info
-    projectPath: Library\metadata\e9\e9177b72871af0a4ab6740167597c5de.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f5\f5ce31d2524d048449c9c8687708a9de
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\f5\f5ce31d2524d048449c9c8687708a9de
-    projectPath: Library\metadata\f5\f5ce31d2524d048449c9c8687708a9de
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\f5\f5ce31d2524d048449c9c8687708a9de.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\f5\f5ce31d2524d048449c9c8687708a9de.info
-    projectPath: Library\metadata\f5\f5ce31d2524d048449c9c8687708a9de.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
-    projectPath: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\fa\fa9941cbbd1f9480192b24d24639e16a.info
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\metadata\fa\fa9941cbbd1f9480192b24d24639e16a.info
-    projectPath: Library\metadata\fa\fa9941cbbd1f9480192b24d24639e16a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+  - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+    projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ShaderCache\3\35673037ef67160260bc6ec8633ae51a.bin
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ShaderCache\3\35673037ef67160260bc6ec8633ae51a.bin
-    projectPath: Library\ShaderCache\3\35673037ef67160260bc6ec8633ae51a.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\8\804e60a62ee97cdb1cc94a4cf7473340.bin
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ShaderCache\8\804e60a62ee97cdb1cc94a4cf7473340.bin
-    projectPath: Library\ShaderCache\8\804e60a62ee97cdb1cc94a4cf7473340.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\8\8c7e6515d7d44bcbda971cb2c24e7702.bin
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ShaderCache\8\8c7e6515d7d44bcbda971cb2c24e7702.bin
-    projectPath: Library\ShaderCache\8\8c7e6515d7d44bcbda971cb2c24e7702.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\c\c347638dfdbc32131d41ea5d086cf441.bin
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\ShaderCache\c\c347638dfdbc32131d41ea5d086cf441.bin
-    projectPath: Library\ShaderCache\c\c347638dfdbc32131d41ea5d086cf441.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
+  - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
+    projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Temp\UnityLockfile
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
+  - path: Library/metadata/26/266dee177694435468095e35de5218cc
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/266dee177694435468095e35de5218cc
+    projectPath: Library/metadata/26/266dee177694435468095e35de5218cc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/26/266dee177694435468095e35de5218cc.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/266dee177694435468095e35de5218cc.info
+    projectPath: Library/metadata/26/266dee177694435468095e35de5218cc.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+    projectPath: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
     originalPath: 
     status: 3
     staged: 0
-  - path: Temp\UnityTempFile-1d045b9db757b40d9afd13003dac43ad
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-1d045b9db757b40d9afd13003dac43ad
-    projectPath: Temp\UnityTempFile-1d045b9db757b40d9afd13003dac43ad
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\UnityTempFile-3c6cda63d39e7ab43adde702c0d7a040
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-3c6cda63d39e7ab43adde702c0d7a040
-    projectPath: Temp\UnityTempFile-3c6cda63d39e7ab43adde702c0d7a040
+  - path: Library/metadata/27/27342824cec2ee64ab208b2396c0d82c
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/27/27342824cec2ee64ab208b2396c0d82c
+    projectPath: Library/metadata/27/27342824cec2ee64ab208b2396c0d82c
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-3d67ffb821bb54032a8961679523850e
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-3d67ffb821bb54032a8961679523850e
-    projectPath: Temp\UnityTempFile-3d67ffb821bb54032a8961679523850e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\UnityTempFile-59061ca451b42bb4da193a7041bebb10
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-59061ca451b42bb4da193a7041bebb10
-    projectPath: Temp\UnityTempFile-59061ca451b42bb4da193a7041bebb10
+  - path: Library/metadata/27/27342824cec2ee64ab208b2396c0d82c.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/27/27342824cec2ee64ab208b2396c0d82c.info
+    projectPath: Library/metadata/27/27342824cec2ee64ab208b2396c0d82c.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-60fd68b32dcbc1946bbb6ea6def6ee0b
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-60fd68b32dcbc1946bbb6ea6def6ee0b
-    projectPath: Temp\UnityTempFile-60fd68b32dcbc1946bbb6ea6def6ee0b
+  - path: Library/metadata/27/27d87a15bf86c4159800770927c9aa2f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/27/27d87a15bf86c4159800770927c9aa2f
+    projectPath: Library/metadata/27/27d87a15bf86c4159800770927c9aa2f
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
-    projectPath: Temp\UnityTempFile-86de2cd9921f44273a630bb9f56e4b44
+  - path: Library/metadata/27/27d87a15bf86c4159800770927c9aa2f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/27/27d87a15bf86c4159800770927c9aa2f.info
+    projectPath: Library/metadata/27/27d87a15bf86c4159800770927c9aa2f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/2a/2a148c82c5cc8744a812f2f0f3739664
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2a/2a148c82c5cc8744a812f2f0f3739664
+    projectPath: Library/metadata/2a/2a148c82c5cc8744a812f2f0f3739664
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/2a/2a148c82c5cc8744a812f2f0f3739664.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2a/2a148c82c5cc8744a812f2f0f3739664.info
+    projectPath: Library/metadata/2a/2a148c82c5cc8744a812f2f0f3739664.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/2a/2ac0972e5f0b5439998e30db4f1ab9c3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2a/2ac0972e5f0b5439998e30db4f1ab9c3
+    projectPath: Library/metadata/2a/2ac0972e5f0b5439998e30db4f1ab9c3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/2a/2ac0972e5f0b5439998e30db4f1ab9c3.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2a/2ac0972e5f0b5439998e30db4f1ab9c3.info
+    projectPath: Library/metadata/2a/2ac0972e5f0b5439998e30db4f1ab9c3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
     originalPath: 
     status: 5
     staged: 0
-  - path: Temp\UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
-    projectPath: Temp\UnityTempFile-8d43d21c8517545a0b3bac41df802bb3
+  - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Temp\UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
-    projectPath: Temp\UnityTempFile-aa25c92a09c2d4c3eb95b62aac4221cb
+  - path: Library/metadata/2f/2fff7ed1a5aac0645b0c2a1f55d609cf
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/2f/2fff7ed1a5aac0645b0c2a1f55d609cf
+    projectPath: Library/metadata/2f/2fff7ed1a5aac0645b0c2a1f55d609cf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+    projectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/32/3252d5b9b2d549b44a5e7f6c348993b3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/3252d5b9b2d549b44a5e7f6c348993b3
+    projectPath: Library/metadata/32/3252d5b9b2d549b44a5e7f6c348993b3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/32/3252d5b9b2d549b44a5e7f6c348993b3.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/3252d5b9b2d549b44a5e7f6c348993b3.info
+    projectPath: Library/metadata/32/3252d5b9b2d549b44a5e7f6c348993b3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+    projectPath: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/34/34314e90385267f47ad6fc2df40f0d16
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/34/34314e90385267f47ad6fc2df40f0d16
+    projectPath: Library/metadata/34/34314e90385267f47ad6fc2df40f0d16
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/34/34314e90385267f47ad6fc2df40f0d16.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/34/34314e90385267f47ad6fc2df40f0d16.info
+    projectPath: Library/metadata/34/34314e90385267f47ad6fc2df40f0d16.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/35/35868d7a76dde4354b3ea20c36f8fdf9
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/35/35868d7a76dde4354b3ea20c36f8fdf9
+    projectPath: Library/metadata/35/35868d7a76dde4354b3ea20c36f8fdf9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/35/35868d7a76dde4354b3ea20c36f8fdf9.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/35/35868d7a76dde4354b3ea20c36f8fdf9.info
+    projectPath: Library/metadata/35/35868d7a76dde4354b3ea20c36f8fdf9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+    projectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/39/39a2fe826dd084aa0be1042efafed28c
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/39/39a2fe826dd084aa0be1042efafed28c
+    projectPath: Library/metadata/39/39a2fe826dd084aa0be1042efafed28c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/39/39a2fe826dd084aa0be1042efafed28c.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/39/39a2fe826dd084aa0be1042efafed28c.info
+    projectPath: Library/metadata/39/39a2fe826dd084aa0be1042efafed28c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+    projectPath: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+    projectPath: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/3c/3cc66b78ab25c204f9b4d415d02e3abe
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3c/3cc66b78ab25c204f9b4d415d02e3abe
+    projectPath: Library/metadata/3c/3cc66b78ab25c204f9b4d415d02e3abe
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3c/3cc66b78ab25c204f9b4d415d02e3abe.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3c/3cc66b78ab25c204f9b4d415d02e3abe.info
+    projectPath: Library/metadata/3c/3cc66b78ab25c204f9b4d415d02e3abe.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3d/3d9e170c0d2a24731921e19a7dab1e89
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3d/3d9e170c0d2a24731921e19a7dab1e89
+    projectPath: Library/metadata/3d/3d9e170c0d2a24731921e19a7dab1e89
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3d/3d9e170c0d2a24731921e19a7dab1e89.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3d/3d9e170c0d2a24731921e19a7dab1e89.info
+    projectPath: Library/metadata/3d/3d9e170c0d2a24731921e19a7dab1e89.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3e/3e7439b0348975a43b0dbc4121b11796
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3e/3e7439b0348975a43b0dbc4121b11796
+    projectPath: Library/metadata/3e/3e7439b0348975a43b0dbc4121b11796
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3e/3e7439b0348975a43b0dbc4121b11796.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3e/3e7439b0348975a43b0dbc4121b11796.info
+    projectPath: Library/metadata/3e/3e7439b0348975a43b0dbc4121b11796.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+    projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/40/40116c4af15e1444f8e21d1de1f4678f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/40/40116c4af15e1444f8e21d1de1f4678f
+    projectPath: Library/metadata/40/40116c4af15e1444f8e21d1de1f4678f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/40/40116c4af15e1444f8e21d1de1f4678f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/40/40116c4af15e1444f8e21d1de1f4678f.info
+    projectPath: Library/metadata/40/40116c4af15e1444f8e21d1de1f4678f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/40/405b9b51bb344a128608d968297df79c
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/40/405b9b51bb344a128608d968297df79c
+    projectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+    projectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+    projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/49/49226e80590944ea0bea86dde58bfca7.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/49/49226e80590944ea0bea86dde58bfca7.info
+    projectPath: Library/metadata/49/49226e80590944ea0bea86dde58bfca7.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
     originalPath: 
     status: 5
     staged: 0
-  - path: Temp\UnityTempFile-d638adfe2caa01340abb2490d1515aaf
-    fullPath: C:\Users\cygnus\Documents\GitHub\CS307_Group4_TowerDefGame\Temp\UnityTempFile-d638adfe2caa01340abb2490d1515aaf
-    projectPath: Temp\UnityTempFile-d638adfe2caa01340abb2490d1515aaf
+  - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+    projectPath: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4a/4a813084baf34314aa7b09881c317646
+    projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
+    projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+    projectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/4d/4d64205430999a04981dab6f259b6e44
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/4d/4d64205430999a04981dab6f259b6e44
+    projectPath: Library/metadata/4d/4d64205430999a04981dab6f259b6e44
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/50/50ab5eea3a58b4ddeb99f0388a1d77c5
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/50/50ab5eea3a58b4ddeb99f0388a1d77c5
+    projectPath: Library/metadata/50/50ab5eea3a58b4ddeb99f0388a1d77c5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/50/50ab5eea3a58b4ddeb99f0388a1d77c5.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/50/50ab5eea3a58b4ddeb99f0388a1d77c5.info
+    projectPath: Library/metadata/50/50ab5eea3a58b4ddeb99f0388a1d77c5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+    projectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    projectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+    projectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/59/591b223a720c0144daac2de979703d97
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/59/591b223a720c0144daac2de979703d97
+    projectPath: Library/metadata/59/591b223a720c0144daac2de979703d97
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/59/591b223a720c0144daac2de979703d97.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/59/591b223a720c0144daac2de979703d97.info
+    projectPath: Library/metadata/59/591b223a720c0144daac2de979703d97.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
+    projectPath: Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+    projectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
+    projectPath: Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/68/6858abb4516aae344881bf286b3aac33
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/68/6858abb4516aae344881bf286b3aac33
+    projectPath: Library/metadata/68/6858abb4516aae344881bf286b3aac33
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/68/6858abb4516aae344881bf286b3aac33.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/68/6858abb4516aae344881bf286b3aac33.info
+    projectPath: Library/metadata/68/6858abb4516aae344881bf286b3aac33.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/69/6981461fe431401459211818212a29cf
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/69/6981461fe431401459211818212a29cf
+    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/69/6981461fe431401459211818212a29cf.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/69/6981461fe431401459211818212a29cf.info
+    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+    projectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+    projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+    projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/71/71f437cfa250a7d4a9cb2760386ed379
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/71/71f437cfa250a7d4a9cb2760386ed379
+    projectPath: Library/metadata/71/71f437cfa250a7d4a9cb2760386ed379
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/71/71f437cfa250a7d4a9cb2760386ed379.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/71/71f437cfa250a7d4a9cb2760386ed379.info
+    projectPath: Library/metadata/71/71f437cfa250a7d4a9cb2760386ed379.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/74/74069a396ef888d4ea96c33784281ac5
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/74/74069a396ef888d4ea96c33784281ac5
+    projectPath: Library/metadata/74/74069a396ef888d4ea96c33784281ac5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/74/74069a396ef888d4ea96c33784281ac5.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/74/74069a396ef888d4ea96c33784281ac5.info
+    projectPath: Library/metadata/74/74069a396ef888d4ea96c33784281ac5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/74/74101c7619674b24d82777e7458e0977
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/74/74101c7619674b24d82777e7458e0977
+    projectPath: Library/metadata/74/74101c7619674b24d82777e7458e0977
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/74/7461a7b0cf97947fd9b9e4502fd2d07b
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/74/7461a7b0cf97947fd9b9e4502fd2d07b
+    projectPath: Library/metadata/74/7461a7b0cf97947fd9b9e4502fd2d07b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/74/7461a7b0cf97947fd9b9e4502fd2d07b.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/74/7461a7b0cf97947fd9b9e4502fd2d07b.info
+    projectPath: Library/metadata/74/7461a7b0cf97947fd9b9e4502fd2d07b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+    projectPath: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+    projectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/76/7696221f0cbbc764498b26fbbf4228af
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/76/7696221f0cbbc764498b26fbbf4228af
+    projectPath: Library/metadata/76/7696221f0cbbc764498b26fbbf4228af
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/76/7696221f0cbbc764498b26fbbf4228af.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/76/7696221f0cbbc764498b26fbbf4228af.info
+    projectPath: Library/metadata/76/7696221f0cbbc764498b26fbbf4228af.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/7c/7cb2912222469634ba17a77055919ea8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/7c/7cb2912222469634ba17a77055919ea8
+    projectPath: Library/metadata/7c/7cb2912222469634ba17a77055919ea8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/7c/7cb2912222469634ba17a77055919ea8.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/7c/7cb2912222469634ba17a77055919ea8.info
+    projectPath: Library/metadata/7c/7cb2912222469634ba17a77055919ea8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/80/8012ff454d5542d42b8e21afcc52ee2f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/80/8012ff454d5542d42b8e21afcc52ee2f
+    projectPath: Library/metadata/80/8012ff454d5542d42b8e21afcc52ee2f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/80/8012ff454d5542d42b8e21afcc52ee2f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/80/8012ff454d5542d42b8e21afcc52ee2f.info
+    projectPath: Library/metadata/80/8012ff454d5542d42b8e21afcc52ee2f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+    projectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/80/80ddf32a802416047aba2ba7b4872768
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/80/80ddf32a802416047aba2ba7b4872768
+    projectPath: Library/metadata/80/80ddf32a802416047aba2ba7b4872768
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/80/80ddf32a802416047aba2ba7b4872768.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/80/80ddf32a802416047aba2ba7b4872768.info
+    projectPath: Library/metadata/80/80ddf32a802416047aba2ba7b4872768.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/83/838436750d0cf48a685923371f66cea6
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/83/838436750d0cf48a685923371f66cea6
+    projectPath: Library/metadata/83/838436750d0cf48a685923371f66cea6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/83/838436750d0cf48a685923371f66cea6.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/83/838436750d0cf48a685923371f66cea6.info
+    projectPath: Library/metadata/83/838436750d0cf48a685923371f66cea6.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+    projectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9.info
+    projectPath: Library/metadata/84/84c97ff29328d4a14b849213ca19f4a9.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+    projectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/87/879f5ab2d2a90614db855e052b3e2f20
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/87/879f5ab2d2a90614db855e052b3e2f20
+    projectPath: Library/metadata/87/879f5ab2d2a90614db855e052b3e2f20
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/87/879f5ab2d2a90614db855e052b3e2f20.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/87/879f5ab2d2a90614db855e052b3e2f20.info
+    projectPath: Library/metadata/87/879f5ab2d2a90614db855e052b3e2f20.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/89/8934f7763af9e41ee8845ae14c5473f1
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/89/8934f7763af9e41ee8845ae14c5473f1
+    projectPath: Library/metadata/89/8934f7763af9e41ee8845ae14c5473f1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/89/8934f7763af9e41ee8845ae14c5473f1.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/89/8934f7763af9e41ee8845ae14c5473f1.info
+    projectPath: Library/metadata/89/8934f7763af9e41ee8845ae14c5473f1.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/8a/8a0cab5ff0a9b465bbc169d7ad27a67f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8a/8a0cab5ff0a9b465bbc169d7ad27a67f
+    projectPath: Library/metadata/8a/8a0cab5ff0a9b465bbc169d7ad27a67f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/8a/8a0cab5ff0a9b465bbc169d7ad27a67f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8a/8a0cab5ff0a9b465bbc169d7ad27a67f.info
+    projectPath: Library/metadata/8a/8a0cab5ff0a9b465bbc169d7ad27a67f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/8c/8ced7259e0f79b04185539c0fa69a4aa
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8c/8ced7259e0f79b04185539c0fa69a4aa
+    projectPath: Library/metadata/8c/8ced7259e0f79b04185539c0fa69a4aa
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/8c/8ced7259e0f79b04185539c0fa69a4aa.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8c/8ced7259e0f79b04185539c0fa69a4aa.info
+    projectPath: Library/metadata/8c/8ced7259e0f79b04185539c0fa69a4aa.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+    projectPath: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/8f/8fb70f3506a535246be122751945de67
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8f/8fb70f3506a535246be122751945de67
+    projectPath: Library/metadata/8f/8fb70f3506a535246be122751945de67
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/8f/8fb70f3506a535246be122751945de67.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/8f/8fb70f3506a535246be122751945de67.info
+    projectPath: Library/metadata/8f/8fb70f3506a535246be122751945de67.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+    projectPath: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/92/9255b4cd0962747c0b418345dfcc1eea
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/92/9255b4cd0962747c0b418345dfcc1eea
+    projectPath: Library/metadata/92/9255b4cd0962747c0b418345dfcc1eea
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/92/9255b4cd0962747c0b418345dfcc1eea.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/92/9255b4cd0962747c0b418345dfcc1eea.info
+    projectPath: Library/metadata/92/9255b4cd0962747c0b418345dfcc1eea.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/9a/9a4f8345bee404e36b84d948cd29fb8b
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/9a/9a4f8345bee404e36b84d948cd29fb8b
+    projectPath: Library/metadata/9a/9a4f8345bee404e36b84d948cd29fb8b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/9a/9a4f8345bee404e36b84d948cd29fb8b.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/9a/9a4f8345bee404e36b84d948cd29fb8b.info
+    projectPath: Library/metadata/9a/9a4f8345bee404e36b84d948cd29fb8b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
+    projectPath: Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/9e/9e3f0765f3440a541951dd9223a17825
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/9e/9e3f0765f3440a541951dd9223a17825
+    projectPath: Library/metadata/9e/9e3f0765f3440a541951dd9223a17825
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/9e/9e3f0765f3440a541951dd9223a17825.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/9e/9e3f0765f3440a541951dd9223a17825.info
+    projectPath: Library/metadata/9e/9e3f0765f3440a541951dd9223a17825.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a1/a1a76cb6763ca8a4ab0450fc989edb19
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a1/a1a76cb6763ca8a4ab0450fc989edb19
+    projectPath: Library/metadata/a1/a1a76cb6763ca8a4ab0450fc989edb19
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a1/a1a76cb6763ca8a4ab0450fc989edb19.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a1/a1a76cb6763ca8a4ab0450fc989edb19.info
+    projectPath: Library/metadata/a1/a1a76cb6763ca8a4ab0450fc989edb19.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2.info
+    projectPath: Library/metadata/a2/a27512ba1340543b885b2db4f2701bb2.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/a5/a5289e1b1e8a120488785ae4de0f89ee
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a5/a5289e1b1e8a120488785ae4de0f89ee
+    projectPath: Library/metadata/a5/a5289e1b1e8a120488785ae4de0f89ee
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a5/a5289e1b1e8a120488785ae4de0f89ee.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a5/a5289e1b1e8a120488785ae4de0f89ee.info
+    projectPath: Library/metadata/a5/a5289e1b1e8a120488785ae4de0f89ee.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a9/a93c012dd9ef6454fa7d140e976926f7
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a9/a93c012dd9ef6454fa7d140e976926f7
+    projectPath: Library/metadata/a9/a93c012dd9ef6454fa7d140e976926f7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a9/a93c012dd9ef6454fa7d140e976926f7.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a9/a93c012dd9ef6454fa7d140e976926f7.info
+    projectPath: Library/metadata/a9/a93c012dd9ef6454fa7d140e976926f7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a9/a95e0a044abfc473394c6c61eb343e4a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a9/a95e0a044abfc473394c6c61eb343e4a
+    projectPath: Library/metadata/a9/a95e0a044abfc473394c6c61eb343e4a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/a9/a95e0a044abfc473394c6c61eb343e4a.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/a9/a95e0a044abfc473394c6c61eb343e4a.info
+    projectPath: Library/metadata/a9/a95e0a044abfc473394c6c61eb343e4a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
+    projectPath: Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/ac/acd5fac7403fe184b870fd9b8d0fa262
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ac/acd5fac7403fe184b870fd9b8d0fa262
+    projectPath: Library/metadata/ac/acd5fac7403fe184b870fd9b8d0fa262
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/ac/acd5fac7403fe184b870fd9b8d0fa262.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ac/acd5fac7403fe184b870fd9b8d0fa262.info
+    projectPath: Library/metadata/ac/acd5fac7403fe184b870fd9b8d0fa262.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
+    projectPath: Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+    projectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/af/af747b540e77a43faa1a2eb3286903d8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/af/af747b540e77a43faa1a2eb3286903d8
+    projectPath: Library/metadata/af/af747b540e77a43faa1a2eb3286903d8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/af/af747b540e77a43faa1a2eb3286903d8.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/af/af747b540e77a43faa1a2eb3286903d8.info
+    projectPath: Library/metadata/af/af747b540e77a43faa1a2eb3286903d8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
+    projectPath: Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+    projectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+    projectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/b4/b4cc44d390fb3b442a5aa52028754572
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b4/b4cc44d390fb3b442a5aa52028754572
+    projectPath: Library/metadata/b4/b4cc44d390fb3b442a5aa52028754572
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b4/b4cc44d390fb3b442a5aa52028754572.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b4/b4cc44d390fb3b442a5aa52028754572.info
+    projectPath: Library/metadata/b4/b4cc44d390fb3b442a5aa52028754572.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b5/b5da970776034f77a070d99423d68791
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b5/b5da970776034f77a070d99423d68791
+    projectPath: Library/metadata/b5/b5da970776034f77a070d99423d68791
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/b6/b65626d58ae604ad4b395dfe85982547
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b6/b65626d58ae604ad4b395dfe85982547
+    projectPath: Library/metadata/b6/b65626d58ae604ad4b395dfe85982547
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b6/b65626d58ae604ad4b395dfe85982547.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b6/b65626d58ae604ad4b395dfe85982547.info
+    projectPath: Library/metadata/b6/b65626d58ae604ad4b395dfe85982547.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b6/b6a1cf4e3eeaf9a4ca38bf8acb910a6d
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b6/b6a1cf4e3eeaf9a4ca38bf8acb910a6d
+    projectPath: Library/metadata/b6/b6a1cf4e3eeaf9a4ca38bf8acb910a6d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b6/b6a1cf4e3eeaf9a4ca38bf8acb910a6d.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b6/b6a1cf4e3eeaf9a4ca38bf8acb910a6d.info
+    projectPath: Library/metadata/b6/b6a1cf4e3eeaf9a4ca38bf8acb910a6d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b8/b895a589a253443a9ac85bafa7402a65
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b8/b895a589a253443a9ac85bafa7402a65
+    projectPath: Library/metadata/b8/b895a589a253443a9ac85bafa7402a65
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b8/b895a589a253443a9ac85bafa7402a65.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b8/b895a589a253443a9ac85bafa7402a65.info
+    projectPath: Library/metadata/b8/b895a589a253443a9ac85bafa7402a65.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b8/b8960321e10f80b4c844cd91bf1ea437
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b8/b8960321e10f80b4c844cd91bf1ea437
+    projectPath: Library/metadata/b8/b8960321e10f80b4c844cd91bf1ea437
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b8/b8960321e10f80b4c844cd91bf1ea437.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b8/b8960321e10f80b4c844cd91bf1ea437.info
+    projectPath: Library/metadata/b8/b8960321e10f80b4c844cd91bf1ea437.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+    projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/bd/bdf784713333a4b24860228711510eac
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/bd/bdf784713333a4b24860228711510eac
+    projectPath: Library/metadata/bd/bdf784713333a4b24860228711510eac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/bd/bdf784713333a4b24860228711510eac.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/bd/bdf784713333a4b24860228711510eac.info
+    projectPath: Library/metadata/bd/bdf784713333a4b24860228711510eac.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/c4/c454080d636f840038dc8f37941751b3
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c4/c454080d636f840038dc8f37941751b3
+    projectPath: Library/metadata/c4/c454080d636f840038dc8f37941751b3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/c4/c454080d636f840038dc8f37941751b3.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c4/c454080d636f840038dc8f37941751b3.info
+    projectPath: Library/metadata/c4/c454080d636f840038dc8f37941751b3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/c5/c5b01eb497714c1449cb2df46eb5ac6f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c5/c5b01eb497714c1449cb2df46eb5ac6f
+    projectPath: Library/metadata/c5/c5b01eb497714c1449cb2df46eb5ac6f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/c5/c5b01eb497714c1449cb2df46eb5ac6f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c5/c5b01eb497714c1449cb2df46eb5ac6f.info
+    projectPath: Library/metadata/c5/c5b01eb497714c1449cb2df46eb5ac6f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/c9/c94d2031ae1744c498909db277f8a9e2
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c9/c94d2031ae1744c498909db277f8a9e2
+    projectPath: Library/metadata/c9/c94d2031ae1744c498909db277f8a9e2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/c9/c94d2031ae1744c498909db277f8a9e2.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/c9/c94d2031ae1744c498909db277f8a9e2.info
+    projectPath: Library/metadata/c9/c94d2031ae1744c498909db277f8a9e2.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d0/d05b96cee66e14240838de167097537a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d0/d05b96cee66e14240838de167097537a
+    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
+    projectPath: Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/d5/d5545059c6381d848ab3d612c68f2669
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d5/d5545059c6381d848ab3d612c68f2669
+    projectPath: Library/metadata/d5/d5545059c6381d848ab3d612c68f2669
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d5/d5545059c6381d848ab3d612c68f2669.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d5/d5545059c6381d848ab3d612c68f2669.info
+    projectPath: Library/metadata/d5/d5545059c6381d848ab3d612c68f2669.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d5/d56722fd7cc841042bfafe48130cf5d8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d5/d56722fd7cc841042bfafe48130cf5d8
+    projectPath: Library/metadata/d5/d56722fd7cc841042bfafe48130cf5d8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d5/d56722fd7cc841042bfafe48130cf5d8.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d5/d56722fd7cc841042bfafe48130cf5d8.info
+    projectPath: Library/metadata/d5/d56722fd7cc841042bfafe48130cf5d8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/d8/d8ccdf9e3ac244697bf9b5e32203fa96
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d8/d8ccdf9e3ac244697bf9b5e32203fa96
+    projectPath: Library/metadata/d8/d8ccdf9e3ac244697bf9b5e32203fa96
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d8/d8ccdf9e3ac244697bf9b5e32203fa96.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d8/d8ccdf9e3ac244697bf9b5e32203fa96.info
+    projectPath: Library/metadata/d8/d8ccdf9e3ac244697bf9b5e32203fa96.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+    projectPath: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+    projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
+    projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+    projectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/dd/dd8c80a5a447f04418da146781b05fd8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/dd/dd8c80a5a447f04418da146781b05fd8
+    projectPath: Library/metadata/dd/dd8c80a5a447f04418da146781b05fd8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/dd/dd8c80a5a447f04418da146781b05fd8.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/dd/dd8c80a5a447f04418da146781b05fd8.info
+    projectPath: Library/metadata/dd/dd8c80a5a447f04418da146781b05fd8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/de/de769b24045b0554ab900d313edd10c7
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/de/de769b24045b0554ab900d313edd10c7
+    projectPath: Library/metadata/de/de769b24045b0554ab900d313edd10c7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/de/de769b24045b0554ab900d313edd10c7.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/de/de769b24045b0554ab900d313edd10c7.info
+    projectPath: Library/metadata/de/de769b24045b0554ab900d313edd10c7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/df/df18cf487652243408ab7f05ace0f2b5
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/df/df18cf487652243408ab7f05ace0f2b5
+    projectPath: Library/metadata/df/df18cf487652243408ab7f05ace0f2b5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/df/df18cf487652243408ab7f05ace0f2b5.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/df/df18cf487652243408ab7f05ace0f2b5.info
+    projectPath: Library/metadata/df/df18cf487652243408ab7f05ace0f2b5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+    projectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/e1/e18126576915f8146af49e3910b4809f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e1/e18126576915f8146af49e3910b4809f
+    projectPath: Library/metadata/e1/e18126576915f8146af49e3910b4809f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/e1/e18126576915f8146af49e3910b4809f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e1/e18126576915f8146af49e3910b4809f.info
+    projectPath: Library/metadata/e1/e18126576915f8146af49e3910b4809f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/e3/e31151469f9db41bb99384b804f43c3d
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e31151469f9db41bb99384b804f43c3d
+    projectPath: Library/metadata/e3/e31151469f9db41bb99384b804f43c3d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/e3/e31151469f9db41bb99384b804f43c3d.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e31151469f9db41bb99384b804f43c3d.info
+    projectPath: Library/metadata/e3/e31151469f9db41bb99384b804f43c3d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+    projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
+    projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+    projectPath: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/e7/e7b4b73a0b041314f856b13bf63f0b84
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e7/e7b4b73a0b041314f856b13bf63f0b84
+    projectPath: Library/metadata/e7/e7b4b73a0b041314f856b13bf63f0b84
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/e7/e7b4b73a0b041314f856b13bf63f0b84.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e7/e7b4b73a0b041314f856b13bf63f0b84.info
+    projectPath: Library/metadata/e7/e7b4b73a0b041314f856b13bf63f0b84.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+    projectPath: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/ed/ed0a08141686d4bc1b3f214dce410cbb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ed/ed0a08141686d4bc1b3f214dce410cbb
+    projectPath: Library/metadata/ed/ed0a08141686d4bc1b3f214dce410cbb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/ed/ed0a08141686d4bc1b3f214dce410cbb.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ed/ed0a08141686d4bc1b3f214dce410cbb.info
+    projectPath: Library/metadata/ed/ed0a08141686d4bc1b3f214dce410cbb.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+    projectPath: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/ee/ee7104d2ffb92f84a9d1ac3411c1c12f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ee/ee7104d2ffb92f84a9d1ac3411c1c12f
+    projectPath: Library/metadata/ee/ee7104d2ffb92f84a9d1ac3411c1c12f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/ee/ee7104d2ffb92f84a9d1ac3411c1c12f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/ee/ee7104d2ffb92f84a9d1ac3411c1c12f.info
+    projectPath: Library/metadata/ee/ee7104d2ffb92f84a9d1ac3411c1c12f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f3/f380765f06574468792284654c96955a
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f3/f380765f06574468792284654c96955a
+    projectPath: Library/metadata/f3/f380765f06574468792284654c96955a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f3/f380765f06574468792284654c96955a.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f3/f380765f06574468792284654c96955a.info
+    projectPath: Library/metadata/f3/f380765f06574468792284654c96955a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f4/f44d0ca8767b76d43a5e1155e7189c0f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f4/f44d0ca8767b76d43a5e1155e7189c0f
+    projectPath: Library/metadata/f4/f44d0ca8767b76d43a5e1155e7189c0f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f4/f44d0ca8767b76d43a5e1155e7189c0f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f4/f44d0ca8767b76d43a5e1155e7189c0f.info
+    projectPath: Library/metadata/f4/f44d0ca8767b76d43a5e1155e7189c0f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+    projectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+    projectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/f7/f7590198924b11e47b1b33cdd7ec91ac
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f7/f7590198924b11e47b1b33cdd7ec91ac
+    projectPath: Library/metadata/f7/f7590198924b11e47b1b33cdd7ec91ac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f7/f7590198924b11e47b1b33cdd7ec91ac.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f7/f7590198924b11e47b1b33cdd7ec91ac.info
+    projectPath: Library/metadata/f7/f7590198924b11e47b1b33cdd7ec91ac.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+    projectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/fa/fa0913115ac1d4fba8b9d10280f4b04d
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa0913115ac1d4fba8b9d10280f4b04d
+    projectPath: Library/metadata/fa/fa0913115ac1d4fba8b9d10280f4b04d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fa/fa0913115ac1d4fba8b9d10280f4b04d.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa0913115ac1d4fba8b9d10280f4b04d.info
+    projectPath: Library/metadata/fa/fa0913115ac1d4fba8b9d10280f4b04d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fa/fa54af71146634982aa48c3cd6ba9c8f
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa54af71146634982aa48c3cd6ba9c8f
+    projectPath: Library/metadata/fa/fa54af71146634982aa48c3cd6ba9c8f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fa/fa54af71146634982aa48c3cd6ba9c8f.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa54af71146634982aa48c3cd6ba9c8f.info
+    projectPath: Library/metadata/fa/fa54af71146634982aa48c3cd6ba9c8f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a.info
+    projectPath: Library/metadata/fa/fa9941cbbd1f9480192b24d24639e16a.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/fc/fc9ed7d7e24794ef5827cb4daf965bd8
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fc/fc9ed7d7e24794ef5827cb4daf965bd8
+    projectPath: Library/metadata/fc/fc9ed7d7e24794ef5827cb4daf965bd8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fc/fc9ed7d7e24794ef5827cb4daf965bd8.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fc/fc9ed7d7e24794ef5827cb4daf965bd8.info
+    projectPath: Library/metadata/fc/fc9ed7d7e24794ef5827cb4daf965bd8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fe/fe1963756a2d44dff960f450eb9df574
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fe/fe1963756a2d44dff960f450eb9df574
+    projectPath: Library/metadata/fe/fe1963756a2d44dff960f450eb9df574
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fe/fe1963756a2d44dff960f450eb9df574.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fe/fe1963756a2d44dff960f450eb9df574.info
+    projectPath: Library/metadata/fe/fe1963756a2d44dff960f450eb9df574.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fe/fecfa8a395df1476b91a76729863e83e
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fe/fecfa8a395df1476b91a76729863e83e
+    projectPath: Library/metadata/fe/fecfa8a395df1476b91a76729863e83e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fe/fecfa8a395df1476b91a76729863e83e.info
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/fe/fecfa8a395df1476b91a76729863e83e.info
+    projectPath: Library/metadata/fe/fecfa8a395df1476b91a76729863e83e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+    projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptMapper
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptMapper
+    projectPath: Library/ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ShaderCache/0/0504cc70288762268d57702f92773d1f.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/0/0504cc70288762268d57702f92773d1f.bin
+    projectPath: Library/ShaderCache/0/0504cc70288762268d57702f92773d1f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/0/05f4403da9e0c663809ca32a1fc6fc19.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/0/05f4403da9e0c663809ca32a1fc6fc19.bin
+    projectPath: Library/ShaderCache/0/05f4403da9e0c663809ca32a1fc6fc19.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/4/4c4946650a3fa4b23fc42dc42523a7ee.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/4/4c4946650a3fa4b23fc42dc42523a7ee.bin
+    projectPath: Library/ShaderCache/4/4c4946650a3fa4b23fc42dc42523a7ee.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/5/544d70f070e4da8ac29b776d463bf8c5.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/5/544d70f070e4da8ac29b776d463bf8c5.bin
+    projectPath: Library/ShaderCache/5/544d70f070e4da8ac29b776d463bf8c5.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/6/637b4365c9fbc0467d7cce2e33ca7f76.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/6/637b4365c9fbc0467d7cce2e33ca7f76.bin
+    projectPath: Library/ShaderCache/6/637b4365c9fbc0467d7cce2e33ca7f76.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/6/6b70c03031f907db9735ed85c83f24b9.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/6/6b70c03031f907db9735ed85c83f24b9.bin
+    projectPath: Library/ShaderCache/6/6b70c03031f907db9735ed85c83f24b9.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/7/783995cd438bb271c5e1beaa59e4a43e.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/7/783995cd438bb271c5e1beaa59e4a43e.bin
+    projectPath: Library/ShaderCache/7/783995cd438bb271c5e1beaa59e4a43e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/8/8750a834fdc936a2002fbd0e4bd1667e.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/8/8750a834fdc936a2002fbd0e4bd1667e.bin
+    projectPath: Library/ShaderCache/8/8750a834fdc936a2002fbd0e4bd1667e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/9/93b2a42de5ff5787de93dbeb4f6a1e73.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/9/93b2a42de5ff5787de93dbeb4f6a1e73.bin
+    projectPath: Library/ShaderCache/9/93b2a42de5ff5787de93dbeb4f6a1e73.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/9/9ac73910a24463fdc6235664aa002497.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/9/9ac73910a24463fdc6235664aa002497.bin
+    projectPath: Library/ShaderCache/9/9ac73910a24463fdc6235664aa002497.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/a/a2fcdd5feda459360ab1e9878ffe3a69.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/a/a2fcdd5feda459360ab1e9878ffe3a69.bin
+    projectPath: Library/ShaderCache/a/a2fcdd5feda459360ab1e9878ffe3a69.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/a/af0df6afc4ecc598b745489ecb53885e.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/a/af0df6afc4ecc598b745489ecb53885e.bin
+    projectPath: Library/ShaderCache/a/af0df6afc4ecc598b745489ecb53885e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/b/b79a49f55280ebadc289751b54d0806c.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/b/b79a49f55280ebadc289751b54d0806c.bin
+    projectPath: Library/ShaderCache/b/b79a49f55280ebadc289751b54d0806c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/c/c2f8e21a7e689b2f41e266734108fb82.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/c/c2f8e21a7e689b2f41e266734108fb82.bin
+    projectPath: Library/ShaderCache/c/c2f8e21a7e689b2f41e266734108fb82.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/c/cd5b325fc1689b876be1436ba3e0ba0c.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/c/cd5b325fc1689b876be1436ba3e0ba0c.bin
+    projectPath: Library/ShaderCache/c/cd5b325fc1689b876be1436ba3e0ba0c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/e/e3bf6e74d299fa0c5bc6a52f3e5fe675.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/e/e3bf6e74d299fa0c5bc6a52f3e5fe675.bin
+    projectPath: Library/ShaderCache/e/e3bf6e74d299fa0c5bc6a52f3e5fe675.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/e/e7c29300f27b860cd3138bea70d0a693.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/e/e7c29300f27b860cd3138bea70d0a693.bin
+    projectPath: Library/ShaderCache/e/e7c29300f27b860cd3138bea70d0a693.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/e/e8b95910869b34fe573dce47343480ce.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/e/e8b95910869b34fe573dce47343480ce.bin
+    projectPath: Library/ShaderCache/e/e8b95910869b34fe573dce47343480ce.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/e/e925b993e6f0766b86b4382ffd29e1d3.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/e/e925b993e6f0766b86b4382ffd29e1d3.bin
+    projectPath: Library/ShaderCache/e/e925b993e6f0766b86b4382ffd29e1d3.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/ShaderCache/f/f95fdbab5a36f37de5ef206fe3b6ed1f.bin
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ShaderCache/f/f95fdbab5a36f37de5ef206fe3b6ed1f.bin
+    projectPath: Library/ShaderCache/f/f95fdbab5a36f37de5ef206fe3b6ed1f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityLockfile
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-284505d188cf2491eac93ff6557c90b4
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-284505d188cf2491eac93ff6557c90b4
+    projectPath: Temp/UnityTempFile-284505d188cf2491eac93ff6557c90b4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-51a3099468262477b95a21d7950bfb45
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-51a3099468262477b95a21d7950bfb45
+    projectPath: Temp/UnityTempFile-51a3099468262477b95a21d7950bfb45
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-5abf560bf39534c35bd5a89991dd38ff
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-5abf560bf39534c35bd5a89991dd38ff
+    projectPath: Temp/UnityTempFile-5abf560bf39534c35bd5a89991dd38ff
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-852325be27c1e494f89c39f84507ffbb
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-852325be27c1e494f89c39f84507ffbb
+    projectPath: Temp/UnityTempFile-852325be27c1e494f89c39f84507ffbb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e79f263bb05ee46af8117562e8f53265
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-e79f263bb05ee46af8117562e8f53265
+    projectPath: Temp/UnityTempFile-e79f263bb05ee46af8117562e8f53265
     originalPath: 
     status: 1
     staged: 0

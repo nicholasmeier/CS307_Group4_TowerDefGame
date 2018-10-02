@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Signin UI.unity
+- path: Assets/StarMainMenu/Scenes/New Scene.unity
   isLoaded: 1
   isActive: 1

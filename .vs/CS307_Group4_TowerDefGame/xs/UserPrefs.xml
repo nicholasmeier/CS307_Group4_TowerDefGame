@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{CFB3C952-4577-5E07-5FDB-D36701423584}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets_Maingame/_Script/MonsterAdder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MainMenu.cs">
     <Files>
       <File FileName="Assets/MainMenu.cs" Line="10" Column="6" />
       <File FileName="Assets/Assets_Maingame/_Script/MonsterHitter.cs" Line="27" Column="6" />
