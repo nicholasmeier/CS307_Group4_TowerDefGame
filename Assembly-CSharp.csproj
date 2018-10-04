@@ -61,12 +61,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets_Maingame\_Script\Grid_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Healthbar_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MapController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Monster_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MonsterAdder.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\MonsterHitter.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\projectile_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\Tower_script.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ApplicationManager.cs" />
@@ -85,16 +86,16 @@
     <None Include="Assets\StarMainMenu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\StarMainMenu\Materials\UI-Default-No-Alpha.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/davejoey/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -298,10 +299,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>/Users/lixihao/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>/Users/davejoey/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>/Users/lixihao/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>/Users/davejoey/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
