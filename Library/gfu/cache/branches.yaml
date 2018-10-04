@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-10-02T17:37:48.868-04:00
+  lastUpdatedAtString: 2018-10-04T16:02:56.968-04:00
   initializedAtString: 2018-10-02T17:37:48.845-04:00
   localBranches:
   - name: master
@@ -21,6 +21,8 @@ MonoBehaviour:
     tracking: origin/test
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/login_firebase
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
@@ -53,10 +55,16 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - login_firebase
       - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
+        trackingBranch: 
+      - name: login_firebase
         remote:
           name: origin
           url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
