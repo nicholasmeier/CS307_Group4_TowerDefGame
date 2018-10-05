@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,8 @@ public class logincontroller : MonoBehaviour {
     public string userInfo;
     private string userPass;
     private string formattedInfo;
+
+    private bool valid = false;
     public void getInput(string uname) {
         //formattedinfo1 += "uname:";
         userInfo = uname;
@@ -30,12 +33,18 @@ public class logincontroller : MonoBehaviour {
     public void pushlogin() {
         formattedInfo = userInfo + ":" + userPass;
         string[] lines = System.IO.File.ReadAllLines("infoTemp.txt");
-        foreach (string line in lines)
-            Debug.Log(line);
+        string line = Array.Find(lines, s => s.Equals(formattedInfo));
+        if (line != null)
+        {
+            valid = true;
+        }
+        Debug.Log(formattedInfo);
+        /*Debug.Log(line);*/
     }
 
     public void scenetransfer(int index) {
-        
-        SceneManager.LoadScene(index);
+        if (valid) {
+            SceneManager.LoadScene(index);
+        }
     }
 }
