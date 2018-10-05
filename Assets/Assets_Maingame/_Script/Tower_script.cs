@@ -10,7 +10,7 @@ public class Tower_script: MonoBehaviour {
     public GameObject monster;
     public float projectileSpeed;
     public List<GameObject> monsters;
-
+    public AudioSource shootAud;
     //public MapController 
 
     private GameObject target;
@@ -49,7 +49,7 @@ public class Tower_script: MonoBehaviour {
             Vector3 position = getRelativePosition(t, this.gameObject);
             //Rotate the tower
             this.gameObject.transform.LookAt(t.transform.position);
-
+            shootAud.Play();
             //Debug.Log("Bang");
             GameObject bulletInstance;
             bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as GameObject;

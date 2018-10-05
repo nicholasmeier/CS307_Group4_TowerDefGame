@@ -19,6 +19,7 @@ public class MapController_script : MonoBehaviour {
     private bool[,] gridArray;              //Int version of gridMap, used to increase performance,
                                             //False in entry meaning the grid is not available(occupied).
 
+
 	// Use this for initialization
 	void Start () {
         StartCoroutine(SpawnMap());
@@ -48,10 +49,11 @@ public class MapController_script : MonoBehaviour {
             for (int j = 0; j < mapLength; j++)
             {
                 //converting array pos to map pos
-                float mapX = i - mapWidth / 2.0f + 0.5f;
-                float mapZ = j - mapLength / 2.0f + 0.5f;
                 GameObject gridInstance;
-                gridInstance = Instantiate(gridPrefab, new Vector3(mapX, -0.5f, mapZ), Quaternion.identity);
+                //instantiate the grid instance
+                gridInstance = Instantiate(gridPrefab, GetMapPosition(i, j, -0.5f), Quaternion.identity);
+                gridInstance.GetComponent<Grid_script>().mapController = this;
+
                 gridMap.Add(gridInstance);
             }
         }
@@ -65,5 +67,46 @@ public class MapController_script : MonoBehaviour {
             monsterHolder.Add(monsterInstance);
             yield return new WaitForSeconds(1);
         }
+    }
+
+    //For testing:show the grids available for build/pass
+    public void ShowPath(){
+        int count = 0;
+        for (int i = 0; i < mapWidth; i++){
+            for (int j = 0; j < mapLength; j++){
+                if(gridArray[i,j]){
+                    Debug.DrawLine(GetMapPosition(i, j, 3) - new Vector3(0.2f, 0, 0),
+                                   GetMapPosition(i, j, 3) + new Vector3(0.2f, 0, 0), Color.black, 1);
+                    count++;
+                }
+            }
+        }
+        Debug.Log("Available grids: " + count);
+        //Debug.DrawLine(new Vector3(-3,3, 0.5f), new Vector3(3,3,0.5f), Color.black, 1);
+    }
+
+    //helper function to return a map position of corresponding gridArray indices with y coordinator set to y.
+    public Vector3 GetMapPosition(int i, int j, float y){
+        float mapX = i - mapWidth / 2.0f + 0.5f;
+        float mapZ = j - mapLength / 2.0f + 0.5f;
+        return new Vector3(mapX, y, mapZ);
+    }
+    //helper function to set the availability of a grid
+    public void SetAvailability(GameObject grid, bool availability){
+        int i = GetGridI(grid);
+        int j = GetGridJ(grid);
+        gridArray[i, j] = availability;
+    }
+
+
+    //getting i and j indices of the grid
+    public int GetGridI(GameObject grid){
+        int i = (int)(grid.transform.position.x - 0.5 + mapWidth / 2.0f);
+        return i;
+    }
+    public int GetGridJ(GameObject grid)
+    {
+        int j = (int)(grid.transform.position.z - 0.5 + mapLength / 2.0f);
+        return j;
     }
 }

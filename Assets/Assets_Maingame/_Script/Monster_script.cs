@@ -6,6 +6,7 @@ public class Monster_script : MonoBehaviour {
     public float speed;
     public float hp;
     public float fullHp;
+    //public AudioSource explo;
 
     private Rigidbody rb;
     // Use this for initialization
@@ -13,11 +14,13 @@ public class Monster_script : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         rb.velocity = speed * new Vector3(-1, 0, 0);
         hp = fullHp;
+        
     }
     
     // Update is called once per frame
     void FixedUpdate () {
         if(hp.Equals(0)){
+            //explo.Play();
             Destroy(this.gameObject);
 
         }
@@ -27,6 +30,7 @@ public class Monster_script : MonoBehaviour {
         hp = hp - val;
         if(hp < 0){
             hp = 0;
+            
         }
         //Debug.Log("Current hp: " + hp);
     }
