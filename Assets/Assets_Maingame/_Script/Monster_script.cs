@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Monster_script : MonoBehaviour {
     public float speed;
     public float hp;
     public float fullHp;
+    public int getgold;
+    public GameObject player;
     //public AudioSource explo;
 
     private Rigidbody rb;
@@ -22,16 +25,17 @@ public class Monster_script : MonoBehaviour {
         if(hp.Equals(0)){
             //explo.Play();
             Destroy(this.gameObject);
-
+            player.GetComponent<PlayerController_script>().addResource(getgold);
         }
     }
+
+
 
     public void damage(float val){
         hp = hp - val;
         if(hp < 0){
             hp = 0;
-            
         }
-        //Debug.Log("Current hp: " + hp);
+        Debug.Log("Current hp: " + hp);
     }
 }

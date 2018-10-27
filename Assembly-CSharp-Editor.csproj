@@ -86,6 +86,10 @@
     <Compile Include="Assets\TDTK\Scripts\Editor\W_SpawnEditor.cs" />
     <Compile Include="Assets\TDTK\Scripts\Editor\W_UnitCreepEditor.cs" />
     <Compile Include="Assets\TDTK\Scripts\Editor\W_UnitTowerEditor.cs" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.88.0.txt" />
+    <None Include="Assets\Firebase\Editor\FirebaseAuth_v5.3.0_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -337,6 +341,66 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.88.0">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.88.0">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.88.0">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
+    </Reference>
+    <Reference Include="AsyncBridge.Net35">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="ReadOnlyCollectionsInterfaces">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/75979/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

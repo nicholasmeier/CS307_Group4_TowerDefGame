@@ -501,7 +501,8 @@ MonoBehaviour:
   speed: 1
   hp: 0
   fullHp: 100
-  explo: {fileID: 0}
+  getgold: 5
+  player: {fileID: 0}
 --- !u!114 &114678720786037608
 MonoBehaviour:
   m_ObjectHideFlags: 1

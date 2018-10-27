@@ -15,15 +15,18 @@ public class MapController_script : MonoBehaviour {
     public List<GameObject> gridMap;        //The list holding all the grids on the map
     public int mapWidth;                
     public int mapLength;
+    public GameObject player;
     public GameObject gridPrefab;           //The grid used to build the battleground
     private bool[,] gridArray;              //Int version of gridMap, used to increase performance,
                                             //False in entry meaning the grid is not available(occupied).
+    private float player_current_resource;
 
 
 	// Use this for initialization
 	void Start () {
         StartCoroutine(SpawnMap());
         StartCoroutine(SpawnWave(waves[0]));
+ 
 	}
 	
 	// Update is called once per frame
@@ -64,6 +67,7 @@ public class MapController_script : MonoBehaviour {
         foreach(GameObject monster in wave.monsters){
             GameObject monsterInstance;
             monsterInstance = Instantiate(monster);
+            monsterInstance.GetComponent<Monster_script>().player = player;
             monsterHolder.Add(monsterInstance);
             yield return new WaitForSeconds(1);
         }
