@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,26 +9,42 @@ using System.Text;
 
 public class logincontroller : MonoBehaviour {
 
-    public string formattedinfo1;
-    public string formattedinfo2;
+    public string userInfo;
+    private string userPass;
+    private string formattedInfo;
 
+    private bool valid = false;
     public void getInput(string uname) {
         //formattedinfo1 += "uname:";
-        formattedinfo1 += uname;
-        formattedinfo1 += "\n";
+        userInfo = uname;
     }
     public void getInput2(string upswd) {
         //formattedinfo2 += "upswd:";
-        
-        formattedinfo2 += upswd;
-        formattedinfo2 += "\n";
+        char[] c = upswd.ToCharArray();
+        //Simple ShiftCypher for storing info. Will change to more secure cypher later
+        for (int i = 0; i < upswd.Length; i++)
+        {
+            char a = c[i];
+            a++;    
+            c[i] = a;
+        }
+        userPass = new string(c);
     }
     public void pushlogin() {
-        string newstring = formattedinfo1 + formattedinfo2;
-        Debug.Log(newstring);
+        formattedInfo = userInfo + ":" + userPass;
+        string[] lines = System.IO.File.ReadAllLines("infoTemp.txt");
+        string line = Array.Find(lines, s => s.Equals(formattedInfo));
+        if (line != null)
+        {
+            valid = true;
+        }
+        Debug.Log(formattedInfo);
+        /*Debug.Log(line);*/
     }
 
     public void scenetransfer(int index) {
-        SceneManager.LoadScene(index);
+        if (valid) {
+            SceneManager.LoadScene(index);
+        }
     }
 }
