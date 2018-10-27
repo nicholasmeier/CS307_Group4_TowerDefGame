@@ -66,7 +66,6 @@
     <Compile Include="Assets\Assets_Maingame\_Script\Boundary.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Grid_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Healthbar_script.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\InfoPanel.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MapController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Monster_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MonsterAdder.cs" />

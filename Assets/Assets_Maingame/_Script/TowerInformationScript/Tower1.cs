@@ -37,6 +37,7 @@ public class Tower1 : MonoBehaviour {
                     Debug.Log("shoot");
                 }
             }
+         
 
         }
     }

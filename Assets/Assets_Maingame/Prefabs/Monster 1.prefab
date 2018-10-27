@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 135941091120893746}
   - component: {fileID: 114164770811343222}
   - component: {fileID: 54529595707977228}
-  - component: {fileID: 114678720786037608}
   m_Layer: 0
   m_Name: Monster 1
   m_TagString: Monster
@@ -501,25 +500,10 @@ MonoBehaviour:
   speed: 1
   hp: 0
   fullHp: 100
+  originalSpeed: 0
   getgold: 5
   player: {fileID: 0}
---- !u!114 &114678720786037608
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848591083537166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 981b94a4c2d3e1141a03d3e271a5f5c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type_display: {fileID: 114916276995519060, guid: 8c4fac33993198a44aff7263b2ae7f59,
-    type: 2}
-  Hp_display: {fileID: 114047753006350526, guid: 8c4fac33993198a44aff7263b2ae7f59,
-    type: 2}
-  Image_display: {fileID: 114736224851676914, guid: 8c4fac33993198a44aff7263b2ae7f59,
-    type: 2}
+  MapControllor: {fileID: 0}
 --- !u!114 &114885510614709322
 MonoBehaviour:
   m_ObjectHideFlags: 1

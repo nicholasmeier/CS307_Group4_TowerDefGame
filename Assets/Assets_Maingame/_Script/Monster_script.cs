@@ -7,8 +7,10 @@ public class Monster_script : MonoBehaviour {
     public float speed;
     public float hp;
     public float fullHp;
+    public float originalSpeed;
     public int getgold;
     public GameObject player;
+    public GameObject MapControllor;
     //public AudioSource explo;
 
     private Rigidbody rb;
