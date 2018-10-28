@@ -13,7 +13,7 @@ public class Monster_script : MonoBehaviour {
     //for information display
     public int getgold;
     public GameObject player;
-    public GameObject MapController;
+    public GameObject mapcontroller;
     //public AudioSource explo;
 
     private Rigidbody rb;
@@ -29,7 +29,7 @@ public class Monster_script : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate () {
         //move
-        MapController_script m = MapController.GetComponent<MapController_script>();
+        MapController_script m = mapcontroller.GetComponent<MapController_script>();
         routePosition += speed * Time.deltaTime / 100;
         int currentRoutePositionInt = (int)Mathf.Floor(routePosition);
         int nextRoutePositionInt = currentRoutePositionInt + 1;
@@ -43,7 +43,7 @@ public class Monster_script : MonoBehaviour {
         float dec = routePosition - currentRoutePositionInt;
         Vector3 newPosition = next * dec + current * (1 - dec);
         this.transform.position = newPosition;
-        //Debug.Log(newPosition.y);
+        Debug.Log(newPosition.y);
         if (hp.Equals(0)){
             //explo.Play();
             Destroy(this.gameObject);

@@ -369,11 +369,11 @@ MonoBehaviour:
   player: {fileID: 1249311644}
   gridPrefab: {fileID: 1186735371035522, guid: e39b6f7a106a841ffaa561232e44b121, type: 2}
   entry:
-    i: 21
-    j: 21
+    i: 0
+    j: 0
   exit:
-    i: 1
-    j: 1
+    i: 0
+    j: 0
   route:
   - i: 21
     j: 20
@@ -385,6 +385,36 @@ MonoBehaviour:
     j: 19
   - i: 18
     j: 19
+  - i: 17
+    j: 19
+  - i: 16
+    j: 19
+  - i: 15
+    j: 19
+  - i: 14
+    j: 19
+  - i: 13
+    j: 19
+  - i: 13
+    j: 18
+  - i: 13
+    j: 17
+  - i: 12
+    j: 17
+  - i: 11
+    j: 17
+  - i: 11
+    j: 20
+  - i: 11
+    j: 21
+  - i: 10
+    j: 21
+  - i: 9
+    j: 21
+  - i: 8
+    j: 21
+  - i: 7
+    j: 21
 --- !u!4 &251866436
 Transform:
   m_ObjectHideFlags: 0

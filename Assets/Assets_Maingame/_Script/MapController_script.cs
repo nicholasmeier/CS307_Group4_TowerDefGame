@@ -84,11 +84,16 @@ public class MapController_script : MonoBehaviour {
     }
 
     IEnumerator SpawnWave(Wave wave){
-        foreach(GameObject monster in wave.monsters){
+        waveNumber = 0;
+
+        //A sample wave
+        waveNumber++;
+        yield return new WaitForSeconds(5);
+        foreach (GameObject monster in wave.monsters){
             GameObject monsterInstance;
             monsterInstance = Instantiate(monster);
             monsterInstance.GetComponent<Monster_script>().player = player;
-            monsterInstance.GetComponent<Monster_script>().MapController = this.gameObject;
+            monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
             monsterHolder.Add(monsterInstance);
             yield return new WaitForSeconds(1);
         }
