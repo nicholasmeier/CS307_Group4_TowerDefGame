@@ -13,7 +13,8 @@
         <Button x:Name="SignUpButton" Content="Sign Up" HorizontalAlignment="Left" Height="23" Margin="293,373,0,0" VerticalAlignment="Top" Width="55"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,332,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="71" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,373,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="71" FontSize="14"/>
-        <WebBrowser HorizontalAlignment="Left" Height="293" Margin="24,23,0,0" VerticalAlignment="Top" Width="740"/>
+        <WebBrowser HorizontalAlignment="Left" Height="293" Margin="24,23,0,0" VerticalAlignment="Top" Width="740" Source="https://cs-307-herotd.firebaseapp.com"/>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="209" Margin="621,265,-44.4,-54" VerticalAlignment="Top" Width="217" Source="117.png"/>
 
     </Grid>
 </Window>
