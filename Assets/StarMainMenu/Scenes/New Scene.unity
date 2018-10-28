@@ -1599,7 +1599,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is the place for user guide!!
+  m_Text: Place for user guide
 --- !u!222 &1449627642
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2425,7 +2425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: Login
 --- !u!222 &2025193561
 CanvasRenderer:
   m_ObjectHideFlags: 0
