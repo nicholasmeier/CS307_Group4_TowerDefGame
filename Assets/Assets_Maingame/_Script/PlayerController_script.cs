@@ -51,6 +51,7 @@ public class PlayerController_script : MonoBehaviour {
                     GameObject currentClicked = hit.transform.gameObject;
                     if (currentClicked.tag == "Monster")
                     {
+                        Debug.Log("HIT!");
                         type_display.text = "Monster";
                         hp_atk_display.text ="HP: " + currentClicked.GetComponent<Monster_script>().hp.ToString();
                         

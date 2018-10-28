@@ -7,6 +7,18 @@ public class Wave{
     public List<GameObject> monsters;
 }
 
+[System.Serializable]
+public class Position
+{
+    public int i;
+    public int j;
+    public Position(int i, int j)
+    {
+        this.i = i;
+        this.j = j;
+    }
+}
+
 public class MapController_script : MonoBehaviour {
 
     //for prototyping purposes
@@ -15,11 +27,19 @@ public class MapController_script : MonoBehaviour {
     public List<GameObject> gridMap;        //The list holding all the grids on the map
     public int mapWidth;                
     public int mapLength;
+    public int waveNumber;
     public GameObject player;
     public GameObject gridPrefab;           //The grid used to build the battleground
     private bool[,] gridArray;              //Int version of gridMap, used to increase performance,
                                             //False in entry meaning the grid is not available(occupied).
+
+    public Position entry;
+    public Position exit;
+    public List<Position> route;
+
     private float player_current_resource;
+
+
 
 
 	// Use this for initialization
@@ -68,6 +88,7 @@ public class MapController_script : MonoBehaviour {
             GameObject monsterInstance;
             monsterInstance = Instantiate(monster);
             monsterInstance.GetComponent<Monster_script>().player = player;
+            monsterInstance.GetComponent<Monster_script>().MapController = this.gameObject;
             monsterHolder.Add(monsterInstance);
             yield return new WaitForSeconds(1);
         }
@@ -85,7 +106,7 @@ public class MapController_script : MonoBehaviour {
                 }
             }
         }
-        Debug.Log("Available grids: " + count);
+        //Debug.Log("Available grids: " + count);
         //Debug.DrawLine(new Vector3(-3,3, 0.5f), new Vector3(3,3,0.5f), Color.black, 1);
     }
 

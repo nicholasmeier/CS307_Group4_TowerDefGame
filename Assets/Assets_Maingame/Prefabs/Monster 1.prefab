@@ -503,7 +503,7 @@ MonoBehaviour:
   originalSpeed: 0
   getgold: 5
   player: {fileID: 0}
-  MapControllor: {fileID: 0}
+  MapController: {fileID: 0}
 --- !u!114 &114885510614709322
 MonoBehaviour:
   m_ObjectHideFlags: 1
