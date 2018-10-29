@@ -43,7 +43,7 @@ public class Monster_script : MonoBehaviour {
         float dec = routePosition - currentRoutePositionInt;
         Vector3 newPosition = next * dec + current * (1 - dec);
         this.transform.position = newPosition;
-        Debug.Log(newPosition.y);
+        //Debug.Log(newPosition.y);
         if (hp.Equals(0)){
             //explo.Play();
             Destroy(this.gameObject);

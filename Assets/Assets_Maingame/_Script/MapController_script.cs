@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class Wave{
@@ -27,7 +28,7 @@ public class MapController_script : MonoBehaviour {
     public List<GameObject> gridMap;        //The list holding all the grids on the map
     public int mapWidth;                
     public int mapLength;
-    public int waveNumber;
+    public Text wave_display;
     public GameObject player;
     public GameObject gridPrefab;           //The grid used to build the battleground
     private bool[,] gridArray;              //Int version of gridMap, used to increase performance,
@@ -38,14 +39,16 @@ public class MapController_script : MonoBehaviour {
     public List<Position> route;
 
     private float player_current_resource;
+    private int waveNumber;
 
 
 
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         StartCoroutine(SpawnMap());
         StartCoroutine(SpawnWave(waves[0]));
+        
+        
  
 	}
 	
@@ -84,10 +87,11 @@ public class MapController_script : MonoBehaviour {
     }
 
     IEnumerator SpawnWave(Wave wave){
-        waveNumber = 0;
+        
 
         //A sample wave
         waveNumber++;
+        wave_display.text = "Wave: " + waveNumber.ToString();
         yield return new WaitForSeconds(5);
         foreach (GameObject monster in wave.monsters){
             GameObject monsterInstance;

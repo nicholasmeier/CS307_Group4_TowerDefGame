@@ -28,3 +28,5 @@ C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\G
 C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\GameLawnChair.csproj.CoreCompileInputs.cache
 C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\GameLawnChair.exe
 C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\GameLawnChair.pdb
+C:\HeroTD\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\GameLawnChair.exe
+C:\HeroTD\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\GameLawnChair.pdb
