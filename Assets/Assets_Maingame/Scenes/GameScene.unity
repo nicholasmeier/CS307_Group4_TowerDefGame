@@ -355,13 +355,6 @@ MonoBehaviour:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
   gridMap: []
   mapWidth: 21
   mapLength: 21
@@ -395,26 +388,26 @@ MonoBehaviour:
     j: 17
   - i: 16
     j: 17
-  - i: 15
-    j: 17
-  - i: 14
-    j: 17
-  - i: 13
-    j: 17
-  - i: 13
-    j: 16
-  - i: 14
-    j: 16
-  - i: 15
-    j: 16
   - i: 16
-    j: 16
-  - i: 17
-    j: 16
-  - i: 18
-    j: 16
-  - i: 19
-    j: 16
+    j: 17
+  - i: 15
+    j: 17
+  - i: 14
+    j: 17
+  - i: 13
+    j: 17
+  - i: 11
+    j: 17
+  - i: 10
+    j: 17
+  - i: 9
+    j: 17
+  - i: 8
+    j: 17
+  - i: 8
+    j: 17
+  - i: 8
+    j: 17
   bot_hp: {fileID: 2036623104}
   bot_type: {fileID: 1812388340}
 --- !u!4 &251866436

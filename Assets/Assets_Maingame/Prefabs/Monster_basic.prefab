@@ -499,7 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 100
   hp: 0
-  fullHp: 500
+  fullHp: 100
   originalSpeed: 0
   getgold: 5
   player: {fileID: 0}

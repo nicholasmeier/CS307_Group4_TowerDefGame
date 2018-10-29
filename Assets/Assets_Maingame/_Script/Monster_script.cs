@@ -16,7 +16,8 @@ public class Monster_script : MonoBehaviour {
     public GameObject player;
     public GameObject mapcontroller;
     //for bottom infor bar
-    private bool display_flag;
+    private bool display_flag_left;
+    private bool display_flag_right;
     public Text bot_hp_display;
     public Text bot_type_display;
     //public AudioSource explo;
@@ -28,10 +29,27 @@ public class Monster_script : MonoBehaviour {
         //rb.velocity = speed * new Vector3(-1, 0, 0);
         routePosition = 0;
         hp = fullHp;
-        display_flag = false;
+        display_flag_left = false;
+        display_flag_right = false;
+
+
+    }
+    private void Update()
+    {
+       
+            if (display_flag_left)
+            {
+                bot_type_display.text = "Type: Monster";
+                bot_hp_display.text = "HP: " + hp.ToString();
+            }
+            else if (display_flag_right)
+            {
+                bot_type_display.text = "";
+                bot_hp_display.text = "";
+            }
         
     }
-    
+
     // Update is called once per frame
     void FixedUpdate () {
         //move
@@ -50,29 +68,29 @@ public class Monster_script : MonoBehaviour {
         Vector3 newPosition = next * dec + current * (1 - dec);
         this.transform.position = newPosition;
         //Debug.Log(newPosition.y);
-        if (display_flag)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                bot_type_display.text = "Type: Monster";
-                bot_hp_display.text = "HP: " + hp.ToString();
-            }
-            if (Input.GetMouseButtonDown(1)) {
-                bot_type_display.text = "";
-                bot_hp_display.text = "";
-            }
-        }
+        
         if (hp.Equals(0)){
             //explo.Play();
             Destroy(this.gameObject);
             player.GetComponent<PlayerController_script>().addResource(getgold);
+            bot_type_display.text = "";
+            bot_hp_display.text = "";
         }
     }
 
     public void OnMouseDown()
     {
-        display_flag = true;
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            display_flag_left = true;
+            display_flag_right = false;
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            display_flag_left = false;
+            display_flag_right = true;
+        }
+
     }
 
 
