@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Monster_script : MonoBehaviour {
@@ -14,6 +15,10 @@ public class Monster_script : MonoBehaviour {
     public int getgold;
     public GameObject player;
     public GameObject mapcontroller;
+    //for bottom infor bar
+    private bool display_flag;
+    public Text bot_hp_display;
+    public Text bot_type_display;
     //public AudioSource explo;
 
     private Rigidbody rb;
@@ -23,6 +28,7 @@ public class Monster_script : MonoBehaviour {
         //rb.velocity = speed * new Vector3(-1, 0, 0);
         routePosition = 0;
         hp = fullHp;
+        display_flag = false;
         
     }
     
@@ -44,6 +50,18 @@ public class Monster_script : MonoBehaviour {
         Vector3 newPosition = next * dec + current * (1 - dec);
         this.transform.position = newPosition;
         //Debug.Log(newPosition.y);
+        if (display_flag)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                bot_type_display.text = "Type: Monster";
+                bot_hp_display.text = "HP: " + hp.ToString();
+            }
+            if (Input.GetMouseButtonDown(1)) {
+                bot_type_display.text = "";
+                bot_hp_display.text = "";
+            }
+        }
         if (hp.Equals(0)){
             //explo.Play();
             Destroy(this.gameObject);
@@ -51,6 +69,11 @@ public class Monster_script : MonoBehaviour {
         }
     }
 
+    public void OnMouseDown()
+    {
+        display_flag = true;
+        
+    }
 
 
     public void damage(float val){

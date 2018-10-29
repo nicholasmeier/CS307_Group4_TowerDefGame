@@ -37,7 +37,10 @@ public class MapController_script : MonoBehaviour {
     public Position entry;
     public Position exit;
     public List<Position> route;
-
+    //for bottom display
+    public Text bot_hp;
+    public Text bot_type;
+   // private int monster_counter;
     private float player_current_resource;
     private int waveNumber;
 
@@ -87,17 +90,20 @@ public class MapController_script : MonoBehaviour {
     }
 
     IEnumerator SpawnWave(Wave wave){
-        
 
+        //monster_counter = 0;
         //A sample wave
         waveNumber++;
         wave_display.text = "Wave: " + waveNumber.ToString();
         yield return new WaitForSeconds(5);
         foreach (GameObject monster in wave.monsters){
             GameObject monsterInstance;
+            //monster_counter++;
             monsterInstance = Instantiate(monster);
             monsterInstance.GetComponent<Monster_script>().player = player;
             monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
+            monsterInstance.GetComponent<Monster_script>().bot_hp_display = bot_hp;
+            monsterInstance.GetComponent<Monster_script>().bot_type_display = bot_type;
             monsterHolder.Add(monsterInstance);
             yield return new WaitForSeconds(1);
         }
