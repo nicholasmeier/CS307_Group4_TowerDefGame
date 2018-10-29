@@ -388,13 +388,13 @@ MonoBehaviour:
     j: 17
   - i: 16
     j: 17
-  - i: 16
-    j: 17
   - i: 15
     j: 17
   - i: 14
     j: 17
   - i: 13
+    j: 17
+  - i: 12
     j: 17
   - i: 11
     j: 17
@@ -404,9 +404,9 @@ MonoBehaviour:
     j: 17
   - i: 8
     j: 17
-  - i: 8
+  - i: 7
     j: 17
-  - i: 8
+  - i: 6
     j: 17
   bot_hp: {fileID: 2036623104}
   bot_type: {fileID: 1812388340}
