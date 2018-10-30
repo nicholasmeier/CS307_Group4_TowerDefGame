@@ -50,9 +50,6 @@ public class MapController_script : MonoBehaviour {
     void Start () {
         StartCoroutine(SpawnMap());
         StartCoroutine(SpawnWave(waves[0]));
-        
-        
- 
 	}
 	
 	// Update is called once per frame
@@ -123,6 +120,10 @@ public class MapController_script : MonoBehaviour {
         }
         //Debug.Log("Available grids: " + count);
         //Debug.DrawLine(new Vector3(-3,3, 0.5f), new Vector3(3,3,0.5f), Color.black, 1);
+    }
+
+    public void FindPath(){
+
     }
 
     //helper function to return a map position of corresponding gridArray indices with y coordinator set to y.
