@@ -313,6 +313,7 @@ MonoBehaviour:
     type: 2}
   monster: {fileID: 0}
   projectileSpeed: 10
+  gold: 10
   monsters: []
   shootAud: {fileID: 82200148273755082}
 --- !u!114 &114845713297849416

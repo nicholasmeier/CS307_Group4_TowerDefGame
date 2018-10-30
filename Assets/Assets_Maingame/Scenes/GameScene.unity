@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 456449455}
   - component: {fileID: 456449454}
   m_Layer: 5
-  m_Name: GameOver
+  m_Name: GameInfoDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -660,7 +660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 199, y: 1}
+  m_AnchoredPosition: {x: 51, y: -63}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456449454
@@ -684,10 +684,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1037,6 +1037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tower: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
   InsTower: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
+  player: {fileID: 1249311644}
+  display_info: {fileID: 456449454}
 --- !u!4 &1151241522
 Transform:
   m_ObjectHideFlags: 0

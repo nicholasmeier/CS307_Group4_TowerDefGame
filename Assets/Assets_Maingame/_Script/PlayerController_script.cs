@@ -26,8 +26,17 @@ public class PlayerController_script : MonoBehaviour {
         mouse = false;
 	}
 
-    public int GetCurrentResource() {
+    public int getCurrentHP() {
         return current_hp;
+    }
+
+    public float getCurrentResource() {
+        return current_resource;
+    }
+
+    public void addCurrentResource(float tobeadd) {
+        current_resource += tobeadd;
+        resourceText.text = "Gold: " + current_resource.ToString();
     }
 
     public void addResource(int delta) {
@@ -40,6 +49,7 @@ public class PlayerController_script : MonoBehaviour {
         if (current_hp <= 0) {
             Gameover.text = "GGWP!!";
         }
+        /*
         if (mouse) {
             if (Input.GetMouseButtonDown(0))
             {
@@ -62,6 +72,7 @@ public class PlayerController_script : MonoBehaviour {
 
             }
         }
+        */
 	}
 
     private void OnMouseDown()

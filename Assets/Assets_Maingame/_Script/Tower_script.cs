@@ -9,12 +9,13 @@ public class Tower_script: MonoBehaviour {
     //for prototyping
     public GameObject monster;
     public float projectileSpeed;
+    public float gold;
     public List<GameObject> monsters;
     public AudioSource shootAud;
     //public MapController 
 
     private GameObject target;
-    private float lastShot; 
+    private float lastShot;
 	// Use this for initialization
     void Start () {
         monsters.Clear();
@@ -42,6 +43,10 @@ public class Tower_script: MonoBehaviour {
 
     private Vector3 getRelativePosition(GameObject a, GameObject b){
         return a.transform.position - b.transform.position;
+    }
+
+    public float getPrice() {
+        return gold;
     }
 
     private void shoot(GameObject t){
