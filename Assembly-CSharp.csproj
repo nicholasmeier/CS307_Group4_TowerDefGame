@@ -72,8 +72,7 @@
     <Compile Include="Assets\Assets_Maingame\_Script\PlayerController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\projectile_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Tower_script.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\TowerInformationScript\Tower1.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\TowerInformationScript\TowerInformation.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\TowerInformationScript\TowerBuild_script.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\MasterVolume.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ActiveStateToggler.cs" />

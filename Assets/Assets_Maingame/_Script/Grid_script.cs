@@ -8,7 +8,8 @@ public class Grid_script : MonoBehaviour {
     public Material normalMaterial;
     public MapController_script mapController;
 
-    bool availability;
+    public bool availability;
+    
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +31,7 @@ public class Grid_script : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        if(availability){
+        /*if(availability){
             availability = false;
             mapController.SetAvailability(this.gameObject, false);
             ChangeMaterial(selectedMaterial);
@@ -39,7 +40,7 @@ public class Grid_script : MonoBehaviour {
             mapController.SetAvailability(this.gameObject, true);
             ChangeMaterial(normalMaterial);
         }
-        mapController.ShowPath();
+        mapController.ShowPath();*/
     }
 
     private void OnMouseExit()
