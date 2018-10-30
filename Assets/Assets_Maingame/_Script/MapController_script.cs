@@ -40,7 +40,9 @@ public class MapController_script : MonoBehaviour {
     //for bottom display
     public Text bot_hp;
     public Text bot_type;
-   // private int monster_counter;
+    public Button sell;
+    public Button upgrade;
+    // private int monster_counter;
     private float player_current_resource;
     private int waveNumber;
 
@@ -101,6 +103,8 @@ public class MapController_script : MonoBehaviour {
             monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
             monsterInstance.GetComponent<Monster_script>().bot_hp_display = bot_hp;
             monsterInstance.GetComponent<Monster_script>().bot_type_display = bot_type;
+            monsterInstance.GetComponent<Monster_script>().sell = sell;
+            monsterInstance.GetComponent<Monster_script>().upgrade = upgrade;
             monsterHolder.Add(monsterInstance);
             yield return new WaitForSeconds(1);
         }

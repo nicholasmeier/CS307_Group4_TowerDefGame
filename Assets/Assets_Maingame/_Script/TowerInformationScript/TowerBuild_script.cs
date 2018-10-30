@@ -9,6 +9,10 @@ public class TowerBuild_script : MonoBehaviour {
     public GameObject InsTower;
     public GameObject player;
     public Text display_info;
+    public Button sell;
+    public Button upgrade;
+    public Text bot_atk_display;
+    public Text bot_type_display;
     private float gold;
     private float price;
 	// Use this for initialization
@@ -49,8 +53,12 @@ public class TowerBuild_script : MonoBehaviour {
                     else
                     {
                         InsTower = GameObject.Instantiate(Tower, null, true);
-                        
-                        
+                        InsTower.GetComponent<Tower_script>().bot_atk_display = bot_atk_display;
+                        InsTower.GetComponent<Tower_script>().bot_type_display = bot_type_display;
+                        InsTower.GetComponent<Tower_script>().sell = sell;
+                        InsTower.GetComponent<Tower_script>().upgrade = upgrade;
+
+
                         if (gridhit.GetComponent<Grid_script>().availability == true)
                         {
                             InsTower.transform.position = gridthitObject.transform.position;

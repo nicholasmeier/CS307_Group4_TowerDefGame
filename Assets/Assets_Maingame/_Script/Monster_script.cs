@@ -19,6 +19,8 @@ public class Monster_script : MonoBehaviour {
     private bool display_flag;
     public Text bot_hp_display;
     public Text bot_type_display;
+    public Button sell;
+    public Button upgrade;
     //public AudioSource explo;
 
     private Rigidbody rb;
@@ -39,6 +41,8 @@ public class Monster_script : MonoBehaviour {
             {
                 bot_type_display.text = "Type: " + this.tag.ToString();
                 bot_hp_display.text = "HP: " + hp.ToString();
+                sell.gameObject.SetActive(false);
+                upgrade.gameObject.SetActive(false);
             }
         
     }

@@ -14,6 +14,7 @@ public class projectile_script : MonoBehaviour {
 	void Update () {
 
 	}
+    
 
     public void OnTriggerEnter(Collider other)
     {

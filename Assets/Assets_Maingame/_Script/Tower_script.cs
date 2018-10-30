@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tower_script: MonoBehaviour {
     //public float range;
@@ -12,21 +13,43 @@ public class Tower_script: MonoBehaviour {
     public float gold;
     public List<GameObject> monsters;
     public AudioSource shootAud;
-    //public MapController 
-
+    //public MapController
+    //for bottom display information
+    public Button sell;
+    public Button upgrade;
+    public Text bot_atk_display;
+    public Text bot_type_display;
     private GameObject target;
     private float lastShot;
+    private bool display_flag;
+    private float attack;
+    //counter for set bool mouse
+
 	// Use this for initialization
     void Start () {
         monsters.Clear();
         target = null;
         lastShot = -coolDown;
-	}
+        display_flag = false;
+        attack = projectilePrefab.GetComponent<projectile_script>().damage;
+  
+
+    }
 
     // Update is called once per frame
     void Update()
     {
         //determine the target
+        if (display_flag)
+        {
+            bot_type_display.text = "Type: " + this.tag.ToString();
+            bot_atk_display.text = "ATK: " + attack.ToString();
+            sell.gameObject.SetActive(true);
+            upgrade.gameObject.SetActive(true);
+        }
+        
+
+
         if (target != null && target.GetComponent<Monster_script>().hp.Equals(0))
         {
             monsters.Remove(target);
@@ -39,6 +62,10 @@ public class Tower_script: MonoBehaviour {
         }
 
         shoot(target);
+    }
+    public void OnMouseDown()
+    {
+        display_flag = true;
     }
 
     private Vector3 getRelativePosition(GameObject a, GameObject b){
