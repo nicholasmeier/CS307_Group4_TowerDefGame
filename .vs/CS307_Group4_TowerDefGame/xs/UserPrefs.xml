@@ -1,18 +1,26 @@
 ﻿<Properties StartupConfiguration="{CFB3C952-4577-5E07-5FDB-D36701423584}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
 <<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/logincontroller.cs">
 =======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets_Maingame/_Script/Healthbar_script.cs">
->>>>>>> 953a344565ef7483daeeeb925ba8fca436e83677
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets_Maingame/_Script/Grid_script.cs">
+>>>>>>> ed90ef68bf9023bd275b19945aaaa259192a1a06
     <Files>
       <File FileName="Assets/MainMenu.cs" Line="10" Column="6" />
-      <File FileName="Assets/Assets_Maingame/_Script/MonsterHitter.cs" Line="27" Column="6" />
       <File FileName="Assets/Assets_Maingame/_Script/projectile_script.cs" Line="23" Column="15" />
+<<<<<<< HEAD
       <File FileName="Assets/Assets_Maingame/_Script/Monster_script.cs" Line="26" Column="14" />
       <File FileName="Assets/Assets_Maingame/_Script/MapController_script.cs" Line="7" Column="38" />
       <File FileName="Assets/Assets_Maingame/_Script/MonsterAdder.cs" Line="9" Column="3" />
-      <File FileName="Assets/Assets_Maingame/_Script/Healthbar_script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/logincontroller.cs" Line="2" Column="4" />
+=======
+      <File FileName="Assets/Assets_Maingame/_Script/Monster_script.cs" Line="7" Column="18" />
+      <File FileName="Assets/Assets_Maingame/_Script/MapController_script.cs" Line="60" Column="5" />
+      <File FileName="Assets/Assets_Maingame/_Script/MonsterAdder.cs" Line="5" Column="17" />
+      <File FileName="Assets/Assets_Maingame/_Script/Healthbar_script.cs" Line="24" Column="23" />
+      <File FileName="Assets/Assets_Maingame/_Script/Grid_script.cs" Line="9" Column="3" />
+      <File FileName="Assets/Assets_Maingame/_Script/Tower_script.cs" Line="9" Column="22" />
+>>>>>>> ed90ef68bf9023bd275b19945aaaa259192a1a06
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

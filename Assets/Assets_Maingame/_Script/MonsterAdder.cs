@@ -17,7 +17,7 @@ public class MonsterAdder : MonoBehaviour {
     public void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Monster")){
-            GetComponentInParent<MonsterHitter>().monsters.Add(other.gameObject);
+            GetComponentInParent<Tower_script>().monsters.Add(other.gameObject);
         }
 
     }
@@ -25,7 +25,7 @@ public class MonsterAdder : MonoBehaviour {
     public void OnTriggerExit(Collider other)
     {
         if(other.CompareTag("Monster")){
-            GetComponentInParent<MonsterHitter>().monsters.Remove(other.gameObject);
+            GetComponentInParent<Tower_script>().monsters.Remove(other.gameObject);
         }
     }
 }

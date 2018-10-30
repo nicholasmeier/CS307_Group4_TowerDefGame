@@ -12,32 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-02T18:04:01.364-04:00
-  initializedAtString: 2018-10-02T18:03:40.773-04:00
+  lastUpdatedAtString: 2018-10-30T11:58:07.067-04:00
+  initializedAtString: 2018-10-30T03:07:55.523-04:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/assetDatabase3
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/assetDatabase3
-    projectPath: Library/assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/CrashedAssetImports.txt
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/CrashedAssetImports.txt
-    projectPath: Library/CrashedAssetImports.txt
-    originalPath: 
-    status: 5
-    staged: 0
   - path: Library/EditorInstance.json
     fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/gfu/cache/gitlocks.yaml
@@ -63,35 +45,29 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/0b/0bfede6f6e07a4ed58f330cd9ac5f613.info
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/0b/0bfede6f6e07a4ed58f330cd9ac5f613.info
-    projectPath: Library/metadata/0b/0bfede6f6e07a4ed58f330cd9ac5f613.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/49/49226e80590944ea0bea86dde58bfca7.info
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/49/49226e80590944ea0bea86dde58bfca7.info
-    projectPath: Library/metadata/49/49226e80590944ea0bea86dde58bfca7.info
+  - path: Library/metadata/6b/6b31858db12684b69b01f773143012fd
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/6b/6b31858db12684b69b01f773143012fd
+    projectPath: Library/metadata/6b/6b31858db12684b69b01f773143012fd
     originalPath: 
     status: 5
     staged: 0
-  - path: Library/metadata/b5/b52a6a5ff68a84f92beb13cca9359c4b.info
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b5/b52a6a5ff68a84f92beb13cca9359c4b.info
-    projectPath: Library/metadata/b5/b52a6a5ff68a84f92beb13cca9359c4b.info
+  - path: Library/metadata/72/72de0c6be651c460286b138a3c81ff36
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/72/72de0c6be651c460286b138a3c81ff36
+    projectPath: Library/metadata/72/72de0c6be651c460286b138a3c81ff36
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Assembly-CSharp.dll
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+  - path: Library/metadata/b1/b1435413197ea450184d707bcb0d8508
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/b1/b1435413197ea450184d707bcb0d8508
+    projectPath: Library/metadata/b1/b1435413197ea450184d707bcb0d8508
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+  - path: Library/metadata/e3/e39b6f7a106a841ffaa561232e44b121
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/metadata/e3/e39b6f7a106a841ffaa561232e44b121
+    projectPath: Library/metadata/e3/e39b6f7a106a841ffaa561232e44b121
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Library/shadercompiler-UnityShaderCompiler0.log
@@ -99,183 +75,51 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Temp/__Backupscenes/0.backup
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/__Backupscenes/0.backup
-    projectPath: Temp/__Backupscenes/0.backup
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-2010ba165a8394480ad5a77541306a7d
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-2010ba165a8394480ad5a77541306a7d
-    projectPath: Temp/UnityTempFile-2010ba165a8394480ad5a77541306a7d
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-298e19848e2e944f08b5fb690436fecd
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-298e19848e2e944f08b5fb690436fecd
-    projectPath: Temp/UnityTempFile-298e19848e2e944f08b5fb690436fecd
+  - path: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-4e656c5032ed04bca94b4e3eac911577
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-4e656c5032ed04bca94b4e3eac911577
-    projectPath: Temp/UnityTempFile-4e656c5032ed04bca94b4e3eac911577
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-640632115b1f047e4ba653474edf88d0
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-640632115b1f047e4ba653474edf88d0
-    projectPath: Temp/UnityTempFile-640632115b1f047e4ba653474edf88d0
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-6c877eb8755e64837bee7768663c047f
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-6c877eb8755e64837bee7768663c047f
-    projectPath: Temp/UnityTempFile-6c877eb8755e64837bee7768663c047f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-7a62b6f4589b34e51acf9f3f38778970
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-7a62b6f4589b34e51acf9f3f38778970
-    projectPath: Temp/UnityTempFile-7a62b6f4589b34e51acf9f3f38778970
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-7c992baa8a436400f9ecbe12ba6d9bba
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-7c992baa8a436400f9ecbe12ba6d9bba
-    projectPath: Temp/UnityTempFile-7c992baa8a436400f9ecbe12ba6d9bba
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-800ba0b13f2514eaab11fb45def1f5b4
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-800ba0b13f2514eaab11fb45def1f5b4
-    projectPath: Temp/UnityTempFile-800ba0b13f2514eaab11fb45def1f5b4
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-8254783c084d847bb9a303bb15d2678e
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8254783c084d847bb9a303bb15d2678e
-    projectPath: Temp/UnityTempFile-8254783c084d847bb9a303bb15d2678e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-839af01e2f2ea4f939a35e3643b32bdb
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-839af01e2f2ea4f939a35e3643b32bdb
-    projectPath: Temp/UnityTempFile-839af01e2f2ea4f939a35e3643b32bdb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-8467e094bcfef4cedae31079079cda60
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8467e094bcfef4cedae31079079cda60
-    projectPath: Temp/UnityTempFile-8467e094bcfef4cedae31079079cda60
+  - path: Temp/UnityLockfile
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-8c14a0ddf12b0464bbce32a0d8f4b8f7
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8c14a0ddf12b0464bbce32a0d8f4b8f7
-    projectPath: Temp/UnityTempFile-8c14a0ddf12b0464bbce32a0d8f4b8f7
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-8cfe4c5c980ee4b97af9c9f4472c31c9
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8cfe4c5c980ee4b97af9c9f4472c31c9
-    projectPath: Temp/UnityTempFile-8cfe4c5c980ee4b97af9c9f4472c31c9
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-8d692660bff7a44609a98579cd4cf017
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8d692660bff7a44609a98579cd4cf017
-    projectPath: Temp/UnityTempFile-8d692660bff7a44609a98579cd4cf017
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-8fcca6c76c7304f2ebd7ec98dccf18bb
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8fcca6c76c7304f2ebd7ec98dccf18bb
-    projectPath: Temp/UnityTempFile-8fcca6c76c7304f2ebd7ec98dccf18bb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-900ac495fcff541678f5f18baf377da4
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-900ac495fcff541678f5f18baf377da4
-    projectPath: Temp/UnityTempFile-900ac495fcff541678f5f18baf377da4
+  - path: Temp/UnityTempFile-883d567e59ceb4d999af809c45960220
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-883d567e59ceb4d999af809c45960220
+    projectPath: Temp/UnityTempFile-883d567e59ceb4d999af809c45960220
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-9600f248cfa494429b614100d339a1aa
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-9600f248cfa494429b614100d339a1aa
-    projectPath: Temp/UnityTempFile-9600f248cfa494429b614100d339a1aa
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-989ebcb348d8944aab35c923aa966e54
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-989ebcb348d8944aab35c923aa966e54
-    projectPath: Temp/UnityTempFile-989ebcb348d8944aab35c923aa966e54
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-9db46888ccbd34acc9f6f54a5b08bb3b
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-9db46888ccbd34acc9f6f54a5b08bb3b
-    projectPath: Temp/UnityTempFile-9db46888ccbd34acc9f6f54a5b08bb3b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-9e46cdbdfd0dc411a9b58b151cb8ff27
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-9e46cdbdfd0dc411a9b58b151cb8ff27
-    projectPath: Temp/UnityTempFile-9e46cdbdfd0dc411a9b58b151cb8ff27
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-b47b5c725885f452f9f5cb86949cebc4
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-b47b5c725885f452f9f5cb86949cebc4
-    projectPath: Temp/UnityTempFile-b47b5c725885f452f9f5cb86949cebc4
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-b89333b55792d4666be1c3f703bb469c
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-b89333b55792d4666be1c3f703bb469c
-    projectPath: Temp/UnityTempFile-b89333b55792d4666be1c3f703bb469c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-c253ee0e8f454443abf3243c1ccd8620
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-c253ee0e8f454443abf3243c1ccd8620
-    projectPath: Temp/UnityTempFile-c253ee0e8f454443abf3243c1ccd8620
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-c5dde3ce5cfd74802b212554d5770c21
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-c5dde3ce5cfd74802b212554d5770c21
-    projectPath: Temp/UnityTempFile-c5dde3ce5cfd74802b212554d5770c21
+  - path: Temp/UnityTempFile-8a087223c618d46cc90d9a3ce2dca577
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-8a087223c618d46cc90d9a3ce2dca577
+    projectPath: Temp/UnityTempFile-8a087223c618d46cc90d9a3ce2dca577
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-c63b1daf90cb44c32a87e9882803b532
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-c63b1daf90cb44c32a87e9882803b532
-    projectPath: Temp/UnityTempFile-c63b1daf90cb44c32a87e9882803b532
+  - path: Temp/UnityTempFile-90c81711f40ea485cb5f3b73ef0ed3ea
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-90c81711f40ea485cb5f3b73ef0ed3ea
+    projectPath: Temp/UnityTempFile-90c81711f40ea485cb5f3b73ef0ed3ea
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-d1a2e69955a2048ed8fe930c655b21b7
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-d1a2e69955a2048ed8fe930c655b21b7
-    projectPath: Temp/UnityTempFile-d1a2e69955a2048ed8fe930c655b21b7
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-daea14d1156524dd6939fa4b61f0fa8d
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-daea14d1156524dd6939fa4b61f0fa8d
-    projectPath: Temp/UnityTempFile-daea14d1156524dd6939fa4b61f0fa8d
+  - path: Temp/UnityTempFile-bfb6ea1a5c7e9484eb14d59b46af778c
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-bfb6ea1a5c7e9484eb14d59b46af778c
+    projectPath: Temp/UnityTempFile-bfb6ea1a5c7e9484eb14d59b46af778c
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp/UnityTempFile-e119a1748aa78435dab8909c2f5c0857
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-e119a1748aa78435dab8909c2f5c0857
-    projectPath: Temp/UnityTempFile-e119a1748aa78435dab8909c2f5c0857
+  - path: Temp/UnityTempFile-c84a829df7d644dbbb90d605c72a2172
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-c84a829df7d644dbbb90d605c72a2172
+    projectPath: Temp/UnityTempFile-c84a829df7d644dbbb90d605c72a2172
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
-  - path: Temp/UnityTempFile-e4035c367e6f74f44a09e768eb05c58d
-    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-e4035c367e6f74f44a09e768eb05c58d
-    projectPath: Temp/UnityTempFile-e4035c367e6f74f44a09e768eb05c58d
+  - path: Temp/UnityTempFile-fa4df6604b93a4f8687956fd1dc4b21d
+    fullPath: /Users/lixihao/Documents/GitHub/CS307_Group4_TowerDefGame/Temp/UnityTempFile-fa4df6604b93a4f8687956fd1dc4b21d
+    projectPath: Temp/UnityTempFile-fa4df6604b93a4f8687956fd1dc4b21d
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
