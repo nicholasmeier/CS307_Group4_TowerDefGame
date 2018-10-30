@@ -17,7 +17,8 @@ public class projectile_script : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Monster")){
+        if(other.CompareTag("Monster") || other.CompareTag("Boss"))
+        {
             Destroy(this.gameObject);
             other.gameObject.GetComponent<Monster_script>().damage(damage);
             //Debug.Log("bang");

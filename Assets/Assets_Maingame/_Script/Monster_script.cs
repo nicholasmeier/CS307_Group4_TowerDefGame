@@ -16,8 +16,7 @@ public class Monster_script : MonoBehaviour {
     public GameObject player;
     public GameObject mapcontroller;
     //for bottom infor bar
-    private bool display_flag_left;
-    private bool display_flag_right;
+    private bool display_flag;
     public Text bot_hp_display;
     public Text bot_type_display;
     //public AudioSource explo;
@@ -29,23 +28,17 @@ public class Monster_script : MonoBehaviour {
         //rb.velocity = speed * new Vector3(-1, 0, 0);
         routePosition = 0;
         hp = fullHp;
-        display_flag_left = false;
-        display_flag_right = false;
+        display_flag = false;
 
 
     }
     private void Update()
     {
        
-            if (display_flag_left)
+            if (display_flag)
             {
-                bot_type_display.text = "Type: Monster";
+                bot_type_display.text = "Type: " + this.tag.ToString();
                 bot_hp_display.text = "HP: " + hp.ToString();
-            }
-            else if (display_flag_right)
-            {
-                bot_type_display.text = "";
-                bot_hp_display.text = "";
             }
         
     }
@@ -80,16 +73,7 @@ public class Monster_script : MonoBehaviour {
 
     public void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            display_flag_left = true;
-            display_flag_right = false;
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            display_flag_left = false;
-            display_flag_right = true;
-        }
+        display_flag = true;
 
     }
 

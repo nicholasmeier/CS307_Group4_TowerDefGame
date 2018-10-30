@@ -9,6 +9,7 @@ TagManager:
   - Grid
   - Background
   - Projectile
+  - Boss
   layers:
   - Default
   - TransparentFX
