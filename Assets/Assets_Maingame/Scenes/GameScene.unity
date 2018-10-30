@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -362,11 +362,11 @@ MonoBehaviour:
   player: {fileID: 1249311644}
   gridPrefab: {fileID: 1186735371035522, guid: e39b6f7a106a841ffaa561232e44b121, type: 2}
   entry:
-    i: 0
-    j: 0
+    i: 3
+    j: 3
   exit:
-    i: 0
-    j: 0
+    i: 18
+    j: 14
   route:
   - i: 21
     j: 21
