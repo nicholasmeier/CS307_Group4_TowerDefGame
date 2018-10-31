@@ -450,7 +450,7 @@ MonoBehaviour:
     - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
   gridMap: []
   mapWidth: 21
-  mapLength: 21
+  mapHeight: 21
   wave_display: {fileID: 1907293146}
   player: {fileID: 1249311644}
   gridPrefab: {fileID: 1186735371035522, guid: e39b6f7a106a841ffaa561232e44b121, type: 2}
@@ -998,6 +998,7 @@ MonoBehaviour:
   Tower: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
   InsTower: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
   player: {fileID: 1249311644}
+  mapcontroller: {fileID: 251866434}
   display_info: {fileID: 456449454}
   sell: {fileID: 1984140645}
   upgrade: {fileID: 402295065}

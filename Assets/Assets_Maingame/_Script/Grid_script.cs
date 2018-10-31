@@ -20,6 +20,11 @@ public class Grid_script : MonoBehaviour {
 	void Update () {
 	    
 	}
+
+    public bool getAvailability() {
+        return availability;
+    }
+
     //For testing purposes
     //Use Physics.Raycast instead
     private void OnMouseOver()

@@ -8,6 +8,7 @@ public class TowerBuild_script : MonoBehaviour {
     public GameObject Tower;
     public GameObject InsTower;
     public GameObject player;
+    public GameObject mapcontroller;
     public Text display_info;
     public Button sell;
     public Button upgrade;
@@ -62,7 +63,7 @@ public class TowerBuild_script : MonoBehaviour {
                         if (gridhit.GetComponent<Grid_script>().availability == true)
                         {
                             InsTower.transform.position = gridthitObject.transform.position;
-                            gridhit.GetComponent<Grid_script>().availability = false;
+                            gridhit.gameObject.GetComponent<Grid_script>().availability = false;
                             TowerOnMouse = false;
                             player.GetComponent<PlayerController_script>().addCurrentResource(-10);
                         }
