@@ -448,6 +448,10 @@ MonoBehaviour:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
+  - monsters:
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
   gridMap: []
   mapWidth: 21
   mapHeight: 21

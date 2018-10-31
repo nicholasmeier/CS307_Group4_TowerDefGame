@@ -21,9 +21,7 @@ public class Grid_script : MonoBehaviour {
 	    
 	}
 
-    public bool getAvailability() {
-        return availability;
-    }
+    
 
     //For testing purposes
     //Use Physics.Raycast instead

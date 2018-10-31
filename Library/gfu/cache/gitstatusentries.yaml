@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-31T15:09:11.943-04:00
-  initializedAtString: 2018-10-31T14:26:11.660-04:00
+  lastUpdatedAtString: 2018-10-31T15:34:24.278-04:00
+  initializedAtString: 2018-10-31T15:16:27.132-04:00
   entries:
   - path: .vs\CS307_Group4_TowerDefGame\v15\.suo
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\.vs\CS307_Group4_TowerDefGame\v15\.suo
@@ -51,29 +51,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Assets_Maingame\_Script\TowerInformationScript\TowerBuild_script.cs
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Assets_Maingame\_Script\TowerInformationScript\TowerBuild_script.cs
-    projectPath: Assets\Assets_Maingame\_Script\TowerInformationScript\TowerBuild_script.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Assets_Maingame\Scenes\GameScene.unity
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Assets_Maingame\Scenes\GameScene.unity
-    projectPath: Assets\Assets_Maingame\Scenes\GameScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\CrashedAssetImports.txt
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\EditorInstance.json
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\EditorInstance.json
@@ -105,6 +87,12 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\metadata\44\448983e85c3ed49d6bcfe137850f375c
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\44\448983e85c3ed49d6bcfe137850f375c
     projectPath: Library\metadata\44\448983e85c3ed49d6bcfe137850f375c
@@ -114,12 +102,6 @@ MonoBehaviour:
   - path: Library\metadata\95\9540bb91a241c48ad96f0b4d27751d37
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\95\9540bb91a241c48ad96f0b4d27751d37
     projectPath: Library\metadata\95\9540bb91a241c48ad96f0b4d27751d37
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d0\d0c5efdcef470044dbdef2b0e2bf9d70
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d0\d0c5efdcef470044dbdef2b0e2bf9d70
-    projectPath: Library\metadata\d0\d0c5efdcef470044dbdef2b0e2bf9d70
     originalPath: 
     status: 3
     staged: 0
@@ -134,6 +116,12 @@ MonoBehaviour:
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 5
     staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -177,105 +165,75 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-0f527c21218e1d64fb93f26afee0facf
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-0f527c21218e1d64fb93f26afee0facf
-    projectPath: Temp\UnityTempFile-0f527c21218e1d64fb93f26afee0facf
+  - path: Temp\UnityTempFile-2def71b23753e42498fd7166dc115907
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-2def71b23753e42498fd7166dc115907
+    projectPath: Temp\UnityTempFile-2def71b23753e42498fd7166dc115907
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-43dda98e13a651f4e9f1f78393b23404
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-43dda98e13a651f4e9f1f78393b23404
-    projectPath: Temp\UnityTempFile-43dda98e13a651f4e9f1f78393b23404
+  - path: Temp\UnityTempFile-4ad556193f354dd4e9e926baf02bc870
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-4ad556193f354dd4e9e926baf02bc870
+    projectPath: Temp\UnityTempFile-4ad556193f354dd4e9e926baf02bc870
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-4564e906e1db2ff4086cb5a38f0522d6
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-4564e906e1db2ff4086cb5a38f0522d6
-    projectPath: Temp\UnityTempFile-4564e906e1db2ff4086cb5a38f0522d6
+  - path: Temp\UnityTempFile-4c289579d9650924fae4993e24484283
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-4c289579d9650924fae4993e24484283
+    projectPath: Temp\UnityTempFile-4c289579d9650924fae4993e24484283
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-50b75c8b7413ac74aa25dcfa654f3afd
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-50b75c8b7413ac74aa25dcfa654f3afd
-    projectPath: Temp\UnityTempFile-50b75c8b7413ac74aa25dcfa654f3afd
+  - path: Temp\UnityTempFile-548e498fc84962347958ed9b48d6f235
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-548e498fc84962347958ed9b48d6f235
+    projectPath: Temp\UnityTempFile-548e498fc84962347958ed9b48d6f235
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-89a18ad2558d4ec47b23900646dd4fc1
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-89a18ad2558d4ec47b23900646dd4fc1
-    projectPath: Temp\UnityTempFile-89a18ad2558d4ec47b23900646dd4fc1
+  - path: Temp\UnityTempFile-5b1f32535dc2d1645af66e5a3a793d09
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-5b1f32535dc2d1645af66e5a3a793d09
+    projectPath: Temp\UnityTempFile-5b1f32535dc2d1645af66e5a3a793d09
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-8f1aa36fde4faed4eb612e026371c590
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-8f1aa36fde4faed4eb612e026371c590
-    projectPath: Temp\UnityTempFile-8f1aa36fde4faed4eb612e026371c590
+  - path: Temp\UnityTempFile-663fa2a4676c8504b97068f53a33bb68
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-663fa2a4676c8504b97068f53a33bb68
+    projectPath: Temp\UnityTempFile-663fa2a4676c8504b97068f53a33bb68
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-a9c84e27f3541f540a3aca832e0a3e94
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-a9c84e27f3541f540a3aca832e0a3e94
-    projectPath: Temp\UnityTempFile-a9c84e27f3541f540a3aca832e0a3e94
+  - path: Temp\UnityTempFile-91b9410528708504986da9e0a2fecf10
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-91b9410528708504986da9e0a2fecf10
+    projectPath: Temp\UnityTempFile-91b9410528708504986da9e0a2fecf10
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-b2e7dfb7498248949809961a5197e6de
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-b2e7dfb7498248949809961a5197e6de
-    projectPath: Temp\UnityTempFile-b2e7dfb7498248949809961a5197e6de
+  - path: Temp\UnityTempFile-a149a2cb9f0c3794fac526c44b4d29d1
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-a149a2cb9f0c3794fac526c44b4d29d1
+    projectPath: Temp\UnityTempFile-a149a2cb9f0c3794fac526c44b4d29d1
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-b55233c1fe250d045a5a571df4a6ec84
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-b55233c1fe250d045a5a571df4a6ec84
-    projectPath: Temp\UnityTempFile-b55233c1fe250d045a5a571df4a6ec84
+  - path: Temp\UnityTempFile-aa22e9d076ec84a49a9eb94007c04d74
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-aa22e9d076ec84a49a9eb94007c04d74
+    projectPath: Temp\UnityTempFile-aa22e9d076ec84a49a9eb94007c04d74
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-b5c20375e4a7dfd4380059e0832c6d3f
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-b5c20375e4a7dfd4380059e0832c6d3f
-    projectPath: Temp\UnityTempFile-b5c20375e4a7dfd4380059e0832c6d3f
+  - path: Temp\UnityTempFile-d3e1a195753e0834f8e94ad844502068
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-d3e1a195753e0834f8e94ad844502068
+    projectPath: Temp\UnityTempFile-d3e1a195753e0834f8e94ad844502068
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-ba72000c339bd314ca57d7510d630e3f
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-ba72000c339bd314ca57d7510d630e3f
-    projectPath: Temp\UnityTempFile-ba72000c339bd314ca57d7510d630e3f
+  - path: Temp\UnityTempFile-eb6f09139003f50458bbd6998bd57bde
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-eb6f09139003f50458bbd6998bd57bde
+    projectPath: Temp\UnityTempFile-eb6f09139003f50458bbd6998bd57bde
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-bd66d63c72c53a744a1fd68e8e630504
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-bd66d63c72c53a744a1fd68e8e630504
-    projectPath: Temp\UnityTempFile-bd66d63c72c53a744a1fd68e8e630504
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-c9b13efce64a37044aeaee5e213d2971
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-c9b13efce64a37044aeaee5e213d2971
-    projectPath: Temp\UnityTempFile-c9b13efce64a37044aeaee5e213d2971
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-cab11549a64ff0540825ddb300002be5
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-cab11549a64ff0540825ddb300002be5
-    projectPath: Temp\UnityTempFile-cab11549a64ff0540825ddb300002be5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-e5208df5dbc46bf4092980e685d6738f
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-e5208df5dbc46bf4092980e685d6738f
-    projectPath: Temp\UnityTempFile-e5208df5dbc46bf4092980e685d6738f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ee5561249b232a542a117b17d89a941e
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-ee5561249b232a542a117b17d89a941e
-    projectPath: Temp\UnityTempFile-ee5561249b232a542a117b17d89a941e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-eea6a94953f3e0d498a5598018908a21
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-eea6a94953f3e0d498a5598018908a21
-    projectPath: Temp\UnityTempFile-eea6a94953f3e0d498a5598018908a21
+  - path: Temp\UnityTempFile-ebb21a9cfaf83204085f9ad344cf94b4
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-ebb21a9cfaf83204085f9ad344cf94b4
+    projectPath: Temp\UnityTempFile-ebb21a9cfaf83204085f9ad344cf94b4
     originalPath: 
     status: 1
     staged: 0

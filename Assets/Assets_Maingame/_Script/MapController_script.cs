@@ -95,20 +95,28 @@ public class MapController_script : MonoBehaviour {
         //A sample wave
         waveNumber++;
         wave_display.text = "Wave: " + waveNumber.ToString();
-        yield return new WaitForSeconds(5);
         FindPath();
-        foreach (GameObject monster in wave.monsters){
-            GameObject monsterInstance;
-            //monster_counter++;
-            monsterInstance = Instantiate(monster);
-            monsterInstance.GetComponent<Monster_script>().player = player;
-            monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
-            monsterInstance.GetComponent<Monster_script>().bot_hp_display = bot_hp;
-            monsterInstance.GetComponent<Monster_script>().bot_type_display = bot_type;
-            monsterInstance.GetComponent<Monster_script>().sell = sell;
-            monsterInstance.GetComponent<Monster_script>().upgrade = upgrade;
-            monsterHolder.Add(monsterInstance);
-            yield return new WaitForSeconds(1);
+        foreach (Wave w in waves)
+        {
+            yield return new WaitForSeconds(5);
+            waveNumber++;
+            wave_display.text = "Wave: " + waveNumber.ToString();
+            foreach (GameObject monster in wave.monsters)
+            {
+                GameObject monsterInstance;
+                //monster_counter++;
+                monsterInstance = Instantiate(monster);
+                monsterInstance.GetComponent<Monster_script>().player = player;
+                monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
+                monsterInstance.GetComponent<Monster_script>().bot_hp_display = bot_hp;
+                monsterInstance.GetComponent<Monster_script>().bot_type_display = bot_type;
+                monsterInstance.GetComponent<Monster_script>().sell = sell;
+                monsterInstance.GetComponent<Monster_script>().upgrade = upgrade;
+                monsterHolder.Add(monsterInstance);
+                yield return new WaitForSeconds(1);
+            }
+            
+            
         }
     }
 
