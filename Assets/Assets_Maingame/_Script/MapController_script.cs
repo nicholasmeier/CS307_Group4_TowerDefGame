@@ -93,14 +93,15 @@ public class MapController_script : MonoBehaviour {
 
         //monster_counter = 0;
         //A sample wave
-        waveNumber++;
-        wave_display.text = "Wave: " + waveNumber.ToString();
+        //waveNumber++;
+        //wave_display.text = "Wave: " + waveNumber.ToString();
         FindPath();
         foreach (Wave w in waves)
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(20);
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
+            player.GetComponent<PlayerController_script>().addCurrentResource(100);
             foreach (GameObject monster in wave.monsters)
             {
                 GameObject monsterInstance;

@@ -1131,7 +1131,7 @@ MonoBehaviour:
   HPtext: {fileID: 1685963383}
   Gameover: {fileID: 456449454}
   init_hp: 20
-  init_resource: 100
+  init_resource: 50
 --- !u!4 &1249311646
 Transform:
   m_ObjectHideFlags: 0

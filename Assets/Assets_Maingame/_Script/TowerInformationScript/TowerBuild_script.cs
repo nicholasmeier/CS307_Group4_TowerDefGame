@@ -53,20 +53,23 @@ public class TowerBuild_script : MonoBehaviour {
                     }
                     else
                     {
-                        InsTower = GameObject.Instantiate(Tower, null, true);
-                        InsTower.GetComponent<Tower_script>().bot_atk_display = bot_atk_display;
-                        InsTower.GetComponent<Tower_script>().bot_type_display = bot_type_display;
-                        InsTower.GetComponent<Tower_script>().sell = sell;
-                        InsTower.GetComponent<Tower_script>().upgrade = upgrade;
+                       
 
 
                         if (gridhit.GetComponent<Grid_script>().availability == true)
                         {
+                            InsTower = GameObject.Instantiate(Tower, null, true);
+                            InsTower.GetComponent<Tower_script>().bot_atk_display = bot_atk_display;
+                            InsTower.GetComponent<Tower_script>().bot_type_display = bot_type_display;
+                            InsTower.GetComponent<Tower_script>().sell = sell;
+                            InsTower.GetComponent<Tower_script>().upgrade = upgrade;
+
                             InsTower.transform.position = gridthitObject.transform.position;
                             gridhit.gameObject.GetComponent<Grid_script>().availability = false;
                             TowerOnMouse = false;
                             player.GetComponent<PlayerController_script>().addCurrentResource(-10);
                         }
+
                     }
                     
                     //Debug.Log("shoot");
