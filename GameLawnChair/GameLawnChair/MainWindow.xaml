@@ -5,16 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameLawnChair"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="112,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" IsEnabled="True"/>
+        Title="MainWindow" Height="494.908" Width="800">
+    <Window.Resources>
+        <!--<BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="CS307_Group4_TowerDefGame-master\GameLawnChair\GameLawnChair\117.png"/>-->
+    </Window.Resources>
+    <Grid Background="#FF0E003C" Margin="0,0,0,1">
+        <TextBox x:Name="usernameinput" HorizontalAlignment="Left" Height="23" Margin="112,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" IsEnabled="True" TextChanged="TextBox_TextChanged"/>
         <PasswordBox x:Name="PasswordInput" HorizontalAlignment="Left" Margin="112,373,0,0" VerticalAlignment="Top" Width="149" Height="24"/>
-        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="293,332,0,0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="-4.829,9.365" Height="23"/>
-        <Button x:Name="SignUpButton" Content="Sign Up" HorizontalAlignment="Left" Height="23" Margin="293,373,0,0" VerticalAlignment="Top" Width="55"/>
-        <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,332,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="71" FontSize="14"/>
-        <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,373,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="71" FontSize="14"/>
-        <WebBrowser HorizontalAlignment="Left" Height="293" Margin="24,23,0,0" VerticalAlignment="Top" Width="740" Source="https://cs-307-herotd.firebaseapp.com"/>
-        <Image x:Name="Logo" HorizontalAlignment="Left" Height="209" Margin="621,265,-44.4,-54" VerticalAlignment="Top" Width="217" Source="117.png"/>
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="293,332,0,0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="-4.829,9.365" Height="23" Click="LoginButton_Click" Background="#FF009E0F" Foreground="White" BorderBrush="#FF707070"/>
+        <Button x:Name="SignUpButton" Content="Sign Up" HorizontalAlignment="Left" Height="23" Margin="293,373,0,0" VerticalAlignment="Top" Width="55" Click="SignUpButton_Click" Background="#FF000BFF" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,332,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,373,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
+        <WebBrowser Height="293" Margin="24,23,28,0" VerticalAlignment="Top" Source="https://cs-307-herotd.firebaseapp.com"/>
+        <Image x:Name="Logo" Margin="621,265,-46,-55" Source="{DynamicResource ImageSource1}" HorizontalAlignment="Left" Width="217" Height="209" VerticalAlignment="Top"/>
+        <TextBlock x:Name="outputarea" HorizontalAlignment="Left" Margin="395,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="110" Width="248" Foreground="White"/>
+        <Button x:Name="passwordreset" Content="I forgot my password" Margin="24,414,0,0" RenderTransformOrigin="-0.733,0.138" Click="passwordreset_Click" Background="#FFFFFF73" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="138"/>
+        <Button x:Name="passwordmanuallyreset" Content="I want to reset my password" Margin="181,414,0,0" Background="#FFFFFF73" Click="passwordmanuallyreset_Click" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="167"/>
 
     </Grid>
 </Window>
