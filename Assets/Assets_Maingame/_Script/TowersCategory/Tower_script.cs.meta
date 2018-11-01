@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 97bf006b4838946868c418181f53fa0c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - projectilePrefab: {fileID: 1793929318797574, guid: fa9941cbbd1f9480192b24d24639e16a,
+      type: 2}
+  - monster: {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+  - shootAud: {fileID: 82200148273755082, guid: 6b31858db12684b69b01f773143012fd,
+      type: 2}
+  - sell: {instanceID: 0}
+  - upgrade: {instanceID: 0}
+  - bot_atk_display: {instanceID: 0}
+  - bot_type_display: {instanceID: 0}
+  - UpgradedTower: {instanceID: 0}
+  - IceTower: {fileID: 1486071284530726, guid: 62da535e22dee0c4da72b4e635a68f76, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
