@@ -273,6 +273,7 @@ public class MapController_script : MonoBehaviour {
                 explored.Add(p);
                 p = previous[p];
             }
+            explored.Add(p);
             explored.Add(entry);
 
             //flip order
