@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-11-02T15:32:40.978-04:00
-  initializedAtString: 2018-11-02T15:32:40.978-04:00
+  lastUpdatedAtString: 2018-11-02T15:52:10.515-04:00
+  initializedAtString: 2018-11-02T15:52:10.515-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
@@ -23,14 +23,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Sprint2
+    tracking: origin/Sprint2
   currentConfigBranch:
-    name: master
+    name: Sprint2
     remote:
       name: origin
       url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
-    trackingBranch: master
+    trackingBranch: Sprint2
   currentConfigRemote:
     name: origin
     url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
