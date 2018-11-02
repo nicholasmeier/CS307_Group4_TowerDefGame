@@ -53,9 +53,7 @@ public class TowerBuild_script : MonoBehaviour {
                     }
                     else
                     {
-                       
-
-
+                      
                         if (gridhit.GetComponent<Grid_script>().availability == true)
                         {
                             InsTower = GameObject.Instantiate(Tower, null, true);
@@ -63,8 +61,9 @@ public class TowerBuild_script : MonoBehaviour {
                             InsTower.GetComponent<Tower_script>().bot_type_display = bot_type_display;
                             InsTower.GetComponent<Tower_script>().sell = sell;
                             InsTower.GetComponent<Tower_script>().upgrade = upgrade;
+                            InsTower.GetComponent<Tower_script>().player = player;
 
-                            InsTower.transform.position = gridthitObject.transform.position;
+                            InsTower.transform.position = gridthitObject.transform.position + new Vector3(0,1F,0);
                             gridhit.gameObject.GetComponent<Grid_script>().availability = false;
                             TowerOnMouse = false;
                             player.GetComponent<PlayerController_script>().addCurrentResource(-10);

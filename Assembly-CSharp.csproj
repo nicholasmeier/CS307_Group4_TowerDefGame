@@ -72,7 +72,6 @@
     <Compile Include="Assets\Assets_Maingame\_Script\PlayerController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\projectile_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\TowerInformationScript\TowerBuild_script.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\TowersCategory\IceTower_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\TowersCategory\Tower_script.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ApplicationManager.cs" />

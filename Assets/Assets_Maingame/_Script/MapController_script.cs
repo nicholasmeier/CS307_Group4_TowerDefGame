@@ -102,6 +102,7 @@ public class MapController_script : MonoBehaviour {
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);
+            ShowPath();
             foreach (GameObject monster in wave.monsters)
             {
                 GameObject monsterInstance;
@@ -123,7 +124,12 @@ public class MapController_script : MonoBehaviour {
 
     //For testing:show the grids available for build/pass
     public void ShowPath(){
-        int count = 0;
+        for (int i = 0; i < route.Count; i++)
+        {
+            Grid_script gs = GetGrid(route[i]).GetComponent<Grid_script>();
+            gs.ChangeMaterial(gs.highlightMaterial);
+        }
+        /*int count = 0;
         for (int i = 0; i < mapWidth; i++){
             for (int j = 0; j < mapHeight; j++){
                 if(gridArray[i,j]){
@@ -133,12 +139,23 @@ public class MapController_script : MonoBehaviour {
                 }
             }
         }
+        */
         //Debug.Log("Available grids: " + count);
         //Debug.DrawLine(new Vector3(-3,3, 0.5f), new Vector3(3,3,0.5f), Color.black, 1);
     }
 
-    
 
+    public GameObject GetGrid(Position position)
+    {
+        foreach (GameObject grid in gridMap)
+        {
+            if (GetGridI(grid) == position.i && GetGridJ(grid) == position.j)
+            {
+                return grid;
+            }
+        }
+        return null;
+    }
     //helper function to return a map position of corresponding gridArray indices with y coordinator set to y.
     public Vector3 GetMapPosition(int i, int j, float y){
         float mapX = i - mapWidth / 2.0f + 0.5f;

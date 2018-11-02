@@ -6,6 +6,9 @@ public class Grid_script : MonoBehaviour {
 
     public Material selectedMaterial;
     public Material normalMaterial;
+    public Material highlightMaterial;
+    public Material entryMaterial;
+    public Material exitMaterial;
     public MapController_script mapController;
 
     public bool availability;
@@ -27,8 +30,12 @@ public class Grid_script : MonoBehaviour {
     //Use Physics.Raycast instead
     private void OnMouseOver()
     {
-        if(availability){
-            ChangeMaterial(selectedMaterial);
+        Material currentM = this.gameObject.GetComponent<Renderer>().material;
+        if (availability){
+            if (currentM != highlightMaterial && currentM != entryMaterial && currentM != exitMaterial)
+            {
+                ChangeMaterial(selectedMaterial);
+            }
         }
     }
 
@@ -48,12 +55,17 @@ public class Grid_script : MonoBehaviour {
 
     private void OnMouseExit()
     {
-        if(availability){
-            ChangeMaterial(normalMaterial);
+        Material currentM = this.gameObject.GetComponent<Renderer>().material;
+        if (availability){
+            
+            if (currentM != highlightMaterial && currentM != entryMaterial && currentM != exitMaterial)
+            {
+                ChangeMaterial(normalMaterial);
+            }
         }
     }
 
-    private void ChangeMaterial(Material material){
+    public void ChangeMaterial(Material material){
         this.gameObject.GetComponent<Renderer>().material = material;
     }
 }

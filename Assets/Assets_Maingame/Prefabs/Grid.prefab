@@ -110,3 +110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedMaterial: {fileID: 2100000, guid: b1435413197ea450184d707bcb0d8508, type: 2}
   normalMaterial: {fileID: 2100000, guid: 72de0c6be651c460286b138a3c81ff36, type: 2}
+  highlightMaterial: {fileID: 2100000, guid: 15c85bf7afa0c4541ab0d29296f1c156, type: 2}
+  entryMaterial: {fileID: 2100000, guid: 22811f8ce4be06b42b29412b7fb38f08, type: 2}
+  exitMaterial: {fileID: 2100000, guid: 894124f0c67153744a76f0b7723995b9, type: 2}
+  mapController: {fileID: 0}
+  availability: 0

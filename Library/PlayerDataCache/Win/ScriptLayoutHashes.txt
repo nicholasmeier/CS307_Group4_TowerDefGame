@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/StarMainMenu/Scenes/Menu 3D.unity
 Assets/StarMainMenu/Scenes/Controls.unity
 Assets/StarMainMenu/Scenes/New Scene.unity
+Assets/Assets_Maingame/Scenes/GameScene.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -197,9 +198,11 @@ ffa33c85a00f83be514aa40495f1cae2 Assembly-CSharp.dll:.DragMe
 6449f6e84104afc368ae9875bc338097 Assembly-CSharp.dll:.IceTower_script
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:TDTK.TDSave
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MasterVolume
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MonsterAdder
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DontDestroy
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 9d863b523b577f5c3d915351a74cd338 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -244,5 +247,3 @@ def5c0fcfeb229d02824a9ae2a7e12bb Assembly-CSharp.dll:TDTK.UIDnDStatusOverlay
 67264c8bcbeb989c2372d62cbc8a1c6f Assembly-CSharp.dll:TDTK.AbilityDB
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ChangeColor
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.PauseAudio
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DontDestroy
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MasterVolume

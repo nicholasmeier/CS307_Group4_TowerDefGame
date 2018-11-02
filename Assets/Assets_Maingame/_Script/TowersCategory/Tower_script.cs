@@ -9,6 +9,7 @@ public class Tower_script: MonoBehaviour {
     public GameObject projectilePrefab;
     //for prototyping
     public GameObject monster;
+    public GameObject player;
     public float projectileSpeed;
     public float gold;
     public List<GameObject> monsters;
@@ -25,8 +26,8 @@ public class Tower_script: MonoBehaviour {
     private float attack;
     //counter for set bool mouse
 
-    public GameObject UpgradedTower;
-    public GameObject IceTower;
+    int TowerIndex;
+    public Material IceMaterial;
     //Tower Types
 
 
@@ -43,14 +44,14 @@ public class Tower_script: MonoBehaviour {
 
     public void TowerUpgrade(int TowerTypeIndex)
     {
-        Vector3 OriginPosition = this.gameObject.transform.position;
-        Destroy(this.gameObject);
         if (TowerTypeIndex == 1)
         {
 
             //Debug.Log("Lost");
-            UpgradedTower = (GameObject)Instantiate(IceTower, null, true);
-            UpgradedTower.transform.position = OriginPosition;
+            projectilePrefab.GetComponent<projectile_script>().damage = 20000;
+            this.gameObject.GetComponent<Renderer>().material = IceMaterial;
+            player.GetComponent<PlayerController_script>().addCurrentResource(-30);
+            
 
         }
     }
@@ -61,6 +62,7 @@ public class Tower_script: MonoBehaviour {
         //determine the target
         if (display_flag)
         {
+            attack = projectilePrefab.GetComponent<projectile_script>().damage;
             bot_type_display.text = "Type: " + this.tag.ToString();
             bot_atk_display.text = "ATK: " + attack.ToString();
             sell.gameObject.SetActive(true);
@@ -110,5 +112,10 @@ public class Tower_script: MonoBehaviour {
             lastShot = Time.time;
         }
     }
+
+    /*public void slowDown(int speed)
+    {
+
+    }*/
 }
 
