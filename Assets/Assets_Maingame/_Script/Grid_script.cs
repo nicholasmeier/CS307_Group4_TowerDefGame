@@ -32,7 +32,7 @@ public class Grid_script : MonoBehaviour {
     {
         Material currentM = this.gameObject.GetComponent<Renderer>().material;
         if (availability){
-            if (currentM != highlightMaterial && currentM != entryMaterial && currentM != exitMaterial)
+            if (currentM.Equals(highlightMaterial) && currentM.Equals(entryMaterial) && currentM.Equals(exitMaterial))
             {
                 ChangeMaterial(selectedMaterial);
             }
@@ -57,8 +57,8 @@ public class Grid_script : MonoBehaviour {
     {
         Material currentM = this.gameObject.GetComponent<Renderer>().material;
         if (availability){
-            
-            if (currentM != highlightMaterial && currentM != entryMaterial && currentM != exitMaterial)
+
+            if (currentM.Equals(highlightMaterial) && currentM.Equals(entryMaterial) && currentM.Equals(exitMaterial))
             {
                 ChangeMaterial(normalMaterial);
             }

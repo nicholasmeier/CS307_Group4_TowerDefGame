@@ -98,7 +98,7 @@ public class MapController_script : MonoBehaviour {
         FindPath();
         foreach (Wave w in waves)
         {
-            yield return new WaitForSeconds(20);
+            yield return new WaitForSeconds(10);
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);
