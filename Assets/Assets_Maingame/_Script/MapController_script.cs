@@ -107,11 +107,13 @@ public class MapController_script : MonoBehaviour {
         foreach (Wave w in waves)
         {
             yield return new WaitForSeconds(10);
-            FindPath();
+            UpdatePath();
+            //ClearPath();
+            //FindPath();
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);
-            ShowPath();
+            //ShowPath();
             foreach (GameObject monster in wave.monsters)
             {
                 GameObject monsterInstance;
@@ -128,6 +130,20 @@ public class MapController_script : MonoBehaviour {
             }
             
             
+            
+        }
+    }
+    public void UpdatePath() {
+        ClearPath();
+        FindPath();
+        ShowPath();
+    }
+
+    public void ClearPath() {
+        for (int i = 0; i < route.Count; i++)
+        {
+            Grid_script gs = GetGrid(route[i]).GetComponent<Grid_script>();
+            gs.ChangeMaterial(gs.normalMaterial);
         }
     }
 
