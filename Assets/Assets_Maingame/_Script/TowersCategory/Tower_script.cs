@@ -65,6 +65,7 @@ public class Tower_script: MonoBehaviour {
         baseGrid.GetComponent<Grid_script>().availability = true;
         mapcontroller.GetComponent<MapController_script>().SetAvailability(baseGrid, true);
         Destroy(this.gameObject);
+        mapcontroller.GetComponent<MapController_script>().UpdatePath();
     }
 
     // Update is called once per frame
@@ -78,6 +79,7 @@ public class Tower_script: MonoBehaviour {
             bot_atk_display.text = "ATK: " + attack.ToString();
             sell.gameObject.SetActive(true);
             upgrade.gameObject.SetActive(true);
+            this.transform.Find("Cylinder").GetComponent<MeshRenderer>().enabled = true;
 
         }
 

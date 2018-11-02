@@ -192,7 +192,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: eb4634a1fa0bc4d429c875703ff97e75, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -348,16 +348,18 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1793929318797574, guid: fa9941cbbd1f9480192b24d24639e16a,
     type: 2}
   monster: {fileID: 0}
+  player: {fileID: 0}
   projectileSpeed: 10
   gold: 10
   monsters: []
   shootAud: {fileID: 82200148273755082}
+  mapcontroller: {fileID: 0}
   sell: {fileID: 0}
   upgrade: {fileID: 0}
   bot_atk_display: {fileID: 0}
   bot_type_display: {fileID: 0}
-  UpgradedTower: {fileID: 0}
-  IceTower: {fileID: 1486071284530726, guid: 62da535e22dee0c4da72b4e635a68f76, type: 2}
+  baseGrid: {fileID: 0}
+  IceMaterial: {fileID: 0}
 --- !u!114 &114094080741331738
 MonoBehaviour:
   m_ObjectHideFlags: 1

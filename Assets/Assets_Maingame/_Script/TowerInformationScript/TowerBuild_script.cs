@@ -53,28 +53,72 @@ public class TowerBuild_script : MonoBehaviour {
                     }
                     else
                     {
-                      
-                        if (gridhit.GetComponent<Grid_script>().availability == true)
+                        if (mapcontroller.GetComponent<MapController_script>().getInwave())
                         {
-                            InsTower = GameObject.Instantiate(Tower, null, true);
-                            Tower_script ts = InsTower.GetComponent<Tower_script>();
-                            ts.bot_atk_display = bot_atk_display;
-                            ts.bot_type_display = bot_type_display;
-                            ts.sell = sell;
-                            ts.upgrade = upgrade;
-                            ts.player = player;
-                            ts.mapcontroller = mapcontroller;
+                            bool flag = false;
+                            for (int i = 0; i < mapcontroller.GetComponent<MapController_script>().route.Count; i++)
+                            {
+                                GameObject gs = mapcontroller.GetComponent<MapController_script>().GetGrid(mapcontroller.GetComponent<MapController_script>().route[i]);
+                                if (gridhit.gameObject.Equals(gs))
+                                {
+                                    TowerOnMouse = false;
+                                    display_info.text = "Can't build";
+                                    flag = true;
 
-                            InsTower.GetComponent<Tower_script>().baseGrid = gridhitObject; 
+                                }
 
-                            InsTower.transform.position = gridhitObject.transform.position + new Vector3(0,1F,0);
-                            gridhit.gameObject.GetComponent<Grid_script>().availability = false;
-                            mapcontroller.GetComponent<MapController_script>().SetAvailability(gridhitObject,false);
-                            TowerOnMouse = false;
-                            player.GetComponent<PlayerController_script>().addCurrentResource(-10);
-                            
+                            }
+                            if (!flag) {
+                                if (gridhit.GetComponent<Grid_script>().availability == true)
+                                {
+                                    display_info.text = "";
+                                    InsTower = GameObject.Instantiate(Tower, null, true);
+                                    Tower_script ts = InsTower.GetComponent<Tower_script>();
+                                    ts.bot_atk_display = bot_atk_display;
+                                    ts.bot_type_display = bot_type_display;
+                                    ts.sell = sell;
+                                    ts.upgrade = upgrade;
+                                    ts.player = player;
+                                    ts.mapcontroller = mapcontroller;
+
+                                    InsTower.GetComponent<Tower_script>().baseGrid = gridhitObject;
+
+                                    InsTower.transform.position = gridhitObject.transform.position + new Vector3(0, 1F, 0);
+                                    gridhit.gameObject.GetComponent<Grid_script>().availability = false;
+                                    mapcontroller.GetComponent<MapController_script>().SetAvailability(gridhitObject, false);
+                                    TowerOnMouse = false;
+                                    player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+                                    //mapcontroller.GetComponent<MapController_script>().UpdatePath();
+
+                                }
+                            }
+
                         }
+                        else
+                        {
+                            if (gridhit.GetComponent<Grid_script>().availability == true)
+                            {
+                                display_info.text = "";
+                                InsTower = GameObject.Instantiate(Tower, null, true);
+                                Tower_script ts = InsTower.GetComponent<Tower_script>();
+                                ts.bot_atk_display = bot_atk_display;
+                                ts.bot_type_display = bot_type_display;
+                                ts.sell = sell;
+                                ts.upgrade = upgrade;
+                                ts.player = player;
+                                ts.mapcontroller = mapcontroller;
 
+                                InsTower.GetComponent<Tower_script>().baseGrid = gridhitObject;
+
+                                InsTower.transform.position = gridhitObject.transform.position + new Vector3(0, 1F, 0);
+                                gridhit.gameObject.GetComponent<Grid_script>().availability = false;
+                                mapcontroller.GetComponent<MapController_script>().SetAvailability(gridhitObject, false);
+                                TowerOnMouse = false;
+                                player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+                                mapcontroller.GetComponent<MapController_script>().UpdatePath();
+
+                            }
+                        }
                     }
                     
                     //Debug.Log("shoot");

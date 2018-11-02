@@ -26,8 +26,9 @@ public class PlayerController_script : MonoBehaviour {
         mouse = false;
 	}
 
-    public int getCurrentHP() {
-        return current_hp;
+    public void addCurrentHP(int tobeadd) {
+        current_hp += tobeadd;
+        HPtext.text = "HP: " + current_hp.ToString();
     }
 
     public float getCurrentResource() {

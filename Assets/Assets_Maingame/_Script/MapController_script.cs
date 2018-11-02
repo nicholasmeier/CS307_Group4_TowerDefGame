@@ -45,6 +45,7 @@ public class MapController_script : MonoBehaviour {
     // private int monster_counter;
     private float player_current_resource;
     private int waveNumber;
+    public bool inWave;
 
 
 
@@ -106,19 +107,22 @@ public class MapController_script : MonoBehaviour {
         
         foreach (Wave w in waves)
         {
-            yield return new WaitForSeconds(10);
+            inWave = false;
+            yield return new WaitForSeconds(15);
             UpdatePath();
             //ClearPath();
             //FindPath();
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);
+            
             //ShowPath();
             foreach (GameObject monster in wave.monsters)
             {
+                inWave = true;
                 GameObject monsterInstance;
                 //monster_counter++;
-                monsterInstance = Instantiate(monster);
+                monsterInstance = Instantiate(monster, GetMapPosition(entry.i,entry.j,0.5f),Quaternion.identity);
                 monsterInstance.GetComponent<Monster_script>().player = player;
                 monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
                 monsterInstance.GetComponent<Monster_script>().bot_hp_display = bot_hp;
@@ -132,6 +136,10 @@ public class MapController_script : MonoBehaviour {
             
             
         }
+    }
+
+    public bool getInwave() {
+        return inWave;
     }
     public void UpdatePath() {
         ClearPath();
