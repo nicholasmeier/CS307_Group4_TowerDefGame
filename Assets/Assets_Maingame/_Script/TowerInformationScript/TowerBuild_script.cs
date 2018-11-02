@@ -43,7 +43,7 @@ public class TowerBuild_script : MonoBehaviour {
             if (Physics.Raycast(ray, out hitInfo, 200))
             {
                 Collider gridhit= hitInfo.collider;
-                GameObject gridthitObject = gridhit.gameObject;
+                GameObject gridhitObject = gridhit.gameObject;
                 if (Input.GetMouseButtonDown(0) )
                 {
                     if (gold < 10) 
@@ -57,16 +57,22 @@ public class TowerBuild_script : MonoBehaviour {
                         if (gridhit.GetComponent<Grid_script>().availability == true)
                         {
                             InsTower = GameObject.Instantiate(Tower, null, true);
-                            InsTower.GetComponent<Tower_script>().bot_atk_display = bot_atk_display;
-                            InsTower.GetComponent<Tower_script>().bot_type_display = bot_type_display;
-                            InsTower.GetComponent<Tower_script>().sell = sell;
-                            InsTower.GetComponent<Tower_script>().upgrade = upgrade;
-                            InsTower.GetComponent<Tower_script>().player = player;
+                            Tower_script ts = InsTower.GetComponent<Tower_script>();
+                            ts.bot_atk_display = bot_atk_display;
+                            ts.bot_type_display = bot_type_display;
+                            ts.sell = sell;
+                            ts.upgrade = upgrade;
+                            ts.player = player;
+                            ts.mapcontroller = mapcontroller;
 
-                            InsTower.transform.position = gridthitObject.transform.position + new Vector3(0,1F,0);
+                            InsTower.GetComponent<Tower_script>().baseGrid = gridhitObject; 
+
+                            InsTower.transform.position = gridhitObject.transform.position + new Vector3(0,1F,0);
                             gridhit.gameObject.GetComponent<Grid_script>().availability = false;
+                            mapcontroller.GetComponent<MapController_script>().SetAvailability(gridhitObject,false);
                             TowerOnMouse = false;
                             player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+                            
                         }
 
                     }

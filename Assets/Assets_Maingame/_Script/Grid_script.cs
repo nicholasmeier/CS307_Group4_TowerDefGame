@@ -38,7 +38,10 @@ public class Grid_script : MonoBehaviour {
             }
         }
     }
-
+    public void setAvailability(bool ava) {
+        mapController.SetAvailability(this.gameObject, ava);
+        availability = ava;
+    }
     private void OnMouseDown()
     {
         /*if(availability){

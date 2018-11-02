@@ -86,6 +86,14 @@ public class MapController_script : MonoBehaviour {
                 gridMap.Add(gridInstance);
             }
         }
+        /*
+        Grid_script entry_grid = GetGrid(entry).GetComponent<Grid_script>();
+        Grid_script exit_grid = GetGrid(exit).GetComponent<Grid_script>();
+        entry_grid.ChangeMaterial(entry_grid.entryMaterial);
+        exit_grid.ChangeMaterial(exit_grid.exitMaterial);
+        entry_grid.setAvailability(false);
+        exit_grid.setAvailability(false);
+        */
         yield return 0;
     }
 
@@ -95,10 +103,11 @@ public class MapController_script : MonoBehaviour {
         //A sample wave
         //waveNumber++;
         //wave_display.text = "Wave: " + waveNumber.ToString();
-        FindPath();
+        
         foreach (Wave w in waves)
         {
             yield return new WaitForSeconds(10);
+            FindPath();
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);

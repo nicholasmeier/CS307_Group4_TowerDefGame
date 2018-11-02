@@ -14,6 +14,7 @@ public class Tower_script: MonoBehaviour {
     public float gold;
     public List<GameObject> monsters;
     public AudioSource shootAud;
+    public GameObject mapcontroller;
     //public MapController
     //for bottom display information
     public Button sell;
@@ -26,6 +27,7 @@ public class Tower_script: MonoBehaviour {
     private float attack;
     //counter for set bool mouse
 
+    public GameObject baseGrid;
     int TowerIndex;
     public Material IceMaterial;
     //Tower Types
@@ -40,6 +42,7 @@ public class Tower_script: MonoBehaviour {
         attack = projectilePrefab.GetComponent<projectile_script>().damage;
 
         upgrade.onClick.AddListener(delegate { TowerUpgrade(1); });
+        sell.onClick.AddListener(TowerSell);
     }
 
     public void TowerUpgrade(int TowerTypeIndex)
@@ -54,6 +57,14 @@ public class Tower_script: MonoBehaviour {
             
 
         }
+    }
+    
+    public void TowerSell()
+    { 
+        player.GetComponent<PlayerController_script>().addCurrentResource(5);
+        baseGrid.GetComponent<Grid_script>().availability = true;
+        mapcontroller.GetComponent<MapController_script>().SetAvailability(baseGrid, true);
+        Destroy(this.gameObject);
     }
 
     // Update is called once per frame
