@@ -1490,7 +1490,7 @@ MonoBehaviour:
   hp_atk_display: {fileID: 2036623104}
   HPtext: {fileID: 1685963383}
   Gameover: {fileID: 456449454}
-  init_hp: 20
+  init_hp: 15
   init_resource: 50
 --- !u!4 &1249311646
 Transform:
