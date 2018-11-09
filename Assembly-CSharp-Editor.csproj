@@ -90,6 +90,9 @@
     <None Include="Assets\Firebase\Editor\FirebaseAuth_v5.3.0_manifest.txt" />
     <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
     <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
