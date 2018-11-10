@@ -3,19 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum selectionStatus
+{
+    towerSelected, iconSelected, monsterSelected, none
+}
 public class PlayerController_script : MonoBehaviour {
+    //Resources
+    public int init_hp;
+    public float init_resource;
+    float current_resource;
+    bool mouse;
+    int current_hp;
+
+    //Related game objects
     public Text resourceText;
     public Text type_display;
     public Text hp_atk_display;
     public Text HPtext;
     public Text Gameover;
-    public int init_hp;
-    private int current_hp;
-    public float init_resource;
-    private float current_resource;
-    private bool mouse;
-	// Use this for initialization
-	void Start () {
+
+    //Selection status
+    selectionStatus selectionStatus;
+
+
+
+    // Use this for initialization
+    void Start () {
         current_resource = init_resource;
         current_hp = init_hp;
         resourceText.text = "Gold: " + current_resource.ToString();

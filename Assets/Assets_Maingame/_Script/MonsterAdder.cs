@@ -18,7 +18,7 @@ public class MonsterAdder : MonoBehaviour {
     {
         if(other.CompareTag("Monster") || other.CompareTag("Boss"))
         {
-            GetComponentInParent<Tower_script>().monsters.Add(other.gameObject);
+            GetComponentInParent<Tower_script>().GetMonsters().Add(other.gameObject);
         }
 
     }
@@ -27,7 +27,7 @@ public class MonsterAdder : MonoBehaviour {
     {
         if(other.CompareTag("Monster") || other.CompareTag("Boss"))
         {
-            GetComponentInParent<Tower_script>().monsters.Remove(other.gameObject);
+            GetComponentInParent<Tower_script>().GetMonsters().Remove(other.gameObject);
         }
     }
 }
