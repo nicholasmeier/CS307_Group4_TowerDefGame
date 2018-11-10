@@ -25,11 +25,11 @@ public class Healthbar_script : MonoBehaviour
     {
         //Destroy in parent class.
         //set length
-        this.transform.localScale = new Vector3(monster.hp / monster.fullHp, scale.y, scale.z);
+        this.transform.localScale = new Vector3(monster.getHp() / monster.getFullHp(), scale.y, scale.z);
         //set left alignment
-        float moveLeft = (monster.fullHp - monster.hp) / monster.fullHp / 2;
+        float moveLeft = (monster.getFullHp() - monster.getHp()) / monster.getFullHp() / 2;
         offset = new Vector3(-moveLeft, offset.y, offset.z);
 
-        this.transform.position = monster.transform.position + offset;
+        this.transform.position = monster.getPos() + offset;
     }
 }

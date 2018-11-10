@@ -123,12 +123,12 @@ public class MapController_script : MonoBehaviour {
                 GameObject monsterInstance;
                 //monster_counter++;
                 monsterInstance = Instantiate(monster, GetMapPosition(entry.i,entry.j,0.5f),Quaternion.identity);
-                monsterInstance.GetComponent<Monster_script>().player = player;
-                monsterInstance.GetComponent<Monster_script>().mapcontroller = this.gameObject;
-                monsterInstance.GetComponent<Monster_script>().bot_hp_display = bot_hp;
-                monsterInstance.GetComponent<Monster_script>().bot_type_display = bot_type;
-                monsterInstance.GetComponent<Monster_script>().sell = sell;
-                monsterInstance.GetComponent<Monster_script>().upgrade = upgrade;
+                monsterInstance.GetComponent<Monster_script>().setPlayer(player);
+                monsterInstance.GetComponent<Monster_script>().setMapContoller(this.gameObject);
+                monsterInstance.GetComponent<Monster_script>().setHptext(bot_hp);
+                monsterInstance.GetComponent<Monster_script>().setTypetext(bot_type);
+                monsterInstance.GetComponent<Monster_script>().setSellButton(sell);
+                monsterInstance.GetComponent<Monster_script>().setUpgradeButton(upgrade);
                 monsterHolder.Add(monsterInstance);
                 yield return new WaitForSeconds(1);
             }

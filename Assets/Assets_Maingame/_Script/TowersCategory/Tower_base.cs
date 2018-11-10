@@ -86,7 +86,7 @@ public class Tower_base: MonoBehaviour, Tower_script {
 
 
 
-        if (target != null && target.GetComponent<Monster_script>().hp.Equals(0))
+        if (target != null && target.GetComponent<Monster_script>().getHp().Equals(0))
         {
             monsters.Remove(target);
             target = null;
