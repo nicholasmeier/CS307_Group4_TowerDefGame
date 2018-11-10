@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -447,22 +447,8 @@ MonoBehaviour:
   - monsters:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
-  - monsters:
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
-  - monsters:
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
-  - monsters:
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
-  - monsters:
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1875941785361242, guid: 2bbe17c195256b64d870a360895ca740, type: 2}
   gridMap: []
   mapWidth: 21
@@ -474,49 +460,9 @@ MonoBehaviour:
     i: 3
     j: 3
   exit:
-    i: 18
-    j: 14
-  route:
-  - i: 21
-    j: 21
-  - i: 21
-    j: 20
-  - i: 21
+    i: 17
     j: 19
-  - i: 21
-    j: 18
-  - i: 21
-    j: 17
-  - i: 20
-    j: 17
-  - i: 19
-    j: 17
-  - i: 18
-    j: 17
-  - i: 17
-    j: 17
-  - i: 16
-    j: 17
-  - i: 15
-    j: 17
-  - i: 14
-    j: 17
-  - i: 13
-    j: 17
-  - i: 12
-    j: 17
-  - i: 11
-    j: 17
-  - i: 10
-    j: 17
-  - i: 9
-    j: 17
-  - i: 8
-    j: 17
-  - i: 7
-    j: 17
-  - i: 6
-    j: 17
+  route: []
   bot_hp: {fileID: 2036623104}
   bot_type: {fileID: 1812388340}
   sell: {fileID: 1984140645}
@@ -1284,8 +1230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c5efdcef470044dbdef2b0e2bf9d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tower: {fileID: 1367714714588856, guid: daea34b05c25e054faae12b7d551c973, type: 2}
-  InsTower: {fileID: 1367714714588856, guid: daea34b05c25e054faae12b7d551c973, type: 2}
+  Tower: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
+  InsTower: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
   player: {fileID: 1249311644}
   mapcontroller: {fileID: 251866434}
   display_info: {fileID: 456449454}
@@ -1299,8 +1245,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1151241520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 512, y: 384, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 512, y: 383.99997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1485,13 +1431,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853c0de0a15e2b744832cb0ef63fc83f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  init_hp: 20
+  init_resource: 5000
   resourceText: {fileID: 843195738}
   type_display: {fileID: 1812388340}
   hp_atk_display: {fileID: 2036623104}
   HPtext: {fileID: 1685963383}
   Gameover: {fileID: 456449454}
-  init_hp: 15
-  init_resource: 1000
 --- !u!4 &1249311646
 Transform:
   m_ObjectHideFlags: 0

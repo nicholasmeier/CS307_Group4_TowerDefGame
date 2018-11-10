@@ -74,14 +74,14 @@ public class TowerBuild_script : MonoBehaviour {
                                     display_info.text = "";
                                     InsTower = GameObject.Instantiate(Tower, null, true);
                                     Tower_script ts = InsTower.GetComponent<Tower_script>();
-                                    ts.bot_atk_display = bot_atk_display;
-                                    ts.bot_type_display = bot_type_display;
-                                    ts.sell = sell;
-                                    ts.upgrade = upgrade;
-                                    ts.player = player;
-                                    ts.mapcontroller = mapcontroller;
+                                    ts.SetBot_atk_display(bot_atk_display);
+                                    ts.SetBot_type_display(bot_type_display);
+                                    ts.SetSell(sell);
+                                    ts.SetUpgrade(upgrade);
+                                    ts.SetPlayer(player);
+                                    ts.SetMapController(mapcontroller);
 
-                                    InsTower.GetComponent<Tower_script>().baseGrid = gridhitObject;
+                                    InsTower.GetComponent<Tower_script>().SetGrid(gridhitObject);
 
                                     InsTower.transform.position = gridhitObject.transform.position + new Vector3(0, 1F, 0);
                                     gridhit.gameObject.GetComponent<Grid_script>().availability = false;
@@ -101,14 +101,14 @@ public class TowerBuild_script : MonoBehaviour {
                                 display_info.text = "";
                                 InsTower = GameObject.Instantiate(Tower, null, true);
                                 Tower_script ts = InsTower.GetComponent<Tower_script>();
-                                ts.bot_atk_display = bot_atk_display;
-                                ts.bot_type_display = bot_type_display;
-                                ts.sell = sell;
-                                ts.upgrade = upgrade;
-                                ts.player = player;
-                                ts.mapcontroller = mapcontroller;
+                                ts.SetBot_atk_display(bot_atk_display);
+                                ts.SetBot_type_display(bot_type_display);
+                                ts.SetSell(sell);
+                                ts.SetUpgrade(upgrade);
+                                ts.SetPlayer(player);
+                                ts.SetMapController(mapcontroller);
 
-                                InsTower.GetComponent<Tower_script>().baseGrid = gridhitObject;
+                                InsTower.GetComponent<Tower_script>().SetGrid(gridhitObject);
 
                                 InsTower.transform.position = gridhitObject.transform.position + new Vector3(0, 1F, 0);
                                 gridhit.gameObject.GetComponent<Grid_script>().availability = false;

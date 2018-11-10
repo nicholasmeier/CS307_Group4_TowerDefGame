@@ -5,33 +5,34 @@ using UnityEngine.UI;
 
 public class Tower_base: MonoBehaviour, Tower_script {
     //public float range;
-    public float coolDown; 
-    public GameObject projectilePrefab;
     //for prototyping
-    public GameObject monster;
-    public GameObject player;
+    //public GameObject monster;
+    //public MapController
+    //for bottom display information
     public float projectileSpeed;
     public float gold;
+    public float coolDown; 
+    GameObject target;
+    float lastShot;
+
     public List<GameObject> monsters;
     public AudioSource shootAud;
     public GameObject mapcontroller;
-    //public MapController
-    //for bottom display information
+    public GameObject projectilePrefab;
+    public GameObject player;
     public Button sell;
     public Button upgrade;
     public Text bot_atk_display;
     public Text bot_type_display;
-    private GameObject target;
-    private float lastShot;
-    private bool display_flag;
-    private float attack;
+    bool display_flag;
+
+    float attack;
     //counter for set bool mouse
 
     public GameObject baseGrid;
     int TowerIndex;
     public Material IceMaterial;
     //Tower Types
-
 
     // Use this for initialization
     void Start () {
@@ -131,6 +132,41 @@ public class Tower_base: MonoBehaviour, Tower_script {
         return monsters;
     }
 
+    public Text GetBot_atk_display(){
+        return bot_atk_display;
+    }
+
+    public void SetBot_atk_display(Text bot_atk_display){
+        this.bot_atk_display = bot_atk_display;
+    }
+
+    public Text GetBot_type_display(){
+        return bot_type_display;
+    }
+
+    public void SetBot_type_display(Text bot_type_display){
+        this.bot_type_display = bot_type_display;
+    }
+
+    public void SetSell(Button sell){
+        this.sell = sell;
+    }
+
+    public void SetUpgrade(Button upgrade){
+        this.upgrade = upgrade;
+    }
+
+    public void SetPlayer(GameObject player){
+        this.player = player;
+    }
+
+    public void SetMapController(GameObject mapController){
+        this.mapcontroller = mapController;
+    }
+
+    public void SetGrid(GameObject grid){
+        this.baseGrid = grid;
+    }
     /*public void slowDown(int speed)
     {
 
