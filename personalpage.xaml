@@ -1,0 +1,27 @@
+﻿<Window x:Class="GameLawnChair.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLawnChair"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="Azure">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Personal information page" VerticalAlignment="Top" Height="37" Width="373" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Height="30" Width="121" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="110" Height="30" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="460" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="460" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,130,0,0" TextWrapping="Wrap" Text="Rank" VerticalAlignment="Top" Width="110" Height="30" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,170,0,0" TextWrapping="Wrap" Text="Win Ratio" VerticalAlignment="Top" Width="110" Height="30" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="635" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="635" FontSize="18"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="647,10,0,0" VerticalAlignment="Top" Width="124"/>
+        <TextBlock HorizontalAlignment="Left" Margin="407,10,0,0" TextWrapping="Wrap" Text="Portrait" VerticalAlignment="Top" Height="39" Width="235" FontSize="20"/>
+        <Button x:Name="sttgm" Content="Start Game" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="373" Height="62" FontSize="36" Click="Button_Click"/>
+        <Button x:Name="logout" Content="Log Out" HorizontalAlignment="Left" Margin="400,225,0,0" VerticalAlignment="Top" Width="373" Height="62" FontSize="36" Click="Button_Click_1"/>
+        <Button x:Name="resetpswd" Content="Reset Password" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Width="164" Height="41" FontSize="20" Click="Button_Click_2"/>
+        <Image HorizontalAlignment="Left" Height="190" Margin="647,287,-39,-58" VerticalAlignment="Top" Width="184" Source="117.png"/>
+
+    </Grid>
+</Window>
