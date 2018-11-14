@@ -42,6 +42,9 @@ public class MapController_script : MonoBehaviour {
     public Text bot_type;
     public Button sell;
     public Button upgrade;
+    public Text display_info;
+    public Text bot_atk_display;
+    public Text bot_type_display;
     // private int monster_counter;
     private float player_current_resource;
     private int waveNumber;
@@ -202,7 +205,74 @@ public class MapController_script : MonoBehaviour {
         gridArray[i, j] = availability;
     }
 
+    //BuildTower starts here
+    public void BuildTower(GameObject tower, GameObject grid){
+        GameObject insTower; 
+        if (getInwave())
+        {
 
+            for (int i = 0; i < route.Count; i++)
+            {
+                GameObject gs = GetGrid(route[i]);
+                if (grid.gameObject.Equals(gs))
+                {
+                    display_info.text = "Can't build";
+                    return;
+                }
+
+            }
+            if (grid.GetComponent<Grid_script>().availability == true)
+            {
+                display_info.text = "";
+                insTower = Instantiate(tower);
+                Tower_script ts = insTower.GetComponent<Tower_script>();
+                ts.SetBot_atk_display(bot_atk_display);
+                ts.SetBot_type_display(bot_type_display);
+                ts.SetSell(sell);
+                ts.SetUpgrade(upgrade);
+                ts.SetPlayer(player);
+                ts.SetMapController(this.gameObject);
+
+                insTower.GetComponent<Tower_script>().SetGrid(grid);
+
+                insTower.transform.position = grid.transform.position + new Vector3(0, 1F, 0);
+                grid.GetComponent<Grid_script>().setAvailability(false);
+                player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+                //mapcontroller.GetComponent<MapController_script>().UpdatePath();
+            }
+            else{
+                display_info.text = "Not available!";
+            }
+        }
+        else
+        {
+            if (grid.GetComponent<Grid_script>().availability == true)
+            {
+                display_info.text = "";
+                insTower = Instantiate(tower);
+                Tower_script ts = insTower.GetComponent<Tower_script>();
+                ts.SetBot_atk_display(bot_atk_display);
+                ts.SetBot_type_display(bot_type_display);
+                ts.SetSell(sell);
+                ts.SetUpgrade(upgrade);
+                ts.SetPlayer(player);
+                ts.SetMapController(this.gameObject);
+
+                insTower.GetComponent<Tower_script>().SetGrid(grid);
+
+                insTower.transform.position = grid.transform.position + new Vector3(0, 1F, 0);
+                grid.GetComponent<Grid_script>().setAvailability(false);
+                player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+                UpdatePath();
+
+            }
+            else
+            {
+                display_info.text = "Not available!";
+            }
+        }
+    }
+   
     //getting i and j indices of the grid
     public int GetGridI(GameObject grid){
         int i = (int)(grid.transform.position.x - 0.5 + mapWidth / 2.0f);
@@ -213,6 +283,7 @@ public class MapController_script : MonoBehaviour {
         int j = (int)(grid.transform.position.z - 0.5 + mapHeight / 2.0f);
         return j;
     }
+    //FindPath and helper functions
     bool FindPath()
     {
         List<Position> newFrontier = new List<Position>();
@@ -286,7 +357,6 @@ public class MapController_script : MonoBehaviour {
         }
 
     }
-
     bool Contains(List<Position> l, Position p)
     {
         foreach (Position q in l)
@@ -298,8 +368,6 @@ public class MapController_script : MonoBehaviour {
         }
         return false;
     }
-
-
     List<Position> Neighbor(Position p)
     {
         List<Position> dest = new List<Position>();

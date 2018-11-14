@@ -317,6 +317,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1793929318797574, guid: fa9941cbbd1f9480192b24d24639e16a,
     type: 2}
   player: {fileID: 0}
+  prefab: {fileID: 1367714714588856}
   sell: {fileID: 0}
   upgrade: {fileID: 0}
   bot_atk_display: {fileID: 0}

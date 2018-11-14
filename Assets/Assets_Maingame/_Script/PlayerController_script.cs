@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum selectionStatus
+public enum SelectionStatus
 {
     towerSelected, iconSelected, monsterSelected, none
 }
@@ -23,9 +23,9 @@ public class PlayerController_script : MonoBehaviour {
     public Text Gameover;
 
     //Selection status
-    selectionStatus selectionStatus;
-
-
+    public SelectionStatus selectionStatus;
+    public GameObject selectedTower;
+    GameObject selectedMonster;
 
     // Use this for initialization
     void Start () {
@@ -37,6 +37,7 @@ public class PlayerController_script : MonoBehaviour {
         hp_atk_display.text = "";
         Gameover.text = "";
         mouse = false;
+        selectionStatus = SelectionStatus.none;
 	}
 
     public void addCurrentHP(int tobeadd) {
@@ -88,6 +89,24 @@ public class PlayerController_script : MonoBehaviour {
         }
         */
 	}
+
+    public void BuildTower(Grid grid, GameObject tower){
+
+    }
+
+    public SelectionStatus GetSelectionStatus(){
+        return selectionStatus;
+    }
+    public void SetSelectionStatus(SelectionStatus selectionStatus){
+        this.selectionStatus = selectionStatus;
+    }
+    public GameObject GetSelectedTower(){
+        return selectedTower;
+    }
+    public void SetSelectedTower(GameObject tower){
+        this.selectedTower = tower;
+    }
+
 
     private void OnMouseDown()
     {

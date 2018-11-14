@@ -12,21 +12,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-11-02T15:13:08.843-04:00
-  initializedAtString: 2018-11-02T15:13:08.807-04:00
+  lastUpdatedAtString: 2018-11-10T20:14:17.462-05:00
+  initializedAtString: 2018-11-10T20:14:17.451-05:00
   localBranches:
   - name: master
     tracking: origin/master
-  - name: Vincent_MainGame
-    tracking: 
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/login_firebase
+  - name: origin/Sprint3_personalpage
     tracking: '[None]'
   - name: origin/master
-    tracking: '[None]'
-  - name: origin/Xihao_mainmenu
     tracking: '[None]'
   remotes:
   - name: origin
@@ -39,27 +35,20 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
-    - Vincent_MainGame
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
       trackingBranch: master
-    - name: Vincent_MainGame
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
-      - login_firebase
+      - Sprint3_personalpage
       - master
-      - Xihao_mainmenu
     subKeyValues:
     - Values:
       - name: HEAD
@@ -67,17 +56,12 @@ MonoBehaviour:
           name: origin
           url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
         trackingBranch: 
-      - name: login_firebase
+      - name: Sprint3_personalpage
         remote:
           name: origin
           url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
         trackingBranch: 
       - name: master
-        remote:
-          name: origin
-          url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git
-        trackingBranch: 
-      - name: Xihao_mainmenu
         remote:
           name: origin
           url: https://github.com/nicholasmeier/CS307_Group4_TowerDefGame.git

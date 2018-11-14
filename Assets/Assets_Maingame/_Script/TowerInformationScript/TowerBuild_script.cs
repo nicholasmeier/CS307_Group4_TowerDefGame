@@ -9,9 +9,9 @@ public class TowerBuild_script : MonoBehaviour {
     public GameObject InsTower;
     public GameObject player;
     public GameObject mapcontroller;
-    public Text display_info;
     public Button sell;
-    public Button upgrade;
+    public Button upgrade; 
+    public Text display_info;
     public Text bot_atk_display;
     public Text bot_type_display;
     private float gold;
@@ -89,7 +89,6 @@ public class TowerBuild_script : MonoBehaviour {
                                     TowerOnMouse = false;
                                     player.GetComponent<PlayerController_script>().addCurrentResource(-10);
                                     //mapcontroller.GetComponent<MapController_script>().UpdatePath();
-
                                 }
                             }
 

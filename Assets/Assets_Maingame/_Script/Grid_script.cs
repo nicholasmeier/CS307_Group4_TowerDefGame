@@ -9,7 +9,9 @@ public class Grid_script : MonoBehaviour {
     public Material highlightMaterial;
     public Material entryMaterial;
     public Material exitMaterial;
+
     public MapController_script mapController;
+    public PlayerController_script playerController;
 
     public bool availability;
     
@@ -17,6 +19,7 @@ public class Grid_script : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         availability = true;
+        playerController = mapController.player.GetComponent<PlayerController_script>();
 	}
 	
 	// Update is called once per frame
@@ -38,12 +41,22 @@ public class Grid_script : MonoBehaviour {
             }
         }
     }
-    public void setAvailability(bool ava) {
-        mapController.SetAvailability(this.gameObject, ava);
-        availability = ava;
+    public void setAvailability(bool availability) {
+        mapController.SetAvailability(this.gameObject, availability);
+        this.availability = availability;
     }
-    private void OnMouseDown()
+
+    void OnMouseDown()
     {
+        if(playerController.GetSelectionStatus() == SelectionStatus.iconSelected){
+            if (availability)
+            {
+                mapController.BuildTower(playerController.GetSelectedTower(), this.gameObject);
+                playerController.SetSelectionStatus(SelectionStatus.none);
+                //TODO:BUILD TOWER
+            }
+            //TODO:else display a text
+        }
         /*if(availability){
             availability = false;
             mapController.SetAvailability(this.gameObject, false);
