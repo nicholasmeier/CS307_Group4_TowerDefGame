@@ -43,21 +43,18 @@ public class Tower_base: MonoBehaviour, Tower_script {
         display_flag = false;
         attack = projectilePrefab.GetComponent<projectile_script>().damage;
 
-        upgrade.onClick.AddListener(delegate { TowerUpgrade(1); });
-        sell.onClick.AddListener(TowerSell);
+        //upgrade.onClick.AddListener(delegate { TowerUpgrade(1); });
+        //sell.onClick.AddListener(TowerSell);
     }
 
     public void TowerUpgrade(int TowerTypeIndex)
     {
         if (TowerTypeIndex == 1)
         {
-
             //Debug.Log("Lost");
             projectilePrefab.GetComponent<projectile_script>().damage = 20000;
             this.gameObject.GetComponent<Renderer>().material = IceMaterial;
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
-            
-
         }
     }
     
@@ -73,7 +70,16 @@ public class Tower_base: MonoBehaviour, Tower_script {
     // Update is called once per frame
     void Update()
     {
-        //determine the target
+        PlayerController_script ps = player.GetComponent<PlayerController_script>();
+        if(ps.GetSelectionStatus()==SelectionStatus.towerSelected && ps.GetSelectedTower().Equals(this.gameObject)){
+            transform.Find("Cylinder").GetComponent<MeshRenderer>().enabled = true;
+        }
+        else{
+            transform.Find("Cylinder").GetComponent<MeshRenderer>().enabled = false;
+        }
+
+
+        /*determine the target
         if (display_flag)
         {
             attack = projectilePrefab.GetComponent<projectile_script>().damage;
@@ -83,8 +89,7 @@ public class Tower_base: MonoBehaviour, Tower_script {
             upgrade.gameObject.SetActive(true);
             this.transform.Find("Cylinder").GetComponent<MeshRenderer>().enabled = true;
         }
-
-
+        */
 
         if (target != null && target.GetComponent<Monster_script>().getHp().Equals(0))
         {
@@ -101,7 +106,9 @@ public class Tower_base: MonoBehaviour, Tower_script {
     }
     public void OnMouseDown()
     {
-        display_flag = true;
+        PlayerController_script ps = player.GetComponent<PlayerController_script>();
+        ps.SetSelectionStatus(SelectionStatus.towerSelected);
+        ps.SetSelectedTower(this.gameObject);
     }
 
     private Vector3 getRelativePosition(GameObject a, GameObject b){

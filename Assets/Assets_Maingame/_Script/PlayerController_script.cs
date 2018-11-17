@@ -24,6 +24,7 @@ public class PlayerController_script : MonoBehaviour {
 
     //Selection status
     public SelectionStatus selectionStatus;
+    public GameObject selectedIcon;
     public GameObject selectedTower;
     GameObject selectedMonster;
 
@@ -100,14 +101,18 @@ public class PlayerController_script : MonoBehaviour {
     public void SetSelectionStatus(SelectionStatus selectionStatus){
         this.selectionStatus = selectionStatus;
     }
+    public GameObject GetSelectedIcon(){
+        return selectedIcon;
+    }
+    public void SetSelectedIcon(GameObject tower){
+        this.selectedIcon = tower;
+    }
     public GameObject GetSelectedTower(){
-        return selectedTower;
+        return this.selectedTower;
     }
     public void SetSelectedTower(GameObject tower){
         this.selectedTower = tower;
     }
-
-
     private void OnMouseDown()
     {
         mouse = true;

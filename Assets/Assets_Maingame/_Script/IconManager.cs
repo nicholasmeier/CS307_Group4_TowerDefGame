@@ -17,10 +17,10 @@ public class IconManager : MonoBehaviour {
         ps = playerController.GetComponent<PlayerController_script>();
         //Instantiate tower scripts for each type of tower
         tower_base = new Tower_base();
-        baseTower.onClick.AddListener(delegate { selectTower(tower_base, tower_base_prefab); });
+        baseTower.onClick.AddListener(delegate { selectIcon(tower_base, tower_base_prefab); });
 	}
 
-    void selectTower(Tower_script tower_script, GameObject tower){
+    void selectIcon(Tower_script tower_script, GameObject tower){
         //TODO:If the player is currently selecting the same type of tower, deselect.
 
         //Check the player's current gold
@@ -30,7 +30,7 @@ public class IconManager : MonoBehaviour {
 
             //Change the selection status
             ps.SetSelectionStatus(SelectionStatus.iconSelected);
-            ps.SetSelectedTower(tower);
+            ps.SetSelectedIcon(tower);
         }
     }
 }

@@ -68,6 +68,7 @@
     <Compile Include="Assets\Assets_Maingame\_Script\_Monster\Monster_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_TowersCategory\Tower_base.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_TowersCategory\Tower_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\BottomInfoBar_Controller.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Boundary.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Grid_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Healthbar_script.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="Assets\Assets_Maingame\_Script\MonsterAdder.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\PlayerController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\projectile_script.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\TowerInformationScript\TowerBuild_script.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ButtonFuncChange.cs" />

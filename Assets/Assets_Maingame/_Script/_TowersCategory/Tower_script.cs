@@ -28,7 +28,6 @@ public interface Tower_script{
 
     void SetUpgrade(Button upgrade);
 
-
     //Pass Controllers
     void SetPlayer(GameObject player);
 

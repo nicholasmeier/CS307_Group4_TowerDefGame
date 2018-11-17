@@ -51,11 +51,14 @@ public class Grid_script : MonoBehaviour {
         if(playerController.GetSelectionStatus() == SelectionStatus.iconSelected){
             if (availability)
             {
-                mapController.BuildTower(playerController.GetSelectedTower(), this.gameObject);
+                mapController.BuildTower(playerController.GetSelectedIcon(), this.gameObject);
                 playerController.SetSelectionStatus(SelectionStatus.none);
                 //TODO:BUILD TOWER
             }
             //TODO:else display a text
+        }
+        else{
+            playerController.SetSelectionStatus(SelectionStatus.none);
         }
         /*if(availability){
             availability = false;
