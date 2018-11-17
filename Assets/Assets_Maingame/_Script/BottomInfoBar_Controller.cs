@@ -66,7 +66,7 @@ public class BottomInfoBar_Controller : MonoBehaviour {
     }
 
     void sellTower(){
-        current_selected_tower.GetComponent<Tower_script>().TowerSell();
+        current_selected_tower.GetComponent<Tower_script>().Sell();
         player.GetComponent<PlayerController_script>().SetSelectionStatus(SelectionStatus.none);
     }
 }

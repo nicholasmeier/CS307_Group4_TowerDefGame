@@ -7,26 +7,13 @@ public interface Tower_script{
 
     void TowerUpgrade(int type);
 
-    void TowerSell();
+    void Sell();
 
     void shoot(GameObject target);
 
     float getPrice();
 
     List<GameObject> GetMonsters();
-
-    //To be deleted
-    Text GetBot_atk_display();
-
-    Text GetBot_type_display();
-
-    void SetBot_atk_display(Text bot_atk_display);
-
-    void SetBot_type_display(Text bot_type_display);
-
-    void SetSell(Button sell);
-
-    void SetUpgrade(Button upgrade);
 
     //Pass Controllers
     void SetPlayer(GameObject player);

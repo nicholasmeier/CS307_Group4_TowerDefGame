@@ -128,10 +128,7 @@ public class MapController_script : MonoBehaviour {
                 monsterInstance = Instantiate(monster, GetMapPosition(entry.i,entry.j,0.5f),Quaternion.identity);
                 monsterInstance.GetComponent<Monster_script>().setPlayer(player);
                 monsterInstance.GetComponent<Monster_script>().setMapContoller(this.gameObject);
-                monsterInstance.GetComponent<Monster_script>().setHptext(bot_hp);
-                monsterInstance.GetComponent<Monster_script>().setTypetext(bot_type);
-                monsterInstance.GetComponent<Monster_script>().setSellButton(sell);
-                monsterInstance.GetComponent<Monster_script>().setUpgradeButton(upgrade);
+
                 monsterHolder.Add(monsterInstance);
                 yield return new WaitForSeconds(1);
             }
@@ -226,10 +223,6 @@ public class MapController_script : MonoBehaviour {
                 display_info.text = "";
                 insTower = Instantiate(tower);
                 Tower_script ts = insTower.GetComponent<Tower_script>();
-                ts.SetBot_atk_display(bot_atk_display);
-                ts.SetBot_type_display(bot_type_display);
-                ts.SetSell(sell);
-                ts.SetUpgrade(upgrade);
                 ts.SetPlayer(player);
                 ts.SetMapController(this.gameObject);
 
@@ -251,10 +244,6 @@ public class MapController_script : MonoBehaviour {
                 display_info.text = "";
                 insTower = Instantiate(tower);
                 Tower_script ts = insTower.GetComponent<Tower_script>();
-                ts.SetBot_atk_display(bot_atk_display);
-                ts.SetBot_type_display(bot_type_display);
-                ts.SetSell(sell);
-                ts.SetUpgrade(upgrade);
                 ts.SetPlayer(player);
                 ts.SetMapController(this.gameObject);
 

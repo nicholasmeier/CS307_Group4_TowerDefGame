@@ -14,14 +14,6 @@ public interface Monster_script
 
     void setMapContoller(GameObject mc);
 
-    void setHptext(Text hp);
-
-    void setTypetext(Text type);
-
-    void setSellButton(Button sell);
-
-    void setUpgradeButton(Button upgrade);
-
     float getHp();
 
     float getFullHp();

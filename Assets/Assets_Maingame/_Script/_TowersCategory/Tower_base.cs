@@ -4,47 +4,34 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Tower_base: MonoBehaviour, Tower_script {
-    //public float range;
-    //for prototyping
-    //public GameObject monster;
-    //public MapController
-    //for bottom display information
+    //attributes of tower
     public float projectileSpeed;
-    public float gold;
-    public float coolDown; 
-    GameObject target;
-    float lastShot;
-
-    public List<GameObject> monsters;
+    public float price;
+    public float coolDown;
     public AudioSource shootAud;
-    public GameObject mapcontroller;
-    public GameObject projectilePrefab;
-    public GameObject player;
     public GameObject prefab;
-    public Button sell;
-    public Button upgrade;
-    public Text bot_atk_display;
-    public Text bot_type_display;
-    bool display_flag;
+    public float attack;
+    public GameObject projectilePrefab;
+    public float range;
 
-    float attack;
-    //counter for set bool mouse
+    //references of the control system passed when created
+    GameObject mapcontroller;
+    GameObject player;
+    GameObject baseGrid;
 
-    public GameObject baseGrid;
+    //helper fields
+    public GameObject target;
+    public float lastShot;
+    public List<GameObject> monsters;
+
     int TowerIndex;
-    public Material IceMaterial;
-    //Tower Types
+    Material IceMaterial;
 
-    // Use this for initialization
     void Start () {
         monsters.Clear();
         target = null;
         lastShot = -coolDown;
-        display_flag = false;
         attack = projectilePrefab.GetComponent<projectile_script>().damage;
-
-        //upgrade.onClick.AddListener(delegate { TowerUpgrade(1); });
-        //sell.onClick.AddListener(TowerSell);
     }
 
     public void TowerUpgrade(int TowerTypeIndex)
@@ -58,7 +45,7 @@ public class Tower_base: MonoBehaviour, Tower_script {
         }
     }
     
-    public void TowerSell()
+    public void Sell()
     { 
         player.GetComponent<PlayerController_script>().addCurrentResource(5);
         baseGrid.GetComponent<Grid_script>().availability = true;
@@ -77,19 +64,6 @@ public class Tower_base: MonoBehaviour, Tower_script {
         else{
             transform.Find("Cylinder").GetComponent<MeshRenderer>().enabled = false;
         }
-
-
-        /*determine the target
-        if (display_flag)
-        {
-            attack = projectilePrefab.GetComponent<projectile_script>().damage;
-            bot_type_display.text = "Type: " + this.tag.ToString();
-            bot_atk_display.text = "ATK: " + attack.ToString();
-            sell.gameObject.SetActive(true);
-            upgrade.gameObject.SetActive(true);
-            this.transform.Find("Cylinder").GetComponent<MeshRenderer>().enabled = true;
-        }
-        */
 
         if (target != null && target.GetComponent<Monster_script>().getHp().Equals(0))
         {
@@ -115,9 +89,7 @@ public class Tower_base: MonoBehaviour, Tower_script {
         return a.transform.position - b.transform.position;
     }
 
-    public float getPrice() {
-        return gold;
-    }
+
 
     public void shoot(GameObject t){
         if(Time.time > lastShot + coolDown && t != null){
@@ -134,33 +106,14 @@ public class Tower_base: MonoBehaviour, Tower_script {
         }
     }
 
-    //Getters
+    //Getters and setters
     public List<GameObject> GetMonsters(){
         return monsters;
     }
 
-    public Text GetBot_atk_display(){
-        return bot_atk_display;
-    }
-
-    public void SetBot_atk_display(Text bot_atk_display){
-        this.bot_atk_display = bot_atk_display;
-    }
-
-    public Text GetBot_type_display(){
-        return bot_type_display;
-    }
-
-    public void SetBot_type_display(Text bot_type_display){
-        this.bot_type_display = bot_type_display;
-    }
-
-    public void SetSell(Button sell){
-        this.sell = sell;
-    }
-
-    public void SetUpgrade(Button upgrade){
-        this.upgrade = upgrade;
+    public float getPrice()
+    {
+        return price;
     }
 
     public void SetPlayer(GameObject player){
@@ -178,9 +131,5 @@ public class Tower_base: MonoBehaviour, Tower_script {
     public GameObject Prefab(){
         return prefab;
     }
-    /*public void slowDown(int speed)
-    {
-
-    }*/
 }
 
