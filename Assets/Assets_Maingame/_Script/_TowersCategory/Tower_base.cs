@@ -78,18 +78,6 @@ public class Tower_base: MonoBehaviour, Tower_script {
 
         shoot(target);
     }
-    public void OnMouseDown()
-    {
-        PlayerController_script ps = player.GetComponent<PlayerController_script>();
-        ps.SetSelectionStatus(SelectionStatus.towerSelected);
-        ps.SetSelectedTower(this.gameObject);
-    }
-
-    private Vector3 getRelativePosition(GameObject a, GameObject b){
-        return a.transform.position - b.transform.position;
-    }
-
-
 
     public void shoot(GameObject t){
         if(Time.time > lastShot + coolDown && t != null){
@@ -106,7 +94,32 @@ public class Tower_base: MonoBehaviour, Tower_script {
         }
     }
 
-    //Getters and setters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //Copy these functions without change
+    public void OnMouseDown()
+    {
+        PlayerController_script ps = player.GetComponent<PlayerController_script>();
+        ps.SetSelectionStatus(SelectionStatus.towerSelected);
+        ps.SetSelectedTower(this.gameObject);
+    }
+
+    private Vector3 getRelativePosition(GameObject a, GameObject b)
+    {
+        return a.transform.position - b.transform.position;
+    } 
     public List<GameObject> GetMonsters(){
         return monsters;
     }
