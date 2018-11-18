@@ -20,4 +20,7 @@ public interface Monster_script
 
     Vector3 getPos();
 
+    void addToTowers(GameObject tower);
+
+    void removeFromTowers(GameObject tower);
 }

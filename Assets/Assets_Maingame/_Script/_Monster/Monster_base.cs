@@ -19,6 +19,7 @@ public class Monster_base : MonoBehaviour, Monster_script {
     //References of the controllers
     public GameObject player;
     public GameObject mapcontroller;
+    public List<GameObject> towers;
 
     void Start () {
         routePosition = 0;
@@ -60,6 +61,11 @@ public class Monster_base : MonoBehaviour, Monster_script {
         
         if (hp.Equals(0)){
             //explo.Play();
+            foreach (GameObject tower in towers)
+            {
+                tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
+            }
+            //Debug.Log("123");
             Destroy(this.gameObject);
             player.GetComponent<PlayerController_script>().addResource(reward);
         }
@@ -112,4 +118,14 @@ public class Monster_base : MonoBehaviour, Monster_script {
     public Vector3 getPos() {
         return this.transform.position;
     }
+    public void addToTowers( GameObject tower)
+    {
+        towers.Add(tower);
+    }
+
+    public void removeFromTowers(GameObject tower)
+    {
+        towers.Remove(tower);
+    }
+
 }

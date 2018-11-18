@@ -42,7 +42,7 @@ public class Tower_base: MonoBehaviour, Tower_script {
         {
             //Debug.Log("Lost");
             attack *= 2;
-            this.gameObject.GetComponent<Renderer>().material = IceMaterial;
+            //this.gameObject.GetComponent<Renderer>().material = IceMaterial;
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
             TowerIndex = 2;
         }
@@ -92,6 +92,8 @@ public class Tower_base: MonoBehaviour, Tower_script {
             Vector3 position = getRelativePosition(t, this.gameObject);
             //Rotate the tower
             this.gameObject.transform.LookAt(t.transform.position);
+            this.gameObject.transform.Rotate(new Vector3(-90, 180, 0));
+
             shootAud.Play();
             //Debug.Log("Bang");
             GameObject bulletInstance;
