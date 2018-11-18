@@ -305,18 +305,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367714714588856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0e8ed7dc595de74db54fa12e82841cb, type: 3}
+  m_Script: {fileID: 11500000, guid: e821b3eeae7eaa64d83e1b59a0f2f816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 10
-  price: 0
+  price: 5
   coolDown: 0.25
   shootAud: {fileID: 82200148273755082}
   prefab: {fileID: 1367714714588856}
-  attack: 0
+  attack: 20
   projectilePrefab: {fileID: 1793929318797574, guid: fa9941cbbd1f9480192b24d24639e16a,
     type: 2}
-  range: 0
+  range: 5
   target: {fileID: 0}
   lastShot: 0
   monsters: []
