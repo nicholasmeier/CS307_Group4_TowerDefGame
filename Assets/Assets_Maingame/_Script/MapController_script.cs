@@ -37,14 +37,7 @@ public class MapController_script : MonoBehaviour {
     public Position entry;
     public Position exit;
     public List<Position> route;
-    //for bottom display
-    public Text bot_hp;
-    public Text bot_type;
-    public Button sell;
-    public Button upgrade;
     public Text display_info;
-    public Text bot_atk_display;
-    public Text bot_type_display;
     // private int monster_counter;
     private float player_current_resource;
     private int waveNumber;
@@ -59,12 +52,7 @@ public class MapController_script : MonoBehaviour {
         StartCoroutine(SpawnWave(waves[0]));
 	}
 	
-	// Update is called once per frame
 	void Update () {
-	    //for testing 
-        /*if(Input.GetMouseButtonDown(0)){
-            Debug.Log(Input.mousePosition.ToString());
-        }*/
 	}
 
     IEnumerator SpawnMap(){
@@ -90,31 +78,16 @@ public class MapController_script : MonoBehaviour {
                 gridMap.Add(gridInstance);
             }
         }
-        /*
-        Grid_script entry_grid = GetGrid(entry).GetComponent<Grid_script>();
-        Grid_script exit_grid = GetGrid(exit).GetComponent<Grid_script>();
-        entry_grid.ChangeMaterial(entry_grid.entryMaterial);
-        exit_grid.ChangeMaterial(exit_grid.exitMaterial);
-        entry_grid.setAvailability(false);
-        exit_grid.setAvailability(false);
-        */
         yield return 0;
     }
 
-    IEnumerator SpawnWave(Wave wave){
-
-        //monster_counter = 0;
-        //A sample wave
-        //waveNumber++;
-        //wave_display.text = "Wave: " + waveNumber.ToString();
-        
+    IEnumerator SpawnWave(Wave wave){   
         foreach (Wave w in waves)
         {
             inWave = false;
-            yield return new WaitForSeconds(15);
+            //Preperation time
+            yield return new WaitForSeconds(1);
             UpdatePath();
-            //ClearPath();
-            //FindPath();
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);

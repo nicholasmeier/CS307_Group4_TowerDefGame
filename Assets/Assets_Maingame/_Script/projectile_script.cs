@@ -25,4 +25,8 @@ public class projectile_script : MonoBehaviour {
             //Debug.Log("bang");
         }
     }
+
+    public void SetDamage(float damage){
+        this.damage = damage;
+    }
 }

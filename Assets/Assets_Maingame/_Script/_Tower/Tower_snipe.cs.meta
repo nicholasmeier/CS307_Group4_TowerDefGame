@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 003c010eef80c4f5794f4ec9fc6e74c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootAud: {instanceID: 0}
+  - mapcontroller: {instanceID: 0}
+  - projectilePrefab: {instanceID: 0}
+  - player: {instanceID: 0}
+  - prefab: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
+  - sell: {instanceID: 0}
+  - upgrade: {instanceID: 0}
+  - bot_atk_display: {instanceID: 0}
+  - bot_type_display: {instanceID: 0}
+  - baseGrid: {instanceID: 0}
+  - IceMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

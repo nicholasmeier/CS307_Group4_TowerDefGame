@@ -30,4 +30,8 @@ public class MonsterAdder : MonoBehaviour {
             GetComponentInParent<Tower_script>().GetMonsters().Remove(other.gameObject);
         }
     }
+
+    public void SetRange(float range){
+        transform.localScale = new Vector3(2 * range, 1, 2 * range);
+    }
 }

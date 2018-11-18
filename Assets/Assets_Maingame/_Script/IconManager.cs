@@ -5,10 +5,16 @@ using UnityEngine.UI;
 
 public class IconManager : MonoBehaviour {
 
+    public GameObject playerController; 
+
+    //Towers
     public Button baseTower;
-    public GameObject playerController;
     public GameObject tower_base_prefab;
     Tower_script tower_base;
+
+    public Button snipeTower;
+    public GameObject tower_snipe_prefab;
+    Tower_script tower_snipe;
 
     PlayerController_script ps;
 
@@ -18,7 +24,9 @@ public class IconManager : MonoBehaviour {
         //Instantiate tower scripts for each type of tower
         tower_base = new Tower_base();
         baseTower.onClick.AddListener(delegate { selectIcon(tower_base, tower_base_prefab); });
-	}
+        tower_snipe = new Tower_snipe();
+        snipeTower.onClick.AddListener(delegate { selectIcon(tower_snipe, tower_snipe_prefab); });
+    }
 
     void selectIcon(Tower_script tower_script, GameObject tower){
         //TODO:If the player is currently selecting the same type of tower, deselect.

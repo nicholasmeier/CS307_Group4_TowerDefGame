@@ -17,7 +17,7 @@ public class BottomInfoBar_Controller : MonoBehaviour {
 	void Start () {
         clear();
         sell.onClick.AddListener(delegate { sellTower(); });
-        upgrade.onClick.AddListener(delegate { current_selected_tower.GetComponent<Tower_script>().TowerUpgrade(1); });
+        upgrade.onClick.AddListener(delegate { current_selected_tower.GetComponent<Tower_script>().TowerUpgrade(); });
     }
 
     void Monster_display() {

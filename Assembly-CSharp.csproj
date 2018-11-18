@@ -65,8 +65,9 @@
     <Compile Include="Assets\Assets_GUI\Scenes\signincontroller.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Monster\Monster_base.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Monster\Monster_script.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\_TowersCategory\Tower_base.cs" />
-    <Compile Include="Assets\Assets_Maingame\_Script\_TowersCategory\Tower_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\_Tower\Tower_base.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\_Tower\Tower_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\_Tower\Tower_snipe.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\BottomInfoBar_Controller.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Boundary.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\Grid_script.cs" />
