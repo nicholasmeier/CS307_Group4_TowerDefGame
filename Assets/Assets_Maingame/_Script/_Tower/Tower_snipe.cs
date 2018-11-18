@@ -42,7 +42,7 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
         {
             //Debug.Log("Lost");
             attack *= 2;
-            this.gameObject.GetComponent<Renderer>().material = IceMaterial;
+            //this.gameObject.GetComponent<Renderer>().material = IceMaterial;
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
             TowerIndex = 2;
         }
@@ -73,14 +73,14 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
             transform.Find("Range").GetComponent<MeshRenderer>().enabled = false;
         }
 
-        if (target != null && target.GetComponent<Monster_script>().getHp().Equals(0))
+        if (!monsters.Contains(target))
         {
-            monsters.Remove(target);
             target = null;
         }
 
+
         //Debug.Log("Monster count= " + monsters.Count);
-        if(target == null && monsters.Count > 0){
+        if (target == null && monsters.Count > 0){
             target = monsters[0];
         }
 
@@ -88,10 +88,13 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
     }
 
     public void shoot(GameObject t){
-        if(Time.time > lastShot + coolDown && t != null){
+        if (Time.time > lastShot + coolDown && t != null)
+        {
             Vector3 position = getRelativePosition(t, this.gameObject);
             //Rotate the tower
             this.gameObject.transform.LookAt(t.transform.position);
+            this.gameObject.transform.Rotate(new Vector3(-90, 180, 0));
+
             shootAud.Play();
             //Debug.Log("Bang");
             GameObject bulletInstance;
@@ -100,6 +103,11 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
             bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
             lastShot = Time.time;
         }
+    }
+
+    public float getAtk()
+    {
+        return this.attack;
     }
 
 

@@ -73,9 +73,7 @@ public class Tower_base: MonoBehaviour, Tower_script {
             transform.Find("Range").GetComponent<MeshRenderer>().enabled = false;
         }
 
-        if (target != null && target.GetComponent<Monster_script>().getHp().Equals(0))
-        {
-            monsters.Remove(target);
+        if (!monsters.Contains(target)) {
             target = null;
         }
 
@@ -102,6 +100,10 @@ public class Tower_base: MonoBehaviour, Tower_script {
             bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
             lastShot = Time.time;
         }
+    }
+
+    public float getAtk() {
+        return this.attack;
     }
 
 

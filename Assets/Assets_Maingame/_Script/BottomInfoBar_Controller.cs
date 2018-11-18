@@ -12,6 +12,7 @@ public class BottomInfoBar_Controller : MonoBehaviour {
     //current selected
     GameObject current_selected_tower;
     GameObject current_selected_monster;
+    float tower_attack;
 
 	// Use this for initialization
 	void Start () {
@@ -35,7 +36,7 @@ public class BottomInfoBar_Controller : MonoBehaviour {
 
     void Tower_display() {
         type.text = "Tower";
-        attribute.text = "Basic";
+        attribute.text = "ATK: " + current_selected_tower.GetComponent<Tower_script>().getAtk().ToString();
         upgrade.gameObject.SetActive(true);
         sell.gameObject.SetActive(true);
     }

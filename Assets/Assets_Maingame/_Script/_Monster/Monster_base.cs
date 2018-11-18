@@ -39,14 +39,18 @@ public class Monster_base : MonoBehaviour, Monster_script {
         int currentRoutePositionInt = (int)Mathf.Floor(routePosition);
         int nextRoutePositionInt = currentRoutePositionInt + 1;
         
-        if (nextRoutePositionInt >= m.route.Count)
-        {
-            //This monster instance has reached the exit.
-            Debug.Log("haha");
-        }
         
         if (nextRoutePositionInt >= m.route.Count)
         {
+            
+            
+            foreach (GameObject tower in towers)
+            {
+                if (this.gameObject)
+                {
+                    tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
+                }
+            }
             Destroy(this.gameObject);
             player.GetComponent<PlayerController_script>().addCurrentHP(-1);
         }

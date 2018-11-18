@@ -23,4 +23,5 @@ public interface Tower_script{
     void SetGrid(GameObject grid);
 
     GameObject Prefab();
+    float getAtk();
 }
