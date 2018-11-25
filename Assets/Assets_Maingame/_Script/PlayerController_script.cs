@@ -91,10 +91,6 @@ public class PlayerController_script : MonoBehaviour {
         */
 	}
 
-    public void BuildTower(Grid grid, GameObject tower){
-
-    }
-
     public SelectionStatus GetSelectionStatus(){
         return selectionStatus;
     }

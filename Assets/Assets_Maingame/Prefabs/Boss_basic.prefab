@@ -228,15 +228,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faebc1ebe16934f92b834eb7d6bd86fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullHp: 5000
+  originalSpeed: 0
+  reward: 0
+  explo: {fileID: 0}
   speed: 100
   hp: 0
-  fullHp: 500
-  originalSpeed: 0
-  getgold: 50
   player: {fileID: 0}
   mapcontroller: {fileID: 0}
-  bot_hp_display: {fileID: 0}
-  bot_type_display: {fileID: 0}
+  towers: []
 --- !u!135 &135463367866238924
 SphereCollider:
   m_ObjectHideFlags: 1

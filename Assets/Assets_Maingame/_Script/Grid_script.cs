@@ -49,6 +49,9 @@ public class Grid_script : MonoBehaviour {
                 mapController.BuildTower(playerController.GetSelectedIcon(), this.gameObject);
                 playerController.SetSelectionStatus(SelectionStatus.none);
             }
+            else{
+                mapController.display_info.text = "The spot is not available!";
+            }
             //TODO:else display a text
         }
         else{
@@ -60,7 +63,6 @@ public class Grid_script : MonoBehaviour {
     {
         Material currentM = this.gameObject.GetComponent<Renderer>().material;
         if (availability){
-
             if (currentM.Equals(highlightMaterial) && currentM.Equals(entryMaterial) && currentM.Equals(exitMaterial))
             {
                 ChangeMaterial(normalMaterial);

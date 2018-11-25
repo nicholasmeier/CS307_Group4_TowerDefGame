@@ -49,7 +49,7 @@ public class MapController_script : MonoBehaviour {
     void Start () {
         route = new List<Position>();
         StartCoroutine(SpawnMap());
-        StartCoroutine(SpawnWave(waves[0]));
+        StartCoroutine(SpawnWave());
 	}
 	
 	void Update () {
@@ -74,28 +74,28 @@ public class MapController_script : MonoBehaviour {
                 //instantiate the grid instance
                 gridInstance = Instantiate(gridPrefab, GetMapPosition(i, j, -0.5f), Quaternion.identity);
                 gridInstance.GetComponent<Grid_script>().mapController = this;
-
                 gridMap.Add(gridInstance);
             }
         }
+        GetGrid(exit).GetComponent<Grid_script>().setAvailability(false);
+        GetGrid(entry).GetComponent<Grid_script>().setAvailability(false);
+        UpdatePath();
         yield return 0;
     }
 
-    IEnumerator SpawnWave(Wave wave){   
+    IEnumerator SpawnWave(){   
         foreach (Wave w in waves)
         {
             inWave = false;
             //Preperation time
-            yield return new WaitForSeconds(1);
-            UpdatePath();
+            yield return new WaitForSeconds(15);
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);
-            
+            inWave = true;
             //ShowPath();
-            foreach (GameObject monster in wave.monsters)
+            foreach (GameObject monster in w.monsters)
             {
-                inWave = true;
                 GameObject monsterInstance;
                 //monster_counter++;
                 monsterInstance = Instantiate(monster, GetMapPosition(entry.i,entry.j,0.5f),Quaternion.identity);
@@ -133,21 +133,23 @@ public class MapController_script : MonoBehaviour {
         for (int i = 0; i < route.Count; i++)
         {
             Grid_script gs = GetGrid(route[i]).GetComponent<Grid_script>();
-            gs.ChangeMaterial(gs.highlightMaterial);
-        }
-        /*int count = 0;
-        for (int i = 0; i < mapWidth; i++){
-            for (int j = 0; j < mapHeight; j++){
-                if(gridArray[i,j]){
-                    Debug.DrawLine(GetMapPosition(i, j, 3) - new Vector3(0.2f, 0, 0),
-                                   GetMapPosition(i, j, 3) + new Vector3(0.2f, 0, 0), Color.black, 1);
-                    count++;
-                }
+            if (i == 0)
+            {
+                gs.ChangeMaterial(gs.entryMaterial);
+            }
+            else if (i == route.Count - 1)
+            {
+                gs.ChangeMaterial(gs.exitMaterial);
+            }
+            else
+            {
+                gs.ChangeMaterial(gs.highlightMaterial);
+                GameObject next = GetGrid(route[i + 1]);
+                gs.gameObject.transform.LookAt(next.transform);
+                //Let the -x axis look at the next grid instead of y
+                gs.transform.Rotate(new Vector3(0, 0, 90));
             }
         }
-        */
-        //Debug.Log("Available grids: " + count);
-        //Debug.DrawLine(new Vector3(-3,3, 0.5f), new Vector3(3,3,0.5f), Color.black, 1);
     }
 
 
@@ -177,62 +179,43 @@ public class MapController_script : MonoBehaviour {
 
     //BuildTower starts here
     public void BuildTower(GameObject tower, GameObject grid){
-        GameObject insTower; 
+        GameObject insTower;
         if (getInwave())
         {
-
             for (int i = 0; i < route.Count; i++)
             {
                 GameObject gs = GetGrid(route[i]);
                 if (grid.gameObject.Equals(gs))
                 {
-                    display_info.text = "Can't build";
+                    display_info.text = "Can't build on the route during a wave!";
                     return;
                 }
 
             }
-            if (grid.GetComponent<Grid_script>().availability == true)
-            {
-                display_info.text = "";
-                insTower = Instantiate(tower);
-                Tower_script ts = insTower.GetComponent<Tower_script>();
-                ts.SetPlayer(player);
-                ts.SetMapController(this.gameObject);
-
-                insTower.GetComponent<Tower_script>().SetGrid(grid);
-
-                insTower.transform.position = grid.transform.position + new Vector3(0, 1F, 0);
-                grid.GetComponent<Grid_script>().setAvailability(false);
-                player.GetComponent<PlayerController_script>().addCurrentResource(-10);
-                //mapcontroller.GetComponent<MapController_script>().UpdatePath();
+        }
+        if (!getInwave())
+        {
+            ClearPath();
+            grid.GetComponent<Grid_script>().setAvailability(false);
+            if(!FindPath()){
+                display_info.text = "Can't block the only route!"; 
+                grid.GetComponent<Grid_script>().setAvailability(true);
+                UpdatePath();
+                return;
             }
             else{
-                display_info.text = "Not available!";
-            }
-        }
-        else
-        {
-            if (grid.GetComponent<Grid_script>().availability == true)
-            {
-                display_info.text = "";
-                insTower = Instantiate(tower);
-                Tower_script ts = insTower.GetComponent<Tower_script>();
-                ts.SetPlayer(player);
-                ts.SetMapController(this.gameObject);
-
-                insTower.GetComponent<Tower_script>().SetGrid(grid);
-
-                insTower.transform.position = grid.transform.position + new Vector3(0, 1F, 0);
-                grid.GetComponent<Grid_script>().setAvailability(false);
-                player.GetComponent<PlayerController_script>().addCurrentResource(-10);
                 UpdatePath();
-
-            }
-            else
-            {
-                display_info.text = "Not available!";
             }
         }
+        insTower = Instantiate(tower);
+        Tower_script ts = insTower.GetComponent<Tower_script>();
+        ts.SetPlayer(player);
+        ts.SetMapController(this.gameObject);
+        insTower.GetComponent<Tower_script>().SetGrid(grid);
+        insTower.transform.position = grid.transform.position + new Vector3(0, 1F, 0);
+
+        player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+
     }
    
     //getting i and j indices of the grid
@@ -254,6 +237,7 @@ public class MapController_script : MonoBehaviour {
         List<Position> explored = new List<Position>();
         Dictionary<Position, Position> previous = new Dictionary<Position, Position>();
 
+        GetGrid(exit).GetComponent<Grid_script>().setAvailability(true);
         oldFrontier.Add(entry);
         while (!Contains(oldFrontier, exit))
         {
@@ -286,6 +270,7 @@ public class MapController_script : MonoBehaviour {
         }
         if (!Contains(oldFrontier, exit))
         {
+            GetGrid(exit).GetComponent<Grid_script>().setAvailability(false);
             return false;
         }
         else
@@ -315,6 +300,7 @@ public class MapController_script : MonoBehaviour {
             {
                 route.Add(explored[i]);
             }
+            GetGrid(exit).GetComponent<Grid_script>().setAvailability(false);
             return true;
         }
 
