@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07527595, g: 0.065280676, b: 0.14781985, a: 1}
+  m_IndirectSpecularColor: {r: 0.07536619, g: 0.06527298, b: 0.14785013, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -580,7 +580,6 @@ MonoBehaviour:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
-  - monsters:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
@@ -592,6 +591,37 @@ MonoBehaviour:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
   - monsters:
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+  - monsters:
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
+    - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
@@ -603,19 +633,20 @@ MonoBehaviour:
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
     - {fileID: 1848591083537166, guid: b52a6a5ff68a84f92beb13cca9359c4b, type: 2}
   gridMap: []
-  mapWidth: 25
+  mapWidth: 21
   mapHeight: 21
   wave_display: {fileID: 1907293146}
+  preperation_time: 4
   player: {fileID: 1249311644}
   gridPrefab: {fileID: 1186735371035522, guid: e39b6f7a106a841ffaa561232e44b121, type: 2}
   entry:
     i: 0
     j: 3
   exit:
-    i: 24
+    i: 20
     j: 19
   route: []
-  display_info: {fileID: 456449454}
+  display_info: {fileID: 0}
   inWave: 0
 --- !u!4 &251866436
 Transform:

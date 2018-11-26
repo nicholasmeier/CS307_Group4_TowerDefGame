@@ -5,16 +5,10 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - shootAud: {instanceID: 0}
-  - mapcontroller: {instanceID: 0}
-  - projectilePrefab: {instanceID: 0}
-  - player: {instanceID: 0}
   - prefab: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
-  - sell: {instanceID: 0}
-  - upgrade: {instanceID: 0}
-  - bot_atk_display: {instanceID: 0}
-  - bot_type_display: {instanceID: 0}
-  - baseGrid: {instanceID: 0}
-  - IceMaterial: {instanceID: 0}
+  - projectilePrefab: {fileID: 1793929318797574, guid: fa9941cbbd1f9480192b24d24639e16a,
+      type: 2}
+  - target: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

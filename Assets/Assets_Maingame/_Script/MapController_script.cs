@@ -29,10 +29,12 @@ public class MapController_script : MonoBehaviour {
     public int mapWidth;                
     public int mapHeight;
     public Text wave_display;
+    public int preperation_time = 0;
     public GameObject player;
     public GameObject gridPrefab;           //The grid used to build the battleground
     private bool[,] gridArray;              //Int version of gridMap, used to increase performance,
                                             //False in entry meaning the grid is not available(occupied).
+           
 
     public Position entry;
     public Position exit;
@@ -95,7 +97,7 @@ public class MapController_script : MonoBehaviour {
         {
             inWave = false;
             //Preperation time
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(preperation_time);
             waveNumber++;
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);

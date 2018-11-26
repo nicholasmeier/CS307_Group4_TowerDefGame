@@ -20,7 +20,6 @@ public class MonsterAdder : MonoBehaviour {
         {
             GetComponentInParent<Tower_script>().GetMonsters().Add(other.gameObject);
             other.GetComponent<Monster_script>().addToTowers(transform.parent.gameObject);
-            Debug.Log("enter");
             //Debug.Log(GetComponentInParent<Tower_script>().getType());
             if (GetComponentInParent<Tower_script>().getType()==2)
             {

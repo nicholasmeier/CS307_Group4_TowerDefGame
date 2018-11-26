@@ -34,7 +34,7 @@ public class Tower_slow : MonoBehaviour, Tower_script
         monsters.Clear();
         target = null;
         lastShot = -coolDown;
-        projectilePrefab.GetComponent<projectile_script>().SetDamage(attack);
+        projectilePrefab.GetComponent<Projectile_script>().SetDamage(attack);
         transform.Find("Range").GetComponent<MonsterAdder>().SetRange(range);
         TowerIndex = 1;
         TowerType = 1;
