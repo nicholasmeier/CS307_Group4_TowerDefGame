@@ -198,7 +198,7 @@ Transform:
   m_GameObject: {fileID: 1367714714588856}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.507, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 4198291782679806}
   - {fileID: 4098676688808766}
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 10
-  price: 5
+  price: 20
   coolDown: 0.25
   shootAud: {fileID: 82200148273755082}
   prefab: {fileID: 1367714714588856}

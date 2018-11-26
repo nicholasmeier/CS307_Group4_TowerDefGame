@@ -24,4 +24,6 @@ public interface Tower_script{
 
     GameObject Prefab();
     float getAtk();
+
+    int getType();
 }

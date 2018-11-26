@@ -23,4 +23,7 @@ public interface Monster_script
     void addToTowers(GameObject tower);
 
     void removeFromTowers(GameObject tower);
+    void setSpeed(float newSpeed);
+
+    float getSpeed();
 }

@@ -109,7 +109,10 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
     {
         return this.attack;
     }
-
+    public int getType()
+    {
+        return 2;
+    }
 
 
 

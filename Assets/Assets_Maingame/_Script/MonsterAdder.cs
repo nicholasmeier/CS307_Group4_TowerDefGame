@@ -20,8 +20,15 @@ public class MonsterAdder : MonoBehaviour {
         {
             GetComponentInParent<Tower_script>().GetMonsters().Add(other.gameObject);
             other.GetComponent<Monster_script>().addToTowers(transform.parent.gameObject);
+            if (GetComponentInParent<Tower_script>().getType()==1)
+            {
+                foreach (GameObject ob in GetComponentInParent<Tower_script>().GetMonsters())
+                {
+                    Debug.Log("get");
+                    GameObject.Find("Buff_controller").GetComponent<Buff_Controller>().slowSpeedbyPercent(ob, 0.5F);
+                }
+            }
         }
-
     }
 
     public void OnTriggerExit(Collider other)
@@ -30,6 +37,10 @@ public class MonsterAdder : MonoBehaviour {
         {
             GetComponentInParent<Tower_script>().GetMonsters().Remove(other.gameObject);
             other.GetComponent<Monster_script>().removeFromTowers(transform.parent.gameObject);
+            if (GetComponentInParent<Tower_script>().getType()==1)
+            {
+                    GameObject.Find("Buff_controller").GetComponent<Buff_Controller>().backtoOriginalSpeed(other.gameObject);
+            }
         }
     }
 

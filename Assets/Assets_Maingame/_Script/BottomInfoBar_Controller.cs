@@ -9,6 +9,8 @@ public class BottomInfoBar_Controller : MonoBehaviour {
     public Text attribute;
     public Button sell;
     public Button upgrade;
+    public Button speed;
+    public Button pause;
     //current selected
     GameObject current_selected_tower;
     GameObject current_selected_monster;
@@ -17,8 +19,39 @@ public class BottomInfoBar_Controller : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         clear();
+        pause.onClick.AddListener(delegate { pauseGame(); });
         sell.onClick.AddListener(delegate { sellTower(); });
+        speed.onClick.AddListener(delegate { speedChange(); });
         upgrade.onClick.AddListener(delegate { current_selected_tower.GetComponent<Tower_script>().TowerUpgrade(); });
+    }
+
+    void pauseGame() {
+
+        if (Time.timeScale != 0)
+        {
+            Time.timeScale = 0;
+            speed.GetComponentInChildren<Text>().text = ">";
+            pause.GetComponentInChildren<Text>().text = "G O";
+        }
+        else {
+            Time.timeScale = 1;
+            speed.GetComponentInChildren<Text>().text = ">";
+            pause.GetComponentInChildren<Text>().text = "|  |";
+        }
+    }
+
+    void speedChange() {
+        if (Time.timeScale == 1)
+        {
+            Time.timeScale = 3;
+            speed.GetComponentInChildren<Text>().text = ">>";
+            pause.GetComponentInChildren<Text>().text = "|  |";
+        }
+        else {
+            Time.timeScale = 1;
+            speed.GetComponentInChildren<Text>().text = ">";
+            pause.GetComponentInChildren<Text>().text = "|  |";
+        }
     }
 
     void Monster_display() {

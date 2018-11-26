@@ -28,51 +28,11 @@ public class Monster_base : MonoBehaviour, Monster_script {
     }
     private void Update()
     {
-      
     }
 
     // Update is called once per frame
     void FixedUpdate () {
-        //move
-        MapController_script m = mapcontroller.GetComponent<MapController_script>();
-        routePosition += speed * Time.deltaTime / 100;
-        int currentRoutePositionInt = (int)Mathf.Floor(routePosition);
-        int nextRoutePositionInt = currentRoutePositionInt + 1;
-        
-        
-        if (nextRoutePositionInt >= m.route.Count)
-        {
-            
-            
-            foreach (GameObject tower in towers)
-            {
-                if (this.gameObject)
-                {
-                    tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
-                }
-            }
-            Destroy(this.gameObject);
-            player.GetComponent<PlayerController_script>().addCurrentHP(-1);
-        }
-        else
-        {
-            Vector3 current = m.GetMapPosition(m.route[currentRoutePositionInt].i, m.route[currentRoutePositionInt].j, 0.5f);
-            Vector3 next = m.GetMapPosition(m.route[nextRoutePositionInt].i, m.route[nextRoutePositionInt].j, 0.5f);
-            float dec = routePosition - currentRoutePositionInt;
-            Vector3 newPosition = next * dec + current * (1 - dec);
-            this.transform.position = newPosition;
-        }
-        
-        if (hp.Equals(0)){
-            //explo.Play();
-            foreach (GameObject tower in towers)
-            {
-                tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
-            }
-            //Debug.Log("123");
-            Destroy(this.gameObject);
-            player.GetComponent<PlayerController_script>().addResource(reward);
-        }
+        Move();
     }
 
 
@@ -94,6 +54,49 @@ public class Monster_base : MonoBehaviour, Monster_script {
     public void OnMouseDown()
     {
 
+    }
+    public void Move(){
+        MapController_script m = mapcontroller.GetComponent<MapController_script>();
+        routePosition += speed * Time.deltaTime / 100;
+        int currentRoutePositionInt = (int)Mathf.Floor(routePosition);
+        int nextRoutePositionInt = currentRoutePositionInt + 1;
+
+
+        if (nextRoutePositionInt >= m.route.Count)
+        {
+
+
+            foreach (GameObject tower in towers)
+            {
+                if (this.gameObject)
+                {
+                    tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
+                }
+            }
+            Destroy(this.gameObject);
+            player.GetComponent<PlayerController_script>().addCurrentHP(-1);
+        }
+        else
+        {
+            Vector3 current = m.GetMapPosition(m.route[currentRoutePositionInt].i, m.route[currentRoutePositionInt].j, 0.5f);
+            Vector3 next = m.GetMapPosition(m.route[nextRoutePositionInt].i, m.route[nextRoutePositionInt].j, 0.5f);
+            float dec = routePosition - currentRoutePositionInt;
+            Vector3 newPosition = next * dec + current * (1 - dec);
+            transform.Find("Model").LookAt(next);
+            this.transform.position = newPosition;
+        }
+
+        if (hp.Equals(0))
+        {
+            //explo.Play();
+            foreach (GameObject tower in towers)
+            {
+                tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
+            }
+            //Debug.Log("123");
+            Destroy(this.gameObject);
+            player.GetComponent<PlayerController_script>().addResource(reward);
+        }
     }
     public void damage(float val){
         hp = hp - val;
@@ -131,5 +134,15 @@ public class Monster_base : MonoBehaviour, Monster_script {
     {
         towers.Remove(tower);
     }
+    public void setSpeed(float newSpeed)
+    {
+        this.speed = newSpeed;
+        //Debug.Log("after slow speed is");
+        //Debug.Log(speed);
+    }
 
+    public float getSpeed()
+    {
+        return this.speed;
+    }
 }

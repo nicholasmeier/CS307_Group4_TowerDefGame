@@ -42,6 +42,7 @@ public class MapController_script : MonoBehaviour {
     private float player_current_resource;
     private int waveNumber;
     public bool inWave;
+    
 
 
 
@@ -50,9 +51,13 @@ public class MapController_script : MonoBehaviour {
         route = new List<Position>();
         StartCoroutine(SpawnMap());
         StartCoroutine(SpawnWave());
-	}
+        
+
+
+    }
 	
 	void Update () {
+        
 	}
 
     IEnumerator SpawnMap(){
@@ -83,7 +88,9 @@ public class MapController_script : MonoBehaviour {
         yield return 0;
     }
 
-    IEnumerator SpawnWave(){   
+    IEnumerator SpawnWave(){
+        yield return new WaitForEndOfFrame();
+        UpdatePath();
         foreach (Wave w in waves)
         {
             inWave = false;
@@ -93,7 +100,7 @@ public class MapController_script : MonoBehaviour {
             wave_display.text = "Wave: " + waveNumber.ToString();
             player.GetComponent<PlayerController_script>().addCurrentResource(100);
             inWave = true;
-            //ShowPath();
+            ShowPath();
             foreach (GameObject monster in w.monsters)
             {
                 GameObject monsterInstance;

@@ -16,6 +16,18 @@ public class IconManager : MonoBehaviour {
     public GameObject tower_snipe_prefab;
     Tower_script tower_snipe;
 
+    public Button barrier;
+    public GameObject barrier_prefab;
+    Tower_script barrier_script;
+
+    public Button resourceTower;
+    public GameObject tower_resource_prefab;
+    Tower_script tower_resource;
+
+    public Button slowTower;
+    public GameObject tower_slow_prefab;
+    Tower_script tower_slow;
+
     PlayerController_script ps;
 
 	// Use this for initialization
@@ -26,6 +38,13 @@ public class IconManager : MonoBehaviour {
         baseTower.onClick.AddListener(delegate { selectIcon(tower_base, tower_base_prefab); });
         tower_snipe = new Tower_snipe();
         snipeTower.onClick.AddListener(delegate { selectIcon(tower_snipe, tower_snipe_prefab); });
+        barrier_script = new Tower_barrier();
+        barrier.onClick.AddListener(delegate { selectIcon(barrier_script, barrier_prefab); });
+        tower_resource = new Tower_resource();
+        resourceTower.onClick.AddListener(delegate { selectIcon(tower_resource, tower_resource_prefab); });
+        tower_slow = new Tower_slow();
+        slowTower.onClick.AddListener(delegate { selectIcon(tower_slow, tower_slow_prefab); });
+
     }
 
     void selectIcon(Tower_script tower_script, GameObject tower){

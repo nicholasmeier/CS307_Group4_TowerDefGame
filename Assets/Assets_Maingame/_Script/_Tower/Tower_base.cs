@@ -106,6 +106,11 @@ public class Tower_base: MonoBehaviour, Tower_script {
         return this.attack;
     }
 
+    public int getType()
+    {
+        return 2;
+    }
+
 
 
 
