@@ -26,6 +26,7 @@ public class Tower_slow : MonoBehaviour, Tower_script
     public List<GameObject> monsters;
 
     int TowerIndex;
+    int TowerType;
     Material IceMaterial;
 
     void Start()
@@ -36,6 +37,7 @@ public class Tower_slow : MonoBehaviour, Tower_script
         projectilePrefab.GetComponent<projectile_script>().SetDamage(attack);
         transform.Find("Range").GetComponent<MonsterAdder>().SetRange(range);
         TowerIndex = 1;
+        TowerType = 1;
     }
 
     public void TowerUpgrade()
@@ -118,7 +120,8 @@ public class Tower_slow : MonoBehaviour, Tower_script
 
     public int getType()
     {
-        return 1;
+        Debug.Log(TowerType);
+        return TowerType;
     }
 
 
