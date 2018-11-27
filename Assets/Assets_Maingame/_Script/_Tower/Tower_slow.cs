@@ -58,13 +58,57 @@ public class Tower_slow : MonoBehaviour, Tower_script
         }
     }
 
+
+    public void shoot(GameObject t)
+    {
+        if (Time.time > lastShot + coolDown && t != null)
+        {
+            Vector3 position = getRelativePosition(t, this.gameObject);
+            //Rotate the tower
+            this.gameObject.transform.LookAt(t.transform.position);
+            this.gameObject.transform.Rotate(new Vector3(-90, 180, 0));
+
+            shootAud.Play();
+            //Debug.Log("Bang");
+            GameObject bulletInstance;
+            bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as GameObject;
+            bulletInstance.transform.LookAt(t.transform.position);
+            bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
+            lastShot = Time.time;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //Copy these functions without change
     public void Sell()
     {
+        MapController_script mc = mapcontroller.GetComponent<MapController_script>();
         player.GetComponent<PlayerController_script>().addCurrentResource(5);
         baseGrid.GetComponent<Grid_script>().availability = true;
-        mapcontroller.GetComponent<MapController_script>().SetAvailability(baseGrid, true);
+        mc.SetAvailability(baseGrid, true);
+        foreach (GameObject monster in mc.monsterHolder)
+        {
+            monster.GetComponent<Monster_script>().removeFromTowers(this.gameObject);
+        }
         Destroy(this.gameObject);
-        mapcontroller.GetComponent<MapController_script>().UpdatePath();
+        if (!mc.getInwave())
+        {
+            mc.UpdatePath();
+        }
     }
 
     // Update is called once per frame
@@ -94,25 +138,6 @@ public class Tower_slow : MonoBehaviour, Tower_script
         shoot(target);
     }
 
-    public void shoot(GameObject t)
-    {
-        if (Time.time > lastShot + coolDown && t != null)
-        {
-            Vector3 position = getRelativePosition(t, this.gameObject);
-            //Rotate the tower
-            this.gameObject.transform.LookAt(t.transform.position);
-            this.gameObject.transform.Rotate(new Vector3(-90, 180, 0));
-
-            shootAud.Play();
-            //Debug.Log("Bang");
-            GameObject bulletInstance;
-            bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as GameObject;
-            bulletInstance.transform.LookAt(t.transform.position);
-            bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
-            lastShot = Time.time;
-        }
-    }
-
     public float getAtk()
     {
         return this.attack;
@@ -124,21 +149,6 @@ public class Tower_slow : MonoBehaviour, Tower_script
         return TowerType;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //Copy these functions without change
     public void OnMouseDown()
     {
         PlayerController_script ps = player.GetComponent<PlayerController_script>();

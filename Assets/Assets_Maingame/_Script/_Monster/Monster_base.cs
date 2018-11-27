@@ -28,13 +28,13 @@ public class Monster_base : MonoBehaviour, Monster_script {
     }
     private void Update()
     {
+
     }
 
     // Update is called once per frame
     void FixedUpdate () {
         Move();
     }
-
 
 
 
@@ -57,7 +57,8 @@ public class Monster_base : MonoBehaviour, Monster_script {
     }
     public void Move(){
         MapController_script m = mapcontroller.GetComponent<MapController_script>();
-        routePosition += speed * Time.deltaTime / 100;
+        //routePosition += speed * Time.deltaTime / 100;
+        routePosition += speed / 3000;
         int currentRoutePositionInt = (int)Mathf.Floor(routePosition);
         int nextRoutePositionInt = currentRoutePositionInt + 1;
 
@@ -93,6 +94,7 @@ public class Monster_base : MonoBehaviour, Monster_script {
             {
                 tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
             }
+            mapcontroller.GetComponent<MapController_script>().monsterHolder.Remove(this.gameObject);
             //Debug.Log("123");
             Destroy(this.gameObject);
             player.GetComponent<PlayerController_script>().addResource(reward);

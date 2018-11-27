@@ -53,39 +53,6 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
         }
     }
     
-    public void Sell()
-    { 
-        player.GetComponent<PlayerController_script>().addCurrentResource(5);
-        baseGrid.GetComponent<Grid_script>().availability = true;
-        mapcontroller.GetComponent<MapController_script>().SetAvailability(baseGrid, true);
-        Destroy(this.gameObject);
-        mapcontroller.GetComponent<MapController_script>().UpdatePath();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        PlayerController_script ps = player.GetComponent<PlayerController_script>();
-        if(ps.GetSelectionStatus()==SelectionStatus.towerSelected && ps.GetSelectedTower().Equals(this.gameObject)){
-            transform.Find("Range").GetComponent<MeshRenderer>().enabled = true;
-        }
-        else{
-            transform.Find("Range").GetComponent<MeshRenderer>().enabled = false;
-        }
-
-        if (!monsters.Contains(target))
-        {
-            target = null;
-        }
-
-
-        //Debug.Log("Monster count= " + monsters.Count);
-        if (target == null && monsters.Count > 0){
-            target = monsters[0];
-        }
-
-        shoot(target);
-    }
 
     public void shoot(GameObject t){
         if (Time.time > lastShot + coolDown && t != null)
@@ -105,14 +72,7 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
         }
     }
 
-    public float getAtk()
-    {
-        return this.attack;
-    }
-    public int getType()
-    {
-        return 2;
-    }
+
 
 
 
@@ -128,6 +88,59 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
 
 
     //Copy these functions without change
+    public void Sell()
+    {
+        MapController_script mc = mapcontroller.GetComponent<MapController_script>();
+        player.GetComponent<PlayerController_script>().addCurrentResource(5);
+        baseGrid.GetComponent<Grid_script>().availability = true;
+        mc.SetAvailability(baseGrid, true);
+        foreach (GameObject monster in mc.monsterHolder)
+        {
+            monster.GetComponent<Monster_script>().removeFromTowers(this.gameObject);
+        }
+        Destroy(this.gameObject);
+        if (!mc.getInwave())
+        {
+            mc.UpdatePath();
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        PlayerController_script ps = player.GetComponent<PlayerController_script>();
+        if (ps.GetSelectionStatus() == SelectionStatus.towerSelected && ps.GetSelectedTower().Equals(this.gameObject))
+        {
+            transform.Find("Range").GetComponent<MeshRenderer>().enabled = true;
+        }
+        else
+        {
+            transform.Find("Range").GetComponent<MeshRenderer>().enabled = false;
+        }
+
+        if (!monsters.Contains(target))
+        {
+            target = null;
+        }
+
+
+        //Debug.Log("Monster count= " + monsters.Count);
+        if (target == null && monsters.Count > 0)
+        {
+            target = monsters[0];
+        }
+
+        shoot(target);
+    }
+
+    public float getAtk()
+    {
+        return this.attack;
+    }
+    public int getType()
+    {
+        return 2;
+    }
     public void OnMouseDown()
     {
         PlayerController_script ps = player.GetComponent<PlayerController_script>();

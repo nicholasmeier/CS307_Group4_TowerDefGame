@@ -31,6 +31,7 @@ public class MapController_script : MonoBehaviour {
     public Text wave_display;
     public int preperation_time = 0;
     public GameObject player;
+    public GameObject iconManager;
     public GameObject gridPrefab;           //The grid used to build the battleground
     private bool[,] gridArray;              //Int version of gridMap, used to increase performance,
                                             //False in entry meaning the grid is not available(occupied).
@@ -223,7 +224,7 @@ public class MapController_script : MonoBehaviour {
         insTower.GetComponent<Tower_script>().SetGrid(grid);
         insTower.transform.position = grid.transform.position + new Vector3(0, 1F, 0);
 
-        player.GetComponent<PlayerController_script>().addCurrentResource(-10);
+        player.GetComponent<PlayerController_script>().addCurrentResource(-1 * iconManager.GetComponent<IconManager>().price.GetPrice(tower));
 
     }
    
