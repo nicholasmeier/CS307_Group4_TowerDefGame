@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4233897683743220}
   - component: {fileID: 33175915929329888}
   m_Layer: 0
-  m_Name: Projectile_original
+  m_Name: SplashBullet_original
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,8 +114,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1823261627633018}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 578, y: 35.5, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4438879364043906}
@@ -179,7 +179,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 980de011c7f7a404dbc4f9f28a119c12, type: 2}
+  - {fileID: 2100000, guid: 85881ce00a64f1c4aa327428d34820b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -237,8 +237,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c6c1ffe82686e4a639238b1ee84b7c85, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9f59479338e86b34087ed5e674bf3b44, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -335,9 +335,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
-  aoe: 3
+  aoe: 10
   targetPosition: {x: 0, y: 0, z: 0}
   explodeAud: {fileID: 82890010497617328}
+  shockWaveVFX: {fileID: 1678084831294832, guid: e23dc0fa78ca64e0299ee660f813d562,
+    type: 2}
 --- !u!136 &136776537810724520
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -4900,8 +4902,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c7ef4a67a49d9a9438a434266ad21199, type: 2}
-  - {fileID: 2100000, guid: c7ef4a67a49d9a9438a434266ad21199, type: 2}
+  - {fileID: 2100000, guid: bc30cd89d85923849be84bd0f7a76c20, type: 2}
+  - {fileID: 2100000, guid: bc30cd89d85923849be84bd0f7a76c20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

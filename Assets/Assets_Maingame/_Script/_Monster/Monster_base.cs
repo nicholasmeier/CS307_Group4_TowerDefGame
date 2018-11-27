@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Monster_base : MonoBehaviour, Monster_script {
     //Attributes of this monster
     public float fullHp;
-    public float originalSpeed;
+    
     public int reward;
     public AudioSource explo;
 
@@ -15,6 +15,7 @@ public class Monster_base : MonoBehaviour, Monster_script {
     public float speed;
     public float hp;
     float routePosition;
+    float originalSpeed;
 
     //References of the controllers
     public GameObject player;
@@ -22,6 +23,7 @@ public class Monster_base : MonoBehaviour, Monster_script {
     public List<GameObject> towers;
 
     void Start () {
+        originalSpeed = speed;
         routePosition = 0;
         hp = fullHp;
 
@@ -74,6 +76,11 @@ public class Monster_base : MonoBehaviour, Monster_script {
                     tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
                 }
             }
+            foreach (GameObject tower in towers)
+            {
+                tower.GetComponent<Tower_script>().GetMonsters().Remove(this.gameObject);
+            }
+            mapcontroller.GetComponent<MapController_script>().monsterHolder.Remove(this.gameObject);
             Destroy(this.gameObject);
             player.GetComponent<PlayerController_script>().addCurrentHP(-1);
         }
@@ -146,5 +153,9 @@ public class Monster_base : MonoBehaviour, Monster_script {
     public float getSpeed()
     {
         return this.speed;
+    }
+    public float getOriginSpeed()
+    {
+        return this.originalSpeed;
     }
 }

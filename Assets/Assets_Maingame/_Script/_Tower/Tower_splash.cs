@@ -13,6 +13,7 @@ public class Tower_splash : MonoBehaviour, Tower_script {
     public float attack = 20;
     public GameObject projectilePrefab;
     public float range = 5;
+    public float aoe = 3;
 
     //references of the control system passed when created
     GameObject mapcontroller;
@@ -42,7 +43,7 @@ public class Tower_splash : MonoBehaviour, Tower_script {
 
     public void TowerUpgrade()
     {
-        if (TowerIndex == 1)
+        if (TowerIndex == 1 && player.GetComponent<PlayerController_script>().getCurrentResource() >= 30)
         {
             //Debug.Log("Lost");
             attack *= 2;
@@ -50,9 +51,10 @@ public class Tower_splash : MonoBehaviour, Tower_script {
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
             TowerIndex = 2;
         }
-        else if(TowerIndex == 2){
-            transform.Find("Range").GetComponent<MonsterAdder>().SetRange(2*range);
-            player.GetComponent<PlayerController_script>().addCurrentResource(-30);
+        else if (TowerIndex == 2 && player.GetComponent<PlayerController_script>().getCurrentResource() >= 45)
+        {
+            transform.Find("Range").GetComponent<MonsterAdder>().SetRange(2 * range);
+            player.GetComponent<PlayerController_script>().addCurrentResource(-45);
             TowerIndex = 3;
             able_upgrade = false;
         }
@@ -74,6 +76,7 @@ public class Tower_splash : MonoBehaviour, Tower_script {
             bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
             //The next line is exclusive to this tower
             bulletInstance.GetComponent<Projectile_splash>().SetTarget(t.transform.position);
+            bulletInstance.GetComponent<Projectile_splash>().SetAoe(aoe);
 
             lastShot = Time.time;
         }

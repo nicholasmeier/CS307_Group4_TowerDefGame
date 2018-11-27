@@ -271,9 +271,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: de6baf7c215ac9b459c1b80a9f585884, type: 2}
-  - {fileID: 2100000, guid: 90c7fd444a2beb24c9c94cbf36905348, type: 2}
-  - {fileID: 2100000, guid: 47a02c5889721a24dac20ea965de8909, type: 2}
+  - {fileID: 2100000, guid: 7e4d59cf4dcd396448cc2c2045695aca, type: 2}
+  - {fileID: 2100000, guid: 7e4d59cf4dcd396448cc2c2045695aca, type: 2}
+  - {fileID: 2100000, guid: 7e4d59cf4dcd396448cc2c2045695aca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -308,8 +308,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: de6baf7c215ac9b459c1b80a9f585884, type: 2}
-  - {fileID: 2100000, guid: 47a02c5889721a24dac20ea965de8909, type: 2}
+  - {fileID: 2100000, guid: 6adef02b13a80be45903897aad51ba94, type: 2}
+  - {fileID: 2100000, guid: 6adef02b13a80be45903897aad51ba94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -344,8 +344,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: de6baf7c215ac9b459c1b80a9f585884, type: 2}
-  - {fileID: 2100000, guid: 47a02c5889721a24dac20ea965de8909, type: 2}
+  - {fileID: 2100000, guid: c5c969473b87a2642bc368654df7bd2b, type: 2}
+  - {fileID: 2100000, guid: c5c969473b87a2642bc368654df7bd2b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -380,8 +380,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: de6baf7c215ac9b459c1b80a9f585884, type: 2}
-  - {fileID: 2100000, guid: 47a02c5889721a24dac20ea965de8909, type: 2}
+  - {fileID: 2100000, guid: c5c969473b87a2642bc368654df7bd2b, type: 2}
+  - {fileID: 2100000, guid: c5c969473b87a2642bc368654df7bd2b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faebc1ebe16934f92b834eb7d6bd86fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullHp: 100
+  fullHp: 240
   originalSpeed: 0
   reward: 10
   explo: {fileID: 0}

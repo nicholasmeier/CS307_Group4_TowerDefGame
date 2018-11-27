@@ -41,6 +41,7 @@ public class Buff_Controller : MonoBehaviour {
 
     public void backtoOriginalSpeed(GameObject monster)
     {
-        monster.GetComponent<Monster_script>().setSpeed(fixedSpeed);
+        float originalSpeed = monster.GetComponent<Monster_script>().getOriginSpeed();
+        monster.GetComponent<Monster_script>().setSpeed(originalSpeed);
     }
 }

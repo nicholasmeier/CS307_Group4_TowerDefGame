@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class PauseAudio : MonoBehaviour {
 
     // Use this for initialization
-    public void Cao () {
+    public void Pause () {
         DontDestroy.Instance.gameObject.GetComponent<AudioSource>().Pause();
 	}
-    public void FanCao() {
+    public void Play() {
         DontDestroy.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
 	// Update is called once per frame

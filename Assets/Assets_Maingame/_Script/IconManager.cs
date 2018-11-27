@@ -92,7 +92,7 @@ public class IconManager : MonoBehaviour {
     void selectIcon(float price, GameObject tower){
         //TODO:If the player is currently selecting the same type of tower, deselect.
         //Check the player's current gold
-        if (ps.getCurrentResource() > price)
+        if (ps.getCurrentResource() >= price)
         {
             mapController.GetComponent<MapController_script>().display_info.text = "";
             //Change the selection status

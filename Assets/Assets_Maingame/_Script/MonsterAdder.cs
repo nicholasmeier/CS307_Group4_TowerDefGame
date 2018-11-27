@@ -20,10 +20,10 @@ public class MonsterAdder : MonoBehaviour {
         {
             GetComponentInParent<Tower_script>().GetMonsters().Add(other.gameObject);
             other.GetComponent<Monster_script>().addToTowers(transform.parent.gameObject);
-            //Debug.Log(GetComponentInParent<Tower_script>().getType());
-            if (GetComponentInParent<Tower_script>().getType()==2)
+            //Debug.Log(GetComponentInParent<Tower_script>().getName());
+            if (GetComponentInParent<Tower_script>().getName().Equals("Slow Tower"))
             {
-                //Debug.Log("get slow tower");
+                Debug.Log("Slow");
                 foreach (GameObject ob in GetComponentInParent<Tower_script>().GetMonsters())
                 {
                     
@@ -39,9 +39,10 @@ public class MonsterAdder : MonoBehaviour {
         {
             GetComponentInParent<Tower_script>().GetMonsters().Remove(other.gameObject);
             other.GetComponent<Monster_script>().removeFromTowers(transform.parent.gameObject);
-            if (GetComponentInParent<Tower_script>().getType()==2)
+            if (GetComponentInParent<Tower_script>().getName().Equals("Slow Tower"))
             {
-                    GameObject.Find("Buff_controller").GetComponent<Buff_Controller>().backtoOriginalSpeed(other.gameObject);
+                Debug.Log("Original speed");
+                GameObject.Find("Buff_controller").GetComponent<Buff_Controller>().backtoOriginalSpeed(other.gameObject);
             }
         }
     }

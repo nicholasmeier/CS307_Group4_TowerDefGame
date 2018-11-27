@@ -26,4 +26,5 @@ public interface Monster_script
     void setSpeed(float newSpeed);
 
     float getSpeed();
+    float getOriginSpeed();
 }

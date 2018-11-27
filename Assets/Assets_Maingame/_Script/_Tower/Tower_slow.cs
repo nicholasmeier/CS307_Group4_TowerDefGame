@@ -46,7 +46,7 @@ public class Tower_slow : MonoBehaviour, Tower_script
 
     public void TowerUpgrade()
     {
-        if (TowerIndex == 1)
+        if (TowerIndex == 1 && player.GetComponent<PlayerController_script>().getCurrentResource() >= 30)
         {
             //Debug.Log("Lost");
             attack *= 2;
@@ -54,7 +54,7 @@ public class Tower_slow : MonoBehaviour, Tower_script
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
             TowerIndex = 2;
         }
-        else if (TowerIndex == 2)
+        else if (TowerIndex == 2 && player.GetComponent<PlayerController_script>().getCurrentResource() >= 45)
         {
             transform.Find("Range").GetComponent<MonsterAdder>().SetRange(2 + range);
             player.GetComponent<PlayerController_script>().addCurrentResource(-45);
