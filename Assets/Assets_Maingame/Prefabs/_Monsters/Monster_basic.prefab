@@ -499,7 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullHp: 100
   originalSpeed: 0
-  reward: 0
+  reward: 10
   explo: {fileID: 0}
   speed: 100
   hp: 0

@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4092536259049824}
-  - component: {fileID: 114377183776755452}
   - component: {fileID: 114109917583479200}
   - component: {fileID: 135589247468045042}
   m_Layer: 28
@@ -58,21 +57,6 @@ GameObject:
   - component: {fileID: 23556110947312360}
   m_Layer: 0
   m_Name: TowerBase2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1465066812325768
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4476860251523186}
-  m_Layer: 0
-  m_Name: TargetPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,38 +155,70 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1994285559415458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4020361454616764}
+  - component: {fileID: 33383226581067606}
+  - component: {fileID: 23641839336432944}
+  - component: {fileID: 136490619969144438}
+  - component: {fileID: 114588114189606350}
+  m_Layer: 2
+  m_Name: Range
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4020361454616764
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994285559415458}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_Children: []
+  m_Father: {fileID: 4092536259049824}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &4092536259049824
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1093732128611810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 5.5, y: -0.99999994, z: 1.87}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 4453370378717922}
   - {fileID: 4829594259204330}
   - {fileID: 4105611998709890}
-  - {fileID: 4476860251523186}
+  - {fileID: 4020361454616764}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &4105611998709890
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1867596169077498}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalRotation: {x: 0, y: -0.70710677, z: -0.70710677, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4859357751189768}
   - {fileID: 4976724352182216}
   m_Father: {fileID: 4092536259049824}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: -90.00001, z: -90.00001}
 --- !u!4 &4453370378717922
 Transform:
   m_ObjectHideFlags: 1
@@ -215,19 +231,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4092536259049824}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4476860251523186
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1465066812325768}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 2.8571427, y: 2.8571427, z: 2.8571427}
-  m_Children: []
-  m_Father: {fileID: 4092536259049824}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4584747702418466
 Transform:
@@ -275,14 +278,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1560469930135674}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4584747702418466}
   m_Father: {fileID: 4092536259049824}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4859357751189768
 Transform:
   m_ObjectHideFlags: 1
@@ -415,6 +418,41 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23641839336432944
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994285559415458}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: eb4634a1fa0bc4d429c875703ff97e75, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!33 &33054888053022190
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -422,6 +460,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1109959519285756}
   m_Mesh: {fileID: 4300002, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
+--- !u!33 &33383226581067606
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994285559415458}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33831226063862908
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -542,9 +587,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aedb3faf80f9f624eae854faf179c2d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 10
+  projectileSpeed: 5
   price: 5
-  coolDown: 0.25
+  coolDown: 1
   shootAud: {fileID: 82915145613336198}
   prefab: {fileID: 1367714714588856, guid: 6b31858db12684b69b01f773143012fd, type: 2}
   attack: 20
@@ -554,259 +599,17 @@ MonoBehaviour:
   target: {fileID: 0}
   lastShot: 0
   monsters: []
---- !u!114 &114377183776755452
+--- !u!114 &114588114189606350
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1093732128611810}
+  m_GameObject: {fileID: 1994285559415458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aad507a3dcc61094483b4a428cf99d91, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d59f3a417ca4f4f8eadda7edf1fd59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetTargetOnAttack: 0
-  prefabID: 1
-  instanceID: -1
-  unitName: Cannon Tower
-  icon: {fileID: 21300000, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
-  desp: A standard cannon turret with decent damage and range. Deal aoe damage.
-  unitRadius: 0.25
-  targetPoint: {fileID: 4476860251523186}
-  hp: 10
-  sh: 10
-  shStagger: 0
-  cooldown: 0
-  level: 0
-  statsList:
-  - buildDuration: 1.5
-    sellDuration: 0.5
-    expToNextUpgrade: 10
-    cost:
-    - 20
-    - 0
-    sellValue:
-    - 20
-    - 0
-    hp: 10
-    sh: 0
-    shRegen: 0
-    shStagger: 0
-    hpRate: 0
-    shRate: 0
-    armorType: 0
-    damageType: 0
-    speed: 0
-    dodge: 0
-    dmgReduc: 0
-    critReduc: 0
-    hit: 1
-    damageMin: 1
-    damageMax: 3
-    attackRange: 3.5
-    aoeRange: 1
-    cooldown: 2
-    critChance: 0
-    critMultiplier: 0
-    effectOnHitChance: 0
-    effectOnHitID: 6
-    overrideExistingEffect: 0
-    effectOnHitIDList: 06000000
-    rscGain:
-    - 0
-    - 0
-  - buildDuration: 1.5
-    sellDuration: 0.5
-    expToNextUpgrade: 10
-    cost:
-    - 10
-    - 0
-    sellValue:
-    - 30
-    - 0
-    hp: 10
-    sh: 0
-    shRegen: 0
-    shStagger: 0
-    hpRate: 0
-    shRate: 0
-    armorType: 0
-    damageType: 0
-    speed: 0
-    dodge: 0
-    dmgReduc: 0
-    critReduc: 0
-    hit: 1
-    damageMin: 2
-    damageMax: 4
-    attackRange: 3.5
-    aoeRange: 1
-    cooldown: 2
-    critChance: 0
-    critMultiplier: 0
-    effectOnHitChance: 0
-    effectOnHitID: 6
-    overrideExistingEffect: 0
-    effectOnHitIDList: 06000000
-    rscGain:
-    - 0
-    - 0
-  effectImmunityList: 
-  attackTarget: {fileID: 0}
-  shootObject: {fileID: 114266115900946412, guid: 09a463b997518ca4ba2b0574c697a0c1,
-    type: 2}
-  shootPoint:
-  - {fileID: 4652615933874578}
-  shootPointSpacing: 0.2
-  turretPivot: {fileID: 4105611998709890}
-  barrelPivot: {fileID: 0}
-  aimInXAxis: 1
-  snapAiming: 1
-  aimSpeed: 20
-  aimed: 0
-  targetMode: 0
-  targetingFov: 0
-  targetingDir: 0
-  activeEffectMod:
-    prefabID: -1
-    instanceID: -1
-    icon: {fileID: 0}
-    name: Item
-    desp: Item's description
-    ID: 0
-    srcType: 4
-    srcPrefabID: 0
-    stackable: 0
-    duration: 1
-    durationRemain: 1
-    effType: 0
-    stun: 0
-    stats:
-      buildDuration: 1
-      sellDuration: 1
-      expToNextUpgrade: 10
-      cost: []
-      sellValue: []
-      hp: 5
-      sh: 0
-      shRegen: 0.5
-      shStagger: 3
-      hpRate: 0
-      shRate: 0
-      armorType: 0
-      damageType: 0
-      speed: 3
-      dodge: 0
-      dmgReduc: 0
-      critReduc: 0
-      hit: 1
-      damageMin: 2
-      damageMax: 2
-      attackRange: 2
-      aoeRange: 0
-      cooldown: 1
-      critChance: 0
-      critMultiplier: 0
-      effectOnHitChance: 1
-      effectOnHitID: -1
-      overrideExistingEffect: 0
-      effectOnHitIDList: 
-      rscGain: []
-  activeEffectMul:
-    prefabID: -1
-    instanceID: -1
-    icon: {fileID: 0}
-    name: Item
-    desp: Item's description
-    ID: 0
-    srcType: 4
-    srcPrefabID: 0
-    stackable: 0
-    duration: 1
-    durationRemain: 1
-    effType: 0
-    stun: 0
-    stats:
-      buildDuration: 1
-      sellDuration: 1
-      expToNextUpgrade: 10
-      cost: []
-      sellValue: []
-      hp: 5
-      sh: 0
-      shRegen: 0.5
-      shStagger: 3
-      hpRate: 0
-      shRate: 0
-      armorType: 0
-      damageType: 0
-      speed: 3
-      dodge: 0
-      dmgReduc: 0
-      critReduc: 0
-      hit: 1
-      damageMin: 2
-      damageMax: 2
-      attackRange: 2
-      aoeRange: 0
-      cooldown: 1
-      critChance: 0
-      critMultiplier: 0
-      effectOnHitChance: 1
-      effectOnHitID: -1
-      overrideExistingEffect: 0
-      effectOnHitIDList: 
-      rscGain: []
-  allEffectList: []
-  animatorT: {fileID: 0}
-  clipIdle: {fileID: 0}
-  clipHit: {fileID: 0}
-  clipDestroyed: {fileID: 0}
-  clipAttack: {fileID: 0}
-  animationAttackDelay: 0
-  clipMove: {fileID: 0}
-  clipSpawn: {fileID: 0}
-  clipDestination: {fileID: 0}
-  clipConstruct: {fileID: 0}
-  clipDeconstruct: {fileID: 0}
-  towerType: 0
-  targetGroup: 1
-  isPreview: 0
-  prebuilt: 0
-  disableSelling: 0
-  hideInInspector: 0
-  constructState: 0
-  limitInScene: 0
-  effectBuilding:
-    obj: {fileID: 0}
-    autoDestroy: 1
-    duration: 1.5
-  effectBuilt:
-    obj: {fileID: 0}
-    autoDestroy: 1
-    duration: 1.5
-  effectSold:
-    obj: {fileID: 0}
-    autoDestroy: 1
-    duration: 1.5
-  effectDestroyed:
-    obj: {fileID: 0}
-    autoDestroy: 1
-    duration: 1.5
-  soundBuilding: {fileID: 0}
-  soundBuilt: {fileID: 0}
-  soundUpgrading: {fileID: 0}
-  soundUpgraded: {fileID: 0}
-  soundSold: {fileID: 0}
-  soundDestroyed: {fileID: 0}
-  radius: 0.5
-  supportTgtList: []
-  supportSrcList: []
-  buildPlatform: {fileID: 0}
-  nodeID: 0
-  useExpForUpgrade: 0
-  experience: 0
-  upgradeTowerList: []
 --- !u!135 &135589247468045042
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -819,3 +622,16 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!136 &136490619969144438
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994285559415458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 15
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}

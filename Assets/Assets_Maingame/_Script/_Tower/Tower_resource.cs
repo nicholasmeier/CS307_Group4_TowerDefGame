@@ -29,11 +29,15 @@ public class Tower_resource : MonoBehaviour, Tower_script
     int TowerIndex;
     int TowerType;
     Material IceMaterial;
+    string _name;
+    bool able_upgrade;
 
     void Start()
     {
 
         monsters.Clear();
+        _name = "Resource Tower";
+        able_upgrade = false;
         target = null;
         lastShot = -coolDown;
         //projectilePrefab.GetComponent<projectile_script>().SetDamage(attack);
@@ -61,7 +65,8 @@ public class Tower_resource : MonoBehaviour, Tower_script
         }
         */
     }
-
+    //
+    
 
 
     public void shoot(GameObject t)
@@ -94,6 +99,15 @@ public class Tower_resource : MonoBehaviour, Tower_script
 
 
     //Copy these functions without change
+    public string getName()
+    {
+        return _name;
+    }
+
+    public bool can_be_upgrade()
+    {
+        return able_upgrade;
+    }
     public float getAtk()
     {
         return this.attack;

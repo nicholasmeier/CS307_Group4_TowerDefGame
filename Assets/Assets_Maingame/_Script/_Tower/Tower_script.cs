@@ -26,4 +26,7 @@ public interface Tower_script{
     float getAtk();
 
     int getType();
+
+    string getName();
+    bool can_be_upgrade();
 }

@@ -27,11 +27,15 @@ public class Tower_barrier : MonoBehaviour, Tower_script
 
     int TowerIndex;
     Material IceMaterial;
+    string _name;
+    bool able_upgrade;
 
     void Start()
     {
 
         monsters.Clear();
+        able_upgrade = false;
+        _name = "Barrier";
         target = null;
         lastShot = -coolDown;
         //projectilePrefab.GetComponent<projectile_script>().SetDamage(attack);
@@ -59,7 +63,16 @@ public class Tower_barrier : MonoBehaviour, Tower_script
         */
     }
 
+    //
+    public string getName()
+    {
+        return _name;
+    }
 
+    public bool can_be_upgrade()
+    {
+        return able_upgrade;
+    }
 
     public void shoot(GameObject t)
     {   

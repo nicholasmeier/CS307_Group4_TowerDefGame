@@ -26,9 +26,13 @@ public class Tower_splash : MonoBehaviour, Tower_script {
 
     int TowerIndex;
     Material IceMaterial;
+    string _name;
+    bool able_upgrade;
 
     void Start () {
         monsters.Clear();
+        able_upgrade = true;
+        _name = "Splash Tower(AOE)";
         target = null;
         lastShot = -coolDown;
         projectilePrefab.GetComponent<Projectile_script>().SetDamage(attack);
@@ -50,6 +54,7 @@ public class Tower_splash : MonoBehaviour, Tower_script {
             transform.Find("Range").GetComponent<MonsterAdder>().SetRange(2*range);
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
             TowerIndex = 3;
+            able_upgrade = false;
         }
     }
     
@@ -67,6 +72,9 @@ public class Tower_splash : MonoBehaviour, Tower_script {
             bulletInstance = Instantiate(projectilePrefab, this.transform.position, this.transform.rotation) as GameObject;
             bulletInstance.transform.LookAt(t.transform.position);
             bulletInstance.GetComponent<Rigidbody>().velocity = projectileSpeed * position.normalized;
+            //The next line is exclusive to this tower
+            bulletInstance.GetComponent<Projectile_splash>().SetTarget(t.transform.position);
+
             lastShot = Time.time;
         }
     }
@@ -87,6 +95,15 @@ public class Tower_splash : MonoBehaviour, Tower_script {
 
 
     //Copy these functions without change
+    public string getName()
+    {
+        return _name;
+    }
+
+    public bool can_be_upgrade()
+    {
+        return able_upgrade;
+    }
     public float getAtk()
     {
         return this.attack;

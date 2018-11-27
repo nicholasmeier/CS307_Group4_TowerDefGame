@@ -28,10 +28,14 @@ public class Tower_slow : MonoBehaviour, Tower_script
     int TowerIndex;
     int TowerType;
     Material IceMaterial;
+    string _name;
+    bool able_upgrade;
 
     void Start()
     {
         monsters.Clear();
+        _name = "Slow Tower";
+        able_upgrade = true;
         target = null;
         lastShot = -coolDown;
         projectilePrefab.GetComponent<Projectile_script>().SetDamage(attack);
@@ -55,9 +59,11 @@ public class Tower_slow : MonoBehaviour, Tower_script
             transform.Find("Range").GetComponent<MonsterAdder>().SetRange(2 + range);
             player.GetComponent<PlayerController_script>().addCurrentResource(-45);
             TowerIndex = 3;
+            able_upgrade = false;
         }
     }
-
+    //
+    
 
     public void shoot(GameObject t)
     {
@@ -94,6 +100,15 @@ public class Tower_slow : MonoBehaviour, Tower_script
 
 
     //Copy these functions without change
+    public string getName()
+    {
+        return _name;
+    }
+
+    public bool can_be_upgrade()
+    {
+        return able_upgrade;
+    }
     public void Sell()
     {
         MapController_script mc = mapcontroller.GetComponent<MapController_script>();

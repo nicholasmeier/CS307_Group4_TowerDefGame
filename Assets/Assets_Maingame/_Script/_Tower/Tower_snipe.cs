@@ -26,9 +26,14 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
 
     int TowerIndex;
     Material IceMaterial;
+    //
+    bool able_upgrade;
+    string _name;
 
     void Start () {
         monsters.Clear();
+        _name = "Snipe Tower";
+        able_upgrade = true;
         target = null;
         lastShot = -coolDown;
         projectilePrefab.GetComponent<Projectile_script>().SetDamage(attack);
@@ -50,6 +55,7 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
             transform.Find("Range").GetComponent<MonsterAdder>().SetRange(2*range);
             player.GetComponent<PlayerController_script>().addCurrentResource(-30);
             TowerIndex = 3;
+            able_upgrade = false;
         }
     }
     
@@ -88,6 +94,16 @@ public class Tower_snipe: MonoBehaviour, Tower_script {
 
 
     //Copy these functions without change
+    //
+    public string getName()
+    {
+        return _name;
+    }
+
+    public bool can_be_upgrade()
+    {
+        return able_upgrade;
+    }
     public void Sell()
     {
         MapController_script mc = mapcontroller.GetComponent<MapController_script>();

@@ -334,8 +334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cbfbca2905ba470eb17b644e644a0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  aoe: 0
+  damage: 20
+  aoe: 3
   targetPosition: {x: 0, y: 0, z: 0}
   explodeAud: {fileID: 82890010497617328}
 --- !u!136 &136776537810724520

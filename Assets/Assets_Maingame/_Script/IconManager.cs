@@ -10,6 +10,7 @@ public class Price{
     public float barrier;
     public float resourceTower;
     public float slowTower;
+    public float splashTower;
 
     public float GetPrice(GameObject tower){
         if (tower.name.Equals("BaseTower"))
@@ -28,6 +29,10 @@ public class Price{
         if(tower.name.Equals("SlowTower")){
             return slowTower;
         }
+        if (tower.name.Equals("SplashTower"))
+        {
+            return splashTower;
+        }
 
         return 10000;
     }
@@ -35,6 +40,7 @@ public class Price{
 
 public class IconManager : MonoBehaviour {
 
+    
     public GameObject playerController;
     public GameObject mapController;
     public Price price;
@@ -60,6 +66,9 @@ public class IconManager : MonoBehaviour {
     public GameObject tower_slow_prefab;
     //Tower_script tower_slow;
 
+    public Button splashTower;
+    public GameObject tower_splash_prefab;
+
     PlayerController_script ps;
 
 	// Use this for initialization
@@ -76,12 +85,12 @@ public class IconManager : MonoBehaviour {
         resourceTower.onClick.AddListener(delegate { selectIcon(price.resourceTower, tower_resource_prefab); });
         //tower_slow = new Tower_slow();
         slowTower.onClick.AddListener(delegate { selectIcon(price.slowTower, tower_slow_prefab); });
+        splashTower.onClick.AddListener(delegate { selectIcon(price.splashTower, tower_splash_prefab); });
 
     }
 
     void selectIcon(float price, GameObject tower){
         //TODO:If the player is currently selecting the same type of tower, deselect.
-
         //Check the player's current gold
         if (ps.getCurrentResource() > price)
         {
@@ -94,4 +103,5 @@ public class IconManager : MonoBehaviour {
             mapController.GetComponent<MapController_script>().display_info.text = "Not enough gold!";
         }
     }
+
 }
