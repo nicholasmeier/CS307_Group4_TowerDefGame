@@ -67,6 +67,7 @@
     <Compile Include="Assets\Assets_Maingame\_Script\_Monster\Monster_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Projectile\Projectile_bullet.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Projectile\projectile_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\_Projectile\Projectile_splash.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Tower\Tower_barrier.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Tower\Tower_base.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\_Tower\Tower_resource.cs" />

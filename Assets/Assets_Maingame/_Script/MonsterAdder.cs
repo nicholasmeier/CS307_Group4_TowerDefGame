@@ -47,6 +47,6 @@ public class MonsterAdder : MonoBehaviour {
     }
 
     public void SetRange(float range){
-        transform.localScale = new Vector3(2 * range, 1, 2 * range);
+        transform.localScale = new Vector3(2 * range / transform.parent.localScale.x, 1 / transform.parent.localScale.y, 2 * range / transform.parent.localScale.z);
     }
 }

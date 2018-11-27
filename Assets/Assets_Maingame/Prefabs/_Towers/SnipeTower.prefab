@@ -135,7 +135,7 @@ Transform:
   m_GameObject: {fileID: 1759567259806048}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.5, y: -0.45, z: 5.47}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 4270308064098808}
   - {fileID: 4838524638282076}
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 003c010eef80c4f5794f4ec9fc6e74c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 30
+  projectileSpeed: 40
   price: 20
   coolDown: 1
   shootAud: {fileID: 82618807634418778}

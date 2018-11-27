@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e821b3eeae7eaa64d83e1b59a0f2f816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 10
+  projectileSpeed: 40
   price: 20
   coolDown: 0.25
   shootAud: {fileID: 82866686895104580}
