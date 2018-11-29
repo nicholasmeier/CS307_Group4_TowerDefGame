@@ -85,11 +85,13 @@
     <Compile Include="Assets\Assets_Maingame\_Script\MapController_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\MonsterAdder.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\PlayerController_script.cs" />
+    <Compile Include="Assets\Assets_Maingame\_Script\SceneManager_script.cs" />
     <Compile Include="Assets\Assets_Maingame\_Script\ShockWaveVFX.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ButtonFuncChange.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\StarMainMenu\Scripts\DetectGameStatus.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\DragMe.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\DragPanel.cs" />
@@ -108,16 +110,16 @@
     <None Include="Assets\StarMainMenu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -300,7 +302,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -321,22 +323,22 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.App">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Auth">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Platform">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
-      <HintPath>C:/HeroTD/CS307_Group4_TowerDefGame/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+      <HintPath>C:/Myproject#Unity/Hero TD/CS307_Group4_TowerDefGame/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/75979/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

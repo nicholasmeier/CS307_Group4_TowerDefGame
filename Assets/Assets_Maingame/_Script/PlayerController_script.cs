@@ -59,7 +59,9 @@ public class PlayerController_script : MonoBehaviour {
         current_resource += delta;
         resourceText.text = "Gold: " + current_resource.ToString();
     }
-
+    public int getUserHP() {
+        return current_hp;
+    }
 	// Update is called once per frame
 	void Update () {
         if (current_hp <= 0) {
