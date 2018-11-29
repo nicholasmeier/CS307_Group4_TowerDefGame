@@ -25,6 +25,7 @@ public class SceneManager_script : MonoBehaviour {
             }
             if (player.GetComponent<PlayerController_script>().getUserHP() <= 0 && player)
             {
+                Time.timeScale = 1;
                 Debug.Log("Die");
                 isGameover = true;
                 loadByIndex(0);
@@ -38,7 +39,11 @@ public class SceneManager_script : MonoBehaviour {
 
     public void Quit()
     {
-        Application.Quit();
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+		Application.Quit();
+        #endif
     }
     public void loadByIndex(int index)
     {

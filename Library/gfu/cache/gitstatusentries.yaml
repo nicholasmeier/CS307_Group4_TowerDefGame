@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-28T22:53:28.148-05:00
-  initializedAtString: 2018-11-28T22:37:25.772-05:00
+  lastUpdatedAtString: 2018-11-28T23:06:59.244-05:00
+  initializedAtString: 2018-11-28T22:57:45.538-05:00
   entries:
   - path: .vs\CS307_Group4_TowerDefGame\v15\.suo
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\.vs\CS307_Group4_TowerDefGame\v15\.suo
     projectPath: .vs\CS307_Group4_TowerDefGame\v15\.suo
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\.vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\CS307_Group4_TowerDefGame\v15\Server\sqlite3\storage.ide
     originalPath: 
     status: 3
     staged: 0
@@ -33,40 +39,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Assets_Maingame\_Script\_UI.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Assets_Maingame\_Script\_UI.meta
-    projectPath: Assets\Assets_Maingame\_Script\_UI.meta
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Assets\Assets_Maingame\_Script\SceneManager_script.cs
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Assets_Maingame\_Script\SceneManager_script.cs
     projectPath: Assets\Assets_Maingame\_Script\SceneManager_script.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Assets_Maingame\Material\Local Material\Materials.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Assets_Maingame\Material\Local
-      Material\Materials.meta
-    projectPath: Assets\Assets_Maingame\Material\Local Material\Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Assets_Maingame\Scenes\GameScene.unity
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Assets_Maingame\Scenes\GameScene.unity
-    projectPath: Assets\Assets_Maingame\Scenes\GameScene.unity
     originalPath: 
     status: 3
     staged: 0
@@ -76,81 +51,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Textures and Sprites.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\Textures and Sprites.meta
-    projectPath: Assets\Textures and Sprites.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\X-BARS\Example\Audio\Effects.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Audio\Effects.meta
-    projectPath: Assets\X-BARS\Example\Audio\Effects.meta
+  - path: Assets\X-BARS.meta
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS.meta
+    projectPath: Assets\X-BARS.meta
     originalPath: 
     status: 5
     staged: 0
-  - path: Assets\X-BARS\Example\Materials.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Materials.meta
-    projectPath: Assets\X-BARS\Example\Materials.meta
+  - path: Assets\X-BARS\Example.meta
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example.meta
+    projectPath: Assets\X-BARS\Example.meta
     originalPath: 
     status: 5
     staged: 0
-  - path: Assets\X-BARS\Example\Models\Characters.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Models\Characters.meta
-    projectPath: Assets\X-BARS\Example\Models\Characters.meta
+  - path: Assets\X-BARS\Example\Audio.meta
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Audio.meta
+    projectPath: Assets\X-BARS\Example\Audio.meta
     originalPath: 
     status: 5
     staged: 0
-  - path: Assets\X-BARS\Example\Models\Environment.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Models\Environment.meta
-    projectPath: Assets\X-BARS\Example\Models\Environment.meta
+  - path: Assets\X-BARS\Example\Models.meta
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Models.meta
+    projectPath: Assets\X-BARS\Example\Models.meta
     originalPath: 
     status: 5
     staged: 0
-  - path: Assets\X-BARS\Example\Scenes.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Scenes.meta
-    projectPath: Assets\X-BARS\Example\Scenes.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Example\Scripts.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Scripts.meta
-    projectPath: Assets\X-BARS\Example\Scripts.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Example\Shaders.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Shaders.meta
-    projectPath: Assets\X-BARS\Example\Shaders.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Example\Textures.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Example\Textures.meta
-    projectPath: Assets\X-BARS\Example\Textures.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Prefabs.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Prefabs.meta
-    projectPath: Assets\X-BARS\Prefabs.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Scripts\Editor.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Scripts\Editor.meta
-    projectPath: Assets\X-BARS\Scripts\Editor.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Scripts\Temp.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Scripts\Temp.meta
-    projectPath: Assets\X-BARS\Scripts\Temp.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\X-BARS\Textures.meta
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Textures.meta
-    projectPath: Assets\X-BARS\Textures.meta
+  - path: Assets\X-BARS\Scripts.meta
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Assets\X-BARS\Scripts.meta
+    projectPath: Assets\X-BARS\Scripts.meta
     originalPath: 
     status: 5
     staged: 0
@@ -165,12 +92,6 @@ MonoBehaviour:
     projectPath: Library\EditorInstance.json
     originalPath: 
     status: 1
-    staged: 0
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    status: 3
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\gfu\cache\gitlocks.yaml
@@ -196,435 +117,45 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\LastBuild.buildreport
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\04\04b56e9dcead2464980e217ab3e570ed
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\04\04b56e9dcead2464980e217ab3e570ed
-    projectPath: Library\metadata\04\04b56e9dcead2464980e217ab3e570ed
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0a\0ad7c77e77679ab46bf11303c59b229a.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0a\0ad7c77e77679ab46bf11303c59b229a.info
-    projectPath: Library\metadata\0a\0ad7c77e77679ab46bf11303c59b229a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0a\0ad9ef5fff5524355a9670c90a99cbba.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0a\0ad9ef5fff5524355a9670c90a99cbba.info
-    projectPath: Library\metadata\0a\0ad9ef5fff5524355a9670c90a99cbba.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0b\0b4053797e266494c81478836197d73e
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0b\0b4053797e266494c81478836197d73e
-    projectPath: Library\metadata\0b\0b4053797e266494c81478836197d73e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0b\0b538d17a7d14544d9b4552fb1bf8f0a.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0b\0b538d17a7d14544d9b4552fb1bf8f0a.info
-    projectPath: Library\metadata\0b\0b538d17a7d14544d9b4552fb1bf8f0a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\0c\0ce09b369cfc6144db997af7838415d9
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0c\0ce09b369cfc6144db997af7838415d9
-    projectPath: Library\metadata\0c\0ce09b369cfc6144db997af7838415d9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\0c\0ce09b369cfc6144db997af7838415d9.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0c\0ce09b369cfc6144db997af7838415d9.info
-    projectPath: Library\metadata\0c\0ce09b369cfc6144db997af7838415d9.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\0d\0d9e8c40ad8fac14695350ac8cb3a5f2.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\0d\0d9e8c40ad8fac14695350ac8cb3a5f2.info
-    projectPath: Library\metadata\0d\0d9e8c40ad8fac14695350ac8cb3a5f2.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\16\169ba2b9599e44b2a94d0f1800dd5f8c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\16\169ba2b9599e44b2a94d0f1800dd5f8c.info
-    projectPath: Library\metadata\16\169ba2b9599e44b2a94d0f1800dd5f8c.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\16\16adfeb90f2004348b7dfad7eb9ae316
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\16\16adfeb90f2004348b7dfad7eb9ae316
-    projectPath: Library\metadata\16\16adfeb90f2004348b7dfad7eb9ae316
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\19\1946c2d8c8cda3a4aa6b2d1c98faaa35.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\19\1946c2d8c8cda3a4aa6b2d1c98faaa35.info
-    projectPath: Library\metadata\19\1946c2d8c8cda3a4aa6b2d1c98faaa35.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1a\1af7fd9974c746418c914c7f8529abc2.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\1a\1af7fd9974c746418c914c7f8529abc2.info
-    projectPath: Library\metadata\1a\1af7fd9974c746418c914c7f8529abc2.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1b\1bd6f8e787868734f8db70efd2553a18.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\1b\1bd6f8e787868734f8db70efd2553a18.info
-    projectPath: Library\metadata\1b\1bd6f8e787868734f8db70efd2553a18.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1b\1bfa175b48aa86f4f9647abcdb383485.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\1b\1bfa175b48aa86f4f9647abcdb383485.info
-    projectPath: Library\metadata\1b\1bfa175b48aa86f4f9647abcdb383485.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1d\1daa59b6dda17974b9c1ac453053dfa1.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\1d\1daa59b6dda17974b9c1ac453053dfa1.info
-    projectPath: Library\metadata\1d\1daa59b6dda17974b9c1ac453053dfa1.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\20\20230a1dc8b2b4837bde0fe4b5ab254c
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\20\20230a1dc8b2b4837bde0fe4b5ab254c
-    projectPath: Library\metadata\20\20230a1dc8b2b4837bde0fe4b5ab254c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\20\20c5b8a1f82cb4aadb77ca20683d2a6e.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\20\20c5b8a1f82cb4aadb77ca20683d2a6e.info
-    projectPath: Library\metadata\20\20c5b8a1f82cb4aadb77ca20683d2a6e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\21\21d19d73252dc4a48a673eea718bd111.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\21\21d19d73252dc4a48a673eea718bd111.info
-    projectPath: Library\metadata\21\21d19d73252dc4a48a673eea718bd111.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\25\25a88e3bd36200d418e52d2dcd5b36d7.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\25\25a88e3bd36200d418e52d2dcd5b36d7.info
-    projectPath: Library\metadata\25\25a88e3bd36200d418e52d2dcd5b36d7.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\26\261d9ea5487414888bcc391477d84ce9
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\26\261d9ea5487414888bcc391477d84ce9
-    projectPath: Library\metadata\26\261d9ea5487414888bcc391477d84ce9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\26\266dee177694435468095e35de5218cc
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\26\266dee177694435468095e35de5218cc
-    projectPath: Library\metadata\26\266dee177694435468095e35de5218cc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\27\27342824cec2ee64ab208b2396c0d82c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\27\27342824cec2ee64ab208b2396c0d82c.info
-    projectPath: Library\metadata\27\27342824cec2ee64ab208b2396c0d82c.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\27\27d87a15bf86c4159800770927c9aa2f.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\27\27d87a15bf86c4159800770927c9aa2f.info
-    projectPath: Library\metadata\27\27d87a15bf86c4159800770927c9aa2f.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\28\287e6f194a76b6b47ae5f5ec96a50a98.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\28\287e6f194a76b6b47ae5f5ec96a50a98.info
-    projectPath: Library\metadata\28\287e6f194a76b6b47ae5f5ec96a50a98.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\29\2955864b938094f579ea9902b65ac10c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\29\2955864b938094f579ea9902b65ac10c.info
-    projectPath: Library\metadata\29\2955864b938094f579ea9902b65ac10c.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\2b\2bec2bf8d84d4997ba2dd66263781f3d
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\2b\2bec2bf8d84d4997ba2dd66263781f3d
-    projectPath: Library\metadata\2b\2bec2bf8d84d4997ba2dd66263781f3d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\2e\2ef9ef07feb093640a5e4f4bd666e0b0
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\2e\2ef9ef07feb093640a5e4f4bd666e0b0
-    projectPath: Library\metadata\2e\2ef9ef07feb093640a5e4f4bd666e0b0
+  - path: Library\metadata\08\08b1a7a8e90b9724782e81d006fa99b1
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\08\08b1a7a8e90b9724782e81d006fa99b1
+    projectPath: Library\metadata\08\08b1a7a8e90b9724782e81d006fa99b1
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\2e\2ef9ef07feb093640a5e4f4bd666e0b0.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\2e\2ef9ef07feb093640a5e4f4bd666e0b0.info
-    projectPath: Library\metadata\2e\2ef9ef07feb093640a5e4f4bd666e0b0.info
+  - path: Library\metadata\08\08b1a7a8e90b9724782e81d006fa99b1.info
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\08\08b1a7a8e90b9724782e81d006fa99b1.info
+    projectPath: Library\metadata\08\08b1a7a8e90b9724782e81d006fa99b1.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\34\3433335b03634044cb479314cc259978.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\34\3433335b03634044cb479314cc259978.info
-    projectPath: Library\metadata\34\3433335b03634044cb479314cc259978.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\35\35868d7a76dde4354b3ea20c36f8fdf9
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\35\35868d7a76dde4354b3ea20c36f8fdf9
-    projectPath: Library\metadata\35\35868d7a76dde4354b3ea20c36f8fdf9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\37\37c28eeb82a76f249830009f6095e65c
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\37\37c28eeb82a76f249830009f6095e65c
-    projectPath: Library\metadata\37\37c28eeb82a76f249830009f6095e65c
+  - path: Library\metadata\13\135f2aac04862b84bb765d76f714c5f0
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\13\135f2aac04862b84bb765d76f714c5f0
+    projectPath: Library\metadata\13\135f2aac04862b84bb765d76f714c5f0
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\37\37c28eeb82a76f249830009f6095e65c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\37\37c28eeb82a76f249830009f6095e65c.info
-    projectPath: Library\metadata\37\37c28eeb82a76f249830009f6095e65c.info
+  - path: Library\metadata\13\135f2aac04862b84bb765d76f714c5f0.info
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\13\135f2aac04862b84bb765d76f714c5f0.info
+    projectPath: Library\metadata\13\135f2aac04862b84bb765d76f714c5f0.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\39\394b3ec4d60c24476a12e4ba696d9e5d.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\39\394b3ec4d60c24476a12e4ba696d9e5d.info
-    projectPath: Library\metadata\39\394b3ec4d60c24476a12e4ba696d9e5d.info
+  - path: Library\metadata\25\25ea101251051d04a8c82c314630eb66
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\25\25ea101251051d04a8c82c314630eb66
+    projectPath: Library\metadata\25\25ea101251051d04a8c82c314630eb66
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: Library\metadata\3a\3a9e1ef6287664c389bb09e2ac1b23b7.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\3a\3a9e1ef6287664c389bb09e2ac1b23b7.info
-    projectPath: Library\metadata\3a\3a9e1ef6287664c389bb09e2ac1b23b7.info
+  - path: Library\metadata\25\25ea101251051d04a8c82c314630eb66.info
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\25\25ea101251051d04a8c82c314630eb66.info
+    projectPath: Library\metadata\25\25ea101251051d04a8c82c314630eb66.info
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3b\3b4174c71fe534a0996d83a8216ff7ba.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\3b\3b4174c71fe534a0996d83a8216ff7ba.info
-    projectPath: Library\metadata\3b\3b4174c71fe534a0996d83a8216ff7ba.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\41\412739cb5889d7b4584a4441ed751d2c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\41\412739cb5889d7b4584a4441ed751d2c.info
-    projectPath: Library\metadata\41\412739cb5889d7b4584a4441ed751d2c.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\41\415eaec414af14d11955222a282aca08.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\41\415eaec414af14d11955222a282aca08.info
-    projectPath: Library\metadata\41\415eaec414af14d11955222a282aca08.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\42\421447e55dc72104db45b380bd3e12fc
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\42\421447e55dc72104db45b380bd3e12fc
-    projectPath: Library\metadata\42\421447e55dc72104db45b380bd3e12fc
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\42\421447e55dc72104db45b380bd3e12fc.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\42\421447e55dc72104db45b380bd3e12fc.info
-    projectPath: Library\metadata\42\421447e55dc72104db45b380bd3e12fc.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\47\47a02c5889721a24dac20ea965de8909.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\47\47a02c5889721a24dac20ea965de8909.info
-    projectPath: Library\metadata\47\47a02c5889721a24dac20ea965de8909.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\48\487dbeae10b2e8f41b1ad1704ec9ad94.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\48\487dbeae10b2e8f41b1ad1704ec9ad94.info
-    projectPath: Library\metadata\48\487dbeae10b2e8f41b1ad1704ec9ad94.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4b\4b0c6ce140ff41248b2bdd4bcbc23ad0.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\4b\4b0c6ce140ff41248b2bdd4bcbc23ad0.info
-    projectPath: Library\metadata\4b\4b0c6ce140ff41248b2bdd4bcbc23ad0.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4b\4bc087e26c3305647bb91a18d5477b73.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\4b\4bc087e26c3305647bb91a18d5477b73.info
-    projectPath: Library\metadata\4b\4bc087e26c3305647bb91a18d5477b73.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4c\4cbfbca2905ba470eb17b644e644a0c5
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\4c\4cbfbca2905ba470eb17b644e644a0c5
-    projectPath: Library\metadata\4c\4cbfbca2905ba470eb17b644e644a0c5
-    originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\metadata\50\50171ff87845f5242b197d871e932daf
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\50\50171ff87845f5242b197d871e932daf
     projectPath: Library\metadata\50\50171ff87845f5242b197d871e932daf
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\50\50ab5eea3a58b4ddeb99f0388a1d77c5.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\50\50ab5eea3a58b4ddeb99f0388a1d77c5.info
-    projectPath: Library\metadata\50\50ab5eea3a58b4ddeb99f0388a1d77c5.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\55\55e6034775969754086d9027e7665e04.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\55\55e6034775969754086d9027e7665e04.info
-    projectPath: Library\metadata\55\55e6034775969754086d9027e7665e04.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\5e\5e245b39b1fe8214c9c6c714fae31935.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\5e\5e245b39b1fe8214c9c6c714fae31935.info
-    projectPath: Library\metadata\5e\5e245b39b1fe8214c9c6c714fae31935.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\63\6374b2f2a1544caa91e4a07c94067da5
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\63\6374b2f2a1544caa91e4a07c94067da5
-    projectPath: Library\metadata\63\6374b2f2a1544caa91e4a07c94067da5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\68\6858abb4516aae344881bf286b3aac33
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\68\6858abb4516aae344881bf286b3aac33
-    projectPath: Library\metadata\68\6858abb4516aae344881bf286b3aac33
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\68\6858abb4516aae344881bf286b3aac33.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\68\6858abb4516aae344881bf286b3aac33.info
-    projectPath: Library\metadata\68\6858abb4516aae344881bf286b3aac33.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\6a\6a472b7f55e00bc42830dcc8f3c4a22c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\6a\6a472b7f55e00bc42830dcc8f3c4a22c.info
-    projectPath: Library\metadata\6a\6a472b7f55e00bc42830dcc8f3c4a22c.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\6b\6b31858db12684b69b01f773143012fd.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\6b\6b31858db12684b69b01f773143012fd.info
-    projectPath: Library\metadata\6b\6b31858db12684b69b01f773143012fd.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\6b\6b9a65c1905b3064fb664c090f0ac651.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\6b\6b9a65c1905b3064fb664c090f0ac651.info
-    projectPath: Library\metadata\6b\6b9a65c1905b3064fb664c090f0ac651.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\6d\6d81d72c3f18433090cf6880434e7119.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\6d\6d81d72c3f18433090cf6880434e7119.info
-    projectPath: Library\metadata\6d\6d81d72c3f18433090cf6880434e7119.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\70\708ab16e197a0084a8b5c4e58f5fad2b
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\70\708ab16e197a0084a8b5c4e58f5fad2b
-    projectPath: Library\metadata\70\708ab16e197a0084a8b5c4e58f5fad2b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\70\708ab16e197a0084a8b5c4e58f5fad2b.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\70\708ab16e197a0084a8b5c4e58f5fad2b.info
-    projectPath: Library\metadata\70\708ab16e197a0084a8b5c4e58f5fad2b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\71\71f437cfa250a7d4a9cb2760386ed379
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\71\71f437cfa250a7d4a9cb2760386ed379
-    projectPath: Library\metadata\71\71f437cfa250a7d4a9cb2760386ed379
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\73\73713d7bb8baea146b4482e7ff958448.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\73\73713d7bb8baea146b4482e7ff958448.info
-    projectPath: Library\metadata\73\73713d7bb8baea146b4482e7ff958448.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\74\741b269777f30488482ef4937b456b28.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\74\741b269777f30488482ef4937b456b28.info
-    projectPath: Library\metadata\74\741b269777f30488482ef4937b456b28.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\74\7461a7b0cf97947fd9b9e4502fd2d07b.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\74\7461a7b0cf97947fd9b9e4502fd2d07b.info
-    projectPath: Library\metadata\74\7461a7b0cf97947fd9b9e4502fd2d07b.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\75\75b32cffa723d644e96413580ec04216
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\75\75b32cffa723d644e96413580ec04216
-    projectPath: Library\metadata\75\75b32cffa723d644e96413580ec04216
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\75\75b32cffa723d644e96413580ec04216.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\75\75b32cffa723d644e96413580ec04216.info
-    projectPath: Library\metadata\75\75b32cffa723d644e96413580ec04216.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\76\7696221f0cbbc764498b26fbbf4228af
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\76\7696221f0cbbc764498b26fbbf4228af
-    projectPath: Library\metadata\76\7696221f0cbbc764498b26fbbf4228af
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\77\7719aa9d267a9f843aa31fc460f5c797
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\77\7719aa9d267a9f843aa31fc460f5c797
-    projectPath: Library\metadata\77\7719aa9d267a9f843aa31fc460f5c797
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\77\7719aa9d267a9f843aa31fc460f5c797.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\77\7719aa9d267a9f843aa31fc460f5c797.info
-    projectPath: Library\metadata\77\7719aa9d267a9f843aa31fc460f5c797.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\77\77b27ff5ddf39af4ea65949ad59a563c
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\77\77b27ff5ddf39af4ea65949ad59a563c
-    projectPath: Library\metadata\77\77b27ff5ddf39af4ea65949ad59a563c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\77\77b27ff5ddf39af4ea65949ad59a563c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\77\77b27ff5ddf39af4ea65949ad59a563c.info
-    projectPath: Library\metadata\77\77b27ff5ddf39af4ea65949ad59a563c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7d\7dded571ae475954da725173f181492e.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\7d\7dded571ae475954da725173f181492e.info
-    projectPath: Library\metadata\7d\7dded571ae475954da725173f181492e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\82\829b3e175066e0c429a9a6c71569c649
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\82\829b3e175066e0c429a9a6c71569c649
-    projectPath: Library\metadata\82\829b3e175066e0c429a9a6c71569c649
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\82\829b3e175066e0c429a9a6c71569c649.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\82\829b3e175066e0c429a9a6c71569c649.info
-    projectPath: Library\metadata\82\829b3e175066e0c429a9a6c71569c649.info
     originalPath: 
     status: 3
     staged: 0
@@ -634,591 +165,63 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\83\837e8e1f35e334e81931d0857680cebf.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\83\837e8e1f35e334e81931d0857680cebf.info
-    projectPath: Library\metadata\83\837e8e1f35e334e81931d0857680cebf.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\86\86e8fbc9d12459a499b244af71d3b5b3.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\86\86e8fbc9d12459a499b244af71d3b5b3.info
-    projectPath: Library\metadata\86\86e8fbc9d12459a499b244af71d3b5b3.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\87\879f5ab2d2a90614db855e052b3e2f20.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\87\879f5ab2d2a90614db855e052b3e2f20.info
-    projectPath: Library\metadata\87\879f5ab2d2a90614db855e052b3e2f20.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\90\903b5ff0c45946e3b8eba031f681e9b4.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\90\903b5ff0c45946e3b8eba031f681e9b4.info
-    projectPath: Library\metadata\90\903b5ff0c45946e3b8eba031f681e9b4.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\90\90c7fd444a2beb24c9c94cbf36905348.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\90\90c7fd444a2beb24c9c94cbf36905348.info
-    projectPath: Library\metadata\90\90c7fd444a2beb24c9c94cbf36905348.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\93\93169fe5dd8186e4eba395465571ac81.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\93\93169fe5dd8186e4eba395465571ac81.info
-    projectPath: Library\metadata\93\93169fe5dd8186e4eba395465571ac81.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\93\9355a4671cfe4eef90879863318d1a4b.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\93\9355a4671cfe4eef90879863318d1a4b.info
-    projectPath: Library\metadata\93\9355a4671cfe4eef90879863318d1a4b.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\94\94fa9c8c434ae034ba845d9ffec2262c
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\94\94fa9c8c434ae034ba845d9ffec2262c
-    projectPath: Library\metadata\94\94fa9c8c434ae034ba845d9ffec2262c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\95\953367231f9e3e22e70e5d1c91a40fe5.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\95\953367231f9e3e22e70e5d1c91a40fe5.info
-    projectPath: Library\metadata\95\953367231f9e3e22e70e5d1c91a40fe5.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\96\964b8ffb4abc942b8aef8153937af439.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\96\964b8ffb4abc942b8aef8153937af439.info
-    projectPath: Library\metadata\96\964b8ffb4abc942b8aef8153937af439.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\98\980de011c7f7a404dbc4f9f28a119c12.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\98\980de011c7f7a404dbc4f9f28a119c12.info
-    projectPath: Library\metadata\98\980de011c7f7a404dbc4f9f28a119c12.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\98\9872b89246d1c2446a6d13392dff2ae1
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\98\9872b89246d1c2446a6d13392dff2ae1
-    projectPath: Library\metadata\98\9872b89246d1c2446a6d13392dff2ae1
+  - path: Library\metadata\d8\d83270f93e91799419fafde249df3809
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d8\d83270f93e91799419fafde249df3809
+    projectPath: Library\metadata\d8\d83270f93e91799419fafde249df3809
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\98\9872b89246d1c2446a6d13392dff2ae1.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\98\9872b89246d1c2446a6d13392dff2ae1.info
-    projectPath: Library\metadata\98\9872b89246d1c2446a6d13392dff2ae1.info
+  - path: Library\metadata\d8\d83270f93e91799419fafde249df3809.info
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d8\d83270f93e91799419fafde249df3809.info
+    projectPath: Library\metadata\d8\d83270f93e91799419fafde249df3809.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\9b\9b63af95d9364af4a3d8ce58738b6223
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\9b\9b63af95d9364af4a3d8ce58738b6223
-    projectPath: Library\metadata\9b\9b63af95d9364af4a3d8ce58738b6223
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9c\9cd11b73751c42fc8ea0ed0240d1721e.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\9c\9cd11b73751c42fc8ea0ed0240d1721e.info
-    projectPath: Library\metadata\9c\9cd11b73751c42fc8ea0ed0240d1721e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9f\9f058f25e8e2d47cfb894951d4d7e48a.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\9f\9f058f25e8e2d47cfb894951d4d7e48a.info
-    projectPath: Library\metadata\9f\9f058f25e8e2d47cfb894951d4d7e48a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9f\9f6bfa9d8aefb40dc92461c372c73b0f.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\9f\9f6bfa9d8aefb40dc92461c372c73b0f.info
-    projectPath: Library\metadata\9f\9f6bfa9d8aefb40dc92461c372c73b0f.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9f\9fd968d1f66a42e9a37f692ef0a016ff
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\9f\9fd968d1f66a42e9a37f692ef0a016ff
-    projectPath: Library\metadata\9f\9fd968d1f66a42e9a37f692ef0a016ff
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9f\9fe4b3bd3b7d2477dac92fb7429d1d1b.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\9f\9fe4b3bd3b7d2477dac92fb7429d1d1b.info
-    projectPath: Library\metadata\9f\9fe4b3bd3b7d2477dac92fb7429d1d1b.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a0\a0c56e2ea4a418c4b86faa7bd56f9572.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a0\a0c56e2ea4a418c4b86faa7bd56f9572.info
-    projectPath: Library\metadata\a0\a0c56e2ea4a418c4b86faa7bd56f9572.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a1\a10bc499b34e25d48a854f38e572a86f
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a1\a10bc499b34e25d48a854f38e572a86f
-    projectPath: Library\metadata\a1\a10bc499b34e25d48a854f38e572a86f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\a1\a10bc499b34e25d48a854f38e572a86f.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a1\a10bc499b34e25d48a854f38e572a86f.info
-    projectPath: Library\metadata\a1\a10bc499b34e25d48a854f38e572a86f.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\a7\a716c55c7e70423b8289ba458d1e9f54.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a7\a716c55c7e70423b8289ba458d1e9f54.info
-    projectPath: Library\metadata\a7\a716c55c7e70423b8289ba458d1e9f54.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a7\a734ad7414926404e90f8b5be37b7e23.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a7\a734ad7414926404e90f8b5be37b7e23.info
-    projectPath: Library\metadata\a7\a734ad7414926404e90f8b5be37b7e23.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a8\a89159da84ed4fe0bb46e99adf74340d
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a8\a89159da84ed4fe0bb46e99adf74340d
-    projectPath: Library\metadata\a8\a89159da84ed4fe0bb46e99adf74340d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a9\a95e0a044abfc473394c6c61eb343e4a
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\a9\a95e0a044abfc473394c6c61eb343e4a
-    projectPath: Library\metadata\a9\a95e0a044abfc473394c6c61eb343e4a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\aa\aa7e7e1741dcf7d44a829822139e4004.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\aa\aa7e7e1741dcf7d44a829822139e4004.info
-    projectPath: Library\metadata\aa\aa7e7e1741dcf7d44a829822139e4004.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b52a6a5ff68a84f92beb13cca9359c4b.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b5\b52a6a5ff68a84f92beb13cca9359c4b.info
-    projectPath: Library\metadata\b5\b52a6a5ff68a84f92beb13cca9359c4b.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b5aa3e4f7432e1c5698417cc13f85271.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b5\b5aa3e4f7432e1c5698417cc13f85271.info
-    projectPath: Library\metadata\b5\b5aa3e4f7432e1c5698417cc13f85271.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b5df54cfd231a1c4b91dd6df9fee6525
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b5\b5df54cfd231a1c4b91dd6df9fee6525
-    projectPath: Library\metadata\b5\b5df54cfd231a1c4b91dd6df9fee6525
+  - path: Library\metadata\ef\ef34c1c200dbca248b4a7bdf8e27e545
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\ef\ef34c1c200dbca248b4a7bdf8e27e545
+    projectPath: Library\metadata\ef\ef34c1c200dbca248b4a7bdf8e27e545
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\b5\b5df54cfd231a1c4b91dd6df9fee6525.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b5\b5df54cfd231a1c4b91dd6df9fee6525.info
-    projectPath: Library\metadata\b5\b5df54cfd231a1c4b91dd6df9fee6525.info
+  - path: Library\metadata\ef\ef34c1c200dbca248b4a7bdf8e27e545.info
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\ef\ef34c1c200dbca248b4a7bdf8e27e545.info
+    projectPath: Library\metadata\ef\ef34c1c200dbca248b4a7bdf8e27e545.info
     originalPath: 
     status: 5
-    staged: 0
-  - path: Library\metadata\b8\b895a589a253443a9ac85bafa7402a65
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b8\b895a589a253443a9ac85bafa7402a65
-    projectPath: Library\metadata\b8\b895a589a253443a9ac85bafa7402a65
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b8\b8960321e10f80b4c844cd91bf1ea437
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b8\b8960321e10f80b4c844cd91bf1ea437
-    projectPath: Library\metadata\b8\b8960321e10f80b4c844cd91bf1ea437
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b9\b93330fc8ea08407dbc514b5101afa14.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\b9\b93330fc8ea08407dbc514b5101afa14.info
-    projectPath: Library\metadata\b9\b93330fc8ea08407dbc514b5101afa14.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\bb\bb19b96afa3ce9c45afb01dfaefb7dda.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\bb\bb19b96afa3ce9c45afb01dfaefb7dda.info
-    projectPath: Library\metadata\bb\bb19b96afa3ce9c45afb01dfaefb7dda.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\bb\bb1c20a3ae6b4f77b18a128c5e74b3b0
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\bb\bb1c20a3ae6b4f77b18a128c5e74b3b0
-    projectPath: Library\metadata\bb\bb1c20a3ae6b4f77b18a128c5e74b3b0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\bc\bc30cd89d85923849be84bd0f7a76c20.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\bc\bc30cd89d85923849be84bd0f7a76c20.info
-    projectPath: Library\metadata\bc\bc30cd89d85923849be84bd0f7a76c20.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c3\c3198c35b4797b34297b2e3c879f2d5a.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\c3\c3198c35b4797b34297b2e3c879f2d5a.info
-    projectPath: Library\metadata\c3\c3198c35b4797b34297b2e3c879f2d5a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c3\c381c54c3621d4d4daa7650ae9741cd2
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\c3\c381c54c3621d4d4daa7650ae9741cd2
-    projectPath: Library\metadata\c3\c381c54c3621d4d4daa7650ae9741cd2
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c9\c94d2031ae1744c498909db277f8a9e2.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\c9\c94d2031ae1744c498909db277f8a9e2.info
-    projectPath: Library\metadata\c9\c94d2031ae1744c498909db277f8a9e2.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ca\caee2d7ced35ba141940ed8b5873ca7c.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\ca\caee2d7ced35ba141940ed8b5873ca7c.info
-    projectPath: Library\metadata\ca\caee2d7ced35ba141940ed8b5873ca7c.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d0\d0a337ef91e0047fc952656815a0175b
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d0\d0a337ef91e0047fc952656815a0175b
-    projectPath: Library\metadata\d0\d0a337ef91e0047fc952656815a0175b
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d1\d14c9b5d416c1884ebf19d42282302cb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d1\d14c9b5d416c1884ebf19d42282302cb
-    projectPath: Library\metadata\d1\d14c9b5d416c1884ebf19d42282302cb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d1\d14c9b5d416c1884ebf19d42282302cb.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d1\d14c9b5d416c1884ebf19d42282302cb.info
-    projectPath: Library\metadata\d1\d14c9b5d416c1884ebf19d42282302cb.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d3\d3db472063e643159cc1449e77d0000a.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d3\d3db472063e643159cc1449e77d0000a.info
-    projectPath: Library\metadata\d3\d3db472063e643159cc1449e77d0000a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d4\d40028e489fb4fc6ae839a3306b44da8.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d4\d40028e489fb4fc6ae839a3306b44da8.info
-    projectPath: Library\metadata\d4\d40028e489fb4fc6ae839a3306b44da8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d5\d56722fd7cc841042bfafe48130cf5d8.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d5\d56722fd7cc841042bfafe48130cf5d8.info
-    projectPath: Library\metadata\d5\d56722fd7cc841042bfafe48130cf5d8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d6\d6ead1e29add4e60bf331fd3b4fdb99e
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\d6\d6ead1e29add4e60bf331fd3b4fdb99e
-    projectPath: Library\metadata\d6\d6ead1e29add4e60bf331fd3b4fdb99e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\db\db28ec337f0f60a4fa8851728636320e
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\db\db28ec337f0f60a4fa8851728636320e
-    projectPath: Library\metadata\db\db28ec337f0f60a4fa8851728636320e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\db\db28ec337f0f60a4fa8851728636320e.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\db\db28ec337f0f60a4fa8851728636320e.info
-    projectPath: Library\metadata\db\db28ec337f0f60a4fa8851728636320e.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\dc\dc218b335b1d14cd5ae532f65042d829.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\dc\dc218b335b1d14cd5ae532f65042d829.info
-    projectPath: Library\metadata\dc\dc218b335b1d14cd5ae532f65042d829.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\dc\dcefae4282bba5446a0d997e57ad6584
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\dc\dcefae4282bba5446a0d997e57ad6584
-    projectPath: Library\metadata\dc\dcefae4282bba5446a0d997e57ad6584
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\dc\dcefae4282bba5446a0d997e57ad6584.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\dc\dcefae4282bba5446a0d997e57ad6584.info
-    projectPath: Library\metadata\dc\dcefae4282bba5446a0d997e57ad6584.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\dd\dd8c80a5a447f04418da146781b05fd8.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\dd\dd8c80a5a447f04418da146781b05fd8.info
-    projectPath: Library\metadata\dd\dd8c80a5a447f04418da146781b05fd8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\de\de10d81f0809fb74c808727eaa800b80.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\de\de10d81f0809fb74c808727eaa800b80.info
-    projectPath: Library\metadata\de\de10d81f0809fb74c808727eaa800b80.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\de\de6baf7c215ac9b459c1b80a9f585884.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\de\de6baf7c215ac9b459c1b80a9f585884.info
-    projectPath: Library\metadata\de\de6baf7c215ac9b459c1b80a9f585884.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\df\df6f219c396f4ad9b5048bae6944cb8e.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\df\df6f219c396f4ad9b5048bae6944cb8e.info
-    projectPath: Library\metadata\df\df6f219c396f4ad9b5048bae6944cb8e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e2\e23dc0fa78ca64e0299ee660f813d562.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e2\e23dc0fa78ca64e0299ee660f813d562.info
-    projectPath: Library\metadata\e2\e23dc0fa78ca64e0299ee660f813d562.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e2\e2649b99bae6562469eb42390252c541
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e2\e2649b99bae6562469eb42390252c541
-    projectPath: Library\metadata\e2\e2649b99bae6562469eb42390252c541
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\e2\e2649b99bae6562469eb42390252c541.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e2\e2649b99bae6562469eb42390252c541.info
-    projectPath: Library\metadata\e2\e2649b99bae6562469eb42390252c541.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\e4\e42aaef0ac7bcc847956117d744c10a8.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e4\e42aaef0ac7bcc847956117d744c10a8.info
-    projectPath: Library\metadata\e4\e42aaef0ac7bcc847956117d744c10a8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e6\e626bae3ab620394d85951386f464e75
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e6\e626bae3ab620394d85951386f464e75
-    projectPath: Library\metadata\e6\e626bae3ab620394d85951386f464e75
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e6\e626bae3ab620394d85951386f464e75.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e6\e626bae3ab620394d85951386f464e75.info
-    projectPath: Library\metadata\e6\e626bae3ab620394d85951386f464e75.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e9\e9a02105c730b40fc9a437c17adce0ad.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e9\e9a02105c730b40fc9a437c17adce0ad.info
-    projectPath: Library\metadata\e9\e9a02105c730b40fc9a437c17adce0ad.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e9\e9ee4c016c11adf40ae744b2c68a4898
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e9\e9ee4c016c11adf40ae744b2c68a4898
-    projectPath: Library\metadata\e9\e9ee4c016c11adf40ae744b2c68a4898
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e9\e9ee4c016c11adf40ae744b2c68a4898.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\e9\e9ee4c016c11adf40ae744b2c68a4898.info
-    projectPath: Library\metadata\e9\e9ee4c016c11adf40ae744b2c68a4898.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\fa\fa9941cbbd1f9480192b24d24639e16a.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\fa\fa9941cbbd1f9480192b24d24639e16a.info
-    projectPath: Library\metadata\fa\fa9941cbbd1f9480192b24d24639e16a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\fe\fe3d09c3f2d1ad242ad7cbed28e157d1.info
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\metadata\fe\fe3d09c3f2d1ad242ad7cbed28e157d1.info
-    projectPath: Library\metadata\fe\fe3d09c3f2d1ad242ad7cbed28e157d1.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\globalgamemanagers
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Win\Data\globalgamemanagers
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\globalgamemanagers.assets
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\globalgamemanagers.assets
-    projectPath: Library\PlayerDataCache\Win\Data\globalgamemanagers.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\level0
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\level0
-    projectPath: Library\PlayerDataCache\Win\Data\level0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\level1
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\level1
-    projectPath: Library\PlayerDataCache\Win\Data\level1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\level1.resS
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\level1.resS
-    projectPath: Library\PlayerDataCache\Win\Data\level1.resS
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\Managed\Assembly-CSharp.dll
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Win\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\resources.assets
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\resources.assets
-    projectPath: Library\PlayerDataCache\Win\Data\resources.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\sharedassets0.assets
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets0.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\Data\sharedassets1.assets
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\Data\sharedassets1.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets1.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Win\ScriptLayoutHashes.txt
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\PlayerDataCache\Win\ScriptLayoutHashes.txt
-    projectPath: Library\PlayerDataCache\Win\ScriptLayoutHashes.txt
-    originalPath: 
-    status: 3
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
     projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     status: 3
     staged: 0
@@ -1228,21 +231,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
   - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\TimeManager.asset
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\ProjectSettings\TimeManager.asset
-    projectPath: ProjectSettings\TimeManager.asset
     originalPath: 
     status: 3
     staged: 0
@@ -1258,183 +249,105 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\tempFile.res
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\tempFile.res
-    projectPath: Temp\tempFile.res
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\tempFile.resG
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\tempFile.resG
-    projectPath: Temp\tempFile.resG
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Temp\UnityLockfile
     fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-18e193ee3cf90c54aaaad6804f4923c2
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-18e193ee3cf90c54aaaad6804f4923c2
-    projectPath: Temp\UnityTempFile-18e193ee3cf90c54aaaad6804f4923c2
+  - path: Temp\UnityTempFile-014c495957195ce4daaffc069d35e905
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-014c495957195ce4daaffc069d35e905
+    projectPath: Temp\UnityTempFile-014c495957195ce4daaffc069d35e905
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-1e58a297bf69ace4bb02b43fb2e57de1
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-1e58a297bf69ace4bb02b43fb2e57de1
-    projectPath: Temp\UnityTempFile-1e58a297bf69ace4bb02b43fb2e57de1
+  - path: Temp\UnityTempFile-0272ff871a10d0f43ab862818a0ec84a
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-0272ff871a10d0f43ab862818a0ec84a
+    projectPath: Temp\UnityTempFile-0272ff871a10d0f43ab862818a0ec84a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-256b9c0ac9ccfab46a56144ad5a08e89
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-256b9c0ac9ccfab46a56144ad5a08e89
-    projectPath: Temp\UnityTempFile-256b9c0ac9ccfab46a56144ad5a08e89
+  - path: Temp\UnityTempFile-0f78cf99b5a105e4bb690fee5238e89a
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-0f78cf99b5a105e4bb690fee5238e89a
+    projectPath: Temp\UnityTempFile-0f78cf99b5a105e4bb690fee5238e89a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-2f356d5123b32dc4b8cc10e230757235
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-2f356d5123b32dc4b8cc10e230757235
-    projectPath: Temp\UnityTempFile-2f356d5123b32dc4b8cc10e230757235
+  - path: Temp\UnityTempFile-1110e1f2e0fac824093dfa8b558289f6
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-1110e1f2e0fac824093dfa8b558289f6
+    projectPath: Temp\UnityTempFile-1110e1f2e0fac824093dfa8b558289f6
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-2f93d7eeb7c27484596acf686ee53fb4
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-2f93d7eeb7c27484596acf686ee53fb4
-    projectPath: Temp\UnityTempFile-2f93d7eeb7c27484596acf686ee53fb4
+  - path: Temp\UnityTempFile-28bbc98b25a612e49ad50cbf862d4f92
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-28bbc98b25a612e49ad50cbf862d4f92
+    projectPath: Temp\UnityTempFile-28bbc98b25a612e49ad50cbf862d4f92
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-3615856b7a09b8b499bb5ce8dc39e54a
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-3615856b7a09b8b499bb5ce8dc39e54a
-    projectPath: Temp\UnityTempFile-3615856b7a09b8b499bb5ce8dc39e54a
+  - path: Temp\UnityTempFile-2900e952f34f3e94aaf3bc1c0ec7d3ad
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-2900e952f34f3e94aaf3bc1c0ec7d3ad
+    projectPath: Temp\UnityTempFile-2900e952f34f3e94aaf3bc1c0ec7d3ad
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-373e2655c0d7d0347b42272bd1995b64
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-373e2655c0d7d0347b42272bd1995b64
-    projectPath: Temp\UnityTempFile-373e2655c0d7d0347b42272bd1995b64
+  - path: Temp\UnityTempFile-2ab2128a6716c964eb444e39c4fbe31a
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-2ab2128a6716c964eb444e39c4fbe31a
+    projectPath: Temp\UnityTempFile-2ab2128a6716c964eb444e39c4fbe31a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-40df3c8bacd8efb47bc3d03e3603436f
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-40df3c8bacd8efb47bc3d03e3603436f
-    projectPath: Temp\UnityTempFile-40df3c8bacd8efb47bc3d03e3603436f
+  - path: Temp\UnityTempFile-4fb7e83cdccd549489be48c9aba299a7
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-4fb7e83cdccd549489be48c9aba299a7
+    projectPath: Temp\UnityTempFile-4fb7e83cdccd549489be48c9aba299a7
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-4d9c16cd1e3665241b128dd50f5752f1
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-4d9c16cd1e3665241b128dd50f5752f1
-    projectPath: Temp\UnityTempFile-4d9c16cd1e3665241b128dd50f5752f1
+  - path: Temp\UnityTempFile-556fc6d0c744d1c47ae0f0e92ec0dea9
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-556fc6d0c744d1c47ae0f0e92ec0dea9
+    projectPath: Temp\UnityTempFile-556fc6d0c744d1c47ae0f0e92ec0dea9
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-53e7f9f2557a1cf4cb55500243031ecb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-53e7f9f2557a1cf4cb55500243031ecb
-    projectPath: Temp\UnityTempFile-53e7f9f2557a1cf4cb55500243031ecb
+  - path: Temp\UnityTempFile-74b2956ea1d17de448ba3e6355d15fef
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-74b2956ea1d17de448ba3e6355d15fef
+    projectPath: Temp\UnityTempFile-74b2956ea1d17de448ba3e6355d15fef
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-53fccfa25c39cfe429ca455644801424
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-53fccfa25c39cfe429ca455644801424
-    projectPath: Temp\UnityTempFile-53fccfa25c39cfe429ca455644801424
+  - path: Temp\UnityTempFile-9574c419c8ec23c4d85c2b5d60168198
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-9574c419c8ec23c4d85c2b5d60168198
+    projectPath: Temp\UnityTempFile-9574c419c8ec23c4d85c2b5d60168198
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-654467af0474ac347b8af7673ec04403
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-654467af0474ac347b8af7673ec04403
-    projectPath: Temp\UnityTempFile-654467af0474ac347b8af7673ec04403
+  - path: Temp\UnityTempFile-bc7321be90cf62547b97bc5e7f233528
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-bc7321be90cf62547b97bc5e7f233528
+    projectPath: Temp\UnityTempFile-bc7321be90cf62547b97bc5e7f233528
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-6b81735e08ea4544484b38ae7ede1232
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-6b81735e08ea4544484b38ae7ede1232
-    projectPath: Temp\UnityTempFile-6b81735e08ea4544484b38ae7ede1232
+  - path: Temp\UnityTempFile-c049eba99a72300438c037f78cc5bc73
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-c049eba99a72300438c037f78cc5bc73
+    projectPath: Temp\UnityTempFile-c049eba99a72300438c037f78cc5bc73
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-8d144eae45471704fab6bad1787b1741
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-8d144eae45471704fab6bad1787b1741
-    projectPath: Temp\UnityTempFile-8d144eae45471704fab6bad1787b1741
+  - path: Temp\UnityTempFile-c7bc144ce3c300142a7f8e98b91c341a
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-c7bc144ce3c300142a7f8e98b91c341a
+    projectPath: Temp\UnityTempFile-c7bc144ce3c300142a7f8e98b91c341a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-8f66e55344766d24f8930bf88dd3f3eb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-8f66e55344766d24f8930bf88dd3f3eb
-    projectPath: Temp\UnityTempFile-8f66e55344766d24f8930bf88dd3f3eb
+  - path: Temp\UnityTempFile-d5e28789c8f02fc49af5af3c9973b61f
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-d5e28789c8f02fc49af5af3c9973b61f
+    projectPath: Temp\UnityTempFile-d5e28789c8f02fc49af5af3c9973b61f
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-900e2d8e7fd1c354f9cd7181676d8582
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-900e2d8e7fd1c354f9cd7181676d8582
-    projectPath: Temp\UnityTempFile-900e2d8e7fd1c354f9cd7181676d8582
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-9111128fc4eb3604d8f4248194a8bbbb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-9111128fc4eb3604d8f4248194a8bbbb
-    projectPath: Temp\UnityTempFile-9111128fc4eb3604d8f4248194a8bbbb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-95149c8874e98dd48ad65ba36f37d9aa
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-95149c8874e98dd48ad65ba36f37d9aa
-    projectPath: Temp\UnityTempFile-95149c8874e98dd48ad65ba36f37d9aa
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ce51d812bd5fc1c4cb6aba3c0710bba7
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-ce51d812bd5fc1c4cb6aba3c0710bba7
-    projectPath: Temp\UnityTempFile-ce51d812bd5fc1c4cb6aba3c0710bba7
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-cf02143adb365f341a153251cf8b0df2
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-cf02143adb365f341a153251cf8b0df2
-    projectPath: Temp\UnityTempFile-cf02143adb365f341a153251cf8b0df2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-d708ecd7927b538448ed5c0e405bd298
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-d708ecd7927b538448ed5c0e405bd298
-    projectPath: Temp\UnityTempFile-d708ecd7927b538448ed5c0e405bd298
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-e6736d11baefb4c479200818938bd0c6
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-e6736d11baefb4c479200818938bd0c6
-    projectPath: Temp\UnityTempFile-e6736d11baefb4c479200818938bd0c6
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ea2cf72e477ce6446a9bc6436f5b6acb
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-ea2cf72e477ce6446a9bc6436f5b6acb
-    projectPath: Temp\UnityTempFile-ea2cf72e477ce6446a9bc6436f5b6acb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ed5afffc5011d6d4d8416921f97d0104
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-ed5afffc5011d6d4d8416921f97d0104
-    projectPath: Temp\UnityTempFile-ed5afffc5011d6d4d8416921f97d0104
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f001700d43aad3148ab16529b9ca9501
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-f001700d43aad3148ab16529b9ca9501
-    projectPath: Temp\UnityTempFile-f001700d43aad3148ab16529b9ca9501
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f466e78ccb6c1084086ee637ffe4de34
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-f466e78ccb6c1084086ee637ffe4de34
-    projectPath: Temp\UnityTempFile-f466e78ccb6c1084086ee637ffe4de34
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f845e98260669fa4c9c91cabdb008aed
-    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-f845e98260669fa4c9c91cabdb008aed
-    projectPath: Temp\UnityTempFile-f845e98260669fa4c9c91cabdb008aed
+  - path: Temp\UnityTempFile-f4e9172d325859740974180c42ddbbbf
+    fullPath: C:\HeroTD\CS307_Group4_TowerDefGame\Temp\UnityTempFile-f4e9172d325859740974180c42ddbbbf
+    projectPath: Temp\UnityTempFile-f4e9172d325859740974180c42ddbbbf
     originalPath: 
     status: 1
     staged: 0
