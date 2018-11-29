@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DetectGameStatus : MonoBehaviour {
 
@@ -13,13 +14,18 @@ public class DetectGameStatus : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(sceneM.GetComponent<SceneManager_script>().isOver());
-        if (sceneM.GetComponent<SceneManager_script>().isOver())
+        //Debug.Log(sceneM.GetComponent<SceneManager_script>().isOver());
+        int current_index = SceneManager.GetActiveScene().buildIndex;
+        if (current_index == 0)
         {
-            info.SetActive(true);
-        }
-        else {
-            info.SetActive(false);
+            if (sceneM.GetComponent<SceneManager_script>().isOver() && sceneM)
+            {
+                info.SetActive(true);
+            }
+            else
+            {
+                info.SetActive(false);
+            }
         }
 	}
 }

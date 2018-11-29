@@ -8,18 +8,31 @@ public class SceneManager_script : MonoBehaviour {
     // Use this for initialization
     bool isGameover;
 	void Start () {
+        if (!player) {
+            player = GameObject.Find("PlayerController");
+        }
         
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (player.GetComponent<PlayerController_script>().getUserHP() <= 0 && player)
+        int current_index = SceneManager.GetActiveScene().buildIndex;
+        if (current_index == 1)
         {
-            isGameover = true;
-            loadByIndex(0);
-        }
-        else {
-            isGameover = false;
+            if (!player)
+            {
+                player = GameObject.Find("PlayerController");
+            }
+            if (player.GetComponent<PlayerController_script>().getUserHP() <= 0 && player)
+            {
+                Debug.Log("Die");
+                isGameover = true;
+                loadByIndex(0);
+            }
+            else
+            {
+                isGameover = false;
+            }
         }
 	}
 
