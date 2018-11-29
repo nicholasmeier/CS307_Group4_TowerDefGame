@@ -161,6 +161,9 @@
     <Compile Include="ForgetPasswordWindow.xaml.cs">
       <DependentUpon>ForgetPasswordWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="personalpage.xaml.cs">
+      <DependentUpon>personalpage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="resetpswd.xaml.cs">
       <DependentUpon>resetpswd.xaml</DependentUpon>
     </Compile>
@@ -183,6 +186,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="personalpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="resetpswd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -221,6 +228,18 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="google.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="github.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />

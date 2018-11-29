@@ -12,15 +12,31 @@
     <Grid Background="#FF0E003C" Margin="0,0,0,1">
         <TextBox x:Name="usernameinput" HorizontalAlignment="Left" Height="23" Margin="112,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" IsEnabled="True" TextChanged="TextBox_TextChanged"/>
         <PasswordBox x:Name="PasswordInput" HorizontalAlignment="Left" Margin="112,373,0,0" VerticalAlignment="Top" Width="149" Height="24"/>
-        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="293,332,0,0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="-4.829,9.365" Height="23" Click="LoginButton_Click" Background="#FF009E0F" Foreground="White" BorderBrush="#FF707070"/>
-        <Button x:Name="SignUpButton" Content="Sign Up" HorizontalAlignment="Left" Height="23" Margin="293,373,0,0" VerticalAlignment="Top" Width="55" Click="SignUpButton_Click" Background="#FF000BFF" Foreground="White"/>
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="293,332,0,0" VerticalAlignment="Top" Width="67" RenderTransformOrigin="-4.829,9.365" Height="23" Click="LoginButton_Click" Background="#FF009E0F" Foreground="White" BorderBrush="#FF707070"/>
+        <Button x:Name="SignUpButton" Content="Sign Up" HorizontalAlignment="Left" Height="23" Margin="293,373,0,0" VerticalAlignment="Top" Width="67" Click="SignUpButton_Click" Background="#FF000BFF" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,332,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,373,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
         <WebBrowser Height="293" Margin="24,23,28,0" VerticalAlignment="Top" Source="https://cs-307-herotd.firebaseapp.com"/>
-        <Image x:Name="Logo" Margin="621,265,-46,-55" Source="{DynamicResource ImageSource1}" HorizontalAlignment="Left" Width="217" Height="209" VerticalAlignment="Top"/>
+        <Image x:Name="Logo" Margin="621,289,-63,-56" HorizontalAlignment="Left" Width="234" Height="230" VerticalAlignment="Top" Source="117.png"/>
         <TextBlock x:Name="outputarea" HorizontalAlignment="Left" Margin="395,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="110" Width="248" Foreground="White"/>
         <Button x:Name="passwordreset" Content="I forgot my password" Margin="24,414,0,0" RenderTransformOrigin="-0.733,0.138" Click="passwordreset_Click" Background="#FFFFFF73" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="138"/>
-        <Button x:Name="passwordmanuallyreset" Content="I want to reset my password" Margin="181,414,0,0" Background="#FFFFFF73" Click="passwordmanuallyreset_Click" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="167"/>
+        <Button x:Name="fb" Content="" HorizontalAlignment="Left" Margin="190,405,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="fb_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="fb.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,405,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="google.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="310,405,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="github.png"/>
+            </Button.Background>
+        </Button>
+
+
 
     </Grid>
 </Window>

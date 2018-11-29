@@ -20,7 +20,7 @@
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="35,120,0,0" TextWrapping="Wrap" Text="PASSWORD" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="14"/>
         <TextBox x:Name="passwordinput" HorizontalAlignment="Left" Height="22" Margin="148,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
         <TextBlock x:Name="passwordinfo" HorizontalAlignment="Left" Height="30" Margin="340,120,0,0" TextWrapping="Wrap" Text="For your safety a password's length should be over 8 characters and include letters and numbers" VerticalAlignment="Top" Width="415" Foreground="White"/>
-        <Image Margin="0,0,-43,-57" Source="{DynamicResource ImageSource1}" Height="214" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="212"/>
+        <Image Margin="0,0,-43,-57" Height="214" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="212" Source="117.png"/>
         <Button x:Name="confirmbut" Content="Confirm" HorizontalAlignment="Left" Margin="35,215,0,0" VerticalAlignment="Top" Width="140" Height="44" Background="#FF80FFB4" Foreground="Black" FontSize="18" Click="confirmbut_Click"/>
 
     </Grid>

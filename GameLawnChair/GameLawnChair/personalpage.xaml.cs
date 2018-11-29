@@ -15,26 +15,32 @@ using System.Windows.Shapes;
 namespace GameLawnChair
 {
     /// <summary>
-    /// Interaction logic for resetpswd.xaml
+    /// personalpage.xaml 的交互逻辑
     /// </summary>
-    public partial class resetpswd : Window
+    public partial class personalpage : Window
     {
-        public resetpswd()
+        public personalpage()
         {
             InitializeComponent();
         }
 
-        private void sendrecoveryemail_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //send an email out
-            var mainw = new MainWindow();
-            mainw.Show();
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //logout to main window.
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            //reset password
+            var win = new resetpswd();
+            win.Show();
             this.Close();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
     }
 }

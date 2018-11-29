@@ -44,7 +44,9 @@ namespace GameLawnChair
                 MessageBox.Show("Invalid Username", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             FetchLogin(username, password);
-            
+            var win = new personalpage();
+            win.Show();
+            this.Close();
 
         }
 
@@ -89,6 +91,19 @@ namespace GameLawnChair
             }
         }
 
+        private void fb_Click(object sender, RoutedEventArgs e)
+        {
+            //launch with fb
+        }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //launch with google
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //launch with github
+        }
     }
 }
