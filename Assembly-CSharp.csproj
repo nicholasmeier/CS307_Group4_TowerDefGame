@@ -102,6 +102,7 @@
     <Compile Include="Assets\StarMainMenu\Scripts\PauseAudio.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\QuitScript.cs" />
     <Compile Include="Assets\StarMainMenu\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\StarMainMenu\Scripts\StartDetect.cs" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
     <None Include="Assets\Firebase\Plugins\link.xml" />
     <None Include="Assets\TDTK\Modular_SciFi_Asset_Set\Shader\BlendColorsOverlayTexture.shader" />

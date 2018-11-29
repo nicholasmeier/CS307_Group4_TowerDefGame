@@ -6,25 +6,31 @@ using UnityEngine.SceneManagement;
 public class DetectGameStatus : MonoBehaviour {
 
     GameObject sceneM;
+    GameObject Detecter;
     public GameObject info;
-    bool first_load;
+    bool ready;
+    
 	// Use this for initialization
 	void Start () {
-        sceneM = GameObject.Find("SceneManager");
-        first_load = true;
+        //sceneM = GameObject.Find("SceneManager");
+        Detecter = GameObject.Find("StartDetecter");
+        ready = false;
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
         //Debug.Log(sceneM.GetComponent<SceneManager_script>().isOver());
+        if (!Detecter.GetComponent<StartDetect>().isfirst()) {
+            ready = true;
+        }
         int current_index = SceneManager.GetActiveScene().buildIndex;
-        
-        if (current_index == 0 && !first_load)
+        if (current_index == 0 && ready)
         {
-            if (!sceneM) {
-                sceneM = GameObject.Find("SceneManager");
+            if (!Detecter) {
+                Detecter = GameObject.Find("StartDetecter");
             }
-            if (sceneM.GetComponent<SceneManager_script>().isOver() && sceneM)
+            if (Detecter.GetComponent<StartDetect>().isOver())
             {
                 info.SetActive(true);
             }
