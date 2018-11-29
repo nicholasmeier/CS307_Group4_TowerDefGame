@@ -94,6 +94,9 @@ namespace GameLawnChair
         private void fb_Click(object sender, RoutedEventArgs e)
         {
             //launch with fb
+            var win = new fblogin();
+            win.Show();
+            this.Close();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

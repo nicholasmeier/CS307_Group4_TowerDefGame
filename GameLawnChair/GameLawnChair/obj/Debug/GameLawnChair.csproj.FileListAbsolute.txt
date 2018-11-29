@@ -300,3 +300,5 @@ C:\Users\lenovo\Desktop\cs307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnCh
 C:\Users\lenovo\Desktop\cs307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\GameLawnChair.pdb
 C:\Users\lenovo\Desktop\cs307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\personalpage.g.cs
 C:\Users\lenovo\Desktop\cs307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\personalpage.baml
+C:\Users\lenovo\Desktop\cs307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\fblogin.g.cs
+C:\Users\lenovo\Desktop\cs307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\fblogin.baml
