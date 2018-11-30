@@ -8,12 +8,14 @@
         Title="Window2" Height="480" Width="263">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" Height="40" Width="233" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="28" Margin="10,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" BorderBrush="#FF0040FF" FontSize="16"/>
+        <TextBox x:Name="textforaccount" HorizontalAlignment="Left" Height="28" Margin="10,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" BorderBrush="#FF0040FF" FontSize="16"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,200,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Height="40" Width="233" FontSize="20"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="233" Height="28" BorderBrush="#FF0040FF"/>
+        <PasswordBox x:Name="textforpw" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="233" Height="28" BorderBrush="#FF0040FF" FontSize="16"/>
         <Button Content="LAUNCH!" HorizontalAlignment="Left" Margin="10,320,0,0" VerticalAlignment="Top" Width="233" Height="40" BorderBrush="#FF0CFF00" Background="#FF55E23F" Click="Button_Click"/>
         <Button Content="Go back" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="233" Height="40" Background="#FF00E8FF" Click="Button_Click_1"/>
         <Image HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="63" Source="github.png"/>
         <Image HorizontalAlignment="Left" Height="136" Margin="133,-16,-12,0" VerticalAlignment="Top" Width="133" Source="117.png"/>
+        <TextBlock x:Name="msgforacc" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
+        <TextBlock x:Name="msgforpswd" HorizontalAlignment="Left" Margin="10,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
     </Grid>
 </Window>

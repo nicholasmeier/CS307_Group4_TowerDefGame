@@ -27,6 +27,14 @@ namespace GameLawnChair
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //launch the game
+            if (textforaccount.Text.Length == 0) {
+                msgforacc.Text = "type email here";
+            }
+            if (textforpw.Password.Length == 0) {
+                msgforpswd.Text = "type password here";
+            }
+            //if login failed...
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

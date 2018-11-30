@@ -14,8 +14,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="136,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="460" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,130,0,0" TextWrapping="Wrap" Text="Rank" VerticalAlignment="Top" Width="110" Height="30" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,170,0,0" TextWrapping="Wrap" Text="Win Ratio" VerticalAlignment="Top" Width="110" Height="30" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="136,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="635" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="136,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="635" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="460" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="460" FontSize="18"/>
         <Button x:Name="sttgm" Content="Start Game" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="373" Height="62" FontSize="36" Click="Button_Click"/>
         <Button x:Name="logout" Content="Log Out" HorizontalAlignment="Left" Margin="400,225,0,0" VerticalAlignment="Top" Width="373" Height="62" FontSize="36" Click="Button_Click_1"/>
         <Button x:Name="resetpswd" Content="Reset Password" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Width="164" Height="41" FontSize="20" Click="Button_Click_2"/>
