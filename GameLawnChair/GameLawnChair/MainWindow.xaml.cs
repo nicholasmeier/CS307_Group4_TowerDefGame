@@ -102,11 +102,17 @@ namespace GameLawnChair
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //launch with google
+            var win = new Window1();
+            win.Show();
+            this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             //launch with github
+            var win = new Window2();
+            win.Show();
+            this.Close();
         }
     }
 }
