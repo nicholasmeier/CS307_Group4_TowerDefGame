@@ -60,8 +60,9 @@ public class MapController_script : MonoBehaviour {
     }
 	
 	void Update () {
-        
-	}
+        if (Input.GetMouseButtonDown(1))
+            display_info.text = "";
+    }
 
     IEnumerator SpawnMap(){
         //Initialize gridArray
