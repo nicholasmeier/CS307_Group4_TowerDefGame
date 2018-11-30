@@ -32,6 +32,8 @@ namespace GameLawnChair
         public const string FirebaseAppKey = "AIzaSyAiX70y-obo-vUyAO7-LJM8EwGcRD2UEWg";
         public const string FirebaseAppUrl = "https://cs-307-herotd.firebaseapp.com/";
 
+        public bool logged = false;
+
         public fblogin()
         {
             InitializeComponent();
@@ -40,29 +42,36 @@ namespace GameLawnChair
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //launch the game
-            if (textforaccount.Text.Length == 0) {
-                msgforacc.Text = "type email here";
+            if (!logged)
+            {
+                var FB_URI = GenerateFbLoginURI(FbAppID, "");
+                this.Browser.Visibility = Visibility.Visible;
+                this.Browser.Navigate(FB_URI);
             }
-            if (textforpw.Password.Length == 0) {
-                msgforpswd.Text = "type password here";
+            else
+            {
+                MessageBox.Show("Already Logged in");
+
             }
-            var FB_URI = GenerateFbLoginURI(FbAppID, "");
-            this.Browser.Visibility = Visibility.Visible;
-            this.Browser.Navigate(FB_URI);
+            
             //if login failed...
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            //go back to main
+            var win = new MainWindow();
+            win.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
             var FB_URI = GenerateFbLogoutURI(FbAppID, "");
-            var asdf = 0;
-            this.Browser.Visibility = Visibility.Visible;
+            //this.Browser.Visibility = Visibility.Visible;
             string cookie = String.Format("c_user=; expires={0:R}; path=/; domain=.facebook.com", DateTime.UtcNow.AddDays(-1).ToString("R"));
             Application.SetCookie(new Uri("https://www.facebook.com"), cookie);
-            //go back to main
-            /*var win = new MainWindow();
-            win.Show();
-            this.Close();*/
+            MessageBox.Show("");
         }
 
         //The following method has used from https://www.hackviking.com/development/facebook-api-login-flow-for-desktop-application/
@@ -119,8 +128,11 @@ namespace GameLawnChair
 
             if (oauthResult.IsSuccess)
             {
-                //this.Browser.Visibility = Visibility.Collapsed;
-                MessageBox.Show("It works");
+                this.Browser.Visibility = Visibility.Collapsed;
+                MessageBox.Show("Logged on");
+                var win = new personalpage();
+                win.Show();
+                this.Close();
                 //this.FetchFirebaseData(oauthResult.AccessToken, FirebaseAuthType.Facebook);
 
             }

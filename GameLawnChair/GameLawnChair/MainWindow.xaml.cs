@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,10 +46,6 @@ namespace GameLawnChair
                 MessageBox.Show("Invalid Username", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             FetchLogin(username, password);
-            var win = new personalpage();
-            win.Show();
-            this.Close();
-
         }
 
         private void SignUpButton_Click(object sender, RoutedEventArgs e)
@@ -83,6 +80,10 @@ namespace GameLawnChair
             {
                 var auth = new FirebaseAuthProvider(new FirebaseConfig(FirebaseAppKey));
                 var data = await auth.SignInWithEmailAndPasswordAsync(email, pass);
+                var win = new personalpage();
+                win.Show();
+                this.Close();
+                //Process.Start("HeroTD.exe");
             }
             catch (Exception e)
             {
@@ -95,6 +96,8 @@ namespace GameLawnChair
         private void fb_Click(object sender, RoutedEventArgs e)
         {
             //launch with fb
+            string cookie = String.Format("c_user=; expires={0:R}; path=/; domain=.facebook.com", DateTime.UtcNow.AddDays(-1).ToString("R"));
+            Application.SetCookie(new Uri("https://www.facebook.com"), cookie);
             var win = new fblogin();
             win.Show();
             this.Close();
