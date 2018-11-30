@@ -1,0 +1,16 @@
+﻿<Window x:Class="GameLawnChair.FAQ"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLawnChair"
+        mc:Ignorable="d"
+        Title="FAQ" Height="450" Width="800">
+    <Grid Background="Beige">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Frequently asked questions" VerticalAlignment="Top" Height="35" Width="333" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="262" Width="756"><Run Text="Q: What is HeroTD?"/><LineBreak/><Run Text="A: HeroTD is a tower defense game, but unlike other tower defense games, it provides a different mode when playing, which is its special feature, affecting how the attackers' path by enabling players build towers virtually everywhere on the map."/><LineBreak/><Run/><LineBreak/><Run Text="Q: How do I start?"/><LineBreak/><Run Text="A; First of all, you need to create your own login. By following the instruction on the login page you can easily create your own identity in our database, which is guaranteed unique. After that, simply use your email address and password to login, and if success it will guide you into the game."/><LineBreak/><Run/><LineBreak/><Run Text="Q: What should I do If I forget my password?"/><LineBreak/><Run Text="A: On the login launcher you can find a reset password button, press it, and it will instruct you to provide your email, After providing your email, you can reset your password by using the link sent to your email."/><LineBreak/><LineBreak/><Run Text="Q: Can I reset my password?"/><LineBreak/><Run Text="A: Of course you can, just follow the reset password instructions provided in the launcher."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,358,0,0" TextWrapping="Wrap" Text="If you have further questions, please send your questions via email to han405@purdue.edu. We will answer your questions as soon as possible." VerticalAlignment="Top" Width="756" Height="28"/>
+        <Button x:Name="backbutton" Content="Back" HorizontalAlignment="Left" Margin="685,10,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="18" Click="backbutton_Click"/>
+
+    </Grid>
+</Window>
