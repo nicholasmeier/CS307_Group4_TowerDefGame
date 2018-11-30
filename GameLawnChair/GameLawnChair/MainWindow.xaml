@@ -16,7 +16,7 @@
         <Button x:Name="SignUpButton" Content="Sign Up" HorizontalAlignment="Left" Height="23" Margin="293,373,0,0" VerticalAlignment="Top" Width="67" Click="SignUpButton_Click" Background="#FF000BFF" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,332,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="24,373,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
-        <WebBrowser Height="293" Margin="24,23,28,0" VerticalAlignment="Top" Source="https://cs-307-herotd.firebaseapp.com"/>
+        <WebBrowser x:Name="Browser" Height="293" Margin="24,23,28,0" VerticalAlignment="Top" Source="https://cs-307-herotd.firebaseapp.com"/>
         <Image x:Name="Logo" Margin="621,289,-63,-56" HorizontalAlignment="Left" Width="234" Height="230" VerticalAlignment="Top" Source="117.png"/>
         <TextBlock x:Name="outputarea" HorizontalAlignment="Left" Margin="395,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="110" Width="248" Foreground="White"/>
         <Button x:Name="passwordreset" Content="I forgot my password" Margin="24,414,0,0" RenderTransformOrigin="-0.733,0.138" Click="passwordreset_Click" Background="#FFFFFF73" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="138"/>

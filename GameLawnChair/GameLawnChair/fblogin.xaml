@@ -17,5 +17,12 @@
         <Image HorizontalAlignment="Left" Height="136" Margin="133,-16,-12,0" VerticalAlignment="Top" Width="133" Source="117.png"/>
         <TextBlock x:Name="msgforacc" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
         <TextBlock x:Name="msgforpswd" HorizontalAlignment="Left" Margin="10,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
+        <WebBrowser 
+            x:Name="Browser"
+            Grid.ColumnSpan="2"
+            Visibility="Collapsed"
+            Navigated="BrowserNavigated"
+            />
+        
     </Grid>
 </Window>

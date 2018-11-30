@@ -11,8 +11,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Dynamic;
 using Firebase;
+using Firebase.Database;
+using Firebase.Database.Query;
+using Firebase.Auth;
 using Facebook;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Util;
+
 
 namespace GameLawnChair
 {
@@ -39,16 +46,84 @@ namespace GameLawnChair
             if (textforpw.Password.Length == 0) {
                 msgforpswd.Text = "type password here";
             }
+            var FB_URI = GenerateFbLoginURI(FbAppID, "");
+            this.Browser.Visibility = Visibility.Visible;
+            this.Browser.Navigate(FB_URI);
             //if login failed...
-
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            var FB_URI = GenerateFbLogoutURI(FbAppID, "");
+            var asdf = 0;
+            this.Browser.Visibility = Visibility.Visible;
+            string cookie = String.Format("c_user=; expires={0:R}; path=/; domain=.facebook.com", DateTime.UtcNow.AddDays(-1).ToString("R"));
+            Application.SetCookie(new Uri("https://www.facebook.com"), cookie);
             //go back to main
-            var win = new MainWindow();
+            /*var win = new MainWindow();
             win.Show();
-            this.Close();
+            this.Close();*/
+        }
+
+        //The following method has used from https://www.hackviking.com/development/facebook-api-login-flow-for-desktop-application/
+        private Uri GenerateFbLoginURI(string appID, string ext_perm)
+        {
+            dynamic parameters = new ExpandoObject();
+            parameters.client_id = appID;
+            parameters.redirect_uri = "https://www.facebook.com/connect/login_success.html";
+
+            // The requested response: an access token (token), an authorization code (code), or both (code token).
+            //parameters.response_type = "token";
+
+            // list of additional display modes can be found at http://developers.facebook.com/docs/reference/dialogs/#display
+            //parameters.display = "popup";
+
+            // add the 'scope' parameter only if we have extendedPermissions.
+            if (!string.IsNullOrWhiteSpace(ext_perm))
+                parameters.scope = ext_perm;
+
+            // generate the login url
+            var fb = new FacebookClient();
+            return fb.GetLoginUrl(parameters);
+        }
+
+        private Uri GenerateFbLogoutURI(string appID, string ext_perm)
+        {
+            dynamic parameters = new ExpandoObject();
+            parameters.client_id = appID;
+            parameters.redirect_uri = "https://www.facebook.com/connect/login_success.html";
+
+            // The requested response: an access token (token), an authorization code (code), or both (code token).
+            parameters.response_type = "token";
+
+            // list of additional display modes can be found at http://developers.facebook.com/docs/reference/dialogs/#display
+            parameters.display = "popup";
+
+            // add the 'scope' parameter only if we have extendedPermissions.
+            if (!string.IsNullOrWhiteSpace(ext_perm))
+                parameters.scope = ext_perm;
+
+            // generate the login url
+            var fb = new FacebookClient();
+            return fb.GetLogoutUrl(parameters);
+        }
+
+        private void BrowserNavigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
+        {
+            var fb = new FacebookClient();
+            FacebookOAuthResult oauthResult;
+            if (!fb.TryParseOAuthCallbackUrl(e.Uri, out oauthResult))
+            {
+                return;
+            }
+
+            if (oauthResult.IsSuccess)
+            {
+                //this.Browser.Visibility = Visibility.Collapsed;
+                MessageBox.Show("It works");
+                //this.FetchFirebaseData(oauthResult.AccessToken, FirebaseAuthType.Facebook);
+
+            }
         }
     }
 }

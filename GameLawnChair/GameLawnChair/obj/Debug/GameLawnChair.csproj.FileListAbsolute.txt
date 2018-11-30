@@ -314,3 +314,16 @@ C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\G
 C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\personalpage.baml
 C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\googlelogin.baml
 C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\obj\Debug\githublogin.baml
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Facebook.dll
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Auth.dll
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Core.dll
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.dll
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Facebook.xml
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.pdb
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.xml
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Auth.xml
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Core.pdb
+C:\Users\Nimtiz\Documents\Coding\CS307\CS307_Group4_TowerDefGame\GameLawnChair\GameLawnChair\bin\Debug\Google.Apis.Core.xml

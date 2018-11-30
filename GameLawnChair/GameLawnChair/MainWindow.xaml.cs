@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Firebase.Auth;
 
+
 namespace GameLawnChair
 {
     /// <summary>
