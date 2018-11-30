@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace GameLawnChair
 {
@@ -26,21 +27,16 @@ namespace GameLawnChair
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            //start game
+            Process.Start("HeroTD.exe");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             //logout to main window.
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            //reset password
-            var win = new resetpswd();
+            var win = new MainWindow();
             win.Show();
             this.Close();
         }
-
     }
 }
