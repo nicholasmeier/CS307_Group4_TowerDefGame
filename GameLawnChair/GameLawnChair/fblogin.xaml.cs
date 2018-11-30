@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Firebase;
+using Facebook;
 
 namespace GameLawnChair
 {
@@ -19,6 +21,10 @@ namespace GameLawnChair
     /// </summary>
     public partial class fblogin : Window
     {
+        public const string FbAppID = "308275636447469";
+        public const string FirebaseAppKey = "AIzaSyAiX70y-obo-vUyAO7-LJM8EwGcRD2UEWg";
+        public const string FirebaseAppUrl = "https://cs-307-herotd.firebaseapp.com/";
+
         public fblogin()
         {
             InitializeComponent();
